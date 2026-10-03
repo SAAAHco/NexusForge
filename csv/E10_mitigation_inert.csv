@@ -1,0 +1,17 @@
+scenario,inert_at_sites,n_inert,worsens_at_sites,affects
+liquidCooling,tucson|nordic|saline,3,memphis,water|energy|heat
+airCooling,tucson|nordic|saline,3,nova|memphis,water|energy|heat
+recycledWater,nordic,1,,water
+tierIVGenerators,nordic|saline,2,memphis,health
+natgasGenerators,memphis|nordic|saline,3,,health|energy
+renewable90,,0,,energy|health
+wasteHeatRecovery,,0,,heat|community
+extendLifespan,,0,,ewaste
+highAlbedo,,0,,heat|land
+reuseProgram,,0,ohio,ewaste|supply
+maxWaterSaving,nordic,1,memphis,
+healthPriority,,0,,
+carbonMinimum,,0,,
+communityAcceptance,,0,,
+fullGreen,,0,,
+presetRecommended,,0,,

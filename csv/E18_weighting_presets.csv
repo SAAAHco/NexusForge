@@ -1,0 +1,6 @@
+preset,energy,water,food,health,land,community,ewaste,heat,grid,supply
+balanced,10,10,10,10,10,10,10,10,10,10
+waterScarce,10,25,8,15,8,10,5,5,9,5
+agricultural,10,12,22,12,12,10,5,3,9,5
+envJustice,8,8,5,30,8,22,4,5,5,5
+gridConstrained,15,8,5,10,5,10,5,3,30,9

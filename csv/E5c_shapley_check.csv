@@ -1,0 +1,7 @@
+site,gap_own,shapley_sum_own,gap_bal,shapley_sum_bal,efficiency_ok,subsets_evaluated
+nova,0.03512,0.03512,0.0364,0.0364,true,512
+tucson,0.04536,0.04536,0.03943,0.03943,true,512
+ohio,0.0529,0.0529,0.05083,0.05083,true,512
+memphis,0.14119,0.14119,0.07244,0.07244,true,512
+nordic,0.01194,0.01194,0.01194,0.01194,true,512
+saline,0.07284,0.07284,0.07554,0.07554,true,512

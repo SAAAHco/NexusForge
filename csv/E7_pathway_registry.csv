@@ -1,0 +1,15 @@
+pathway,from,to,couplingType,feed,mechanism,engines,sitesNumericallyActive
+1,Energy,Water,computed feed (tier 0),R>W,Cooling architecture trade-off (PUE vs WUE); thermoelectric water intensity of the grid (EWIF),energyEngine→waterEngine,6
+2,Energy,Health,computed feed (tier 2),R>H,Fossil grid + on-site generators → PM2.5/NOx/SO2 → mortality/morbidity (local plume: population-weighted increment × log-linear CRF × VSL; grid: subregion rates × EPA benefit-per-ton),energyEngine→healthEngine,6
+3,Energy,Grid,computed feed (tier 0),R>GR,Facility MW as share of regional capacity; transmission utilisation; ratepayer bill pressure,energyEngine→gridEngine,6
+4,Energy,Land,computed feed (tier 1),R>L,Operational carbon enters the site carbon balance with sequestration loss and embodied carbon,energyEngine→landEngine,6
+5,Water,Food,computed feed (tier 1),W>F,Facility withdrawal competes with irrigation in the same basin,waterEngine→foodEngine,6
+6,Water,Health,within-engine derivation,,Stormwater from impervious surface; well depletion affects community supply,landEngine (stormwater),6
+7,Land,Food,within-engine derivation,,Permanent production loss + speculative land inflation,foodEngine,6
+8,Land,Community,computed feed (tier 1),L>CM,"Rezoning shifts tax base, employment, character",communityEngine,6
+9,Land,Heat Island,computed feed (tier 1),L>UHI,Impervious surface + albedo change + lost evapotranspiration,landEngine→heatEngine,0
+10,E-Waste,Health,qualitative (not modelled),,Toxic leachate from improper disposal (qualitative in v1),— (qualitative),0
+11,E-Waste,Supply Chain,within-engine derivation,,Critical-mineral demand; circularity reduces exposure,ewaste inputs→supplyEngine,6
+12,Grid,Community,within-engine derivation,,Infrastructure costs socialised to ratepayers,communityEngine,6
+13,Heat Island,Health,within-engine derivation,,Warm-season mortality relative risk (+2%/C),heatEngine,6
+14,Climate,ALL,within-engine derivation,,Warming raises cooling demand; drought cuts supply; hazards disrupt operations,climateRiskEngine / scenarioEngine,6

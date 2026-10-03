@@ -1,0 +1,1441 @@
+site,scenario,dim,metric,unit,base,mod,delta,pct,good
+nova,liquidCooling,Energy,Total Energy,MWh/yr,1051200,1156320,105120,10,lower
+nova,liquidCooling,Energy,Carbon (Scope 1+2),tCO₂e/yr,292507.2,320889.60000000003,28382.400000000023,9.7,lower
+nova,liquidCooling,Energy,CUE,kg CO₂e/kWh,0.3339123287671233,0.36631232876712333,0.03240000000000004,9.7,lower
+nova,liquidCooling,Energy,Grid Impact,%,0.5833454863642993,0.6416800350007291,0.05833454863642984,10,lower
+nova,liquidCooling,Water,Direct Water,L/yr,1664400000,175200000,-1489200000,-89.47,lower
+nova,liquidCooling,Water,Total Water,L/yr,3096765120,1750801632,-1345963488,-43.46,lower
+nova,liquidCooling,Health,NOx Emissions,t/yr,76.8,76.8,0,0,lower
+nova,liquidCooling,Health,PM2.5 Emissions,t/yr,2.4,2.4,0,0,lower
+nova,liquidCooling,Health,Health Cost,$/yr,972460.2189836785,972460.2189836785,0,0,lower
+nova,liquidCooling,Heat,UHI Estimate,°C,0.5090664299339885,0.5311862878943817,0.022119857960393174,4.35,lower
+nova,liquidCooling,Heat,Waste Heat to Air,MW,11.999999999999998,19.2,7.200000000000001,60,lower
+nova,liquidCooling,E-Waste,Embodied Carbon (total),tCO₂e,682900,682900,0,0,lower
+nova,liquidCooling,E-Waste,Embodied % of Total,%,30.947939096558446,29.004568575387392,-1.9433705211710546,-6.28,lower
+nova,liquidCooling,E-Waste,E-Waste/yr,t/yr,312.5,312.5,0,0,lower
+nova,liquidCooling,Community,Net Community Value,$/yr,-1222460.21898368,-1222460.21898368,0,0,higher
+nova,airCooling,Energy,Total Energy,MWh/yr,1051200,1314000,262800,25,lower
+nova,airCooling,Energy,Carbon (Scope 1+2),tCO₂e/yr,292507.2,363463.2,70956,24.26,lower
+nova,airCooling,Energy,CUE,kg CO₂e/kWh,0.3339123287671233,0.4149123287671233,0.08100000000000002,24.26,lower
+nova,airCooling,Energy,Grid Impact,%,0.5833454863642993,0.729181857955374,0.14583637159107476,25,lower
+nova,airCooling,Water,Direct Water,L/yr,1664400000,0,-1664400000,-100,lower
+nova,airCooling,Water,Total Water,L/yr,3096765120,1790456400,-1306308720,-42.18,lower
+nova,airCooling,Health,NOx Emissions,t/yr,76.8,76.8,0,0,lower
+nova,airCooling,Health,PM2.5 Emissions,t/yr,2.4,2.4,0,0,lower
+nova,airCooling,Health,Health Cost,$/yr,972460.2189836785,972460.2189836785,0,0,lower
+nova,airCooling,Heat,UHI Estimate,°C,0.5090664299339885,0.6181296184887051,0.10906318855471653,21.42,lower
+nova,airCooling,Heat,Waste Heat to Air,MW,11.999999999999998,47.50000000000001,35.50000000000001,295.83,lower
+nova,airCooling,E-Waste,Embodied Carbon (total),tCO₂e,682900,682900,0,0,lower
+nova,airCooling,E-Waste,Embodied % of Total,%,30.947939096558446,26.507744664009664,-4.4401944325487825,-14.35,lower
+nova,airCooling,E-Waste,E-Waste/yr,t/yr,312.5,312.5,0,0,lower
+nova,airCooling,Community,Net Community Value,$/yr,-1222460.21898368,-1222460.21898368,0,0,higher
+nova,recycledWater,Energy,Total Energy,MWh/yr,1051200,1051200,0,0,lower
+nova,recycledWater,Energy,Carbon (Scope 1+2),tCO₂e/yr,292507.2,292507.2,0,0,lower
+nova,recycledWater,Energy,CUE,kg CO₂e/kWh,0.3339123287671233,0.3339123287671233,0,0,lower
+nova,recycledWater,Energy,Grid Impact,%,0.5833454863642993,0.5833454863642993,0,0,lower
+nova,recycledWater,Water,Direct Water,L/yr,1664400000,1664400000,0,0,lower
+nova,recycledWater,Water,Total Water,L/yr,3096765120,3096765120,0,0,lower
+nova,recycledWater,Health,NOx Emissions,t/yr,76.8,76.8,0,0,lower
+nova,recycledWater,Health,PM2.5 Emissions,t/yr,2.4,2.4,0,0,lower
+nova,recycledWater,Health,Health Cost,$/yr,972460.2189836785,972460.2189836785,0,0,lower
+nova,recycledWater,Heat,UHI Estimate,°C,0.5090664299339885,0.5090664299339885,0,0,lower
+nova,recycledWater,Heat,Waste Heat to Air,MW,11.999999999999998,11.999999999999998,0,0,lower
+nova,recycledWater,E-Waste,Embodied Carbon (total),tCO₂e,682900,682900,0,0,lower
+nova,recycledWater,E-Waste,Embodied % of Total,%,30.947939096558446,30.947939096558446,0,0,lower
+nova,recycledWater,E-Waste,E-Waste/yr,t/yr,312.5,312.5,0,0,lower
+nova,recycledWater,Community,Net Community Value,$/yr,-1222460.21898368,-1222460.21898368,0,0,higher
+nova,tierIVGenerators,Energy,Total Energy,MWh/yr,1051200,1051200,0,0,lower
+nova,tierIVGenerators,Energy,Carbon (Scope 1+2),tCO₂e/yr,292507.2,292507.2,0,0,lower
+nova,tierIVGenerators,Energy,CUE,kg CO₂e/kWh,0.3339123287671233,0.3339123287671233,0,0,lower
+nova,tierIVGenerators,Energy,Grid Impact,%,0.5833454863642993,0.5833454863642993,0,0,lower
+nova,tierIVGenerators,Water,Direct Water,L/yr,1664400000,1664400000,0,0,lower
+nova,tierIVGenerators,Water,Total Water,L/yr,3096765120,3096765120,0,0,lower
+nova,tierIVGenerators,Health,NOx Emissions,t/yr,76.8,8.52,-68.28,-88.91,lower
+nova,tierIVGenerators,Health,PM2.5 Emissions,t/yr,2.4,0.372,-2.028,-84.5,lower
+nova,tierIVGenerators,Health,Health Cost,$/yr,972460.2189836785,150766.38252354148,-821693.836460137,-84.5,lower
+nova,tierIVGenerators,Heat,UHI Estimate,°C,0.5090664299339885,0.5090664299339885,0,0,lower
+nova,tierIVGenerators,Heat,Waste Heat to Air,MW,11.999999999999998,11.999999999999998,0,0,lower
+nova,tierIVGenerators,E-Waste,Embodied Carbon (total),tCO₂e,682900,682900,0,0,lower
+nova,tierIVGenerators,E-Waste,Embodied % of Total,%,30.947939096558446,30.947939096558446,0,0,lower
+nova,tierIVGenerators,E-Waste,E-Waste/yr,t/yr,312.5,312.5,0,0,lower
+nova,tierIVGenerators,Community,Net Community Value,$/yr,-1222460.21898368,-400766.38252354413,821693.8364601359,67.22,higher
+nova,natgasGenerators,Energy,Total Energy,MWh/yr,1051200,1051200,0,0,lower
+nova,natgasGenerators,Energy,Carbon (Scope 1+2),tCO₂e/yr,292507.2,288352.8,-4154.400000000023,-1.42,lower
+nova,natgasGenerators,Energy,CUE,kg CO₂e/kWh,0.3339123287671233,0.3291698630136986,-0.004742465753424685,-1.42,lower
+nova,natgasGenerators,Energy,Grid Impact,%,0.5833454863642993,0.5833454863642993,0,0,lower
+nova,natgasGenerators,Water,Direct Water,L/yr,1664400000,1664400000,0,0,lower
+nova,natgasGenerators,Water,Total Water,L/yr,3096765120,3096765120,0,0,lower
+nova,natgasGenerators,Health,NOx Emissions,t/yr,76.8,5.76,-71.03999999999999,-92.5,lower
+nova,natgasGenerators,Health,PM2.5 Emissions,t/yr,2.4,0.384,-2.016,-84,lower
+nova,natgasGenerators,Health,Health Cost,$/yr,972460.2189836785,155629.60007371556,-816830.6189099629,-84,lower
+nova,natgasGenerators,Heat,UHI Estimate,°C,0.5090664299339885,0.5090664299339885,0,0,lower
+nova,natgasGenerators,Heat,Waste Heat to Air,MW,11.999999999999998,11.999999999999998,0,0,lower
+nova,natgasGenerators,E-Waste,Embodied Carbon (total),tCO₂e,682900,682900,0,0,lower
+nova,natgasGenerators,E-Waste,Embodied % of Total,%,30.947939096558446,31.254460211496273,0.3065211149378264,0.99,lower
+nova,natgasGenerators,E-Waste,E-Waste/yr,t/yr,312.5,312.5,0,0,lower
+nova,natgasGenerators,Community,Net Community Value,$/yr,-1222460.21898368,-405629.60007371753,816830.6189099625,66.82,higher
+nova,renewable90,Energy,Total Energy,MWh/yr,1051200,1051200,0,0,lower
+nova,renewable90,Energy,Carbon (Scope 1+2),tCO₂e/yr,292507.2,37065.59999999999,-255441.60000000003,-87.33,lower
+nova,renewable90,Energy,CUE,kg CO₂e/kWh,0.3339123287671233,0.04231232876712328,-0.2916,-87.33,lower
+nova,renewable90,Energy,Grid Impact,%,0.5833454863642993,0.5833454863642993,0,0,lower
+nova,renewable90,Water,Direct Water,L/yr,1664400000,1664400000,0,0,lower
+nova,renewable90,Water,Total Water,L/yr,3096765120,3096765120,0,0,lower
+nova,renewable90,Health,NOx Emissions,t/yr,76.8,76.8,0,0,lower
+nova,renewable90,Health,PM2.5 Emissions,t/yr,2.4,2.4,0,0,lower
+nova,renewable90,Health,Health Cost,$/yr,972460.2189836785,972460.2189836785,0,0,lower
+nova,renewable90,Heat,UHI Estimate,°C,0.5090664299339885,0.5090664299339885,0,0,lower
+nova,renewable90,Heat,Waste Heat to Air,MW,11.999999999999998,11.999999999999998,0,0,lower
+nova,renewable90,E-Waste,Embodied Carbon (total),tCO₂e,682900,682900,0,0,lower
+nova,renewable90,E-Waste,Embodied % of Total,%,30.947939096558446,77.95843221269615,47.01049311613771,151.9,lower
+nova,renewable90,E-Waste,E-Waste/yr,t/yr,312.5,312.5,0,0,lower
+nova,renewable90,Community,Net Community Value,$/yr,-1222460.21898368,-1222460.21898368,0,0,higher
+nova,wasteHeatRecovery,Energy,Total Energy,MWh/yr,1051200,1051200,0,0,lower
+nova,wasteHeatRecovery,Energy,Carbon (Scope 1+2),tCO₂e/yr,292507.2,292507.2,0,0,lower
+nova,wasteHeatRecovery,Energy,CUE,kg CO₂e/kWh,0.3339123287671233,0.3339123287671233,0,0,lower
+nova,wasteHeatRecovery,Energy,Grid Impact,%,0.5833454863642993,0.5833454863642993,0,0,lower
+nova,wasteHeatRecovery,Water,Direct Water,L/yr,1664400000,1664400000,0,0,lower
+nova,wasteHeatRecovery,Water,Total Water,L/yr,3096765120,3096765120,0,0,lower
+nova,wasteHeatRecovery,Health,NOx Emissions,t/yr,76.8,76.8,0,0,lower
+nova,wasteHeatRecovery,Health,PM2.5 Emissions,t/yr,2.4,2.4,0,0,lower
+nova,wasteHeatRecovery,Health,Health Cost,$/yr,972460.2189836785,972460.2189836785,0,0,lower
+nova,wasteHeatRecovery,Heat,UHI Estimate,°C,0.5090664299339885,0.47465776199559906,-0.03440866793838948,-6.76,lower
+nova,wasteHeatRecovery,Heat,Waste Heat to Air,MW,11.999999999999998,0.7999999999999999,-11.199999999999998,-93.33,lower
+nova,wasteHeatRecovery,E-Waste,Embodied Carbon (total),tCO₂e,682900,682900,0,0,lower
+nova,wasteHeatRecovery,E-Waste,Embodied % of Total,%,30.947939096558446,30.947939096558446,0,0,lower
+nova,wasteHeatRecovery,E-Waste,E-Waste/yr,t/yr,312.5,312.5,0,0,lower
+nova,wasteHeatRecovery,Community,Net Community Value,$/yr,-1222460.21898368,-1222460.21898368,0,0,higher
+nova,extendLifespan,Energy,Total Energy,MWh/yr,1051200,1051200,0,0,lower
+nova,extendLifespan,Energy,Carbon (Scope 1+2),tCO₂e/yr,292507.2,292507.2,0,0,lower
+nova,extendLifespan,Energy,CUE,kg CO₂e/kWh,0.3339123287671233,0.3339123287671233,0,0,lower
+nova,extendLifespan,Energy,Grid Impact,%,0.5833454863642993,0.5833454863642993,0,0,lower
+nova,extendLifespan,Water,Direct Water,L/yr,1664400000,1664400000,0,0,lower
+nova,extendLifespan,Water,Total Water,L/yr,3096765120,3096765120,0,0,lower
+nova,extendLifespan,Health,NOx Emissions,t/yr,76.8,76.8,0,0,lower
+nova,extendLifespan,Health,PM2.5 Emissions,t/yr,2.4,2.4,0,0,lower
+nova,extendLifespan,Health,Health Cost,$/yr,972460.2189836785,972460.2189836785,0,0,lower
+nova,extendLifespan,Heat,UHI Estimate,°C,0.5090664299339885,0.5090664299339885,0,0,lower
+nova,extendLifespan,Heat,Waste Heat to Air,MW,11.999999999999998,11.999999999999998,0,0,lower
+nova,extendLifespan,E-Waste,Embodied Carbon (total),tCO₂e,682900,682900,0,0,lower
+nova,extendLifespan,E-Waste,Embodied % of Total,%,30.947939096558446,23.41484411573421,-7.533094980824238,-24.34,lower
+nova,extendLifespan,E-Waste,E-Waste/yr,t/yr,312.5,208.33333333333334,-104.16666666666666,-33.33,lower
+nova,extendLifespan,Community,Net Community Value,$/yr,-1222460.21898368,-1222460.21898368,0,0,higher
+nova,highAlbedo,Energy,Total Energy,MWh/yr,1051200,1051200,0,0,lower
+nova,highAlbedo,Energy,Carbon (Scope 1+2),tCO₂e/yr,292507.2,292507.2,0,0,lower
+nova,highAlbedo,Energy,CUE,kg CO₂e/kWh,0.3339123287671233,0.3339123287671233,0,0,lower
+nova,highAlbedo,Energy,Grid Impact,%,0.5833454863642993,0.5833454863642993,0,0,lower
+nova,highAlbedo,Water,Direct Water,L/yr,1664400000,1664400000,0,0,lower
+nova,highAlbedo,Water,Total Water,L/yr,3096765120,3096765120,0,0,lower
+nova,highAlbedo,Health,NOx Emissions,t/yr,76.8,76.8,0,0,lower
+nova,highAlbedo,Health,PM2.5 Emissions,t/yr,2.4,2.4,0,0,lower
+nova,highAlbedo,Health,Health Cost,$/yr,972460.2189836785,972460.2189836785,0,0,lower
+nova,highAlbedo,Heat,UHI Estimate,°C,0.5090664299339885,0,-0.5090664299339885,-100,lower
+nova,highAlbedo,Heat,Waste Heat to Air,MW,11.999999999999998,11.999999999999998,0,0,lower
+nova,highAlbedo,E-Waste,Embodied Carbon (total),tCO₂e,682900,682900,0,0,lower
+nova,highAlbedo,E-Waste,Embodied % of Total,%,30.947939096558446,30.947939096558446,0,0,lower
+nova,highAlbedo,E-Waste,E-Waste/yr,t/yr,312.5,312.5,0,0,lower
+nova,highAlbedo,Community,Net Community Value,$/yr,-1222460.21898368,-1222460.21898368,0,0,higher
+nova,reuseProgram,Energy,Total Energy,MWh/yr,1051200,1051200,0,0,lower
+nova,reuseProgram,Energy,Carbon (Scope 1+2),tCO₂e/yr,292507.2,292507.2,0,0,lower
+nova,reuseProgram,Energy,CUE,kg CO₂e/kWh,0.3339123287671233,0.3339123287671233,0,0,lower
+nova,reuseProgram,Energy,Grid Impact,%,0.5833454863642993,0.5833454863642993,0,0,lower
+nova,reuseProgram,Water,Direct Water,L/yr,1664400000,1664400000,0,0,lower
+nova,reuseProgram,Water,Total Water,L/yr,3096765120,3096765120,0,0,lower
+nova,reuseProgram,Health,NOx Emissions,t/yr,76.8,76.8,0,0,lower
+nova,reuseProgram,Health,PM2.5 Emissions,t/yr,2.4,2.4,0,0,lower
+nova,reuseProgram,Health,Health Cost,$/yr,972460.2189836785,972460.2189836785,0,0,lower
+nova,reuseProgram,Heat,UHI Estimate,°C,0.5090664299339885,0.5090664299339885,0,0,lower
+nova,reuseProgram,Heat,Waste Heat to Air,MW,11.999999999999998,11.999999999999998,0,0,lower
+nova,reuseProgram,E-Waste,Embodied Carbon (total),tCO₂e,682900,682900,0,0,lower
+nova,reuseProgram,E-Waste,Embodied % of Total,%,30.947939096558446,30.947939096558446,0,0,lower
+nova,reuseProgram,E-Waste,E-Waste/yr,t/yr,312.5,312.5,0,0,lower
+nova,reuseProgram,Community,Net Community Value,$/yr,-1222460.21898368,-1222460.21898368,0,0,higher
+nova,maxWaterSaving,Energy,Total Energy,MWh/yr,1051200,1156320,105120,10,lower
+nova,maxWaterSaving,Energy,Carbon (Scope 1+2),tCO₂e/yr,292507.2,320889.60000000003,28382.400000000023,9.7,lower
+nova,maxWaterSaving,Energy,CUE,kg CO₂e/kWh,0.3339123287671233,0.36631232876712333,0.03240000000000004,9.7,lower
+nova,maxWaterSaving,Energy,Grid Impact,%,0.5833454863642993,0.6416800350007291,0.05833454863642984,10,lower
+nova,maxWaterSaving,Water,Direct Water,L/yr,1664400000,175200000,-1489200000,-89.47,lower
+nova,maxWaterSaving,Water,Total Water,L/yr,3096765120,1750801632,-1345963488,-43.46,lower
+nova,maxWaterSaving,Health,NOx Emissions,t/yr,76.8,76.8,0,0,lower
+nova,maxWaterSaving,Health,PM2.5 Emissions,t/yr,2.4,2.4,0,0,lower
+nova,maxWaterSaving,Health,Health Cost,$/yr,972460.2189836785,972460.2189836785,0,0,lower
+nova,maxWaterSaving,Heat,UHI Estimate,°C,0.5090664299339885,0.5311862878943817,0.022119857960393174,4.35,lower
+nova,maxWaterSaving,Heat,Waste Heat to Air,MW,11.999999999999998,19.2,7.200000000000001,60,lower
+nova,maxWaterSaving,E-Waste,Embodied Carbon (total),tCO₂e,682900,682900,0,0,lower
+nova,maxWaterSaving,E-Waste,Embodied % of Total,%,30.947939096558446,29.004568575387392,-1.9433705211710546,-6.28,lower
+nova,maxWaterSaving,E-Waste,E-Waste/yr,t/yr,312.5,312.5,0,0,lower
+nova,maxWaterSaving,Community,Net Community Value,$/yr,-1222460.21898368,-1222460.21898368,0,0,higher
+nova,healthPriority,Energy,Total Energy,MWh/yr,1051200,1051200,0,0,lower
+nova,healthPriority,Energy,Carbon (Scope 1+2),tCO₂e/yr,292507.2,37065.59999999999,-255441.60000000003,-87.33,lower
+nova,healthPriority,Energy,CUE,kg CO₂e/kWh,0.3339123287671233,0.04231232876712328,-0.2916,-87.33,lower
+nova,healthPriority,Energy,Grid Impact,%,0.5833454863642993,0.5833454863642993,0,0,lower
+nova,healthPriority,Water,Direct Water,L/yr,1664400000,1664400000,0,0,lower
+nova,healthPriority,Water,Total Water,L/yr,3096765120,3096765120,0,0,lower
+nova,healthPriority,Health,NOx Emissions,t/yr,76.8,8.52,-68.28,-88.91,lower
+nova,healthPriority,Health,PM2.5 Emissions,t/yr,2.4,0.372,-2.028,-84.5,lower
+nova,healthPriority,Health,Health Cost,$/yr,972460.2189836785,150766.38252354148,-821693.836460137,-84.5,lower
+nova,healthPriority,Heat,UHI Estimate,°C,0.5090664299339885,0.5090664299339885,0,0,lower
+nova,healthPriority,Heat,Waste Heat to Air,MW,11.999999999999998,11.999999999999998,0,0,lower
+nova,healthPriority,E-Waste,Embodied Carbon (total),tCO₂e,682900,682900,0,0,lower
+nova,healthPriority,E-Waste,Embodied % of Total,%,30.947939096558446,77.95843221269615,47.01049311613771,151.9,lower
+nova,healthPriority,E-Waste,E-Waste/yr,t/yr,312.5,312.5,0,0,lower
+nova,healthPriority,Community,Net Community Value,$/yr,-1222460.21898368,-400766.38252354413,821693.8364601359,67.22,higher
+nova,carbonMinimum,Energy,Total Energy,MWh/yr,1051200,1051200,0,0,lower
+nova,carbonMinimum,Energy,Carbon (Scope 1+2),tCO₂e/yr,292507.2,37065.59999999999,-255441.60000000003,-87.33,lower
+nova,carbonMinimum,Energy,CUE,kg CO₂e/kWh,0.3339123287671233,0.04231232876712328,-0.2916,-87.33,lower
+nova,carbonMinimum,Energy,Grid Impact,%,0.5833454863642993,0.5833454863642993,0,0,lower
+nova,carbonMinimum,Water,Direct Water,L/yr,1664400000,1664400000,0,0,lower
+nova,carbonMinimum,Water,Total Water,L/yr,3096765120,3096765120,0,0,lower
+nova,carbonMinimum,Health,NOx Emissions,t/yr,76.8,76.8,0,0,lower
+nova,carbonMinimum,Health,PM2.5 Emissions,t/yr,2.4,2.4,0,0,lower
+nova,carbonMinimum,Health,Health Cost,$/yr,972460.2189836785,972460.2189836785,0,0,lower
+nova,carbonMinimum,Heat,UHI Estimate,°C,0.5090664299339885,0.5090664299339885,0,0,lower
+nova,carbonMinimum,Heat,Waste Heat to Air,MW,11.999999999999998,11.999999999999998,0,0,lower
+nova,carbonMinimum,E-Waste,Embodied Carbon (total),tCO₂e,682900,682900,0,0,lower
+nova,carbonMinimum,E-Waste,Embodied % of Total,%,30.947939096558446,70.69811123865179,39.75017214209335,128.44,lower
+nova,carbonMinimum,E-Waste,E-Waste/yr,t/yr,312.5,208.33333333333334,-104.16666666666666,-33.33,lower
+nova,carbonMinimum,Community,Net Community Value,$/yr,-1222460.21898368,-1222460.21898368,0,0,higher
+nova,communityAcceptance,Energy,Total Energy,MWh/yr,1051200,1051200,0,0,lower
+nova,communityAcceptance,Energy,Carbon (Scope 1+2),tCO₂e/yr,292507.2,292507.2,0,0,lower
+nova,communityAcceptance,Energy,CUE,kg CO₂e/kWh,0.3339123287671233,0.3339123287671233,0,0,lower
+nova,communityAcceptance,Energy,Grid Impact,%,0.5833454863642993,0.5833454863642993,0,0,lower
+nova,communityAcceptance,Water,Direct Water,L/yr,1664400000,1664400000,0,0,lower
+nova,communityAcceptance,Water,Total Water,L/yr,3096765120,3096765120,0,0,lower
+nova,communityAcceptance,Health,NOx Emissions,t/yr,76.8,8.52,-68.28,-88.91,lower
+nova,communityAcceptance,Health,PM2.5 Emissions,t/yr,2.4,0.372,-2.028,-84.5,lower
+nova,communityAcceptance,Health,Health Cost,$/yr,972460.2189836785,150766.38252354148,-821693.836460137,-84.5,lower
+nova,communityAcceptance,Heat,UHI Estimate,°C,0.5090664299339885,0,-0.5090664299339885,-100,lower
+nova,communityAcceptance,Heat,Waste Heat to Air,MW,11.999999999999998,0.7999999999999999,-11.199999999999998,-93.33,lower
+nova,communityAcceptance,E-Waste,Embodied Carbon (total),tCO₂e,682900,682900,0,0,lower
+nova,communityAcceptance,E-Waste,Embodied % of Total,%,30.947939096558446,30.947939096558446,0,0,lower
+nova,communityAcceptance,E-Waste,E-Waste/yr,t/yr,312.5,312.5,0,0,lower
+nova,communityAcceptance,Community,Net Community Value,$/yr,-1222460.21898368,-400766.38252354413,821693.8364601359,67.22,higher
+nova,fullGreen,Energy,Total Energy,MWh/yr,1051200,1156320,105120,10,lower
+nova,fullGreen,Energy,Carbon (Scope 1+2),tCO₂e/yr,292507.2,39903.84,-252603.36000000002,-86.36,lower
+nova,fullGreen,Energy,CUE,kg CO₂e/kWh,0.3339123287671233,0.045552328767123285,-0.28836,-86.36,lower
+nova,fullGreen,Energy,Grid Impact,%,0.5833454863642993,0.6416800350007291,0.05833454863642984,10,lower
+nova,fullGreen,Water,Direct Water,L/yr,1664400000,175200000,-1489200000,-89.47,lower
+nova,fullGreen,Water,Total Water,L/yr,3096765120,1750801632,-1345963488,-43.46,lower
+nova,fullGreen,Health,NOx Emissions,t/yr,76.8,8.52,-68.28,-88.91,lower
+nova,fullGreen,Health,PM2.5 Emissions,t/yr,2.4,0.372,-2.028,-84.5,lower
+nova,fullGreen,Health,Health Cost,$/yr,972460.2189836785,150766.38252354148,-821693.836460137,-84.5,lower
+nova,fullGreen,Heat,UHI Estimate,°C,0.5090664299339885,0,-0.5090664299339885,-100,lower
+nova,fullGreen,Heat,Waste Heat to Air,MW,11.999999999999998,1.2800000000000002,-10.719999999999999,-89.33,lower
+nova,fullGreen,E-Waste,Embodied Carbon (total),tCO₂e,682900,682900,0,0,lower
+nova,fullGreen,E-Waste,Embodied % of Total,%,30.947939096558446,69.14663633276488,38.19869723620644,123.43,lower
+nova,fullGreen,E-Waste,E-Waste/yr,t/yr,312.5,208.33333333333334,-104.16666666666666,-33.33,lower
+nova,fullGreen,Community,Net Community Value,$/yr,-1222460.21898368,-400766.38252354413,821693.8364601359,67.22,higher
+nova,presetRecommended,Energy,Total Energy,MWh/yr,1051200,1051200,0,0,lower
+nova,presetRecommended,Energy,Carbon (Scope 1+2),tCO₂e/yr,292507.2,37065.59999999999,-255441.60000000003,-87.33,lower
+nova,presetRecommended,Energy,CUE,kg CO₂e/kWh,0.3339123287671233,0.04231232876712328,-0.2916,-87.33,lower
+nova,presetRecommended,Energy,Grid Impact,%,0.5833454863642993,0.5833454863642993,0,0,lower
+nova,presetRecommended,Water,Direct Water,L/yr,1664400000,1664400000,0,0,lower
+nova,presetRecommended,Water,Total Water,L/yr,3096765120,3096765120,0,0,lower
+nova,presetRecommended,Health,NOx Emissions,t/yr,76.8,8.52,-68.28,-88.91,lower
+nova,presetRecommended,Health,PM2.5 Emissions,t/yr,2.4,0.372,-2.028,-84.5,lower
+nova,presetRecommended,Health,Health Cost,$/yr,972460.2189836785,150766.38252354148,-821693.836460137,-84.5,lower
+nova,presetRecommended,Heat,UHI Estimate,°C,0.5090664299339885,0.5090664299339885,0,0,lower
+nova,presetRecommended,Heat,Waste Heat to Air,MW,11.999999999999998,11.999999999999998,0,0,lower
+nova,presetRecommended,E-Waste,Embodied Carbon (total),tCO₂e,682900,682900,0,0,lower
+nova,presetRecommended,E-Waste,Embodied % of Total,%,30.947939096558446,77.95843221269615,47.01049311613771,151.9,lower
+nova,presetRecommended,E-Waste,E-Waste/yr,t/yr,312.5,312.5,0,0,lower
+nova,presetRecommended,Community,Net Community Value,$/yr,-1222460.21898368,-400766.38252354413,821693.8364601359,67.22,higher
+tucson,liquidCooling,Energy,Total Energy,MWh/yr,2507550,2507550,0,0,lower
+tucson,liquidCooling,Energy,Carbon (Scope 1+2),tCO₂e/yr,819782.4,819782.4,0,0,lower
+tucson,liquidCooling,Energy,CUE,kg CO₂e/kWh,0.4086570556918107,0.4086570556918107,0,0,lower
+tucson,liquidCooling,Energy,Grid Impact,%,9.154141349536296,9.154141349536296,0,0,lower
+tucson,liquidCooling,Water,Direct Water,L/yr,20060400,20060400,0,0,lower
+tucson,liquidCooling,Water,Total Water,L/yr,2497269045,2497269045,0,0,lower
+tucson,liquidCooling,Health,NOx Emissions,t/yr,153.6,153.6,0,0,lower
+tucson,liquidCooling,Health,PM2.5 Emissions,t/yr,4.8,4.8,0,0,lower
+tucson,liquidCooling,Health,Health Cost,$/yr,422139.864746107,422139.864746107,0,0,lower
+tucson,liquidCooling,Heat,UHI Estimate,°C,0.6042602049514654,0.6042602049514654,0,0,lower
+tucson,liquidCooling,Heat,Waste Heat to Air,MW,54.38749999999998,54.38749999999998,0,0,lower
+tucson,liquidCooling,E-Waste,Embodied Carbon (total),tCO₂e,1563841.0000000002,1563841.0000000002,0,0,lower
+tucson,liquidCooling,E-Waste,Embodied % of Total,%,26.80473549064098,26.80473549064098,0,0,lower
+tucson,liquidCooling,E-Waste,E-Waste/yr,t/yr,718.75,718.75,0,0,lower
+tucson,liquidCooling,Community,Net Community Value,$/yr,10670110.135253891,10670110.135253891,0,0,higher
+tucson,airCooling,Energy,Total Energy,MWh/yr,2507550,2507550,0,0,lower
+tucson,airCooling,Energy,Carbon (Scope 1+2),tCO₂e/yr,819782.4,819782.4,0,0,lower
+tucson,airCooling,Energy,CUE,kg CO₂e/kWh,0.4086570556918107,0.4086570556918107,0,0,lower
+tucson,airCooling,Energy,Grid Impact,%,9.154141349536296,9.154141349536296,0,0,lower
+tucson,airCooling,Water,Direct Water,L/yr,20060400,20060400,0,0,lower
+tucson,airCooling,Water,Total Water,L/yr,2497269045,2497269045,0,0,lower
+tucson,airCooling,Health,NOx Emissions,t/yr,153.6,153.6,0,0,lower
+tucson,airCooling,Health,PM2.5 Emissions,t/yr,4.8,4.8,0,0,lower
+tucson,airCooling,Health,Health Cost,$/yr,422139.864746107,422139.864746107,0,0,lower
+tucson,airCooling,Heat,UHI Estimate,°C,0.6042602049514654,0.6042602049514654,0,0,lower
+tucson,airCooling,Heat,Waste Heat to Air,MW,54.38749999999998,54.38749999999998,0,0,lower
+tucson,airCooling,E-Waste,Embodied Carbon (total),tCO₂e,1563841.0000000002,1563841.0000000002,0,0,lower
+tucson,airCooling,E-Waste,Embodied % of Total,%,26.80473549064098,26.80473549064098,0,0,lower
+tucson,airCooling,E-Waste,E-Waste/yr,t/yr,718.75,718.75,0,0,lower
+tucson,airCooling,Community,Net Community Value,$/yr,10670110.135253891,10670110.135253891,0,0,higher
+tucson,recycledWater,Energy,Total Energy,MWh/yr,2507550,2507550,0,0,lower
+tucson,recycledWater,Energy,Carbon (Scope 1+2),tCO₂e/yr,819782.4,819782.4,0,0,lower
+tucson,recycledWater,Energy,CUE,kg CO₂e/kWh,0.4086570556918107,0.4086570556918107,0,0,lower
+tucson,recycledWater,Energy,Grid Impact,%,9.154141349536296,9.154141349536296,0,0,lower
+tucson,recycledWater,Water,Direct Water,L/yr,20060400,20060400,0,0,lower
+tucson,recycledWater,Water,Total Water,L/yr,2497269045,2497269045,0,0,lower
+tucson,recycledWater,Health,NOx Emissions,t/yr,153.6,153.6,0,0,lower
+tucson,recycledWater,Health,PM2.5 Emissions,t/yr,4.8,4.8,0,0,lower
+tucson,recycledWater,Health,Health Cost,$/yr,422139.864746107,422139.864746107,0,0,lower
+tucson,recycledWater,Heat,UHI Estimate,°C,0.6042602049514654,0.6042602049514654,0,0,lower
+tucson,recycledWater,Heat,Waste Heat to Air,MW,54.38749999999998,54.38749999999998,0,0,lower
+tucson,recycledWater,E-Waste,Embodied Carbon (total),tCO₂e,1563841.0000000002,1563841.0000000002,0,0,lower
+tucson,recycledWater,E-Waste,Embodied % of Total,%,26.80473549064098,26.80473549064098,0,0,lower
+tucson,recycledWater,E-Waste,E-Waste/yr,t/yr,718.75,718.75,0,0,lower
+tucson,recycledWater,Community,Net Community Value,$/yr,10670110.135253891,10670110.135253891,0,0,higher
+tucson,tierIVGenerators,Energy,Total Energy,MWh/yr,2507550,2507550,0,0,lower
+tucson,tierIVGenerators,Energy,Carbon (Scope 1+2),tCO₂e/yr,819782.4,819782.4,0,0,lower
+tucson,tierIVGenerators,Energy,CUE,kg CO₂e/kWh,0.4086570556918107,0.4086570556918107,0,0,lower
+tucson,tierIVGenerators,Energy,Grid Impact,%,9.154141349536296,9.154141349536296,0,0,lower
+tucson,tierIVGenerators,Water,Direct Water,L/yr,20060400,20060400,0,0,lower
+tucson,tierIVGenerators,Water,Total Water,L/yr,2497269045,2497269045,0,0,lower
+tucson,tierIVGenerators,Health,NOx Emissions,t/yr,153.6,17.04,-136.56,-88.91,lower
+tucson,tierIVGenerators,Health,PM2.5 Emissions,t/yr,4.8,0.744,-4.056,-84.5,lower
+tucson,tierIVGenerators,Health,Health Cost,$/yr,422139.864746107,65438.230712889665,-356701.6340332173,-84.5,lower
+tucson,tierIVGenerators,Heat,UHI Estimate,°C,0.6042602049514654,0.6042602049514654,0,0,lower
+tucson,tierIVGenerators,Heat,Waste Heat to Air,MW,54.38749999999998,54.38749999999998,0,0,lower
+tucson,tierIVGenerators,E-Waste,Embodied Carbon (total),tCO₂e,1563841.0000000002,1563841.0000000002,0,0,lower
+tucson,tierIVGenerators,E-Waste,Embodied % of Total,%,26.80473549064098,26.80473549064098,0,0,lower
+tucson,tierIVGenerators,E-Waste,E-Waste/yr,t/yr,718.75,718.75,0,0,lower
+tucson,tierIVGenerators,Community,Net Community Value,$/yr,10670110.135253891,11026811.76928711,356701.634033218,3.34,higher
+tucson,natgasGenerators,Energy,Total Energy,MWh/yr,2507550,2507550,0,0,lower
+tucson,natgasGenerators,Energy,Carbon (Scope 1+2),tCO₂e/yr,819782.4,811473.6,-8308.800000000047,-1.01,lower
+tucson,natgasGenerators,Energy,CUE,kg CO₂e/kWh,0.4086570556918107,0.4045151642041036,-0.004141891487707106,-1.01,lower
+tucson,natgasGenerators,Energy,Grid Impact,%,9.154141349536296,9.154141349536296,0,0,lower
+tucson,natgasGenerators,Water,Direct Water,L/yr,20060400,20060400,0,0,lower
+tucson,natgasGenerators,Water,Total Water,L/yr,2497269045,2497269045,0,0,lower
+tucson,natgasGenerators,Health,NOx Emissions,t/yr,153.6,11.52,-142.07999999999998,-92.5,lower
+tucson,natgasGenerators,Health,PM2.5 Emissions,t/yr,4.8,0.768,-4.032,-84,lower
+tucson,natgasGenerators,Health,Health Cost,$/yr,422139.864746107,67549.10134831263,-354590.7633977944,-84,lower
+tucson,natgasGenerators,Heat,UHI Estimate,°C,0.6042602049514654,0.6042602049514654,0,0,lower
+tucson,natgasGenerators,Heat,Waste Heat to Air,MW,54.38749999999998,54.38749999999998,0,0,lower
+tucson,natgasGenerators,E-Waste,Embodied Carbon (total),tCO₂e,1563841.0000000002,1563841.0000000002,0,0,lower
+tucson,natgasGenerators,E-Waste,Embodied % of Total,%,26.80473549064098,27.005075688559128,0.20034019791814828,0.75,lower
+tucson,natgasGenerators,E-Waste,E-Waste/yr,t/yr,718.75,718.75,0,0,lower
+tucson,natgasGenerators,Community,Net Community Value,$/yr,10670110.135253891,11024700.898651686,354590.7633977942,3.32,higher
+tucson,renewable90,Energy,Total Energy,MWh/yr,2507550,2507550,0,0,lower
+tucson,renewable90,Energy,Carbon (Scope 1+2),tCO₂e/yr,819782.4,97608,-722174.4,-88.09,lower
+tucson,renewable90,Energy,CUE,kg CO₂e/kWh,0.4086570556918107,0.04865705569181073,-0.36,-88.09,lower
+tucson,renewable90,Energy,Grid Impact,%,9.154141349536296,9.154141349536296,0,0,lower
+tucson,renewable90,Water,Direct Water,L/yr,20060400,20060400,0,0,lower
+tucson,renewable90,Water,Total Water,L/yr,2497269045,2497269045,0,0,lower
+tucson,renewable90,Health,NOx Emissions,t/yr,153.6,153.6,0,0,lower
+tucson,renewable90,Health,PM2.5 Emissions,t/yr,4.8,4.8,0,0,lower
+tucson,renewable90,Health,Health Cost,$/yr,422139.864746107,422139.864746107,0,0,lower
+tucson,renewable90,Heat,UHI Estimate,°C,0.6042602049514654,0.6042602049514654,0,0,lower
+tucson,renewable90,Heat,Waste Heat to Air,MW,54.38749999999998,54.38749999999998,0,0,lower
+tucson,renewable90,E-Waste,Embodied Carbon (total),tCO₂e,1563841.0000000002,1563841.0000000002,0,0,lower
+tucson,renewable90,E-Waste,Embodied % of Total,%,26.80473549064098,75.46424126661842,48.659505775977436,181.53,lower
+tucson,renewable90,E-Waste,E-Waste/yr,t/yr,718.75,718.75,0,0,lower
+tucson,renewable90,Community,Net Community Value,$/yr,10670110.135253891,10670110.135253891,0,0,higher
+tucson,wasteHeatRecovery,Energy,Total Energy,MWh/yr,2507550,2507550,0,0,lower
+tucson,wasteHeatRecovery,Energy,Carbon (Scope 1+2),tCO₂e/yr,819782.4,819782.4,0,0,lower
+tucson,wasteHeatRecovery,Energy,CUE,kg CO₂e/kWh,0.4086570556918107,0.4086570556918107,0,0,lower
+tucson,wasteHeatRecovery,Energy,Grid Impact,%,9.154141349536296,9.154141349536296,0,0,lower
+tucson,wasteHeatRecovery,Water,Direct Water,L/yr,20060400,20060400,0,0,lower
+tucson,wasteHeatRecovery,Water,Total Water,L/yr,2497269045,2497269045,0,0,lower
+tucson,wasteHeatRecovery,Health,NOx Emissions,t/yr,153.6,153.6,0,0,lower
+tucson,wasteHeatRecovery,Health,PM2.5 Emissions,t/yr,4.8,4.8,0,0,lower
+tucson,wasteHeatRecovery,Health,Health Cost,$/yr,422139.864746107,422139.864746107,0,0,lower
+tucson,wasteHeatRecovery,Heat,UHI Estimate,°C,0.6042602049514654,0.47134253494532474,-0.13291767000614063,-22,lower
+tucson,wasteHeatRecovery,Heat,Waste Heat to Air,MW,54.38749999999998,2.2899999999999996,-52.09749999999998,-95.79,lower
+tucson,wasteHeatRecovery,E-Waste,Embodied Carbon (total),tCO₂e,1563841.0000000002,1563841.0000000002,0,0,lower
+tucson,wasteHeatRecovery,E-Waste,Embodied % of Total,%,26.80473549064098,26.80473549064098,0,0,lower
+tucson,wasteHeatRecovery,E-Waste,E-Waste/yr,t/yr,718.75,718.75,0,0,lower
+tucson,wasteHeatRecovery,Community,Net Community Value,$/yr,10670110.135253891,10670110.135253891,0,0,higher
+tucson,extendLifespan,Energy,Total Energy,MWh/yr,2507550,2507550,0,0,lower
+tucson,extendLifespan,Energy,Carbon (Scope 1+2),tCO₂e/yr,819782.4,819782.4,0,0,lower
+tucson,extendLifespan,Energy,CUE,kg CO₂e/kWh,0.4086570556918107,0.4086570556918107,0,0,lower
+tucson,extendLifespan,Energy,Grid Impact,%,9.154141349536296,9.154141349536296,0,0,lower
+tucson,extendLifespan,Water,Direct Water,L/yr,20060400,20060400,0,0,lower
+tucson,extendLifespan,Water,Total Water,L/yr,2497269045,2497269045,0,0,lower
+tucson,extendLifespan,Health,NOx Emissions,t/yr,153.6,153.6,0,0,lower
+tucson,extendLifespan,Health,PM2.5 Emissions,t/yr,4.8,4.8,0,0,lower
+tucson,extendLifespan,Health,Health Cost,$/yr,422139.864746107,422139.864746107,0,0,lower
+tucson,extendLifespan,Heat,UHI Estimate,°C,0.6042602049514654,0.6042602049514654,0,0,lower
+tucson,extendLifespan,Heat,Waste Heat to Air,MW,54.38749999999998,54.38749999999998,0,0,lower
+tucson,extendLifespan,E-Waste,Embodied Carbon (total),tCO₂e,1563841.0000000002,1563841.0000000002,0,0,lower
+tucson,extendLifespan,E-Waste,Embodied % of Total,%,26.80473549064098,19.988217577769408,-6.816517912871571,-25.43,lower
+tucson,extendLifespan,E-Waste,E-Waste/yr,t/yr,718.75,479.1666666666667,-239.58333333333331,-33.33,lower
+tucson,extendLifespan,Community,Net Community Value,$/yr,10670110.135253891,10670110.135253891,0,0,higher
+tucson,highAlbedo,Energy,Total Energy,MWh/yr,2507550,2507550,0,0,lower
+tucson,highAlbedo,Energy,Carbon (Scope 1+2),tCO₂e/yr,819782.4,819782.4,0,0,lower
+tucson,highAlbedo,Energy,CUE,kg CO₂e/kWh,0.4086570556918107,0.4086570556918107,0,0,lower
+tucson,highAlbedo,Energy,Grid Impact,%,9.154141349536296,9.154141349536296,0,0,lower
+tucson,highAlbedo,Water,Direct Water,L/yr,20060400,20060400,0,0,lower
+tucson,highAlbedo,Water,Total Water,L/yr,2497269045,2497269045,0,0,lower
+tucson,highAlbedo,Health,NOx Emissions,t/yr,153.6,153.6,0,0,lower
+tucson,highAlbedo,Health,PM2.5 Emissions,t/yr,4.8,4.8,0,0,lower
+tucson,highAlbedo,Health,Health Cost,$/yr,422139.864746107,422139.864746107,0,0,lower
+tucson,highAlbedo,Heat,UHI Estimate,°C,0.6042602049514654,0,-0.6042602049514654,-100,lower
+tucson,highAlbedo,Heat,Waste Heat to Air,MW,54.38749999999998,54.38749999999998,0,0,lower
+tucson,highAlbedo,E-Waste,Embodied Carbon (total),tCO₂e,1563841.0000000002,1563841.0000000002,0,0,lower
+tucson,highAlbedo,E-Waste,Embodied % of Total,%,26.80473549064098,26.80473549064098,0,0,lower
+tucson,highAlbedo,E-Waste,E-Waste/yr,t/yr,718.75,718.75,0,0,lower
+tucson,highAlbedo,Community,Net Community Value,$/yr,10670110.135253891,10670110.135253891,0,0,higher
+tucson,reuseProgram,Energy,Total Energy,MWh/yr,2507550,2507550,0,0,lower
+tucson,reuseProgram,Energy,Carbon (Scope 1+2),tCO₂e/yr,819782.4,819782.4,0,0,lower
+tucson,reuseProgram,Energy,CUE,kg CO₂e/kWh,0.4086570556918107,0.4086570556918107,0,0,lower
+tucson,reuseProgram,Energy,Grid Impact,%,9.154141349536296,9.154141349536296,0,0,lower
+tucson,reuseProgram,Water,Direct Water,L/yr,20060400,20060400,0,0,lower
+tucson,reuseProgram,Water,Total Water,L/yr,2497269045,2497269045,0,0,lower
+tucson,reuseProgram,Health,NOx Emissions,t/yr,153.6,153.6,0,0,lower
+tucson,reuseProgram,Health,PM2.5 Emissions,t/yr,4.8,4.8,0,0,lower
+tucson,reuseProgram,Health,Health Cost,$/yr,422139.864746107,422139.864746107,0,0,lower
+tucson,reuseProgram,Heat,UHI Estimate,°C,0.6042602049514654,0.6042602049514654,0,0,lower
+tucson,reuseProgram,Heat,Waste Heat to Air,MW,54.38749999999998,54.38749999999998,0,0,lower
+tucson,reuseProgram,E-Waste,Embodied Carbon (total),tCO₂e,1563841.0000000002,1563841.0000000002,0,0,lower
+tucson,reuseProgram,E-Waste,Embodied % of Total,%,26.80473549064098,26.80473549064098,0,0,lower
+tucson,reuseProgram,E-Waste,E-Waste/yr,t/yr,718.75,718.75,0,0,lower
+tucson,reuseProgram,Community,Net Community Value,$/yr,10670110.135253891,10670110.135253891,0,0,higher
+tucson,maxWaterSaving,Energy,Total Energy,MWh/yr,2507550,2507550,0,0,lower
+tucson,maxWaterSaving,Energy,Carbon (Scope 1+2),tCO₂e/yr,819782.4,819782.4,0,0,lower
+tucson,maxWaterSaving,Energy,CUE,kg CO₂e/kWh,0.4086570556918107,0.4086570556918107,0,0,lower
+tucson,maxWaterSaving,Energy,Grid Impact,%,9.154141349536296,9.154141349536296,0,0,lower
+tucson,maxWaterSaving,Water,Direct Water,L/yr,20060400,20060400,0,0,lower
+tucson,maxWaterSaving,Water,Total Water,L/yr,2497269045,2497269045,0,0,lower
+tucson,maxWaterSaving,Health,NOx Emissions,t/yr,153.6,153.6,0,0,lower
+tucson,maxWaterSaving,Health,PM2.5 Emissions,t/yr,4.8,4.8,0,0,lower
+tucson,maxWaterSaving,Health,Health Cost,$/yr,422139.864746107,422139.864746107,0,0,lower
+tucson,maxWaterSaving,Heat,UHI Estimate,°C,0.6042602049514654,0.6042602049514654,0,0,lower
+tucson,maxWaterSaving,Heat,Waste Heat to Air,MW,54.38749999999998,54.38749999999998,0,0,lower
+tucson,maxWaterSaving,E-Waste,Embodied Carbon (total),tCO₂e,1563841.0000000002,1563841.0000000002,0,0,lower
+tucson,maxWaterSaving,E-Waste,Embodied % of Total,%,26.80473549064098,26.80473549064098,0,0,lower
+tucson,maxWaterSaving,E-Waste,E-Waste/yr,t/yr,718.75,718.75,0,0,lower
+tucson,maxWaterSaving,Community,Net Community Value,$/yr,10670110.135253891,10670110.135253891,0,0,higher
+tucson,healthPriority,Energy,Total Energy,MWh/yr,2507550,2507550,0,0,lower
+tucson,healthPriority,Energy,Carbon (Scope 1+2),tCO₂e/yr,819782.4,97608,-722174.4,-88.09,lower
+tucson,healthPriority,Energy,CUE,kg CO₂e/kWh,0.4086570556918107,0.04865705569181073,-0.36,-88.09,lower
+tucson,healthPriority,Energy,Grid Impact,%,9.154141349536296,9.154141349536296,0,0,lower
+tucson,healthPriority,Water,Direct Water,L/yr,20060400,20060400,0,0,lower
+tucson,healthPriority,Water,Total Water,L/yr,2497269045,2497269045,0,0,lower
+tucson,healthPriority,Health,NOx Emissions,t/yr,153.6,17.04,-136.56,-88.91,lower
+tucson,healthPriority,Health,PM2.5 Emissions,t/yr,4.8,0.744,-4.056,-84.5,lower
+tucson,healthPriority,Health,Health Cost,$/yr,422139.864746107,65438.230712889665,-356701.6340332173,-84.5,lower
+tucson,healthPriority,Heat,UHI Estimate,°C,0.6042602049514654,0.6042602049514654,0,0,lower
+tucson,healthPriority,Heat,Waste Heat to Air,MW,54.38749999999998,54.38749999999998,0,0,lower
+tucson,healthPriority,E-Waste,Embodied Carbon (total),tCO₂e,1563841.0000000002,1563841.0000000002,0,0,lower
+tucson,healthPriority,E-Waste,Embodied % of Total,%,26.80473549064098,75.46424126661842,48.659505775977436,181.53,lower
+tucson,healthPriority,E-Waste,E-Waste/yr,t/yr,718.75,718.75,0,0,lower
+tucson,healthPriority,Community,Net Community Value,$/yr,10670110.135253891,11026811.76928711,356701.634033218,3.34,higher
+tucson,carbonMinimum,Energy,Total Energy,MWh/yr,2507550,2507550,0,0,lower
+tucson,carbonMinimum,Energy,Carbon (Scope 1+2),tCO₂e/yr,819782.4,97608,-722174.4,-88.09,lower
+tucson,carbonMinimum,Energy,CUE,kg CO₂e/kWh,0.4086570556918107,0.04865705569181073,-0.36,-88.09,lower
+tucson,carbonMinimum,Energy,Grid Impact,%,9.154141349536296,9.154141349536296,0,0,lower
+tucson,carbonMinimum,Water,Direct Water,L/yr,20060400,20060400,0,0,lower
+tucson,carbonMinimum,Water,Total Water,L/yr,2497269045,2497269045,0,0,lower
+tucson,carbonMinimum,Health,NOx Emissions,t/yr,153.6,153.6,0,0,lower
+tucson,carbonMinimum,Health,PM2.5 Emissions,t/yr,4.8,4.8,0,0,lower
+tucson,carbonMinimum,Health,Health Cost,$/yr,422139.864746107,422139.864746107,0,0,lower
+tucson,carbonMinimum,Heat,UHI Estimate,°C,0.6042602049514654,0.6042602049514654,0,0,lower
+tucson,carbonMinimum,Heat,Waste Heat to Air,MW,54.38749999999998,54.38749999999998,0,0,lower
+tucson,carbonMinimum,E-Waste,Embodied Carbon (total),tCO₂e,1563841.0000000002,1563841.0000000002,0,0,lower
+tucson,carbonMinimum,E-Waste,Embodied % of Total,%,26.80473549064098,67.72251041409352,40.91777492345254,152.65,lower
+tucson,carbonMinimum,E-Waste,E-Waste/yr,t/yr,718.75,479.1666666666667,-239.58333333333331,-33.33,lower
+tucson,carbonMinimum,Community,Net Community Value,$/yr,10670110.135253891,10670110.135253891,0,0,higher
+tucson,communityAcceptance,Energy,Total Energy,MWh/yr,2507550,2507550,0,0,lower
+tucson,communityAcceptance,Energy,Carbon (Scope 1+2),tCO₂e/yr,819782.4,819782.4,0,0,lower
+tucson,communityAcceptance,Energy,CUE,kg CO₂e/kWh,0.4086570556918107,0.4086570556918107,0,0,lower
+tucson,communityAcceptance,Energy,Grid Impact,%,9.154141349536296,9.154141349536296,0,0,lower
+tucson,communityAcceptance,Water,Direct Water,L/yr,20060400,20060400,0,0,lower
+tucson,communityAcceptance,Water,Total Water,L/yr,2497269045,2497269045,0,0,lower
+tucson,communityAcceptance,Health,NOx Emissions,t/yr,153.6,17.04,-136.56,-88.91,lower
+tucson,communityAcceptance,Health,PM2.5 Emissions,t/yr,4.8,0.744,-4.056,-84.5,lower
+tucson,communityAcceptance,Health,Health Cost,$/yr,422139.864746107,65438.230712889665,-356701.6340332173,-84.5,lower
+tucson,communityAcceptance,Heat,UHI Estimate,°C,0.6042602049514654,0,-0.6042602049514654,-100,lower
+tucson,communityAcceptance,Heat,Waste Heat to Air,MW,54.38749999999998,2.2899999999999996,-52.09749999999998,-95.79,lower
+tucson,communityAcceptance,E-Waste,Embodied Carbon (total),tCO₂e,1563841.0000000002,1563841.0000000002,0,0,lower
+tucson,communityAcceptance,E-Waste,Embodied % of Total,%,26.80473549064098,26.80473549064098,0,0,lower
+tucson,communityAcceptance,E-Waste,E-Waste/yr,t/yr,718.75,718.75,0,0,lower
+tucson,communityAcceptance,Community,Net Community Value,$/yr,10670110.135253891,11026811.76928711,356701.634033218,3.34,higher
+tucson,fullGreen,Energy,Total Energy,MWh/yr,2507550,2507550,0,0,lower
+tucson,fullGreen,Energy,Carbon (Scope 1+2),tCO₂e/yr,819782.4,97608,-722174.4,-88.09,lower
+tucson,fullGreen,Energy,CUE,kg CO₂e/kWh,0.4086570556918107,0.04865705569181073,-0.36,-88.09,lower
+tucson,fullGreen,Energy,Grid Impact,%,9.154141349536296,9.154141349536296,0,0,lower
+tucson,fullGreen,Water,Direct Water,L/yr,20060400,20060400,0,0,lower
+tucson,fullGreen,Water,Total Water,L/yr,2497269045,2497269045,0,0,lower
+tucson,fullGreen,Health,NOx Emissions,t/yr,153.6,17.04,-136.56,-88.91,lower
+tucson,fullGreen,Health,PM2.5 Emissions,t/yr,4.8,0.744,-4.056,-84.5,lower
+tucson,fullGreen,Health,Health Cost,$/yr,422139.864746107,65438.230712889665,-356701.6340332173,-84.5,lower
+tucson,fullGreen,Heat,UHI Estimate,°C,0.6042602049514654,0,-0.6042602049514654,-100,lower
+tucson,fullGreen,Heat,Waste Heat to Air,MW,54.38749999999998,2.2899999999999996,-52.09749999999998,-95.79,lower
+tucson,fullGreen,E-Waste,Embodied Carbon (total),tCO₂e,1563841.0000000002,1563841.0000000002,0,0,lower
+tucson,fullGreen,E-Waste,Embodied % of Total,%,26.80473549064098,67.72251041409352,40.91777492345254,152.65,lower
+tucson,fullGreen,E-Waste,E-Waste/yr,t/yr,718.75,479.1666666666667,-239.58333333333331,-33.33,lower
+tucson,fullGreen,Community,Net Community Value,$/yr,10670110.135253891,11026811.76928711,356701.634033218,3.34,higher
+tucson,presetRecommended,Energy,Total Energy,MWh/yr,2507550,2507550,0,0,lower
+tucson,presetRecommended,Energy,Carbon (Scope 1+2),tCO₂e/yr,819782.4,97608,-722174.4,-88.09,lower
+tucson,presetRecommended,Energy,CUE,kg CO₂e/kWh,0.4086570556918107,0.04865705569181073,-0.36,-88.09,lower
+tucson,presetRecommended,Energy,Grid Impact,%,9.154141349536296,9.154141349536296,0,0,lower
+tucson,presetRecommended,Water,Direct Water,L/yr,20060400,20060400,0,0,lower
+tucson,presetRecommended,Water,Total Water,L/yr,2497269045,2497269045,0,0,lower
+tucson,presetRecommended,Health,NOx Emissions,t/yr,153.6,153.6,0,0,lower
+tucson,presetRecommended,Health,PM2.5 Emissions,t/yr,4.8,4.8,0,0,lower
+tucson,presetRecommended,Health,Health Cost,$/yr,422139.864746107,422139.864746107,0,0,lower
+tucson,presetRecommended,Heat,UHI Estimate,°C,0.6042602049514654,0,-0.6042602049514654,-100,lower
+tucson,presetRecommended,Heat,Waste Heat to Air,MW,54.38749999999998,54.38749999999998,0,0,lower
+tucson,presetRecommended,E-Waste,Embodied Carbon (total),tCO₂e,1563841.0000000002,1563841.0000000002,0,0,lower
+tucson,presetRecommended,E-Waste,Embodied % of Total,%,26.80473549064098,75.46424126661842,48.659505775977436,181.53,lower
+tucson,presetRecommended,E-Waste,E-Waste/yr,t/yr,718.75,718.75,0,0,lower
+tucson,presetRecommended,Community,Net Community Value,$/yr,10670110.135253891,10670110.135253891,0,0,higher
+ohio,liquidCooling,Energy,Total Energy,MWh/yr,709560,783144,73584,10.37,lower
+ohio,liquidCooling,Energy,Carbon (Scope 1+2),tCO₂e/yr,301689.36000000004,332300.304,30610.94399999996,10.15,lower
+ohio,liquidCooling,Energy,CUE,kg CO₂e/kWh,0.5739904109589042,0.6322304109589041,0.05823999999999985,10.15,lower
+ohio,liquidCooling,Energy,Grid Impact,%,0.2656521596536683,0.2932012725066413,0.027549112852973012,10.37,lower
+ohio,liquidCooling,Water,Direct Water,L/yr,735840000,105120000,-630720000,-85.71,lower
+ohio,liquidCooling,Water,Total Water,L/yr,1712407428,1182961087.2,-529446340.79999995,-30.92,lower
+ohio,liquidCooling,Health,NOx Emissions,t/yr,57.6,57.6,0,0,lower
+ohio,liquidCooling,Health,PM2.5 Emissions,t/yr,1.8,1.8,0,0,lower
+ohio,liquidCooling,Health,Health Cost,$/yr,268795.929998567,268795.929998567,0,0,lower
+ohio,liquidCooling,Heat,UHI Estimate,°C,0.05529964490098305,0.07741950286137622,0.022119857960393174,40,lower
+ohio,liquidCooling,Heat,Waste Heat to Air,MW,12.600000000000001,17.639999999999997,5.039999999999996,40,lower
+ohio,liquidCooling,E-Waste,Embodied Carbon (total),tCO₂e,409740,409740,0,0,lower
+ohio,liquidCooling,E-Waste,Embodied % of Total,%,17.42396605794551,16.07694531391871,-1.3470207440267998,-7.73,lower
+ohio,liquidCooling,E-Waste,E-Waste/yr,t/yr,150,150,0,0,lower
+ohio,liquidCooling,Community,Net Community Value,$/yr,-11439785.929998567,-11439785.929998567,0,0,higher
+ohio,airCooling,Energy,Total Energy,MWh/yr,709560,888264,178704,25.19,lower
+ohio,airCooling,Energy,Carbon (Scope 1+2),tCO₂e/yr,301689.36000000004,376030.22400000005,74340.864,24.64,lower
+ohio,airCooling,Energy,CUE,kg CO₂e/kWh,0.5739904109589042,0.7154304109589043,0.14144,24.64,lower
+ohio,airCooling,Energy,Grid Impact,%,0.2656521596536683,0.3325571480108885,0.0669049883572202,25.19,lower
+ohio,airCooling,Water,Direct Water,L/yr,735840000,0,-735840000,-100,lower
+ohio,airCooling,Water,Total Water,L/yr,1712407428,1222517743.2,-489889684.79999995,-28.61,lower
+ohio,airCooling,Health,NOx Emissions,t/yr,57.6,57.6,0,0,lower
+ohio,airCooling,Health,PM2.5 Emissions,t/yr,1.8,1.8,0,0,lower
+ohio,airCooling,Health,Health Cost,$/yr,268795.929998567,268795.929998567,0,0,lower
+ohio,airCooling,Heat,UHI Estimate,°C,0.05529964490098305,0.1726138915837827,0.11731424668279966,212.14,lower
+ohio,airCooling,Heat,Waste Heat to Air,MW,12.600000000000001,39.33,26.729999999999997,212.14,lower
+ohio,airCooling,E-Waste,Embodied Carbon (total),tCO₂e,409740,409740,0,0,lower
+ohio,airCooling,E-Waste,Embodied % of Total,%,17.42396605794551,14.477986110449024,-2.945979947496486,-16.91,lower
+ohio,airCooling,E-Waste,E-Waste/yr,t/yr,150,150,0,0,lower
+ohio,airCooling,Community,Net Community Value,$/yr,-11439785.929998567,-11439785.929998567,0,0,higher
+ohio,recycledWater,Energy,Total Energy,MWh/yr,709560,709560,0,0,lower
+ohio,recycledWater,Energy,Carbon (Scope 1+2),tCO₂e/yr,301689.36000000004,301689.36000000004,0,0,lower
+ohio,recycledWater,Energy,CUE,kg CO₂e/kWh,0.5739904109589042,0.5739904109589042,0,0,lower
+ohio,recycledWater,Energy,Grid Impact,%,0.2656521596536683,0.2656521596536683,0,0,lower
+ohio,recycledWater,Water,Direct Water,L/yr,735840000,735840000,0,0,lower
+ohio,recycledWater,Water,Total Water,L/yr,1712407428,1712407428,0,0,lower
+ohio,recycledWater,Health,NOx Emissions,t/yr,57.6,57.6,0,0,lower
+ohio,recycledWater,Health,PM2.5 Emissions,t/yr,1.8,1.8,0,0,lower
+ohio,recycledWater,Health,Health Cost,$/yr,268795.929998567,268795.929998567,0,0,lower
+ohio,recycledWater,Heat,UHI Estimate,°C,0.05529964490098305,0.05529964490098305,0,0,lower
+ohio,recycledWater,Heat,Waste Heat to Air,MW,12.600000000000001,12.600000000000001,0,0,lower
+ohio,recycledWater,E-Waste,Embodied Carbon (total),tCO₂e,409740,409740,0,0,lower
+ohio,recycledWater,E-Waste,Embodied % of Total,%,17.42396605794551,17.42396605794551,0,0,lower
+ohio,recycledWater,E-Waste,E-Waste/yr,t/yr,150,150,0,0,lower
+ohio,recycledWater,Community,Net Community Value,$/yr,-11439785.929998567,-11439785.929998567,0,0,higher
+ohio,tierIVGenerators,Energy,Total Energy,MWh/yr,709560,709560,0,0,lower
+ohio,tierIVGenerators,Energy,Carbon (Scope 1+2),tCO₂e/yr,301689.36000000004,301689.36000000004,0,0,lower
+ohio,tierIVGenerators,Energy,CUE,kg CO₂e/kWh,0.5739904109589042,0.5739904109589042,0,0,lower
+ohio,tierIVGenerators,Energy,Grid Impact,%,0.2656521596536683,0.2656521596536683,0,0,lower
+ohio,tierIVGenerators,Water,Direct Water,L/yr,735840000,735840000,0,0,lower
+ohio,tierIVGenerators,Water,Total Water,L/yr,1712407428,1712407428,0,0,lower
+ohio,tierIVGenerators,Health,NOx Emissions,t/yr,57.6,6.39,-51.21,-88.91,lower
+ohio,tierIVGenerators,Health,PM2.5 Emissions,t/yr,1.8,0.279,-1.521,-84.5,lower
+ohio,tierIVGenerators,Health,Health Cost,$/yr,268795.929998567,41666.72955767955,-227129.20044088742,-84.5,lower
+ohio,tierIVGenerators,Heat,UHI Estimate,°C,0.05529964490098305,0.05529964490098305,0,0,lower
+ohio,tierIVGenerators,Heat,Waste Heat to Air,MW,12.600000000000001,12.600000000000001,0,0,lower
+ohio,tierIVGenerators,E-Waste,Embodied Carbon (total),tCO₂e,409740,409740,0,0,lower
+ohio,tierIVGenerators,E-Waste,Embodied % of Total,%,17.42396605794551,17.42396605794551,0,0,lower
+ohio,tierIVGenerators,E-Waste,E-Waste/yr,t/yr,150,150,0,0,lower
+ohio,tierIVGenerators,Community,Net Community Value,$/yr,-11439785.929998567,-11212656.72955768,227129.20044088736,1.99,higher
+ohio,natgasGenerators,Energy,Total Energy,MWh/yr,709560,709560,0,0,lower
+ohio,natgasGenerators,Energy,Carbon (Scope 1+2),tCO₂e/yr,301689.36000000004,298573.56,-3115.8000000000466,-1.03,lower
+ohio,natgasGenerators,Energy,CUE,kg CO₂e/kWh,0.5739904109589042,0.5680623287671233,-0.005928082191780981,-1.03,lower
+ohio,natgasGenerators,Energy,Grid Impact,%,0.2656521596536683,0.2656521596536683,0,0,lower
+ohio,natgasGenerators,Water,Direct Water,L/yr,735840000,735840000,0,0,lower
+ohio,natgasGenerators,Water,Total Water,L/yr,1712407428,1712407428,0,0,lower
+ohio,natgasGenerators,Health,NOx Emissions,t/yr,57.6,4.32,-53.28,-92.5,lower
+ohio,natgasGenerators,Health,PM2.5 Emissions,t/yr,1.8,0.288,-1.512,-84,lower
+ohio,natgasGenerators,Health,Health Cost,$/yr,268795.929998567,43010.797078396325,-225785.13292017067,-84,lower
+ohio,natgasGenerators,Heat,UHI Estimate,°C,0.05529964490098305,0.05529964490098305,0,0,lower
+ohio,natgasGenerators,Heat,Waste Heat to Air,MW,12.600000000000001,12.600000000000001,0,0,lower
+ohio,natgasGenerators,E-Waste,Embodied Carbon (total),tCO₂e,409740,409740,0,0,lower
+ohio,natgasGenerators,E-Waste,Embodied % of Total,%,17.42396605794551,17.573841439989383,0.14987538204387363,0.86,lower
+ohio,natgasGenerators,E-Waste,E-Waste/yr,t/yr,150,150,0,0,lower
+ohio,natgasGenerators,Community,Net Community Value,$/yr,-11439785.929998567,-11214000.797078397,225785.1329201702,1.97,higher
+ohio,renewable90,Energy,Total Energy,MWh/yr,709560,709560,0,0,lower
+ohio,renewable90,Energy,Carbon (Scope 1+2),tCO₂e/yr,301689.36000000004,36030.09599999999,-265659.2640000001,-88.06,lower
+ohio,renewable90,Energy,CUE,kg CO₂e/kWh,0.5739904109589042,0.0685504109589041,-0.5054400000000001,-88.06,lower
+ohio,renewable90,Energy,Grid Impact,%,0.2656521596536683,0.2656521596536683,0,0,lower
+ohio,renewable90,Water,Direct Water,L/yr,735840000,735840000,0,0,lower
+ohio,renewable90,Water,Total Water,L/yr,1712407428,1712407428,0,0,lower
+ohio,renewable90,Health,NOx Emissions,t/yr,57.6,57.6,0,0,lower
+ohio,renewable90,Health,PM2.5 Emissions,t/yr,1.8,1.8,0,0,lower
+ohio,renewable90,Health,Health Cost,$/yr,268795.929998567,268795.929998567,0,0,lower
+ohio,renewable90,Heat,UHI Estimate,°C,0.05529964490098305,0.05529964490098305,0,0,lower
+ohio,renewable90,Heat,Waste Heat to Air,MW,12.600000000000001,12.600000000000001,0,0,lower
+ohio,renewable90,E-Waste,Embodied Carbon (total),tCO₂e,409740,409740,0,0,lower
+ohio,renewable90,E-Waste,Embodied % of Total,%,17.42396605794551,63.857173077114446,46.43320701916893,266.49,lower
+ohio,renewable90,E-Waste,E-Waste/yr,t/yr,150,150,0,0,lower
+ohio,renewable90,Community,Net Community Value,$/yr,-11439785.929998567,-11439785.929998567,0,0,higher
+ohio,wasteHeatRecovery,Energy,Total Energy,MWh/yr,709560,709560,0,0,lower
+ohio,wasteHeatRecovery,Energy,Carbon (Scope 1+2),tCO₂e/yr,301689.36000000004,301689.36000000004,0,0,lower
+ohio,wasteHeatRecovery,Energy,CUE,kg CO₂e/kWh,0.5739904109589042,0.5739904109589042,0,0,lower
+ohio,wasteHeatRecovery,Energy,Grid Impact,%,0.2656521596536683,0.2656521596536683,0,0,lower
+ohio,wasteHeatRecovery,Water,Direct Water,L/yr,735840000,735840000,0,0,lower
+ohio,wasteHeatRecovery,Water,Total Water,L/yr,1712407428,1712407428,0,0,lower
+ohio,wasteHeatRecovery,Health,NOx Emissions,t/yr,57.6,57.6,0,0,lower
+ohio,wasteHeatRecovery,Health,PM2.5 Emissions,t/yr,1.8,1.8,0,0,lower
+ohio,wasteHeatRecovery,Health,Health Cost,$/yr,268795.929998567,268795.929998567,0,0,lower
+ohio,wasteHeatRecovery,Heat,UHI Estimate,°C,0.05529964490098305,0.0036866429933988254,-0.05161300190758422,-93.33,lower
+ohio,wasteHeatRecovery,Heat,Waste Heat to Air,MW,12.600000000000001,0.8400000000000003,-11.760000000000002,-93.33,lower
+ohio,wasteHeatRecovery,E-Waste,Embodied Carbon (total),tCO₂e,409740,409740,0,0,lower
+ohio,wasteHeatRecovery,E-Waste,Embodied % of Total,%,17.42396605794551,17.42396605794551,0,0,lower
+ohio,wasteHeatRecovery,E-Waste,E-Waste/yr,t/yr,150,150,0,0,lower
+ohio,wasteHeatRecovery,Community,Net Community Value,$/yr,-11439785.929998567,-11439785.929998567,0,0,higher
+ohio,extendLifespan,Energy,Total Energy,MWh/yr,709560,709560,0,0,lower
+ohio,extendLifespan,Energy,Carbon (Scope 1+2),tCO₂e/yr,301689.36000000004,301689.36000000004,0,0,lower
+ohio,extendLifespan,Energy,CUE,kg CO₂e/kWh,0.5739904109589042,0.5739904109589042,0,0,lower
+ohio,extendLifespan,Energy,Grid Impact,%,0.2656521596536683,0.2656521596536683,0,0,lower
+ohio,extendLifespan,Water,Direct Water,L/yr,735840000,735840000,0,0,lower
+ohio,extendLifespan,Water,Total Water,L/yr,1712407428,1712407428,0,0,lower
+ohio,extendLifespan,Health,NOx Emissions,t/yr,57.6,57.6,0,0,lower
+ohio,extendLifespan,Health,PM2.5 Emissions,t/yr,1.8,1.8,0,0,lower
+ohio,extendLifespan,Health,Health Cost,$/yr,268795.929998567,268795.929998567,0,0,lower
+ohio,extendLifespan,Heat,UHI Estimate,°C,0.05529964490098305,0.05529964490098305,0,0,lower
+ohio,extendLifespan,Heat,Waste Heat to Air,MW,12.600000000000001,12.600000000000001,0,0,lower
+ohio,extendLifespan,E-Waste,Embodied Carbon (total),tCO₂e,409740,409740,0,0,lower
+ohio,extendLifespan,E-Waste,Embodied % of Total,%,17.42396605794551,15.100154395406229,-2.3238116625392813,-13.34,lower
+ohio,extendLifespan,E-Waste,E-Waste/yr,t/yr,150,125,-25,-16.67,lower
+ohio,extendLifespan,Community,Net Community Value,$/yr,-11439785.929998567,-11439785.929998567,0,0,higher
+ohio,highAlbedo,Energy,Total Energy,MWh/yr,709560,709560,0,0,lower
+ohio,highAlbedo,Energy,Carbon (Scope 1+2),tCO₂e/yr,301689.36000000004,301689.36000000004,0,0,lower
+ohio,highAlbedo,Energy,CUE,kg CO₂e/kWh,0.5739904109589042,0.5739904109589042,0,0,lower
+ohio,highAlbedo,Energy,Grid Impact,%,0.2656521596536683,0.2656521596536683,0,0,lower
+ohio,highAlbedo,Water,Direct Water,L/yr,735840000,735840000,0,0,lower
+ohio,highAlbedo,Water,Total Water,L/yr,1712407428,1712407428,0,0,lower
+ohio,highAlbedo,Health,NOx Emissions,t/yr,57.6,57.6,0,0,lower
+ohio,highAlbedo,Health,PM2.5 Emissions,t/yr,1.8,1.8,0,0,lower
+ohio,highAlbedo,Health,Health Cost,$/yr,268795.929998567,268795.929998567,0,0,lower
+ohio,highAlbedo,Heat,UHI Estimate,°C,0.05529964490098305,0,-0.05529964490098305,-100,lower
+ohio,highAlbedo,Heat,Waste Heat to Air,MW,12.600000000000001,12.600000000000001,0,0,lower
+ohio,highAlbedo,E-Waste,Embodied Carbon (total),tCO₂e,409740,409740,0,0,lower
+ohio,highAlbedo,E-Waste,Embodied % of Total,%,17.42396605794551,17.42396605794551,0,0,lower
+ohio,highAlbedo,E-Waste,E-Waste/yr,t/yr,150,150,0,0,lower
+ohio,highAlbedo,Community,Net Community Value,$/yr,-11439785.929998567,-11439785.929998567,0,0,higher
+ohio,reuseProgram,Energy,Total Energy,MWh/yr,709560,709560,0,0,lower
+ohio,reuseProgram,Energy,Carbon (Scope 1+2),tCO₂e/yr,301689.36000000004,301689.36000000004,0,0,lower
+ohio,reuseProgram,Energy,CUE,kg CO₂e/kWh,0.5739904109589042,0.5739904109589042,0,0,lower
+ohio,reuseProgram,Energy,Grid Impact,%,0.2656521596536683,0.2656521596536683,0,0,lower
+ohio,reuseProgram,Water,Direct Water,L/yr,735840000,735840000,0,0,lower
+ohio,reuseProgram,Water,Total Water,L/yr,1712407428,1712407428,0,0,lower
+ohio,reuseProgram,Health,NOx Emissions,t/yr,57.6,57.6,0,0,lower
+ohio,reuseProgram,Health,PM2.5 Emissions,t/yr,1.8,1.8,0,0,lower
+ohio,reuseProgram,Health,Health Cost,$/yr,268795.929998567,268795.929998567,0,0,lower
+ohio,reuseProgram,Heat,UHI Estimate,°C,0.05529964490098305,0.05529964490098305,0,0,lower
+ohio,reuseProgram,Heat,Waste Heat to Air,MW,12.600000000000001,12.600000000000001,0,0,lower
+ohio,reuseProgram,E-Waste,Embodied Carbon (total),tCO₂e,409740,409740,0,0,lower
+ohio,reuseProgram,E-Waste,Embodied % of Total,%,17.42396605794551,17.42396605794551,0,0,lower
+ohio,reuseProgram,E-Waste,E-Waste/yr,t/yr,150,150,0,0,lower
+ohio,reuseProgram,Community,Net Community Value,$/yr,-11439785.929998567,-11439785.929998567,0,0,higher
+ohio,maxWaterSaving,Energy,Total Energy,MWh/yr,709560,783144,73584,10.37,lower
+ohio,maxWaterSaving,Energy,Carbon (Scope 1+2),tCO₂e/yr,301689.36000000004,332300.304,30610.94399999996,10.15,lower
+ohio,maxWaterSaving,Energy,CUE,kg CO₂e/kWh,0.5739904109589042,0.6322304109589041,0.05823999999999985,10.15,lower
+ohio,maxWaterSaving,Energy,Grid Impact,%,0.2656521596536683,0.2932012725066413,0.027549112852973012,10.37,lower
+ohio,maxWaterSaving,Water,Direct Water,L/yr,735840000,105120000,-630720000,-85.71,lower
+ohio,maxWaterSaving,Water,Total Water,L/yr,1712407428,1182961087.2,-529446340.79999995,-30.92,lower
+ohio,maxWaterSaving,Health,NOx Emissions,t/yr,57.6,57.6,0,0,lower
+ohio,maxWaterSaving,Health,PM2.5 Emissions,t/yr,1.8,1.8,0,0,lower
+ohio,maxWaterSaving,Health,Health Cost,$/yr,268795.929998567,268795.929998567,0,0,lower
+ohio,maxWaterSaving,Heat,UHI Estimate,°C,0.05529964490098305,0.07741950286137622,0.022119857960393174,40,lower
+ohio,maxWaterSaving,Heat,Waste Heat to Air,MW,12.600000000000001,17.639999999999997,5.039999999999996,40,lower
+ohio,maxWaterSaving,E-Waste,Embodied Carbon (total),tCO₂e,409740,409740,0,0,lower
+ohio,maxWaterSaving,E-Waste,Embodied % of Total,%,17.42396605794551,16.07694531391871,-1.3470207440267998,-7.73,lower
+ohio,maxWaterSaving,E-Waste,E-Waste/yr,t/yr,150,150,0,0,lower
+ohio,maxWaterSaving,Community,Net Community Value,$/yr,-11439785.929998567,-11439785.929998567,0,0,higher
+ohio,healthPriority,Energy,Total Energy,MWh/yr,709560,709560,0,0,lower
+ohio,healthPriority,Energy,Carbon (Scope 1+2),tCO₂e/yr,301689.36000000004,36030.09599999999,-265659.2640000001,-88.06,lower
+ohio,healthPriority,Energy,CUE,kg CO₂e/kWh,0.5739904109589042,0.0685504109589041,-0.5054400000000001,-88.06,lower
+ohio,healthPriority,Energy,Grid Impact,%,0.2656521596536683,0.2656521596536683,0,0,lower
+ohio,healthPriority,Water,Direct Water,L/yr,735840000,735840000,0,0,lower
+ohio,healthPriority,Water,Total Water,L/yr,1712407428,1712407428,0,0,lower
+ohio,healthPriority,Health,NOx Emissions,t/yr,57.6,6.39,-51.21,-88.91,lower
+ohio,healthPriority,Health,PM2.5 Emissions,t/yr,1.8,0.279,-1.521,-84.5,lower
+ohio,healthPriority,Health,Health Cost,$/yr,268795.929998567,41666.72955767955,-227129.20044088742,-84.5,lower
+ohio,healthPriority,Heat,UHI Estimate,°C,0.05529964490098305,0.05529964490098305,0,0,lower
+ohio,healthPriority,Heat,Waste Heat to Air,MW,12.600000000000001,12.600000000000001,0,0,lower
+ohio,healthPriority,E-Waste,Embodied Carbon (total),tCO₂e,409740,409740,0,0,lower
+ohio,healthPriority,E-Waste,Embodied % of Total,%,17.42396605794551,63.857173077114446,46.43320701916893,266.49,lower
+ohio,healthPriority,E-Waste,E-Waste/yr,t/yr,150,150,0,0,lower
+ohio,healthPriority,Community,Net Community Value,$/yr,-11439785.929998567,-11212656.72955768,227129.20044088736,1.99,higher
+ohio,carbonMinimum,Energy,Total Energy,MWh/yr,709560,709560,0,0,lower
+ohio,carbonMinimum,Energy,Carbon (Scope 1+2),tCO₂e/yr,301689.36000000004,36030.09599999999,-265659.2640000001,-88.06,lower
+ohio,carbonMinimum,Energy,CUE,kg CO₂e/kWh,0.5739904109589042,0.0685504109589041,-0.5054400000000001,-88.06,lower
+ohio,carbonMinimum,Energy,Grid Impact,%,0.2656521596536683,0.2656521596536683,0,0,lower
+ohio,carbonMinimum,Water,Direct Water,L/yr,735840000,735840000,0,0,lower
+ohio,carbonMinimum,Water,Total Water,L/yr,1712407428,1712407428,0,0,lower
+ohio,carbonMinimum,Health,NOx Emissions,t/yr,57.6,57.6,0,0,lower
+ohio,carbonMinimum,Health,PM2.5 Emissions,t/yr,1.8,1.8,0,0,lower
+ohio,carbonMinimum,Health,Health Cost,$/yr,268795.929998567,268795.929998567,0,0,lower
+ohio,carbonMinimum,Heat,UHI Estimate,°C,0.05529964490098305,0.05529964490098305,0,0,lower
+ohio,carbonMinimum,Heat,Waste Heat to Air,MW,12.600000000000001,12.600000000000001,0,0,lower
+ohio,carbonMinimum,E-Waste,Embodied Carbon (total),tCO₂e,409740,409740,0,0,lower
+ohio,carbonMinimum,E-Waste,Embodied % of Total,%,17.42396605794551,59.82733762126025,42.403371563314735,243.36,lower
+ohio,carbonMinimum,E-Waste,E-Waste/yr,t/yr,150,125,-25,-16.67,lower
+ohio,carbonMinimum,Community,Net Community Value,$/yr,-11439785.929998567,-11439785.929998567,0,0,higher
+ohio,communityAcceptance,Energy,Total Energy,MWh/yr,709560,709560,0,0,lower
+ohio,communityAcceptance,Energy,Carbon (Scope 1+2),tCO₂e/yr,301689.36000000004,301689.36000000004,0,0,lower
+ohio,communityAcceptance,Energy,CUE,kg CO₂e/kWh,0.5739904109589042,0.5739904109589042,0,0,lower
+ohio,communityAcceptance,Energy,Grid Impact,%,0.2656521596536683,0.2656521596536683,0,0,lower
+ohio,communityAcceptance,Water,Direct Water,L/yr,735840000,735840000,0,0,lower
+ohio,communityAcceptance,Water,Total Water,L/yr,1712407428,1712407428,0,0,lower
+ohio,communityAcceptance,Health,NOx Emissions,t/yr,57.6,6.39,-51.21,-88.91,lower
+ohio,communityAcceptance,Health,PM2.5 Emissions,t/yr,1.8,0.279,-1.521,-84.5,lower
+ohio,communityAcceptance,Health,Health Cost,$/yr,268795.929998567,41666.72955767955,-227129.20044088742,-84.5,lower
+ohio,communityAcceptance,Heat,UHI Estimate,°C,0.05529964490098305,0,-0.05529964490098305,-100,lower
+ohio,communityAcceptance,Heat,Waste Heat to Air,MW,12.600000000000001,0.8400000000000003,-11.760000000000002,-93.33,lower
+ohio,communityAcceptance,E-Waste,Embodied Carbon (total),tCO₂e,409740,409740,0,0,lower
+ohio,communityAcceptance,E-Waste,Embodied % of Total,%,17.42396605794551,17.42396605794551,0,0,lower
+ohio,communityAcceptance,E-Waste,E-Waste/yr,t/yr,150,150,0,0,lower
+ohio,communityAcceptance,Community,Net Community Value,$/yr,-11439785.929998567,-11212656.72955768,227129.20044088736,1.99,higher
+ohio,fullGreen,Energy,Total Energy,MWh/yr,709560,783144,73584,10.37,lower
+ohio,fullGreen,Energy,Carbon (Scope 1+2),tCO₂e/yr,301689.36000000004,39091.19039999999,-262598.1696,-87.04,lower
+ohio,fullGreen,Energy,CUE,kg CO₂e/kWh,0.5739904109589042,0.0743744109589041,-0.49961600000000017,-87.04,lower
+ohio,fullGreen,Energy,Grid Impact,%,0.2656521596536683,0.2932012725066413,0.027549112852973012,10.37,lower
+ohio,fullGreen,Water,Direct Water,L/yr,735840000,105120000,-630720000,-85.71,lower
+ohio,fullGreen,Water,Total Water,L/yr,1712407428,1182961087.2,-529446340.79999995,-30.92,lower
+ohio,fullGreen,Health,NOx Emissions,t/yr,57.6,6.39,-51.21,-88.91,lower
+ohio,fullGreen,Health,PM2.5 Emissions,t/yr,1.8,0.279,-1.521,-84.5,lower
+ohio,fullGreen,Health,Health Cost,$/yr,268795.929998567,41666.72955767955,-227129.20044088742,-84.5,lower
+ohio,fullGreen,Heat,UHI Estimate,°C,0.05529964490098305,0,-0.05529964490098305,-100,lower
+ohio,fullGreen,Heat,Waste Heat to Air,MW,12.600000000000001,1.176,-11.424000000000001,-90.67,lower
+ohio,fullGreen,E-Waste,Embodied Carbon (total),tCO₂e,409740,409740,0,0,lower
+ohio,fullGreen,E-Waste,Embodied % of Total,%,17.42396605794551,57.85279609297809,40.428830035032576,232.03,lower
+ohio,fullGreen,E-Waste,E-Waste/yr,t/yr,150,125,-25,-16.67,lower
+ohio,fullGreen,Community,Net Community Value,$/yr,-11439785.929998567,-11212656.72955768,227129.20044088736,1.99,higher
+ohio,presetRecommended,Energy,Total Energy,MWh/yr,709560,709560,0,0,lower
+ohio,presetRecommended,Energy,Carbon (Scope 1+2),tCO₂e/yr,301689.36000000004,301689.36000000004,0,0,lower
+ohio,presetRecommended,Energy,CUE,kg CO₂e/kWh,0.5739904109589042,0.5739904109589042,0,0,lower
+ohio,presetRecommended,Energy,Grid Impact,%,0.2656521596536683,0.2656521596536683,0,0,lower
+ohio,presetRecommended,Water,Direct Water,L/yr,735840000,735840000,0,0,lower
+ohio,presetRecommended,Water,Total Water,L/yr,1712407428,1712407428,0,0,lower
+ohio,presetRecommended,Health,NOx Emissions,t/yr,57.6,6.39,-51.21,-88.91,lower
+ohio,presetRecommended,Health,PM2.5 Emissions,t/yr,1.8,0.279,-1.521,-84.5,lower
+ohio,presetRecommended,Health,Health Cost,$/yr,268795.929998567,41666.72955767955,-227129.20044088742,-84.5,lower
+ohio,presetRecommended,Heat,UHI Estimate,°C,0.05529964490098305,0.0036866429933988254,-0.05161300190758422,-93.33,lower
+ohio,presetRecommended,Heat,Waste Heat to Air,MW,12.600000000000001,0.8400000000000003,-11.760000000000002,-93.33,lower
+ohio,presetRecommended,E-Waste,Embodied Carbon (total),tCO₂e,409740,409740,0,0,lower
+ohio,presetRecommended,E-Waste,Embodied % of Total,%,17.42396605794551,15.100154395406229,-2.3238116625392813,-13.34,lower
+ohio,presetRecommended,E-Waste,E-Waste/yr,t/yr,150,125,-25,-16.67,lower
+ohio,presetRecommended,Community,Net Community Value,$/yr,-11439785.929998567,-11212656.72955768,227129.20044088736,1.99,higher
+memphis,liquidCooling,Energy,Total Energy,MWh/yr,2847000,3131700,284700,10,lower
+memphis,liquidCooling,Energy,Carbon (Scope 1+2),tCO₂e/yr,1177544.715,1294271.715,116727,9.91,lower
+memphis,liquidCooling,Energy,CUE,kg CO₂e/kWh,0.5376916506849315,0.5909916506849315,0.053300000000000014,9.91,lower
+memphis,liquidCooling,Energy,Grid Impact,%,1.0071897855460519,1.107908764100657,0.10071897855460521,10,lower
+memphis,liquidCooling,Water,Direct Water,L/yr,1116900000,438000000,-678900000,-60.78,lower
+memphis,liquidCooling,Water,Total Water,L/yr,5311669800,5052246780,-259423020,-4.88,lower
+memphis,liquidCooling,Health,NOx Emissions,t/yr,1.089,1.089,0,0,lower
+memphis,liquidCooling,Health,PM2.5 Emissions,t/yr,0.8712,0.8712,0,0,lower
+memphis,liquidCooling,Health,Health Cost,$/yr,33777.21778484976,33777.21778484976,0,0,lower
+memphis,liquidCooling,Heat,UHI Estimate,°C,0.4833740521746577,0.5204561414503426,0.037082089275684904,7.67,lower
+memphis,liquidCooling,Heat,Waste Heat to Air,MW,45.000000000000014,64.49999999999999,19.49999999999997,43.33,lower
+memphis,liquidCooling,E-Waste,Embodied Carbon (total),tCO₂e,1707250,1707250,0,0,lower
+memphis,liquidCooling,E-Waste,Embodied % of Total,%,26.835721227195496,25.021047703010517,-1.814673524184979,-6.76,lower
+memphis,liquidCooling,E-Waste,E-Waste/yr,t/yr,208.33333333333334,208.33333333333334,0,0,lower
+memphis,liquidCooling,Community,Net Community Value,$/yr,42949028.78221515,42949028.78221515,0,0,higher
+memphis,airCooling,Energy,Total Energy,MWh/yr,2847000,3569700,722700,25.38,lower
+memphis,airCooling,Energy,Carbon (Scope 1+2),tCO₂e/yr,1177544.715,1473851.715,296307,25.16,lower
+memphis,airCooling,Energy,CUE,kg CO₂e/kWh,0.5376916506849315,0.6729916506849315,0.13529999999999998,25.16,lower
+memphis,airCooling,Energy,Grid Impact,%,1.0071897855460519,1.2628610388000496,0.25567125325399775,25.38,lower
+memphis,airCooling,Water,Direct Water,L/yr,1116900000,0,-1116900000,-100,lower
+memphis,airCooling,Water,Total Water,L/yr,5311669800,5259595980,-52073820,-0.98,lower
+memphis,airCooling,Health,NOx Emissions,t/yr,1.089,1.089,0,0,lower
+memphis,airCooling,Health,PM2.5 Emissions,t/yr,0.8712,0.8712,0,0,lower
+memphis,airCooling,Health,Health Cost,$/yr,33777.21778484976,33777.21778484976,0,0,lower
+memphis,airCooling,Heat,UHI Estimate,°C,0.4833740521746577,0.6823337234807368,0.19895967130607917,41.16,lower
+memphis,airCooling,Heat,Waste Heat to Air,MW,45.000000000000014,149.625,104.62499999999999,232.5,lower
+memphis,airCooling,E-Waste,Embodied Carbon (total),tCO₂e,1707250,1707250,0,0,lower
+memphis,airCooling,E-Waste,Embodied % of Total,%,26.835721227195496,22.663311349771195,-4.1724098774243,-15.55,lower
+memphis,airCooling,E-Waste,E-Waste/yr,t/yr,208.33333333333334,208.33333333333334,0,0,lower
+memphis,airCooling,Community,Net Community Value,$/yr,42949028.78221515,42949028.78221515,0,0,higher
+memphis,recycledWater,Energy,Total Energy,MWh/yr,2847000,2847000,0,0,lower
+memphis,recycledWater,Energy,Carbon (Scope 1+2),tCO₂e/yr,1177544.715,1177544.715,0,0,lower
+memphis,recycledWater,Energy,CUE,kg CO₂e/kWh,0.5376916506849315,0.5376916506849315,0,0,lower
+memphis,recycledWater,Energy,Grid Impact,%,1.0071897855460519,1.0071897855460519,0,0,lower
+memphis,recycledWater,Water,Direct Water,L/yr,1116900000,1116900000,0,0,lower
+memphis,recycledWater,Water,Total Water,L/yr,5311669800,5311669800,0,0,lower
+memphis,recycledWater,Health,NOx Emissions,t/yr,1.089,1.089,0,0,lower
+memphis,recycledWater,Health,PM2.5 Emissions,t/yr,0.8712,0.8712,0,0,lower
+memphis,recycledWater,Health,Health Cost,$/yr,33777.21778484976,33777.21778484976,0,0,lower
+memphis,recycledWater,Heat,UHI Estimate,°C,0.4833740521746577,0.4833740521746577,0,0,lower
+memphis,recycledWater,Heat,Waste Heat to Air,MW,45.000000000000014,45.000000000000014,0,0,lower
+memphis,recycledWater,E-Waste,Embodied Carbon (total),tCO₂e,1707250,1707250,0,0,lower
+memphis,recycledWater,E-Waste,Embodied % of Total,%,26.835721227195496,26.835721227195496,0,0,lower
+memphis,recycledWater,E-Waste,E-Waste/yr,t/yr,208.33333333333334,208.33333333333334,0,0,lower
+memphis,recycledWater,Community,Net Community Value,$/yr,42949028.78221515,42949028.78221515,0,0,higher
+memphis,tierIVGenerators,Energy,Total Energy,MWh/yr,2847000,2847000,0,0,lower
+memphis,tierIVGenerators,Energy,Carbon (Scope 1+2),tCO₂e/yr,1177544.715,1186970.01,9425.294999999925,0.8,lower
+memphis,tierIVGenerators,Energy,CUE,kg CO₂e/kWh,0.5376916506849315,0.5419954383561644,0.0043037876712328504,0.8,lower
+memphis,tierIVGenerators,Energy,Grid Impact,%,1.0071897855460519,1.0071897855460519,0,0,lower
+memphis,tierIVGenerators,Water,Direct Water,L/yr,1116900000,1116900000,0,0,lower
+memphis,tierIVGenerators,Water,Total Water,L/yr,5311669800,5311669800,0,0,lower
+memphis,tierIVGenerators,Health,NOx Emissions,t/yr,1.089,1.089,0,0,lower
+memphis,tierIVGenerators,Health,PM2.5 Emissions,t/yr,0.8712,0.843975,-0.027224999999999944,-3.12,lower
+memphis,tierIVGenerators,Health,Health Cost,$/yr,33777.21778484976,32721.684642889522,-1055.5331419602371,-3.12,lower
+memphis,tierIVGenerators,Heat,UHI Estimate,°C,0.4833740521746577,0.4833740521746577,0,0,lower
+memphis,tierIVGenerators,Heat,Waste Heat to Air,MW,45.000000000000014,45.000000000000014,0,0,lower
+memphis,tierIVGenerators,E-Waste,Embodied Carbon (total),tCO₂e,1707250,1707250,0,0,lower
+memphis,tierIVGenerators,E-Waste,Embodied % of Total,%,26.835721227195496,26.679480586788095,-0.15624064040740038,-0.58,lower
+memphis,tierIVGenerators,E-Waste,E-Waste/yr,t/yr,208.33333333333334,208.33333333333334,0,0,lower
+memphis,tierIVGenerators,Community,Net Community Value,$/yr,42949028.78221515,42950084.31535711,1055.5331419631839,0,higher
+memphis,natgasGenerators,Energy,Total Energy,MWh/yr,2847000,2847000,0,0,lower
+memphis,natgasGenerators,Energy,Carbon (Scope 1+2),tCO₂e/yr,1177544.715,1177544.715,0,0,lower
+memphis,natgasGenerators,Energy,CUE,kg CO₂e/kWh,0.5376916506849315,0.5376916506849315,0,0,lower
+memphis,natgasGenerators,Energy,Grid Impact,%,1.0071897855460519,1.0071897855460519,0,0,lower
+memphis,natgasGenerators,Water,Direct Water,L/yr,1116900000,1116900000,0,0,lower
+memphis,natgasGenerators,Water,Total Water,L/yr,5311669800,5311669800,0,0,lower
+memphis,natgasGenerators,Health,NOx Emissions,t/yr,1.089,1.089,0,0,lower
+memphis,natgasGenerators,Health,PM2.5 Emissions,t/yr,0.8712,0.8712,0,0,lower
+memphis,natgasGenerators,Health,Health Cost,$/yr,33777.21778484976,33777.21778484976,0,0,lower
+memphis,natgasGenerators,Heat,UHI Estimate,°C,0.4833740521746577,0.4833740521746577,0,0,lower
+memphis,natgasGenerators,Heat,Waste Heat to Air,MW,45.000000000000014,45.000000000000014,0,0,lower
+memphis,natgasGenerators,E-Waste,Embodied Carbon (total),tCO₂e,1707250,1707250,0,0,lower
+memphis,natgasGenerators,E-Waste,Embodied % of Total,%,26.835721227195496,26.835721227195496,0,0,lower
+memphis,natgasGenerators,E-Waste,E-Waste/yr,t/yr,208.33333333333334,208.33333333333334,0,0,lower
+memphis,natgasGenerators,Community,Net Community Value,$/yr,42949028.78221515,42949028.78221515,0,0,higher
+memphis,renewable90,Energy,Total Energy,MWh/yr,2847000,2847000,0,0,lower
+memphis,renewable90,Energy,Carbon (Scope 1+2),tCO₂e/yr,1177544.715,127001.71499999997,-1050543,-89.21,lower
+memphis,renewable90,Energy,CUE,kg CO₂e/kWh,0.5376916506849315,0.05799165068493149,-0.4797,-89.21,lower
+memphis,renewable90,Energy,Grid Impact,%,1.0071897855460519,1.0071897855460519,0,0,lower
+memphis,renewable90,Water,Direct Water,L/yr,1116900000,1116900000,0,0,lower
+memphis,renewable90,Water,Total Water,L/yr,5311669800,5311669800,0,0,lower
+memphis,renewable90,Health,NOx Emissions,t/yr,1.089,1.089,0,0,lower
+memphis,renewable90,Health,PM2.5 Emissions,t/yr,0.8712,0.8712,0,0,lower
+memphis,renewable90,Health,Health Cost,$/yr,33777.21778484976,33777.21778484976,0,0,lower
+memphis,renewable90,Heat,UHI Estimate,°C,0.4833740521746577,0.4833740521746577,0,0,lower
+memphis,renewable90,Heat,Waste Heat to Air,MW,45.000000000000014,45.000000000000014,0,0,lower
+memphis,renewable90,E-Waste,Embodied Carbon (total),tCO₂e,1707250,1707250,0,0,lower
+memphis,renewable90,E-Waste,Embodied % of Total,%,26.835721227195496,77.27689538259003,50.441174155394535,187.96,lower
+memphis,renewable90,E-Waste,E-Waste/yr,t/yr,208.33333333333334,208.33333333333334,0,0,lower
+memphis,renewable90,Community,Net Community Value,$/yr,42949028.78221515,42949028.78221515,0,0,higher
+memphis,wasteHeatRecovery,Energy,Total Energy,MWh/yr,2847000,2847000,0,0,lower
+memphis,wasteHeatRecovery,Energy,Carbon (Scope 1+2),tCO₂e/yr,1177544.715,1177544.715,0,0,lower
+memphis,wasteHeatRecovery,Energy,CUE,kg CO₂e/kWh,0.5376916506849315,0.5376916506849315,0,0,lower
+memphis,wasteHeatRecovery,Energy,Grid Impact,%,1.0071897855460519,1.0071897855460519,0,0,lower
+memphis,wasteHeatRecovery,Water,Direct Water,L/yr,1116900000,1116900000,0,0,lower
+memphis,wasteHeatRecovery,Water,Total Water,L/yr,5311669800,5311669800,0,0,lower
+memphis,wasteHeatRecovery,Health,NOx Emissions,t/yr,1.089,1.089,0,0,lower
+memphis,wasteHeatRecovery,Health,PM2.5 Emissions,t/yr,0.8712,0.8712,0,0,lower
+memphis,wasteHeatRecovery,Health,Health Cost,$/yr,33777.21778484976,33777.21778484976,0,0,lower
+memphis,wasteHeatRecovery,Heat,UHI Estimate,°C,0.4833740521746577,0.4035049368116438,-0.07986911536301389,-16.52,lower
+memphis,wasteHeatRecovery,Heat,Waste Heat to Air,MW,45.000000000000014,3.0000000000000018,-42.000000000000014,-93.33,lower
+memphis,wasteHeatRecovery,E-Waste,Embodied Carbon (total),tCO₂e,1707250,1707250,0,0,lower
+memphis,wasteHeatRecovery,E-Waste,Embodied % of Total,%,26.835721227195496,26.835721227195496,0,0,lower
+memphis,wasteHeatRecovery,E-Waste,E-Waste/yr,t/yr,208.33333333333334,208.33333333333334,0,0,lower
+memphis,wasteHeatRecovery,Community,Net Community Value,$/yr,42949028.78221515,42949028.78221515,0,0,higher
+memphis,extendLifespan,Energy,Total Energy,MWh/yr,2847000,2847000,0,0,lower
+memphis,extendLifespan,Energy,Carbon (Scope 1+2),tCO₂e/yr,1177544.715,1177544.715,0,0,lower
+memphis,extendLifespan,Energy,CUE,kg CO₂e/kWh,0.5376916506849315,0.5376916506849315,0,0,lower
+memphis,extendLifespan,Energy,Grid Impact,%,1.0071897855460519,1.0071897855460519,0,0,lower
+memphis,extendLifespan,Water,Direct Water,L/yr,1116900000,1116900000,0,0,lower
+memphis,extendLifespan,Water,Total Water,L/yr,5311669800,5311669800,0,0,lower
+memphis,extendLifespan,Health,NOx Emissions,t/yr,1.089,1.089,0,0,lower
+memphis,extendLifespan,Health,PM2.5 Emissions,t/yr,0.8712,0.8712,0,0,lower
+memphis,extendLifespan,Health,Health Cost,$/yr,33777.21778484976,33777.21778484976,0,0,lower
+memphis,extendLifespan,Heat,UHI Estimate,°C,0.4833740521746577,0.4833740521746577,0,0,lower
+memphis,extendLifespan,Heat,Waste Heat to Air,MW,45.000000000000014,45.000000000000014,0,0,lower
+memphis,extendLifespan,E-Waste,Embodied Carbon (total),tCO₂e,1707250,1707250,0,0,lower
+memphis,extendLifespan,E-Waste,Embodied % of Total,%,26.835721227195496,15.956880601027015,-10.878840626168481,-40.54,lower
+memphis,extendLifespan,E-Waste,E-Waste/yr,t/yr,208.33333333333334,104.16666666666667,-104.16666666666667,-50,lower
+memphis,extendLifespan,Community,Net Community Value,$/yr,42949028.78221515,42949028.78221515,0,0,higher
+memphis,highAlbedo,Energy,Total Energy,MWh/yr,2847000,2847000,0,0,lower
+memphis,highAlbedo,Energy,Carbon (Scope 1+2),tCO₂e/yr,1177544.715,1177544.715,0,0,lower
+memphis,highAlbedo,Energy,CUE,kg CO₂e/kWh,0.5376916506849315,0.5376916506849315,0,0,lower
+memphis,highAlbedo,Energy,Grid Impact,%,1.0071897855460519,1.0071897855460519,0,0,lower
+memphis,highAlbedo,Water,Direct Water,L/yr,1116900000,1116900000,0,0,lower
+memphis,highAlbedo,Water,Total Water,L/yr,5311669800,5311669800,0,0,lower
+memphis,highAlbedo,Health,NOx Emissions,t/yr,1.089,1.089,0,0,lower
+memphis,highAlbedo,Health,PM2.5 Emissions,t/yr,0.8712,0.8712,0,0,lower
+memphis,highAlbedo,Health,Health Cost,$/yr,33777.21778484976,33777.21778484976,0,0,lower
+memphis,highAlbedo,Heat,UHI Estimate,°C,0.4833740521746577,0,-0.4833740521746577,-100,lower
+memphis,highAlbedo,Heat,Waste Heat to Air,MW,45.000000000000014,45.000000000000014,0,0,lower
+memphis,highAlbedo,E-Waste,Embodied Carbon (total),tCO₂e,1707250,1707250,0,0,lower
+memphis,highAlbedo,E-Waste,Embodied % of Total,%,26.835721227195496,26.835721227195496,0,0,lower
+memphis,highAlbedo,E-Waste,E-Waste/yr,t/yr,208.33333333333334,208.33333333333334,0,0,lower
+memphis,highAlbedo,Community,Net Community Value,$/yr,42949028.78221515,42949028.78221515,0,0,higher
+memphis,reuseProgram,Energy,Total Energy,MWh/yr,2847000,2847000,0,0,lower
+memphis,reuseProgram,Energy,Carbon (Scope 1+2),tCO₂e/yr,1177544.715,1177544.715,0,0,lower
+memphis,reuseProgram,Energy,CUE,kg CO₂e/kWh,0.5376916506849315,0.5376916506849315,0,0,lower
+memphis,reuseProgram,Energy,Grid Impact,%,1.0071897855460519,1.0071897855460519,0,0,lower
+memphis,reuseProgram,Water,Direct Water,L/yr,1116900000,1116900000,0,0,lower
+memphis,reuseProgram,Water,Total Water,L/yr,5311669800,5311669800,0,0,lower
+memphis,reuseProgram,Health,NOx Emissions,t/yr,1.089,1.089,0,0,lower
+memphis,reuseProgram,Health,PM2.5 Emissions,t/yr,0.8712,0.8712,0,0,lower
+memphis,reuseProgram,Health,Health Cost,$/yr,33777.21778484976,33777.21778484976,0,0,lower
+memphis,reuseProgram,Heat,UHI Estimate,°C,0.4833740521746577,0.4833740521746577,0,0,lower
+memphis,reuseProgram,Heat,Waste Heat to Air,MW,45.000000000000014,45.000000000000014,0,0,lower
+memphis,reuseProgram,E-Waste,Embodied Carbon (total),tCO₂e,1707250,1707250,0,0,lower
+memphis,reuseProgram,E-Waste,Embodied % of Total,%,26.835721227195496,26.835721227195496,0,0,lower
+memphis,reuseProgram,E-Waste,E-Waste/yr,t/yr,208.33333333333334,208.33333333333334,0,0,lower
+memphis,reuseProgram,Community,Net Community Value,$/yr,42949028.78221515,42949028.78221515,0,0,higher
+memphis,maxWaterSaving,Energy,Total Energy,MWh/yr,2847000,3131700,284700,10,lower
+memphis,maxWaterSaving,Energy,Carbon (Scope 1+2),tCO₂e/yr,1177544.715,1294271.715,116727,9.91,lower
+memphis,maxWaterSaving,Energy,CUE,kg CO₂e/kWh,0.5376916506849315,0.5909916506849315,0.053300000000000014,9.91,lower
+memphis,maxWaterSaving,Energy,Grid Impact,%,1.0071897855460519,1.107908764100657,0.10071897855460521,10,lower
+memphis,maxWaterSaving,Water,Direct Water,L/yr,1116900000,438000000,-678900000,-60.78,lower
+memphis,maxWaterSaving,Water,Total Water,L/yr,5311669800,5052246780,-259423020,-4.88,lower
+memphis,maxWaterSaving,Health,NOx Emissions,t/yr,1.089,1.089,0,0,lower
+memphis,maxWaterSaving,Health,PM2.5 Emissions,t/yr,0.8712,0.8712,0,0,lower
+memphis,maxWaterSaving,Health,Health Cost,$/yr,33777.21778484976,33777.21778484976,0,0,lower
+memphis,maxWaterSaving,Heat,UHI Estimate,°C,0.4833740521746577,0.5204561414503426,0.037082089275684904,7.67,lower
+memphis,maxWaterSaving,Heat,Waste Heat to Air,MW,45.000000000000014,64.49999999999999,19.49999999999997,43.33,lower
+memphis,maxWaterSaving,E-Waste,Embodied Carbon (total),tCO₂e,1707250,1707250,0,0,lower
+memphis,maxWaterSaving,E-Waste,Embodied % of Total,%,26.835721227195496,25.021047703010517,-1.814673524184979,-6.76,lower
+memphis,maxWaterSaving,E-Waste,E-Waste/yr,t/yr,208.33333333333334,208.33333333333334,0,0,lower
+memphis,maxWaterSaving,Community,Net Community Value,$/yr,42949028.78221515,42949028.78221515,0,0,higher
+memphis,healthPriority,Energy,Total Energy,MWh/yr,2847000,2847000,0,0,lower
+memphis,healthPriority,Energy,Carbon (Scope 1+2),tCO₂e/yr,1177544.715,136427.00999999998,-1041117.7050000001,-88.41,lower
+memphis,healthPriority,Energy,CUE,kg CO₂e/kWh,0.5376916506849315,0.06229543835616437,-0.47539621232876716,-88.41,lower
+memphis,healthPriority,Energy,Grid Impact,%,1.0071897855460519,1.0071897855460519,0,0,lower
+memphis,healthPriority,Water,Direct Water,L/yr,1116900000,1116900000,0,0,lower
+memphis,healthPriority,Water,Total Water,L/yr,5311669800,5311669800,0,0,lower
+memphis,healthPriority,Health,NOx Emissions,t/yr,1.089,1.089,0,0,lower
+memphis,healthPriority,Health,PM2.5 Emissions,t/yr,0.8712,0.843975,-0.027224999999999944,-3.12,lower
+memphis,healthPriority,Health,Health Cost,$/yr,33777.21778484976,32721.684642889522,-1055.5331419602371,-3.12,lower
+memphis,healthPriority,Heat,UHI Estimate,°C,0.4833740521746577,0.4833740521746577,0,0,lower
+memphis,healthPriority,Heat,Waste Heat to Air,MW,45.000000000000014,45.000000000000014,0,0,lower
+memphis,healthPriority,E-Waste,Embodied Carbon (total),tCO₂e,1707250,1707250,0,0,lower
+memphis,healthPriority,E-Waste,Embodied % of Total,%,26.835721227195496,75.99533240360446,49.15961117640897,183.19,lower
+memphis,healthPriority,E-Waste,E-Waste/yr,t/yr,208.33333333333334,208.33333333333334,0,0,lower
+memphis,healthPriority,Community,Net Community Value,$/yr,42949028.78221515,42950084.31535711,1055.5331419631839,0,higher
+memphis,carbonMinimum,Energy,Total Energy,MWh/yr,2847000,2847000,0,0,lower
+memphis,carbonMinimum,Energy,Carbon (Scope 1+2),tCO₂e/yr,1177544.715,127001.71499999997,-1050543,-89.21,lower
+memphis,carbonMinimum,Energy,CUE,kg CO₂e/kWh,0.5376916506849315,0.05799165068493149,-0.4797,-89.21,lower
+memphis,carbonMinimum,Energy,Grid Impact,%,1.0071897855460519,1.0071897855460519,0,0,lower
+memphis,carbonMinimum,Water,Direct Water,L/yr,1116900000,1116900000,0,0,lower
+memphis,carbonMinimum,Water,Total Water,L/yr,5311669800,5311669800,0,0,lower
+memphis,carbonMinimum,Health,NOx Emissions,t/yr,1.089,1.089,0,0,lower
+memphis,carbonMinimum,Health,PM2.5 Emissions,t/yr,0.8712,0.8712,0,0,lower
+memphis,carbonMinimum,Health,Health Cost,$/yr,33777.21778484976,33777.21778484976,0,0,lower
+memphis,carbonMinimum,Heat,UHI Estimate,°C,0.4833740521746577,0.4833740521746577,0,0,lower
+memphis,carbonMinimum,Heat,Waste Heat to Air,MW,45.000000000000014,45.000000000000014,0,0,lower
+memphis,carbonMinimum,E-Waste,Embodied Carbon (total),tCO₂e,1707250,1707250,0,0,lower
+memphis,carbonMinimum,E-Waste,Embodied % of Total,%,26.835721227195496,63.77348820785203,36.937766980656534,137.64,lower
+memphis,carbonMinimum,E-Waste,E-Waste/yr,t/yr,208.33333333333334,104.16666666666667,-104.16666666666667,-50,lower
+memphis,carbonMinimum,Community,Net Community Value,$/yr,42949028.78221515,42949028.78221515,0,0,higher
+memphis,communityAcceptance,Energy,Total Energy,MWh/yr,2847000,2847000,0,0,lower
+memphis,communityAcceptance,Energy,Carbon (Scope 1+2),tCO₂e/yr,1177544.715,1186970.01,9425.294999999925,0.8,lower
+memphis,communityAcceptance,Energy,CUE,kg CO₂e/kWh,0.5376916506849315,0.5419954383561644,0.0043037876712328504,0.8,lower
+memphis,communityAcceptance,Energy,Grid Impact,%,1.0071897855460519,1.0071897855460519,0,0,lower
+memphis,communityAcceptance,Water,Direct Water,L/yr,1116900000,1116900000,0,0,lower
+memphis,communityAcceptance,Water,Total Water,L/yr,5311669800,5311669800,0,0,lower
+memphis,communityAcceptance,Health,NOx Emissions,t/yr,1.089,1.089,0,0,lower
+memphis,communityAcceptance,Health,PM2.5 Emissions,t/yr,0.8712,0.843975,-0.027224999999999944,-3.12,lower
+memphis,communityAcceptance,Health,Health Cost,$/yr,33777.21778484976,32721.684642889522,-1055.5331419602371,-3.12,lower
+memphis,communityAcceptance,Heat,UHI Estimate,°C,0.4833740521746577,0,-0.4833740521746577,-100,lower
+memphis,communityAcceptance,Heat,Waste Heat to Air,MW,45.000000000000014,3.0000000000000018,-42.000000000000014,-93.33,lower
+memphis,communityAcceptance,E-Waste,Embodied Carbon (total),tCO₂e,1707250,1707250,0,0,lower
+memphis,communityAcceptance,E-Waste,Embodied % of Total,%,26.835721227195496,26.679480586788095,-0.15624064040740038,-0.58,lower
+memphis,communityAcceptance,E-Waste,E-Waste/yr,t/yr,208.33333333333334,208.33333333333334,0,0,lower
+memphis,communityAcceptance,Community,Net Community Value,$/yr,42949028.78221515,42950084.31535711,1055.5331419631839,0,higher
+memphis,fullGreen,Energy,Total Energy,MWh/yr,2847000,3131700,284700,10,lower
+memphis,fullGreen,Energy,Carbon (Scope 1+2),tCO₂e/yr,1177544.715,148099.70999999996,-1029445.0050000001,-87.42,lower
+memphis,fullGreen,Energy,CUE,kg CO₂e/kWh,0.5376916506849315,0.06762543835616437,-0.47006621232876716,-87.42,lower
+memphis,fullGreen,Energy,Grid Impact,%,1.0071897855460519,1.107908764100657,0.10071897855460521,10,lower
+memphis,fullGreen,Water,Direct Water,L/yr,1116900000,438000000,-678900000,-60.78,lower
+memphis,fullGreen,Water,Total Water,L/yr,5311669800,5052246780,-259423020,-4.88,lower
+memphis,fullGreen,Health,NOx Emissions,t/yr,1.089,1.089,0,0,lower
+memphis,fullGreen,Health,PM2.5 Emissions,t/yr,0.8712,0.843975,-0.027224999999999944,-3.12,lower
+memphis,fullGreen,Health,Health Cost,$/yr,33777.21778484976,32721.684642889522,-1055.5331419602371,-3.12,lower
+memphis,fullGreen,Heat,UHI Estimate,°C,0.4833740521746577,0,-0.4833740521746577,-100,lower
+memphis,fullGreen,Heat,Waste Heat to Air,MW,45.000000000000014,4.3,-40.70000000000002,-90.44,lower
+memphis,fullGreen,E-Waste,Embodied Carbon (total),tCO₂e,1707250,1707250,0,0,lower
+memphis,fullGreen,E-Waste,Embodied % of Total,%,26.835721227195496,60.153406724928914,33.31768549773342,124.15,lower
+memphis,fullGreen,E-Waste,E-Waste/yr,t/yr,208.33333333333334,104.16666666666667,-104.16666666666667,-50,lower
+memphis,fullGreen,Community,Net Community Value,$/yr,42949028.78221515,42950084.31535711,1055.5331419631839,0,higher
+memphis,presetRecommended,Energy,Total Energy,MWh/yr,2847000,2847000,0,0,lower
+memphis,presetRecommended,Energy,Carbon (Scope 1+2),tCO₂e/yr,1177544.715,127001.71499999997,-1050543,-89.21,lower
+memphis,presetRecommended,Energy,CUE,kg CO₂e/kWh,0.5376916506849315,0.05799165068493149,-0.4797,-89.21,lower
+memphis,presetRecommended,Energy,Grid Impact,%,1.0071897855460519,1.0071897855460519,0,0,lower
+memphis,presetRecommended,Water,Direct Water,L/yr,1116900000,1116900000,0,0,lower
+memphis,presetRecommended,Water,Total Water,L/yr,5311669800,5311669800,0,0,lower
+memphis,presetRecommended,Health,NOx Emissions,t/yr,1.089,1.089,0,0,lower
+memphis,presetRecommended,Health,PM2.5 Emissions,t/yr,0.8712,0.8712,0,0,lower
+memphis,presetRecommended,Health,Health Cost,$/yr,33777.21778484976,33777.21778484976,0,0,lower
+memphis,presetRecommended,Heat,UHI Estimate,°C,0.4833740521746577,0,-0.4833740521746577,-100,lower
+memphis,presetRecommended,Heat,Waste Heat to Air,MW,45.000000000000014,3.0000000000000018,-42.000000000000014,-93.33,lower
+memphis,presetRecommended,E-Waste,Embodied Carbon (total),tCO₂e,1707250,1707250,0,0,lower
+memphis,presetRecommended,E-Waste,Embodied % of Total,%,26.835721227195496,77.27689538259003,50.441174155394535,187.96,lower
+memphis,presetRecommended,E-Waste,E-Waste/yr,t/yr,208.33333333333334,208.33333333333334,0,0,lower
+memphis,presetRecommended,Community,Net Community Value,$/yr,42949028.78221515,42949028.78221515,0,0,higher
+nordic,liquidCooling,Energy,Total Energy,MWh/yr,267355.2,267355.2,0,0,lower
+nordic,liquidCooling,Energy,Carbon (Scope 1+2),tCO₂e/yr,9791.592,9791.592,0,0,lower
+nordic,liquidCooling,Energy,CUE,kg CO₂e/kWh,0.03992005870841487,0.03992005870841487,0,0,lower
+nordic,liquidCooling,Energy,Grid Impact,%,0.3767901234567902,0.3767901234567902,0,0,lower
+nordic,liquidCooling,Water,Direct Water,L/yr,24528000,24528000,0,0,lower
+nordic,liquidCooling,Water,Total Water,L/yr,216595975.68,216595975.68,0,0,lower
+nordic,liquidCooling,Health,NOx Emissions,t/yr,0.426,0.426,0,0,lower
+nordic,liquidCooling,Health,PM2.5 Emissions,t/yr,0.0186,0.0186,0,0,lower
+nordic,liquidCooling,Health,Health Cost,$/yr,3264.6388919076358,3264.6388919076358,0,0,lower
+nordic,liquidCooling,Heat,UHI Estimate,°C,0.0059448567187331824,0.0059448567187331824,0,0,lower
+nordic,liquidCooling,Heat,Waste Heat to Air,MW,1.6758000000000013,1.6758000000000013,0,0,lower
+nordic,liquidCooling,E-Waste,Embodied Carbon (total),tCO₂e,191212,191212,0,0,lower
+nordic,liquidCooling,E-Waste,Embodied % of Total,%,75.21031769045051,75.21031769045051,0,0,lower
+nordic,liquidCooling,E-Waste,E-Waste/yr,t/yr,200,200,0,0,lower
+nordic,liquidCooling,Community,Net Community Value,$/yr,12375485.361108093,12375485.361108093,0,0,higher
+nordic,airCooling,Energy,Total Energy,MWh/yr,267355.2,267355.2,0,0,lower
+nordic,airCooling,Energy,Carbon (Scope 1+2),tCO₂e/yr,9791.592,9791.592,0,0,lower
+nordic,airCooling,Energy,CUE,kg CO₂e/kWh,0.03992005870841487,0.03992005870841487,0,0,lower
+nordic,airCooling,Energy,Grid Impact,%,0.3767901234567902,0.3767901234567902,0,0,lower
+nordic,airCooling,Water,Direct Water,L/yr,24528000,24528000,0,0,lower
+nordic,airCooling,Water,Total Water,L/yr,216595975.68,216595975.68,0,0,lower
+nordic,airCooling,Health,NOx Emissions,t/yr,0.426,0.426,0,0,lower
+nordic,airCooling,Health,PM2.5 Emissions,t/yr,0.0186,0.0186,0,0,lower
+nordic,airCooling,Health,Health Cost,$/yr,3264.6388919076358,3264.6388919076358,0,0,lower
+nordic,airCooling,Heat,UHI Estimate,°C,0.0059448567187331824,0.0059448567187331824,0,0,lower
+nordic,airCooling,Heat,Waste Heat to Air,MW,1.6758000000000013,1.6758000000000013,0,0,lower
+nordic,airCooling,E-Waste,Embodied Carbon (total),tCO₂e,191212,191212,0,0,lower
+nordic,airCooling,E-Waste,Embodied % of Total,%,75.21031769045051,75.21031769045051,0,0,lower
+nordic,airCooling,E-Waste,E-Waste/yr,t/yr,200,200,0,0,lower
+nordic,airCooling,Community,Net Community Value,$/yr,12375485.361108093,12375485.361108093,0,0,higher
+nordic,recycledWater,Energy,Total Energy,MWh/yr,267355.2,267355.2,0,0,lower
+nordic,recycledWater,Energy,Carbon (Scope 1+2),tCO₂e/yr,9791.592,9791.592,0,0,lower
+nordic,recycledWater,Energy,CUE,kg CO₂e/kWh,0.03992005870841487,0.03992005870841487,0,0,lower
+nordic,recycledWater,Energy,Grid Impact,%,0.3767901234567902,0.3767901234567902,0,0,lower
+nordic,recycledWater,Water,Direct Water,L/yr,24528000,24528000,0,0,lower
+nordic,recycledWater,Water,Total Water,L/yr,216595975.68,216595975.68,0,0,lower
+nordic,recycledWater,Health,NOx Emissions,t/yr,0.426,0.426,0,0,lower
+nordic,recycledWater,Health,PM2.5 Emissions,t/yr,0.0186,0.0186,0,0,lower
+nordic,recycledWater,Health,Health Cost,$/yr,3264.6388919076358,3264.6388919076358,0,0,lower
+nordic,recycledWater,Heat,UHI Estimate,°C,0.0059448567187331824,0.0059448567187331824,0,0,lower
+nordic,recycledWater,Heat,Waste Heat to Air,MW,1.6758000000000013,1.6758000000000013,0,0,lower
+nordic,recycledWater,E-Waste,Embodied Carbon (total),tCO₂e,191212,191212,0,0,lower
+nordic,recycledWater,E-Waste,Embodied % of Total,%,75.21031769045051,75.21031769045051,0,0,lower
+nordic,recycledWater,E-Waste,E-Waste/yr,t/yr,200,200,0,0,lower
+nordic,recycledWater,Community,Net Community Value,$/yr,12375485.361108093,12375485.361108093,0,0,higher
+nordic,tierIVGenerators,Energy,Total Energy,MWh/yr,267355.2,267355.2,0,0,lower
+nordic,tierIVGenerators,Energy,Carbon (Scope 1+2),tCO₂e/yr,9791.592,9791.592,0,0,lower
+nordic,tierIVGenerators,Energy,CUE,kg CO₂e/kWh,0.03992005870841487,0.03992005870841487,0,0,lower
+nordic,tierIVGenerators,Energy,Grid Impact,%,0.3767901234567902,0.3767901234567902,0,0,lower
+nordic,tierIVGenerators,Water,Direct Water,L/yr,24528000,24528000,0,0,lower
+nordic,tierIVGenerators,Water,Total Water,L/yr,216595975.68,216595975.68,0,0,lower
+nordic,tierIVGenerators,Health,NOx Emissions,t/yr,0.426,0.426,0,0,lower
+nordic,tierIVGenerators,Health,PM2.5 Emissions,t/yr,0.0186,0.0186,0,0,lower
+nordic,tierIVGenerators,Health,Health Cost,$/yr,3264.6388919076358,3264.6388919076358,0,0,lower
+nordic,tierIVGenerators,Heat,UHI Estimate,°C,0.0059448567187331824,0.0059448567187331824,0,0,lower
+nordic,tierIVGenerators,Heat,Waste Heat to Air,MW,1.6758000000000013,1.6758000000000013,0,0,lower
+nordic,tierIVGenerators,E-Waste,Embodied Carbon (total),tCO₂e,191212,191212,0,0,lower
+nordic,tierIVGenerators,E-Waste,Embodied % of Total,%,75.21031769045051,75.21031769045051,0,0,lower
+nordic,tierIVGenerators,E-Waste,E-Waste/yr,t/yr,200,200,0,0,lower
+nordic,tierIVGenerators,Community,Net Community Value,$/yr,12375485.361108093,12375485.361108093,0,0,higher
+nordic,natgasGenerators,Energy,Total Energy,MWh/yr,267355.2,267355.2,0,0,lower
+nordic,natgasGenerators,Energy,Carbon (Scope 1+2),tCO₂e/yr,9791.592,9583.872000000001,-207.71999999999935,-2.12,lower
+nordic,natgasGenerators,Energy,CUE,kg CO₂e/kWh,0.03992005870841487,0.03907318982387476,-0.0008468688845401084,-2.12,lower
+nordic,natgasGenerators,Energy,Grid Impact,%,0.3767901234567902,0.3767901234567902,0,0,lower
+nordic,natgasGenerators,Water,Direct Water,L/yr,24528000,24528000,0,0,lower
+nordic,natgasGenerators,Water,Total Water,L/yr,216595975.68,216595975.68,0,0,lower
+nordic,natgasGenerators,Health,NOx Emissions,t/yr,0.426,0.288,-0.138,-32.39,lower
+nordic,natgasGenerators,Health,PM2.5 Emissions,t/yr,0.0186,0.0192,0.0005999999999999998,3.23,lower
+nordic,natgasGenerators,Health,Health Cost,$/yr,3264.6388919076358,3369.9495378015768,105.310645893941,3.23,lower
+nordic,natgasGenerators,Heat,UHI Estimate,°C,0.0059448567187331824,0.0059448567187331824,0,0,lower
+nordic,natgasGenerators,Heat,Waste Heat to Air,MW,1.6758000000000013,1.6758000000000013,0,0,lower
+nordic,natgasGenerators,E-Waste,Embodied Carbon (total),tCO₂e,191212,191212,0,0,lower
+nordic,natgasGenerators,E-Waste,Embodied % of Total,%,75.21031769045051,75.607933215068,0.3976155246174926,0.53,lower
+nordic,natgasGenerators,E-Waste,E-Waste/yr,t/yr,200,200,0,0,lower
+nordic,natgasGenerators,Community,Net Community Value,$/yr,12375485.361108093,12375380.050462198,-105.31064589507878,0,higher
+nordic,renewable90,Energy,Total Energy,MWh/yr,267355.2,267355.2,0,0,lower
+nordic,renewable90,Energy,Carbon (Scope 1+2),tCO₂e/yr,9791.592,1369.9032,-8421.6888,-86.01,lower
+nordic,renewable90,Energy,CUE,kg CO₂e/kWh,0.03992005870841487,0.005585058708414872,-0.034335,-86.01,lower
+nordic,renewable90,Energy,Grid Impact,%,0.3767901234567902,0.3767901234567902,0,0,lower
+nordic,renewable90,Water,Direct Water,L/yr,24528000,24528000,0,0,lower
+nordic,renewable90,Water,Total Water,L/yr,216595975.68,216595975.68,0,0,lower
+nordic,renewable90,Health,NOx Emissions,t/yr,0.426,0.426,0,0,lower
+nordic,renewable90,Health,PM2.5 Emissions,t/yr,0.0186,0.0186,0,0,lower
+nordic,renewable90,Health,Health Cost,$/yr,3264.6388919076358,3264.6388919076358,0,0,lower
+nordic,renewable90,Heat,UHI Estimate,°C,0.0059448567187331824,0.0059448567187331824,0,0,lower
+nordic,renewable90,Heat,Waste Heat to Air,MW,1.6758000000000013,1.6758000000000013,0,0,lower
+nordic,renewable90,E-Waste,Embodied Carbon (total),tCO₂e,191212,191212,0,0,lower
+nordic,renewable90,E-Waste,Embodied % of Total,%,75.21031769045051,95.59190228044284,20.38158458999233,27.1,lower
+nordic,renewable90,E-Waste,E-Waste/yr,t/yr,200,200,0,0,lower
+nordic,renewable90,Community,Net Community Value,$/yr,12375485.361108093,12375485.361108093,0,0,higher
+nordic,wasteHeatRecovery,Energy,Total Energy,MWh/yr,267355.2,267355.2,0,0,lower
+nordic,wasteHeatRecovery,Energy,Carbon (Scope 1+2),tCO₂e/yr,9791.592,9791.592,0,0,lower
+nordic,wasteHeatRecovery,Energy,CUE,kg CO₂e/kWh,0.03992005870841487,0.03992005870841487,0,0,lower
+nordic,wasteHeatRecovery,Energy,Grid Impact,%,0.3767901234567902,0.3767901234567902,0,0,lower
+nordic,wasteHeatRecovery,Water,Direct Water,L/yr,24528000,24528000,0,0,lower
+nordic,wasteHeatRecovery,Water,Total Water,L/yr,216595975.68,216595975.68,0,0,lower
+nordic,wasteHeatRecovery,Health,NOx Emissions,t/yr,0.426,0.426,0,0,lower
+nordic,wasteHeatRecovery,Health,PM2.5 Emissions,t/yr,0.0186,0.0186,0,0,lower
+nordic,wasteHeatRecovery,Health,Health Cost,$/yr,3264.6388919076358,3264.6388919076358,0,0,lower
+nordic,wasteHeatRecovery,Heat,UHI Estimate,°C,0.0059448567187331824,0.0003575853665403472,-0.005587271352192835,-93.98,lower
+nordic,wasteHeatRecovery,Heat,Waste Heat to Air,MW,1.6758000000000013,0.1008000000000001,-1.5750000000000013,-93.98,lower
+nordic,wasteHeatRecovery,E-Waste,Embodied Carbon (total),tCO₂e,191212,191212,0,0,lower
+nordic,wasteHeatRecovery,E-Waste,Embodied % of Total,%,75.21031769045051,75.21031769045051,0,0,lower
+nordic,wasteHeatRecovery,E-Waste,E-Waste/yr,t/yr,200,200,0,0,lower
+nordic,wasteHeatRecovery,Community,Net Community Value,$/yr,12375485.361108093,12375485.361108093,0,0,higher
+nordic,extendLifespan,Energy,Total Energy,MWh/yr,267355.2,267355.2,0,0,lower
+nordic,extendLifespan,Energy,Carbon (Scope 1+2),tCO₂e/yr,9791.592,9791.592,0,0,lower
+nordic,extendLifespan,Energy,CUE,kg CO₂e/kWh,0.03992005870841487,0.03992005870841487,0,0,lower
+nordic,extendLifespan,Energy,Grid Impact,%,0.3767901234567902,0.3767901234567902,0,0,lower
+nordic,extendLifespan,Water,Direct Water,L/yr,24528000,24528000,0,0,lower
+nordic,extendLifespan,Water,Total Water,L/yr,216595975.68,216595975.68,0,0,lower
+nordic,extendLifespan,Health,NOx Emissions,t/yr,0.426,0.426,0,0,lower
+nordic,extendLifespan,Health,PM2.5 Emissions,t/yr,0.0186,0.0186,0,0,lower
+nordic,extendLifespan,Health,Health Cost,$/yr,3264.6388919076358,3264.6388919076358,0,0,lower
+nordic,extendLifespan,Heat,UHI Estimate,°C,0.0059448567187331824,0.0059448567187331824,0,0,lower
+nordic,extendLifespan,Heat,Waste Heat to Air,MW,1.6758000000000013,1.6758000000000013,0,0,lower
+nordic,extendLifespan,E-Waste,Embodied Carbon (total),tCO₂e,191212,191212,0,0,lower
+nordic,extendLifespan,E-Waste,Embodied % of Total,%,75.21031769045051,71.8890840351594,-3.3212336552911097,-4.42,lower
+nordic,extendLifespan,E-Waste,E-Waste/yr,t/yr,200,166.66666666666666,-33.33333333333334,-16.67,lower
+nordic,extendLifespan,Community,Net Community Value,$/yr,12375485.361108093,12375485.361108093,0,0,higher
+nordic,highAlbedo,Energy,Total Energy,MWh/yr,267355.2,267355.2,0,0,lower
+nordic,highAlbedo,Energy,Carbon (Scope 1+2),tCO₂e/yr,9791.592,9791.592,0,0,lower
+nordic,highAlbedo,Energy,CUE,kg CO₂e/kWh,0.03992005870841487,0.03992005870841487,0,0,lower
+nordic,highAlbedo,Energy,Grid Impact,%,0.3767901234567902,0.3767901234567902,0,0,lower
+nordic,highAlbedo,Water,Direct Water,L/yr,24528000,24528000,0,0,lower
+nordic,highAlbedo,Water,Total Water,L/yr,216595975.68,216595975.68,0,0,lower
+nordic,highAlbedo,Health,NOx Emissions,t/yr,0.426,0.426,0,0,lower
+nordic,highAlbedo,Health,PM2.5 Emissions,t/yr,0.0186,0.0186,0,0,lower
+nordic,highAlbedo,Health,Health Cost,$/yr,3264.6388919076358,3264.6388919076358,0,0,lower
+nordic,highAlbedo,Heat,UHI Estimate,°C,0.0059448567187331824,0,-0.0059448567187331824,-100,lower
+nordic,highAlbedo,Heat,Waste Heat to Air,MW,1.6758000000000013,1.6758000000000013,0,0,lower
+nordic,highAlbedo,E-Waste,Embodied Carbon (total),tCO₂e,191212,191212,0,0,lower
+nordic,highAlbedo,E-Waste,Embodied % of Total,%,75.21031769045051,75.21031769045051,0,0,lower
+nordic,highAlbedo,E-Waste,E-Waste/yr,t/yr,200,200,0,0,lower
+nordic,highAlbedo,Community,Net Community Value,$/yr,12375485.361108093,12375485.361108093,0,0,higher
+nordic,reuseProgram,Energy,Total Energy,MWh/yr,267355.2,267355.2,0,0,lower
+nordic,reuseProgram,Energy,Carbon (Scope 1+2),tCO₂e/yr,9791.592,9791.592,0,0,lower
+nordic,reuseProgram,Energy,CUE,kg CO₂e/kWh,0.03992005870841487,0.03992005870841487,0,0,lower
+nordic,reuseProgram,Energy,Grid Impact,%,0.3767901234567902,0.3767901234567902,0,0,lower
+nordic,reuseProgram,Water,Direct Water,L/yr,24528000,24528000,0,0,lower
+nordic,reuseProgram,Water,Total Water,L/yr,216595975.68,216595975.68,0,0,lower
+nordic,reuseProgram,Health,NOx Emissions,t/yr,0.426,0.426,0,0,lower
+nordic,reuseProgram,Health,PM2.5 Emissions,t/yr,0.0186,0.0186,0,0,lower
+nordic,reuseProgram,Health,Health Cost,$/yr,3264.6388919076358,3264.6388919076358,0,0,lower
+nordic,reuseProgram,Heat,UHI Estimate,°C,0.0059448567187331824,0.0059448567187331824,0,0,lower
+nordic,reuseProgram,Heat,Waste Heat to Air,MW,1.6758000000000013,1.6758000000000013,0,0,lower
+nordic,reuseProgram,E-Waste,Embodied Carbon (total),tCO₂e,191212,191212,0,0,lower
+nordic,reuseProgram,E-Waste,Embodied % of Total,%,75.21031769045051,75.21031769045051,0,0,lower
+nordic,reuseProgram,E-Waste,E-Waste/yr,t/yr,200,200,0,0,lower
+nordic,reuseProgram,Community,Net Community Value,$/yr,12375485.361108093,12375485.361108093,0,0,higher
+nordic,maxWaterSaving,Energy,Total Energy,MWh/yr,267355.2,267355.2,0,0,lower
+nordic,maxWaterSaving,Energy,Carbon (Scope 1+2),tCO₂e/yr,9791.592,9791.592,0,0,lower
+nordic,maxWaterSaving,Energy,CUE,kg CO₂e/kWh,0.03992005870841487,0.03992005870841487,0,0,lower
+nordic,maxWaterSaving,Energy,Grid Impact,%,0.3767901234567902,0.3767901234567902,0,0,lower
+nordic,maxWaterSaving,Water,Direct Water,L/yr,24528000,24528000,0,0,lower
+nordic,maxWaterSaving,Water,Total Water,L/yr,216595975.68,216595975.68,0,0,lower
+nordic,maxWaterSaving,Health,NOx Emissions,t/yr,0.426,0.426,0,0,lower
+nordic,maxWaterSaving,Health,PM2.5 Emissions,t/yr,0.0186,0.0186,0,0,lower
+nordic,maxWaterSaving,Health,Health Cost,$/yr,3264.6388919076358,3264.6388919076358,0,0,lower
+nordic,maxWaterSaving,Heat,UHI Estimate,°C,0.0059448567187331824,0.0059448567187331824,0,0,lower
+nordic,maxWaterSaving,Heat,Waste Heat to Air,MW,1.6758000000000013,1.6758000000000013,0,0,lower
+nordic,maxWaterSaving,E-Waste,Embodied Carbon (total),tCO₂e,191212,191212,0,0,lower
+nordic,maxWaterSaving,E-Waste,Embodied % of Total,%,75.21031769045051,75.21031769045051,0,0,lower
+nordic,maxWaterSaving,E-Waste,E-Waste/yr,t/yr,200,200,0,0,lower
+nordic,maxWaterSaving,Community,Net Community Value,$/yr,12375485.361108093,12375485.361108093,0,0,higher
+nordic,healthPriority,Energy,Total Energy,MWh/yr,267355.2,267355.2,0,0,lower
+nordic,healthPriority,Energy,Carbon (Scope 1+2),tCO₂e/yr,9791.592,1369.9032,-8421.6888,-86.01,lower
+nordic,healthPriority,Energy,CUE,kg CO₂e/kWh,0.03992005870841487,0.005585058708414872,-0.034335,-86.01,lower
+nordic,healthPriority,Energy,Grid Impact,%,0.3767901234567902,0.3767901234567902,0,0,lower
+nordic,healthPriority,Water,Direct Water,L/yr,24528000,24528000,0,0,lower
+nordic,healthPriority,Water,Total Water,L/yr,216595975.68,216595975.68,0,0,lower
+nordic,healthPriority,Health,NOx Emissions,t/yr,0.426,0.426,0,0,lower
+nordic,healthPriority,Health,PM2.5 Emissions,t/yr,0.0186,0.0186,0,0,lower
+nordic,healthPriority,Health,Health Cost,$/yr,3264.6388919076358,3264.6388919076358,0,0,lower
+nordic,healthPriority,Heat,UHI Estimate,°C,0.0059448567187331824,0.0059448567187331824,0,0,lower
+nordic,healthPriority,Heat,Waste Heat to Air,MW,1.6758000000000013,1.6758000000000013,0,0,lower
+nordic,healthPriority,E-Waste,Embodied Carbon (total),tCO₂e,191212,191212,0,0,lower
+nordic,healthPriority,E-Waste,Embodied % of Total,%,75.21031769045051,95.59190228044284,20.38158458999233,27.1,lower
+nordic,healthPriority,E-Waste,E-Waste/yr,t/yr,200,200,0,0,lower
+nordic,healthPriority,Community,Net Community Value,$/yr,12375485.361108093,12375485.361108093,0,0,higher
+nordic,carbonMinimum,Energy,Total Energy,MWh/yr,267355.2,267355.2,0,0,lower
+nordic,carbonMinimum,Energy,Carbon (Scope 1+2),tCO₂e/yr,9791.592,1369.9032,-8421.6888,-86.01,lower
+nordic,carbonMinimum,Energy,CUE,kg CO₂e/kWh,0.03992005870841487,0.005585058708414872,-0.034335,-86.01,lower
+nordic,carbonMinimum,Energy,Grid Impact,%,0.3767901234567902,0.3767901234567902,0,0,lower
+nordic,carbonMinimum,Water,Direct Water,L/yr,24528000,24528000,0,0,lower
+nordic,carbonMinimum,Water,Total Water,L/yr,216595975.68,216595975.68,0,0,lower
+nordic,carbonMinimum,Health,NOx Emissions,t/yr,0.426,0.426,0,0,lower
+nordic,carbonMinimum,Health,PM2.5 Emissions,t/yr,0.0186,0.0186,0,0,lower
+nordic,carbonMinimum,Health,Health Cost,$/yr,3264.6388919076358,3264.6388919076358,0,0,lower
+nordic,carbonMinimum,Heat,UHI Estimate,°C,0.0059448567187331824,0.0059448567187331824,0,0,lower
+nordic,carbonMinimum,Heat,Waste Heat to Air,MW,1.6758000000000013,1.6758000000000013,0,0,lower
+nordic,carbonMinimum,E-Waste,Embodied Carbon (total),tCO₂e,191212,191212,0,0,lower
+nordic,carbonMinimum,E-Waste,Embodied % of Total,%,75.21031769045051,94.81299707305139,19.602679382600883,26.06,lower
+nordic,carbonMinimum,E-Waste,E-Waste/yr,t/yr,200,166.66666666666666,-33.33333333333334,-16.67,lower
+nordic,carbonMinimum,Community,Net Community Value,$/yr,12375485.361108093,12375485.361108093,0,0,higher
+nordic,communityAcceptance,Energy,Total Energy,MWh/yr,267355.2,267355.2,0,0,lower
+nordic,communityAcceptance,Energy,Carbon (Scope 1+2),tCO₂e/yr,9791.592,9791.592,0,0,lower
+nordic,communityAcceptance,Energy,CUE,kg CO₂e/kWh,0.03992005870841487,0.03992005870841487,0,0,lower
+nordic,communityAcceptance,Energy,Grid Impact,%,0.3767901234567902,0.3767901234567902,0,0,lower
+nordic,communityAcceptance,Water,Direct Water,L/yr,24528000,24528000,0,0,lower
+nordic,communityAcceptance,Water,Total Water,L/yr,216595975.68,216595975.68,0,0,lower
+nordic,communityAcceptance,Health,NOx Emissions,t/yr,0.426,0.426,0,0,lower
+nordic,communityAcceptance,Health,PM2.5 Emissions,t/yr,0.0186,0.0186,0,0,lower
+nordic,communityAcceptance,Health,Health Cost,$/yr,3264.6388919076358,3264.6388919076358,0,0,lower
+nordic,communityAcceptance,Heat,UHI Estimate,°C,0.0059448567187331824,0,-0.0059448567187331824,-100,lower
+nordic,communityAcceptance,Heat,Waste Heat to Air,MW,1.6758000000000013,0.1008000000000001,-1.5750000000000013,-93.98,lower
+nordic,communityAcceptance,E-Waste,Embodied Carbon (total),tCO₂e,191212,191212,0,0,lower
+nordic,communityAcceptance,E-Waste,Embodied % of Total,%,75.21031769045051,75.21031769045051,0,0,lower
+nordic,communityAcceptance,E-Waste,E-Waste/yr,t/yr,200,200,0,0,lower
+nordic,communityAcceptance,Community,Net Community Value,$/yr,12375485.361108093,12375485.361108093,0,0,higher
+nordic,fullGreen,Energy,Total Energy,MWh/yr,267355.2,267355.2,0,0,lower
+nordic,fullGreen,Energy,Carbon (Scope 1+2),tCO₂e/yr,9791.592,1369.9032,-8421.6888,-86.01,lower
+nordic,fullGreen,Energy,CUE,kg CO₂e/kWh,0.03992005870841487,0.005585058708414872,-0.034335,-86.01,lower
+nordic,fullGreen,Energy,Grid Impact,%,0.3767901234567902,0.3767901234567902,0,0,lower
+nordic,fullGreen,Water,Direct Water,L/yr,24528000,24528000,0,0,lower
+nordic,fullGreen,Water,Total Water,L/yr,216595975.68,216595975.68,0,0,lower
+nordic,fullGreen,Health,NOx Emissions,t/yr,0.426,0.426,0,0,lower
+nordic,fullGreen,Health,PM2.5 Emissions,t/yr,0.0186,0.0186,0,0,lower
+nordic,fullGreen,Health,Health Cost,$/yr,3264.6388919076358,3264.6388919076358,0,0,lower
+nordic,fullGreen,Heat,UHI Estimate,°C,0.0059448567187331824,0,-0.0059448567187331824,-100,lower
+nordic,fullGreen,Heat,Waste Heat to Air,MW,1.6758000000000013,0.1008000000000001,-1.5750000000000013,-93.98,lower
+nordic,fullGreen,E-Waste,Embodied Carbon (total),tCO₂e,191212,191212,0,0,lower
+nordic,fullGreen,E-Waste,Embodied % of Total,%,75.21031769045051,94.81299707305139,19.602679382600883,26.06,lower
+nordic,fullGreen,E-Waste,E-Waste/yr,t/yr,200,166.66666666666666,-33.33333333333334,-16.67,lower
+nordic,fullGreen,Community,Net Community Value,$/yr,12375485.361108093,12375485.361108093,0,0,higher
+nordic,presetRecommended,Energy,Total Energy,MWh/yr,267355.2,267355.2,0,0,lower
+nordic,presetRecommended,Energy,Carbon (Scope 1+2),tCO₂e/yr,9791.592,9791.592,0,0,lower
+nordic,presetRecommended,Energy,CUE,kg CO₂e/kWh,0.03992005870841487,0.03992005870841487,0,0,lower
+nordic,presetRecommended,Energy,Grid Impact,%,0.3767901234567902,0.3767901234567902,0,0,lower
+nordic,presetRecommended,Water,Direct Water,L/yr,24528000,24528000,0,0,lower
+nordic,presetRecommended,Water,Total Water,L/yr,216595975.68,216595975.68,0,0,lower
+nordic,presetRecommended,Health,NOx Emissions,t/yr,0.426,0.426,0,0,lower
+nordic,presetRecommended,Health,PM2.5 Emissions,t/yr,0.0186,0.0186,0,0,lower
+nordic,presetRecommended,Health,Health Cost,$/yr,3264.6388919076358,3264.6388919076358,0,0,lower
+nordic,presetRecommended,Heat,UHI Estimate,°C,0.0059448567187331824,0.0003575853665403472,-0.005587271352192835,-93.98,lower
+nordic,presetRecommended,Heat,Waste Heat to Air,MW,1.6758000000000013,0.1008000000000001,-1.5750000000000013,-93.98,lower
+nordic,presetRecommended,E-Waste,Embodied Carbon (total),tCO₂e,191212,191212,0,0,lower
+nordic,presetRecommended,E-Waste,Embodied % of Total,%,75.21031769045051,71.8890840351594,-3.3212336552911097,-4.42,lower
+nordic,presetRecommended,E-Waste,E-Waste/yr,t/yr,200,166.66666666666666,-33.33333333333334,-16.67,lower
+nordic,presetRecommended,Community,Net Community Value,$/yr,12375485.361108093,12375485.361108093,0,0,higher
+saline,liquidCooling,Energy,Total Energy,MWh/yr,12110700,12110700,0,0,lower
+saline,liquidCooling,Energy,Carbon (Scope 1+2),tCO₂e/yr,5365161.664799999,5365161.664799999,0,0,lower
+saline,liquidCooling,Energy,CUE,kg CO₂e/kWh,0.5537625472516039,0.5537625472516039,0,0,lower
+saline,liquidCooling,Energy,Grid Impact,%,11.426564178857756,11.426564178857756,0,0,lower
+saline,liquidCooling,Water,Direct Water,L/yr,29065680,29065680,0,0,lower
+saline,liquidCooling,Water,Total Water,L/yr,13571250420.000002,13571250420.000002,0,0,lower
+saline,liquidCooling,Health,NOx Emissions,t/yr,1.0752,1.0752,0,0,lower
+saline,liquidCooling,Health,PM2.5 Emissions,t/yr,0.0336,0.0336,0,0,lower
+saline,liquidCooling,Health,Health Cost,$/yr,410.57520028425023,410.57520028425023,0,0,lower
+saline,liquidCooling,Heat,UHI Estimate,°C,0.7739945056794368,0.7739945056794368,0,0,lower
+saline,liquidCooling,Heat,Waste Heat to Air,MW,262.67499999999995,262.67499999999995,0,0,lower
+saline,liquidCooling,E-Waste,Embodied Carbon (total),tCO₂e,7552874,7552874,0,0,lower
+saline,liquidCooling,E-Waste,Embodied % of Total,%,21.275272425284076,21.275272425284076,0,0,lower
+saline,liquidCooling,E-Waste,E-Waste/yr,t/yr,687.5,687.5,0,0,lower
+saline,liquidCooling,Community,Net Community Value,$/yr,37499589.42479971,37499589.42479971,0,0,higher
+saline,airCooling,Energy,Total Energy,MWh/yr,12110700,12110700,0,0,lower
+saline,airCooling,Energy,Carbon (Scope 1+2),tCO₂e/yr,5365161.664799999,5365161.664799999,0,0,lower
+saline,airCooling,Energy,CUE,kg CO₂e/kWh,0.5537625472516039,0.5537625472516039,0,0,lower
+saline,airCooling,Energy,Grid Impact,%,11.426564178857756,11.426564178857756,0,0,lower
+saline,airCooling,Water,Direct Water,L/yr,29065680,29065680,0,0,lower
+saline,airCooling,Water,Total Water,L/yr,13571250420.000002,13571250420.000002,0,0,lower
+saline,airCooling,Health,NOx Emissions,t/yr,1.0752,1.0752,0,0,lower
+saline,airCooling,Health,PM2.5 Emissions,t/yr,0.0336,0.0336,0,0,lower
+saline,airCooling,Health,Health Cost,$/yr,410.57520028425023,410.57520028425023,0,0,lower
+saline,airCooling,Heat,UHI Estimate,°C,0.7739945056794368,0.7739945056794368,0,0,lower
+saline,airCooling,Heat,Waste Heat to Air,MW,262.67499999999995,262.67499999999995,0,0,lower
+saline,airCooling,E-Waste,Embodied Carbon (total),tCO₂e,7552874,7552874,0,0,lower
+saline,airCooling,E-Waste,Embodied % of Total,%,21.275272425284076,21.275272425284076,0,0,lower
+saline,airCooling,E-Waste,E-Waste/yr,t/yr,687.5,687.5,0,0,lower
+saline,airCooling,Community,Net Community Value,$/yr,37499589.42479971,37499589.42479971,0,0,higher
+saline,recycledWater,Energy,Total Energy,MWh/yr,12110700,12110700,0,0,lower
+saline,recycledWater,Energy,Carbon (Scope 1+2),tCO₂e/yr,5365161.664799999,5365161.664799999,0,0,lower
+saline,recycledWater,Energy,CUE,kg CO₂e/kWh,0.5537625472516039,0.5537625472516039,0,0,lower
+saline,recycledWater,Energy,Grid Impact,%,11.426564178857756,11.426564178857756,0,0,lower
+saline,recycledWater,Water,Direct Water,L/yr,29065680,29065680,0,0,lower
+saline,recycledWater,Water,Total Water,L/yr,13571250420.000002,13571250420.000002,0,0,lower
+saline,recycledWater,Health,NOx Emissions,t/yr,1.0752,1.0752,0,0,lower
+saline,recycledWater,Health,PM2.5 Emissions,t/yr,0.0336,0.0336,0,0,lower
+saline,recycledWater,Health,Health Cost,$/yr,410.57520028425023,410.57520028425023,0,0,lower
+saline,recycledWater,Heat,UHI Estimate,°C,0.7739945056794368,0.7739945056794368,0,0,lower
+saline,recycledWater,Heat,Waste Heat to Air,MW,262.67499999999995,262.67499999999995,0,0,lower
+saline,recycledWater,E-Waste,Embodied Carbon (total),tCO₂e,7552874,7552874,0,0,lower
+saline,recycledWater,E-Waste,Embodied % of Total,%,21.275272425284076,21.275272425284076,0,0,lower
+saline,recycledWater,E-Waste,E-Waste/yr,t/yr,687.5,687.5,0,0,lower
+saline,recycledWater,Community,Net Community Value,$/yr,37499589.42479971,37499589.42479971,0,0,higher
+saline,tierIVGenerators,Energy,Total Energy,MWh/yr,12110700,12110700,0,0,lower
+saline,tierIVGenerators,Energy,Carbon (Scope 1+2),tCO₂e/yr,5365161.664799999,5365161.664799999,0,0,lower
+saline,tierIVGenerators,Energy,CUE,kg CO₂e/kWh,0.5537625472516039,0.5537625472516039,0,0,lower
+saline,tierIVGenerators,Energy,Grid Impact,%,11.426564178857756,11.426564178857756,0,0,lower
+saline,tierIVGenerators,Water,Direct Water,L/yr,29065680,29065680,0,0,lower
+saline,tierIVGenerators,Water,Total Water,L/yr,13571250420.000002,13571250420.000002,0,0,lower
+saline,tierIVGenerators,Health,NOx Emissions,t/yr,1.0752,0.11928,-0.9559199999999999,-88.91,lower
+saline,tierIVGenerators,Health,PM2.5 Emissions,t/yr,0.0336,0.005208,-0.028391999999999997,-84.5,lower
+saline,tierIVGenerators,Health,Health Cost,$/yr,410.57520028425023,63.63922074724446,-346.9359795370058,-84.5,lower
+saline,tierIVGenerators,Heat,UHI Estimate,°C,0.7739945056794368,0.7739945056794368,0,0,lower
+saline,tierIVGenerators,Heat,Waste Heat to Air,MW,262.67499999999995,262.67499999999995,0,0,lower
+saline,tierIVGenerators,E-Waste,Embodied Carbon (total),tCO₂e,7552874,7552874,0,0,lower
+saline,tierIVGenerators,E-Waste,Embodied % of Total,%,21.275272425284076,21.275272425284076,0,0,lower
+saline,tierIVGenerators,E-Waste,E-Waste/yr,t/yr,687.5,687.5,0,0,lower
+saline,tierIVGenerators,Community,Net Community Value,$/yr,37499589.42479971,37499936.360779256,346.9359795451164,0,higher
+saline,natgasGenerators,Energy,Total Energy,MWh/yr,12110700,12110700,0,0,lower
+saline,natgasGenerators,Energy,Carbon (Scope 1+2),tCO₂e/yr,5365161.664799999,5365103.503199999,-58.16160000022501,0,lower
+saline,natgasGenerators,Energy,CUE,kg CO₂e/kWh,0.5537625472516039,0.553756544130397,-0.000006003121206910045,0,lower
+saline,natgasGenerators,Energy,Grid Impact,%,11.426564178857756,11.426564178857756,0,0,lower
+saline,natgasGenerators,Water,Direct Water,L/yr,29065680,29065680,0,0,lower
+saline,natgasGenerators,Water,Total Water,L/yr,13571250420.000002,13571250420.000002,0,0,lower
+saline,natgasGenerators,Health,NOx Emissions,t/yr,1.0752,0.08064,-0.9945599999999999,-92.5,lower
+saline,natgasGenerators,Health,PM2.5 Emissions,t/yr,0.0336,0.005376,-0.028224,-84,lower
+saline,natgasGenerators,Health,Health Cost,$/yr,410.57520028425023,65.69209844194349,-344.88310184230676,-84,lower
+saline,natgasGenerators,Heat,UHI Estimate,°C,0.7739945056794368,0.7739945056794368,0,0,lower
+saline,natgasGenerators,Heat,Waste Heat to Air,MW,262.67499999999995,262.67499999999995,0,0,lower
+saline,natgasGenerators,E-Waste,Embodied Carbon (total),tCO₂e,7552874,7552874,0,0,lower
+saline,natgasGenerators,E-Waste,Embodied % of Total,%,21.275272425284076,21.2754539950506,0.00018156976652505818,0,lower
+saline,natgasGenerators,E-Waste,E-Waste/yr,t/yr,687.5,687.5,0,0,lower
+saline,natgasGenerators,Community,Net Community Value,$/yr,37499589.42479971,37499934.30790156,344.88310185074806,0,higher
+saline,renewable90,Energy,Total Energy,MWh/yr,12110700,12110700,0,0,lower
+saline,renewable90,Energy,Carbon (Scope 1+2),tCO₂e/yr,5365161.664799999,536625.5748,-4828536.09,-90,lower
+saline,renewable90,Energy,CUE,kg CO₂e/kWh,0.5537625472516039,0.05538754725160395,-0.49837499999999996,-90,lower
+saline,renewable90,Energy,Grid Impact,%,11.426564178857756,11.426564178857756,0,0,lower
+saline,renewable90,Water,Direct Water,L/yr,29065680,29065680,0,0,lower
+saline,renewable90,Water,Total Water,L/yr,13571250420.000002,13571250420.000002,0,0,lower
+saline,renewable90,Health,NOx Emissions,t/yr,1.0752,1.0752,0,0,lower
+saline,renewable90,Health,PM2.5 Emissions,t/yr,0.0336,0.0336,0,0,lower
+saline,renewable90,Health,Health Cost,$/yr,410.57520028425023,410.57520028425023,0,0,lower
+saline,renewable90,Heat,UHI Estimate,°C,0.7739945056794368,0.7739945056794368,0,0,lower
+saline,renewable90,Heat,Waste Heat to Air,MW,262.67499999999995,262.67499999999995,0,0,lower
+saline,renewable90,E-Waste,Embodied Carbon (total),tCO₂e,7552874,7552874,0,0,lower
+saline,renewable90,E-Waste,Embodied % of Total,%,21.275272425284076,72.98712325399583,51.71185082871176,243.06,lower
+saline,renewable90,E-Waste,E-Waste/yr,t/yr,687.5,687.5,0,0,lower
+saline,renewable90,Community,Net Community Value,$/yr,37499589.42479971,37499589.42479971,0,0,higher
+saline,wasteHeatRecovery,Energy,Total Energy,MWh/yr,12110700,12110700,0,0,lower
+saline,wasteHeatRecovery,Energy,Carbon (Scope 1+2),tCO₂e/yr,5365161.664799999,5365161.664799999,0,0,lower
+saline,wasteHeatRecovery,Energy,CUE,kg CO₂e/kWh,0.5537625472516039,0.5537625472516039,0,0,lower
+saline,wasteHeatRecovery,Energy,Grid Impact,%,11.426564178857756,11.426564178857756,0,0,lower
+saline,wasteHeatRecovery,Water,Direct Water,L/yr,29065680,29065680,0,0,lower
+saline,wasteHeatRecovery,Water,Total Water,L/yr,13571250420.000002,13571250420.000002,0,0,lower
+saline,wasteHeatRecovery,Health,NOx Emissions,t/yr,1.0752,1.0752,0,0,lower
+saline,wasteHeatRecovery,Health,PM2.5 Emissions,t/yr,0.0336,0.0336,0,0,lower
+saline,wasteHeatRecovery,Health,Health Cost,$/yr,410.57520028425023,410.57520028425023,0,0,lower
+saline,wasteHeatRecovery,Heat,UHI Estimate,°C,0.7739945056794368,0.08259134760755504,-0.6914031580718818,-89.33,lower
+saline,wasteHeatRecovery,Heat,Waste Heat to Air,MW,262.67499999999995,11.059999999999999,-251.61499999999995,-95.79,lower
+saline,wasteHeatRecovery,E-Waste,Embodied Carbon (total),tCO₂e,7552874,7552874,0,0,lower
+saline,wasteHeatRecovery,E-Waste,Embodied % of Total,%,21.275272425284076,21.275272425284076,0,0,lower
+saline,wasteHeatRecovery,E-Waste,E-Waste/yr,t/yr,687.5,687.5,0,0,lower
+saline,wasteHeatRecovery,Community,Net Community Value,$/yr,37499589.42479971,37499589.42479971,0,0,higher
+saline,extendLifespan,Energy,Total Energy,MWh/yr,12110700,12110700,0,0,lower
+saline,extendLifespan,Energy,Carbon (Scope 1+2),tCO₂e/yr,5365161.664799999,5365161.664799999,0,0,lower
+saline,extendLifespan,Energy,CUE,kg CO₂e/kWh,0.5537625472516039,0.5537625472516039,0,0,lower
+saline,extendLifespan,Energy,Grid Impact,%,11.426564178857756,11.426564178857756,0,0,lower
+saline,extendLifespan,Water,Direct Water,L/yr,29065680,29065680,0,0,lower
+saline,extendLifespan,Water,Total Water,L/yr,13571250420.000002,13571250420.000002,0,0,lower
+saline,extendLifespan,Health,NOx Emissions,t/yr,1.0752,1.0752,0,0,lower
+saline,extendLifespan,Health,PM2.5 Emissions,t/yr,0.0336,0.0336,0,0,lower
+saline,extendLifespan,Health,Health Cost,$/yr,410.57520028425023,410.57520028425023,0,0,lower
+saline,extendLifespan,Heat,UHI Estimate,°C,0.7739945056794368,0.7739945056794368,0,0,lower
+saline,extendLifespan,Heat,Waste Heat to Air,MW,262.67499999999995,262.67499999999995,0,0,lower
+saline,extendLifespan,E-Waste,Embodied Carbon (total),tCO₂e,7552874,7552874,0,0,lower
+saline,extendLifespan,E-Waste,Embodied % of Total,%,21.275272425284076,15.56587540683059,-5.709397018453485,-26.84,lower
+saline,extendLifespan,E-Waste,E-Waste/yr,t/yr,687.5,458.3333333333333,-229.16666666666669,-33.33,lower
+saline,extendLifespan,Community,Net Community Value,$/yr,37499589.42479971,37499589.42479971,0,0,higher
+saline,highAlbedo,Energy,Total Energy,MWh/yr,12110700,12110700,0,0,lower
+saline,highAlbedo,Energy,Carbon (Scope 1+2),tCO₂e/yr,5365161.664799999,5365161.664799999,0,0,lower
+saline,highAlbedo,Energy,CUE,kg CO₂e/kWh,0.5537625472516039,0.5537625472516039,0,0,lower
+saline,highAlbedo,Energy,Grid Impact,%,11.426564178857756,11.426564178857756,0,0,lower
+saline,highAlbedo,Water,Direct Water,L/yr,29065680,29065680,0,0,lower
+saline,highAlbedo,Water,Total Water,L/yr,13571250420.000002,13571250420.000002,0,0,lower
+saline,highAlbedo,Health,NOx Emissions,t/yr,1.0752,1.0752,0,0,lower
+saline,highAlbedo,Health,PM2.5 Emissions,t/yr,0.0336,0.0336,0,0,lower
+saline,highAlbedo,Health,Health Cost,$/yr,410.57520028425023,410.57520028425023,0,0,lower
+saline,highAlbedo,Heat,UHI Estimate,°C,0.7739945056794368,0.25549450567943666,-0.5185000000000002,-66.99,lower
+saline,highAlbedo,Heat,Waste Heat to Air,MW,262.67499999999995,262.67499999999995,0,0,lower
+saline,highAlbedo,E-Waste,Embodied Carbon (total),tCO₂e,7552874,7552874,0,0,lower
+saline,highAlbedo,E-Waste,Embodied % of Total,%,21.275272425284076,21.275272425284076,0,0,lower
+saline,highAlbedo,E-Waste,E-Waste/yr,t/yr,687.5,687.5,0,0,lower
+saline,highAlbedo,Community,Net Community Value,$/yr,37499589.42479971,37499589.42479971,0,0,higher
+saline,reuseProgram,Energy,Total Energy,MWh/yr,12110700,12110700,0,0,lower
+saline,reuseProgram,Energy,Carbon (Scope 1+2),tCO₂e/yr,5365161.664799999,5365161.664799999,0,0,lower
+saline,reuseProgram,Energy,CUE,kg CO₂e/kWh,0.5537625472516039,0.5537625472516039,0,0,lower
+saline,reuseProgram,Energy,Grid Impact,%,11.426564178857756,11.426564178857756,0,0,lower
+saline,reuseProgram,Water,Direct Water,L/yr,29065680,29065680,0,0,lower
+saline,reuseProgram,Water,Total Water,L/yr,13571250420.000002,13571250420.000002,0,0,lower
+saline,reuseProgram,Health,NOx Emissions,t/yr,1.0752,1.0752,0,0,lower
+saline,reuseProgram,Health,PM2.5 Emissions,t/yr,0.0336,0.0336,0,0,lower
+saline,reuseProgram,Health,Health Cost,$/yr,410.57520028425023,410.57520028425023,0,0,lower
+saline,reuseProgram,Heat,UHI Estimate,°C,0.7739945056794368,0.7739945056794368,0,0,lower
+saline,reuseProgram,Heat,Waste Heat to Air,MW,262.67499999999995,262.67499999999995,0,0,lower
+saline,reuseProgram,E-Waste,Embodied Carbon (total),tCO₂e,7552874,7552874,0,0,lower
+saline,reuseProgram,E-Waste,Embodied % of Total,%,21.275272425284076,21.275272425284076,0,0,lower
+saline,reuseProgram,E-Waste,E-Waste/yr,t/yr,687.5,687.5,0,0,lower
+saline,reuseProgram,Community,Net Community Value,$/yr,37499589.42479971,37499589.42479971,0,0,higher
+saline,maxWaterSaving,Energy,Total Energy,MWh/yr,12110700,12110700,0,0,lower
+saline,maxWaterSaving,Energy,Carbon (Scope 1+2),tCO₂e/yr,5365161.664799999,5365161.664799999,0,0,lower
+saline,maxWaterSaving,Energy,CUE,kg CO₂e/kWh,0.5537625472516039,0.5537625472516039,0,0,lower
+saline,maxWaterSaving,Energy,Grid Impact,%,11.426564178857756,11.426564178857756,0,0,lower
+saline,maxWaterSaving,Water,Direct Water,L/yr,29065680,29065680,0,0,lower
+saline,maxWaterSaving,Water,Total Water,L/yr,13571250420.000002,13571250420.000002,0,0,lower
+saline,maxWaterSaving,Health,NOx Emissions,t/yr,1.0752,1.0752,0,0,lower
+saline,maxWaterSaving,Health,PM2.5 Emissions,t/yr,0.0336,0.0336,0,0,lower
+saline,maxWaterSaving,Health,Health Cost,$/yr,410.57520028425023,410.57520028425023,0,0,lower
+saline,maxWaterSaving,Heat,UHI Estimate,°C,0.7739945056794368,0.7739945056794368,0,0,lower
+saline,maxWaterSaving,Heat,Waste Heat to Air,MW,262.67499999999995,262.67499999999995,0,0,lower
+saline,maxWaterSaving,E-Waste,Embodied Carbon (total),tCO₂e,7552874,7552874,0,0,lower
+saline,maxWaterSaving,E-Waste,Embodied % of Total,%,21.275272425284076,21.275272425284076,0,0,lower
+saline,maxWaterSaving,E-Waste,E-Waste/yr,t/yr,687.5,687.5,0,0,lower
+saline,maxWaterSaving,Community,Net Community Value,$/yr,37499589.42479971,37499589.42479971,0,0,higher
+saline,healthPriority,Energy,Total Energy,MWh/yr,12110700,12110700,0,0,lower
+saline,healthPriority,Energy,Carbon (Scope 1+2),tCO₂e/yr,5365161.664799999,536625.5748,-4828536.09,-90,lower
+saline,healthPriority,Energy,CUE,kg CO₂e/kWh,0.5537625472516039,0.05538754725160395,-0.49837499999999996,-90,lower
+saline,healthPriority,Energy,Grid Impact,%,11.426564178857756,11.426564178857756,0,0,lower
+saline,healthPriority,Water,Direct Water,L/yr,29065680,29065680,0,0,lower
+saline,healthPriority,Water,Total Water,L/yr,13571250420.000002,13571250420.000002,0,0,lower
+saline,healthPriority,Health,NOx Emissions,t/yr,1.0752,0.11928,-0.9559199999999999,-88.91,lower
+saline,healthPriority,Health,PM2.5 Emissions,t/yr,0.0336,0.005208,-0.028391999999999997,-84.5,lower
+saline,healthPriority,Health,Health Cost,$/yr,410.57520028425023,63.63922074724446,-346.9359795370058,-84.5,lower
+saline,healthPriority,Heat,UHI Estimate,°C,0.7739945056794368,0.7739945056794368,0,0,lower
+saline,healthPriority,Heat,Waste Heat to Air,MW,262.67499999999995,262.67499999999995,0,0,lower
+saline,healthPriority,E-Waste,Embodied Carbon (total),tCO₂e,7552874,7552874,0,0,lower
+saline,healthPriority,E-Waste,Embodied % of Total,%,21.275272425284076,72.98712325399583,51.71185082871176,243.06,lower
+saline,healthPriority,E-Waste,E-Waste/yr,t/yr,687.5,687.5,0,0,lower
+saline,healthPriority,Community,Net Community Value,$/yr,37499589.42479971,37499936.360779256,346.9359795451164,0,higher
+saline,carbonMinimum,Energy,Total Energy,MWh/yr,12110700,12110700,0,0,lower
+saline,carbonMinimum,Energy,Carbon (Scope 1+2),tCO₂e/yr,5365161.664799999,536625.5748,-4828536.09,-90,lower
+saline,carbonMinimum,Energy,CUE,kg CO₂e/kWh,0.5537625472516039,0.05538754725160395,-0.49837499999999996,-90,lower
+saline,carbonMinimum,Energy,Grid Impact,%,11.426564178857756,11.426564178857756,0,0,lower
+saline,carbonMinimum,Water,Direct Water,L/yr,29065680,29065680,0,0,lower
+saline,carbonMinimum,Water,Total Water,L/yr,13571250420.000002,13571250420.000002,0,0,lower
+saline,carbonMinimum,Health,NOx Emissions,t/yr,1.0752,1.0752,0,0,lower
+saline,carbonMinimum,Health,PM2.5 Emissions,t/yr,0.0336,0.0336,0,0,lower
+saline,carbonMinimum,Health,Health Cost,$/yr,410.57520028425023,410.57520028425023,0,0,lower
+saline,carbonMinimum,Heat,UHI Estimate,°C,0.7739945056794368,0.7739945056794368,0,0,lower
+saline,carbonMinimum,Heat,Waste Heat to Air,MW,262.67499999999995,262.67499999999995,0,0,lower
+saline,carbonMinimum,E-Waste,Embodied Carbon (total),tCO₂e,7552874,7552874,0,0,lower
+saline,carbonMinimum,E-Waste,Embodied % of Total,%,21.275272425284076,64.82807518703447,43.5528027617504,204.71,lower
+saline,carbonMinimum,E-Waste,E-Waste/yr,t/yr,687.5,458.3333333333333,-229.16666666666669,-33.33,lower
+saline,carbonMinimum,Community,Net Community Value,$/yr,37499589.42479971,37499589.42479971,0,0,higher
+saline,communityAcceptance,Energy,Total Energy,MWh/yr,12110700,12110700,0,0,lower
+saline,communityAcceptance,Energy,Carbon (Scope 1+2),tCO₂e/yr,5365161.664799999,5365161.664799999,0,0,lower
+saline,communityAcceptance,Energy,CUE,kg CO₂e/kWh,0.5537625472516039,0.5537625472516039,0,0,lower
+saline,communityAcceptance,Energy,Grid Impact,%,11.426564178857756,11.426564178857756,0,0,lower
+saline,communityAcceptance,Water,Direct Water,L/yr,29065680,29065680,0,0,lower
+saline,communityAcceptance,Water,Total Water,L/yr,13571250420.000002,13571250420.000002,0,0,lower
+saline,communityAcceptance,Health,NOx Emissions,t/yr,1.0752,0.11928,-0.9559199999999999,-88.91,lower
+saline,communityAcceptance,Health,PM2.5 Emissions,t/yr,0.0336,0.005208,-0.028391999999999997,-84.5,lower
+saline,communityAcceptance,Health,Health Cost,$/yr,410.57520028425023,63.63922074724446,-346.9359795370058,-84.5,lower
+saline,communityAcceptance,Heat,UHI Estimate,°C,0.7739945056794368,0,-0.7739945056794368,-100,lower
+saline,communityAcceptance,Heat,Waste Heat to Air,MW,262.67499999999995,11.059999999999999,-251.61499999999995,-95.79,lower
+saline,communityAcceptance,E-Waste,Embodied Carbon (total),tCO₂e,7552874,7552874,0,0,lower
+saline,communityAcceptance,E-Waste,Embodied % of Total,%,21.275272425284076,21.275272425284076,0,0,lower
+saline,communityAcceptance,E-Waste,E-Waste/yr,t/yr,687.5,687.5,0,0,lower
+saline,communityAcceptance,Community,Net Community Value,$/yr,37499589.42479971,37499936.360779256,346.9359795451164,0,higher
+saline,fullGreen,Energy,Total Energy,MWh/yr,12110700,12110700,0,0,lower
+saline,fullGreen,Energy,Carbon (Scope 1+2),tCO₂e/yr,5365161.664799999,536625.5748,-4828536.09,-90,lower
+saline,fullGreen,Energy,CUE,kg CO₂e/kWh,0.5537625472516039,0.05538754725160395,-0.49837499999999996,-90,lower
+saline,fullGreen,Energy,Grid Impact,%,11.426564178857756,11.426564178857756,0,0,lower
+saline,fullGreen,Water,Direct Water,L/yr,29065680,29065680,0,0,lower
+saline,fullGreen,Water,Total Water,L/yr,13571250420.000002,13571250420.000002,0,0,lower
+saline,fullGreen,Health,NOx Emissions,t/yr,1.0752,0.11928,-0.9559199999999999,-88.91,lower
+saline,fullGreen,Health,PM2.5 Emissions,t/yr,0.0336,0.005208,-0.028391999999999997,-84.5,lower
+saline,fullGreen,Health,Health Cost,$/yr,410.57520028425023,63.63922074724446,-346.9359795370058,-84.5,lower
+saline,fullGreen,Heat,UHI Estimate,°C,0.7739945056794368,0,-0.7739945056794368,-100,lower
+saline,fullGreen,Heat,Waste Heat to Air,MW,262.67499999999995,11.059999999999999,-251.61499999999995,-95.79,lower
+saline,fullGreen,E-Waste,Embodied Carbon (total),tCO₂e,7552874,7552874,0,0,lower
+saline,fullGreen,E-Waste,Embodied % of Total,%,21.275272425284076,64.82807518703447,43.5528027617504,204.71,lower
+saline,fullGreen,E-Waste,E-Waste/yr,t/yr,687.5,458.3333333333333,-229.16666666666669,-33.33,lower
+saline,fullGreen,Community,Net Community Value,$/yr,37499589.42479971,37499936.360779256,346.9359795451164,0,higher
+saline,presetRecommended,Energy,Total Energy,MWh/yr,12110700,12110700,0,0,lower
+saline,presetRecommended,Energy,Carbon (Scope 1+2),tCO₂e/yr,5365161.664799999,536625.5748,-4828536.09,-90,lower
+saline,presetRecommended,Energy,CUE,kg CO₂e/kWh,0.5537625472516039,0.05538754725160395,-0.49837499999999996,-90,lower
+saline,presetRecommended,Energy,Grid Impact,%,11.426564178857756,11.426564178857756,0,0,lower
+saline,presetRecommended,Water,Direct Water,L/yr,29065680,29065680,0,0,lower
+saline,presetRecommended,Water,Total Water,L/yr,13571250420.000002,13571250420.000002,0,0,lower
+saline,presetRecommended,Health,NOx Emissions,t/yr,1.0752,1.0752,0,0,lower
+saline,presetRecommended,Health,PM2.5 Emissions,t/yr,0.0336,0.0336,0,0,lower
+saline,presetRecommended,Health,Health Cost,$/yr,410.57520028425023,410.57520028425023,0,0,lower
+saline,presetRecommended,Heat,UHI Estimate,°C,0.7739945056794368,0,-0.7739945056794368,-100,lower
+saline,presetRecommended,Heat,Waste Heat to Air,MW,262.67499999999995,11.059999999999999,-251.61499999999995,-95.79,lower
+saline,presetRecommended,E-Waste,Embodied Carbon (total),tCO₂e,7552874,7552874,0,0,lower
+saline,presetRecommended,E-Waste,Embodied % of Total,%,21.275272425284076,72.98712325399583,51.71185082871176,243.06,lower
+saline,presetRecommended,E-Waste,E-Waste/yr,t/yr,687.5,687.5,0,0,lower
+saline,presetRecommended,Community,Net Community Value,$/yr,37499589.42479971,37499589.42479971,0,0,higher

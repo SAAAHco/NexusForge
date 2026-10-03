@@ -1,0 +1,5 @@
+aggregation,nova,tucson,ohio,memphis,nordic,saline
+nis_additive,4,2,5,3,6,1
+nis_coverage_renorm,4,2,5,3,6,1
+nis_geometric,3,2,5,4,6,1
+nis_excl_saturated,4,2,5,3,6,1

@@ -1,0 +1,162 @@
+key,component,label,unit,placeholder,hint,options,file
+agTaxPerAcre,Field,Ag Tax per Acre,$/acre/yr,200,For DC vs Ag tax comparison,,sections\CommunitySection.jsx
+albedoPost,Field,Albedo (post),,0.20,Pre: ${selectedLand.albedo} (${selectedLand.label}),,sections\LandSection.jsx
+annualRainfall,Field,Annual Rainfall,mm/yr,1000,Average annual precipitation,,sections\ClimateRiskSection.jsx
+atc,Field,Available Transfer Capability,MW,,,,sections\EnergySection.jsx
+availCap,Field,Available Gen. Capacity,MW,,,,sections\EnergySection.jsx
+baselineAsthma,Field,Baseline Asthma Rate,ratio,0.08,US avg: 8% (0.08). CDC WONDER,,sections\HealthSection.jsx
+baselineMortality,Field,Baseline Mortality Rate,ratio,0.0086,US crude: ~860/100k (0.0086),,sections\HealthSection.jsx
+basinAvailable,Field,Basin Available Water,m³/yr,500000000,Total basin withdrawal availability,,sections\WaterSection.jsx
+boundaryDistance,Field,Boundary Distance,meters,30,Distance from source to measurement point,,sections\NoiseContourSection.jsx
+broadbandValue,Field,Broadband Access Value,$/yr,200000,Community broadband benefit,,sections\CommunitySection.jsx
+buildingDensity,Field,Building Density,%,30,% built area in surroundings,,sections\HeatSection.jsx
+coastalRisk,Field,Coastal Risk,0-10,1,Sea level / storm surge risk,,sections\ClimateRiskSection.jsx
+connectivityIndex,Field,Connectivity Index,0–1,0.7,1 = fully connected,,sections\LandSection.jsx
+constDuration,Field,Construction Duration,months,24,Typical: 18–36 months,,sections\GridTrafficSection.jsx
+constJobs,Field,Construction Jobs,workers,1688,"Avg: 1,688 during build",,sections\CommunitySection.jsx
+constWages,Field,Construction Wages,$/total,77700000,Avg: $77.7M total,,sections\CommunitySection.jsx
+constructionEmbodied,Field,Construction Embodied Carbon,tCO₂e,,"Steel, concrete, aluminum. Blank = ~500 tCO₂e/MW",,sections\EwasteSection.jsx
+coolingDegreeDays,Field,Cooling Degree Days,CDD,2000,Annual CDD (base 65\u00b0F),,sections\ClimateRiskSection.jsx
+coolingType,Select,Cooling System Type,,,,"[{ value: ""evaporative"", label: ""Evaporative (Cooling Tower)"" }, { value: ""air"", label: ""Air-Cooled (Dry)"" }, { value: ""liquid"", label: ""Liquid / Closed Loop"" }, { value: ""hybrid"", label: ""Hybrid"" }]",sections\WaterSection.jsx
+cropType,Select,Primary Crop Type,,,,"CROP_DATA.map(c => ({ value: c.id, label: c.label }))",sections\FoodSection.jsx
+cropValue,Field,Crop Value,$/acre/yr,${selectedCrop.revLow}–${selectedCrop.revHigh},Blank = ${selectedCrop.label} avg: $${Math.round((selectedCrop.revLow + selectedCrop.revHigh) / 2)},,sections\FoodSection.jsx
+cropYield,Field,Crop Yield,selectedCrop.yieldUnit,"selectedCrop.yield !== null ? selectedCrop.yield.toString() : ""varies""",Blank = ${selectedCrop.label} default,,sections\FoodSection.jsx
+curtailFreq,Field,Curtailment Frequency,events/yr,0,Times DC reduces load for grid. Target: 0,,sections\GridTrafficSection.jsx
+curtailable,Field,Curtailable DC Load,MW,,Reducible within 10 min,,sections\EnergySection.jsx
+cyclesConc,Field,Cycles of Concentration,ratio,4,Makeup/blowdown ratio (2–6 typical),,sections\WaterSection.jsx
+cycloneRisk,Field,Cyclone Risk,0-10,2,Historical hurricane exposure,,sections\ClimateRiskSection.jsx
+droughtIncrease,Field,Drought Increase,%,30,Projected % increase in drought,,sections\ClimateRiskSection.jsx
+droughtProb,Field,Drought Probability,0–1,0.3,"Historical frequency (0=none, 1=certain)",,sections\WaterSection.jsx
+ejPollutionBurden,Field,EJ Pollution Burden,score 0–100,55,CDC EJScreen percentile,,sections\HealthSection.jsx
+ejVulnerability,Field,EJ Vulnerability,score 0–100,60,CDC EJScreen percentile,,sections\HealthSection.jsx
+elevation,Field,Site Elevation,meters,50,Meters above sea level,,sections\ClimateRiskSection.jsx
+embodiedCarbonMW,Field,Embodied Carbon / MW IT,tCO₂e/MW,1125,"Range: 750–1,500 tCO₂e/MW",,sections\LandSection.jsx
+embodiedPerServer,Field,Embodied Carbon / Server,kg CO₂e,922,~922 kg CO₂e (LCA / EPDs),,sections\EwasteSection.jsx
+energyCost,Field,Energy Cost,$/kWh,0.08,"state.usePowerMix && mixCalc.lcoe !== null ? `Power mix LCOE: $${mixCalc.lcoe}/MWh` : ""Blended rate""",,sections\EnergySection.jsx
+equipMassTonnes,Field,Total Equipment Mass,tonnes,125,Blank = ~25 kg/server estimate,,sections\EwasteSection.jsx
+existingDCs,Field,Existing DCs in Region,facilities,20,Operating in same grid/water area,,sections\CumulativeSection.jsx
+existingGenerators,Field,Existing DC Generators,units,500,Total backup generators in region,,sections\CumulativeSection.jsx
+existingLoadMW,Field,Existing DC Grid Load,MW,800,Total MW already consumed,,sections\CumulativeSection.jsx
+existingWaterMGD,Field,Existing DC Water Use,MGD,2.0,Million gallons/day from all DCs,,sections\CumulativeSection.jsx
+extendedLifespan,Field,Extended Lifespan Target,years,5,For savings calculation,,sections\EwasteSection.jsx
+farmEmployRate,Field,Farm Employment Rate,jobs/acre,0.02,US avg: 0.02 full-time jobs/acre,,sections\FoodSection.jsx
+floodZone,Field,FEMA Flood Zone,,"A, AE, X, V, NONE",FEMA zone designation,,sections\ClimateRiskSection.jsx
+foodElasticity,Field,Food Price Elasticity,ratio,-0.3,Price sensitivity to supply reduction,,sections\FoodSection.jsx
+freezeThawRisk,Field,Freeze-Thaw Risk,0-10,3,Foundation damage risk,,sections\ClimateRiskSection.jsx
+fs2acres,Field,Land Displaced,acres,"state.landAcres || ""100""",Blank = current,,sections\FoodSection.jsx
+fs2crop,Select,Alternative Crop,,,,"CROP_DATA.map(c => ({ value: c.id, label: c.label }))",sections\FoodSection.jsx
+fs2value,Field,Crop Value,$/acre/yr,F.effectiveCropValue.toString(),,,sections\FoodSection.jsx
+fs3acres,Field,Land Displaced,acres,"state.landAcres || ""50""",Blank = current,,sections\FoodSection.jsx
+fs3crop,Select,Alternative Crop,,,,"CROP_DATA.map(c => ({ value: c.id, label: c.label }))",sections\FoodSection.jsx
+fs3value,Field,Crop Value,$/acre/yr,F.effectiveCropValue.toString(),,,sections\FoodSection.jsx
+genCapacity,Field,Capacity (each),MW,2.0,,,sections\EnergySection.jsx
+genCount,Field,Count,units,40,,,sections\EnergySection.jsx
+genRuntime,Field,Runtime,hrs/yr,100,Federal limit: 100 hrs,,sections\EnergySection.jsx
+genTier,Select,Type / Fuel,,,,"[{ value: ""tier2"", label: ""Diesel — Tier II"" }, { value: ""tier4"", label: ""Diesel — Tier IV"" }, { value: ""natgas"", label: ""Natural Gas"" }]",sections\EnergySection.jsx
+gridCapMW,Field,Grid Available Capacity,MW,3000,,,sections\EnergySection.jsx
+gridInfraCost,Field,Grid Infrastructure Cost,$,50000000,"Transmission, substations, transformers",,sections\GridTrafficSection.jsx
+hNoxEF,Field,NOₓ Emission Factor,g/kWh,hEF.nox.toString(),Blank = ${hGenTier} default: ${hEF.nox},,sections\HealthSection.jsx
+hPm25EF,Field,PM2.5 Emission Factor,g/kWh,hEF.pm25.toString(),Blank = ${hGenTier} default: ${hEF.pm25},,sections\HealthSection.jsx
+hSo2EF,Field,SO₂ Emission Factor,g/kWh,hEF.so2.toString(),Blank = ${hGenTier} default: ${hEF.so2},,sections\HealthSection.jsx
+habitatLoss,Field,Habitat Area Lost,acres,50,,,sections\LandSection.jsx
+habitatTotal,Field,Total Habitat,acres,5000,,,sections\LandSection.jsx
+heatRecoveryPct,Field,Heat Recovery,%,0,District heating capture. Best practice: 30–50%,,sections\HeatSection.jsx
+heatRejectMethod,Select,Heat Rejection Method,,,,"[{ value: ""air"", label: ""Air-Cooled (max local impact)"" }, { value: ""evaporative"", label: ""Evaporative (moisture + heat)"" }, { value: ""liquid"", label: ""Liquid / Closed Loop (min)"" }, { value: ""hybrid"", label: ""Hybrid"" }]",sections\HeatSection.jsx
+hs2genTier,Select,Generator Tier,,,,"[{ value: ""tier2"", label: ""Diesel — Tier II"" }, { value: ""tier4"", label: ""Diesel — Tier IV"" }, { value: ""natgas"", label: ""Natural Gas"" }]",sections\HealthSection.jsx
+hs2runtime,Field,Runtime,hrs/yr,"state.genRuntime || ""100""",Blank = current,,sections\HealthSection.jsx
+hs3genTier,Select,Generator Tier,,,,"[{ value: ""tier2"", label: ""Diesel — Tier II"" }, { value: ""tier4"", label: ""Diesel — Tier IV"" }, { value: ""natgas"", label: ""Natural Gas"" }]",sections\HealthSection.jsx
+hs3runtime,Field,Runtime,hrs/yr,"state.genRuntime || ""100""",Blank = current,,sections\HealthSection.jsx
+humidity,Field,Relative Humidity,%,50,Affects evaporative cooling,,sections\HeatSection.jsx
+imperviousAcres,Field,Impervious Surface,acres,"num(state.landAcres) ? Math.round(num(state.landAcres) * 0.7).toString() : ""157""",Buildings + parking + roads. Blank = 70%,,sections\LandSection.jsx
+infraCosts,Field,Public Infrastructure Costs,$/yr,8000000,"Grid, water, roads, emergency",,sections\CommunitySection.jsx
+infraImprove,Field,Infrastructure Improvements,$/yr,500000,"Road upgrades, broadband, etc.",,sections\CommunitySection.jsx
+intCustomers1,Field,Customers Served (SAIDI),customers,,,,sections\EnergySection.jsx
+intCustomers2,Field,Customers Served (SAIFI),customers,,,,sections\EnergySection.jsx
+intDuration,Field,Total Interruption Duration,min,,,,sections\EnergySection.jsx
+intEvents,Field,Total Interruption Events,events,,,,sections\EnergySection.jsx
+irrigWaterCompete,Field,Irrigation Water Diverted to DC,m³/yr,"W.directL !== null ? Math.round(W.directL / 1000).toString() : ""500000""","F.autoIrrigFromWater ? ""Auto-linked from Water › Direct Use"" : ""Volume diverted from ag to DC""",,sections\FoodSection.jsx
+itLoad,Field,IT Load,kW,100000,"Servers, storage, networking",,sections\EnergySection.jsx
+landAcres,Field,Land Displaced,acres,224,Avg DC site: 224 acres (2024),,sections\FoodSection.jsx
+landValuePost,Field,Land Value Post-DC,$/acre,35000,,,sections\FoodSection.jsx
+landValuePre,Field,Land Value Pre-DC,$/acre,8000,,,sections\FoodSection.jsx
+landfillRate,Field,Landfill Rate,%,10,Blank = 100% − Reuse Rate,,sections\EwasteSection.jsx
+largestGen,Field,Largest Single Generator,MW,,,,sections\EnergySection.jsx
+localMultiplier,Field,Local Economic Multiplier,×,1.5,Range: 1.2–1.8,,sections\CommunitySection.jsx
+noiseBoundary,Field,Noise at Boundary,dBA,95,Generators: 85–100 dBA,,sections\HealthSection.jsx
+peakLoad,Field,Peak Load,MW,,,,sections\EnergySection.jsx
+peakTiming,Select,Peak Demand Timing,,,,"[{ value: """", label: ""— Select —"" }, { value: ""coincident"", label: ""Coincident with grid peak"" }, { value: ""off-peak"", label: ""Off-peak from grid"" }, { value: ""flat"", label: ""Flat 24/7 load profile"" }]",sections\EnergySection.jsx
+permJobs,Field,Permanent Jobs,jobs,50,30–50/bldg; 500+ campus,,sections\CommunitySection.jsx
+permTraffic,Field,Permanent Daily Traffic,trips/day,150,Commutes + maintenance. Range: 100–300,,sections\GridTrafficSection.jsx
+permWages,Field,Permanent Annual Wages,$/yr,5000000,Total annual payroll,,sections\CommunitySection.jsx
+plannedDCs,Field,Planned / Under Construction,facilities,5,Approved or in pipeline,,sections\CumulativeSection.jsx
+pop10km,Field,Population within 10 km,people,80000,Primary impact radius,,sections\HealthSection.jsx
+pop1km,Field,Population within 1 km,people,500,Highest exposure zone,,sections\HealthSection.jsx
+pop5km,Field,Population within 5 km,people,15000,Census ACS,,sections\HealthSection.jsx
+priceChange,Field,Price Change (ΔPrice),$/kWh,0.01,,,sections\EnergySection.jsx
+priorLandUse,Select,Prior Land Use,,,,"LAND_TYPES.map(l => ({ value: l.id, label: l.label }))",sections\LandSection.jsx
+propValuePost,Field,Nearby Property Value (post-DC),$ avg,320000,Post-announcement,,sections\CommunitySection.jsx
+propValuePre,Field,Nearby Property Value (pre-DC),$ avg,350000,MLS / assessor data,,sections\CommunitySection.jsx
+protectedDist,Field,Proximity to Protected Areas,km,5,"Distance to parks, reserves, historic sites",,sections\LandSection.jsx
+pue,Field,PUE,ratio,1.3,Industry avg: 1.58 · Best: 1.1,,sections\EnergySection.jsx
+ratepayerHH,Field,Ratepayer Households,households,50000,Regional households bearing costs,,sections\CommunitySection.jsx
+rechargeRate,Field,Aquifer Recharge Rate,m³/yr,10000000,Natural groundwater replenishment,,sections\WaterSection.jsx
+recycledPct,Field,Recycled Water,%,0,% of water from recycled sources,,sections\WaterSection.jsx
+regionalCons,Field,Regional Consumption,MWh/yr,50000000,,,sections\EnergySection.jsx
+regionalDemand,Field,Regional Food Demand,tonnes/yr,500000,Local population food demand,,sections\FoodSection.jsx
+reuseRate,Field,Reuse / Recycling Rate,%,60,MS target: 90%; Amsterdam: 83% reuse,,sections\EwasteSection.jsx
+reusedEnergy,Field,Reused Energy,MWh/yr,0,,,sections\EnergySection.jsx
+roadDamageESAL,Field,Road Damage (ESAL),loads,500000,Equiv. Single Axle Loads,,sections\GridTrafficSection.jsx
+roadInfraCost,Field,Road Infrastructure Cost,$,5000000,"Widening, signals. Range: $1M–$20M",,sections\GridTrafficSection.jsx
+runoffPost,Field,Runoff Coeff (post),,0.9,Industrial: 0.8–0.95,,sections\LandSection.jsx
+s2genRuntime,Field,Gen Runtime,hrs/yr,"state.genRuntime || ""50""",,,sections\EnergySection.jsx
+s2genTier,Select,Generator Type,,,,"[{ value: ""tier2"", label: ""Diesel — Tier II"" }, { value: ""tier4"", label: ""Diesel — Tier IV"" }, { value: ""natgas"", label: ""Natural Gas"" }]",sections\EnergySection.jsx
+s2gridEF,Field,Grid EF,kg CO₂e/kWh,"effectiveGridEF || ""0.2""",,,sections\EnergySection.jsx
+s2pue,Field,PUE,ratio,"state.pue || ""1.2""",Blank = current,,sections\EnergySection.jsx
+s2renewPct,Field,Renewable %,%,"effectiveRenewPct || ""80""",,,sections\EnergySection.jsx
+s3genRuntime,Field,Gen Runtime,hrs/yr,"state.genRuntime || ""20""",,,sections\EnergySection.jsx
+s3genTier,Select,Generator Type,,,,"[{ value: ""tier2"", label: ""Diesel — Tier II"" }, { value: ""tier4"", label: ""Diesel — Tier IV"" }, { value: ""natgas"", label: ""Natural Gas"" }]",sections\EnergySection.jsx
+s3gridEF,Field,Grid EF,kg CO₂e/kWh,"effectiveGridEF || ""0.1""",,,sections\EnergySection.jsx
+s3pue,Field,PUE,ratio,"state.pue || ""1.1""",,,sections\EnergySection.jsx
+s3renewPct,Field,Renewable %,%,"effectiveRenewPct || ""95""",,,sections\EnergySection.jsx
+schoolFunding,Field,School Funding Impact,$/yr,1000000,Tax base school funding,,sections\CommunitySection.jsx
+serverCount,Field,Server Count,units,5000,CPU + GPU + storage + networking,,sections\EwasteSection.jsx
+serverLifespan,Field,Average Lifespan,years,4,Typical: 3–5 yrs; extended: 5–7,,sections\EwasteSection.jsx
+soilClass,Select,Soil Quality Class,,,,"[{ value: """", label: ""— Select —"" }, { value: ""I"", label: ""Class I — Prime"" }, { value: ""II"", label: ""Class II — Good"" }, { value: ""III"", label: ""Class III — Moderate"" }, { value: ""IV"", label: ""Class IV — Limited"" }, { value: ""V-VIII"", label: ""Class V–VIII — Marginal / Non-Arable"" }]",sections\FoodSection.jsx
+speciesBaseline,Field,Baseline Species,count,50,,,sections\LandSection.jsx
+speciesRichnessLoss,Field,Species Lost,count,5,,,sections\LandSection.jsx
+stabilityClass,Select,Stability Class,,,,"[{ value: ""A"", label: ""A — Very Unstable"" }, { value: ""B"", label: ""B — Moderately Unstable"" }, { value: ""C"", label: ""C — Slightly Unstable"" }, { value: ""D"", label: ""D — Neutral"" }, { value: ""E"", label: ""E — Slightly Stable"" }, { value: ""F"", label: ""F — Very Stable (worst)"" }]",sections\HeatSection.jsx
+stackHeight,Field,Effective Stack Height,m,10,Generator exhaust height,,sections\HealthSection.jsx
+taxIncentives,Field,Tax Incentives / Abatements,$/yr,84000000,"Exemptions, enterprise zones",,sections\CommunitySection.jsx
+taxRevenue,Field,Tax Revenue,$/yr,15000000,Property + sales + use taxes,,sections\CommunitySection.jsx
+tempIncrease,Field,Temp Increase (2050),"""\u00b0C""",2.0,IPCC projected increase,,sections\ClimateRiskSection.jsx
+tenantCount,Field,Tenant Farmers Affected,farmers,5,,,sections\FoodSection.jsx
+totalIrrigation,Field,Total Regional Irrigation,m³/yr,50000000,Total irrigation water in basin,,sections\FoodSection.jsx
+transUtil,Field,Transmission Utilization,%,75,Actual flow / rated capacity. Alarm: >85%,,sections\GridTrafficSection.jsx
+truckTripsDay,Field,Daily Truck Trips (peak),trips/day,100,"Concrete, steel, equipment. Range: 50–200",,sections\GridTrafficSection.jsx
+useAutoEwif,Field,EWIF (Embedded Water Intensity),L/kWh,"state.useAutoEwif && mixCalc.water !== null ? mixCalc.water.toString() : ""1.8""","state.useAutoEwif ? ""Auto from Power Mix water factor"" : ""Coal: 2.2 · Gas: 0.7 · Solar: 0.1 · Wind: 0.004""",,sections\WaterSection.jsx
+usePowerMix,Field,Grid Emission Factor,kg CO₂e/kWh,"state.usePowerMix && mixCalc.ef !== null ? mixCalc.ef.toString() : ""0.4""","state.usePowerMix ? ""Auto from Power Mix"" : ""US avg: ~0.4 (EPA eGRID)""",,sections\EnergySection.jsx
+vegPct,Field,Vegetation Cover,%,15,Each 10% ~0.5°C cooling,,sections\HeatSection.jsx
+ventilationArea,Field,Ventilation Area,m²,500000,Effective dispersion area around site,,sections\HeatSection.jsx
+vulnPctChild,Field,% Children (<18),%,22,CDC EJScreen,,sections\HealthSection.jsx
+vulnPctElderly,Field,% Elderly (65+),%,16,CDC EJScreen,,sections\HealthSection.jsx
+vulnPctLowIncome,Field,% Low-Income,%,18,Below poverty line,,sections\HealthSection.jsx
+wasteHeatFracAir,Field,Waste Heat to Air,%,"state.heatRejectMethod === ""air"" ? ""95"" : state.heatRejectMethod === ""liquid"" ? ""10"" : ""60""",Blank = auto from method,,sections\HeatSection.jsx
+waterBodyPct,Field,Water Body Cover,%,0,"Lakes, rivers nearby",,sections\HeatSection.jsx
+waterSource,Select,Water Source,,,,"[{ value: ""municipal"", label: ""Municipal Supply"" }, { value: ""recycled"", label: ""Recycled / Reclaimed"" }, { value: ""groundwater"", label: ""Groundwater"" }, { value: ""surface"", label: ""Surface Water"" }]",sections\WaterSection.jsx
+wildfireRisk,Field,Wildfire Risk,0-10,3,USFS risk score,,sections\ClimateRiskSection.jsx
+windDirection,Field,Wind Direction,degrees,225,"Prevailing wind (0=N, 90=E)",,sections\HeatSection.jsx
+windSpeed,Field,Avg Wind Speed,m/s,3.5,Affects plume dispersion,,sections\HealthSection.jsx
+windSpeedUHI,Field,Wind Speed,m/s,3,Avg local wind speed,,sections\HeatSection.jsx
+wriScore,Field,WRI Water Stress Index,0–5,3.0,"WRI Aqueduct: 0=low, 5=extreme",,sections\WaterSection.jsx
+ws2coolingType,Select,Cooling Type,,,,"[{ value: ""evaporative"", label: ""Evaporative"" }, { value: ""air"", label: ""Air-Cooled"" }, { value: ""liquid"", label: ""Liquid"" }, { value: ""hybrid"", label: ""Hybrid"" }]",sections\WaterSection.jsx
+ws2recycledPct,Field,Recycled %,%,"state.recycledPct || ""50""",,,sections\WaterSection.jsx
+ws2wue,Field,WUE,L/kWh,"state.wue || ""0.5""",Blank = current,,sections\WaterSection.jsx
+ws3coolingType,Select,Cooling Type,,,,"[{ value: ""evaporative"", label: ""Evaporative"" }, { value: ""air"", label: ""Air-Cooled"" }, { value: ""liquid"", label: ""Liquid"" }, { value: ""hybrid"", label: ""Hybrid"" }]",sections\WaterSection.jsx
+ws3recycledPct,Field,Recycled %,%,"state.recycledPct || ""80""",,,sections\WaterSection.jsx
+ws3wue,Field,WUE,L/kWh,"state.wue || ""0.2""",Blank = current,,sections\WaterSection.jsx
+wue,Field,WUE,L/kWh,"state.coolingType === ""air"" ? ""0.0"" : ""1.8""",Avg: 1.8 · Best: 0.2 · Air-cooled: ~0,,sections\WaterSection.jsx
+renewProcuredPct,Field,Additional Procured Renewables,%,0,"Renewables procured beyond the grid mix (PPAs/RECs); Scope 2 is multiplied by (1 - this share). v4 field",,sections\EnergySection.jsx
+pm25Background,Field,Background PM2.5,ug/m3,8,"Monitored annual-mean PM2.5 near the site (EPA AirData design value); the NAAQS check compares background + facility increment with 9 ug/m3. v4 field",,sections\HealthSection.jsx
+gridNoxEF,Field,Grid NOx Rate,g/kWh,0.205,"eGRID subregion NOx output emission rate (lb/MWh x 0.4536); default is the U.S. average. v4 field",,sections\HealthSection.jsx
+gridSo2EF,Field,Grid SO2 Rate,g/kWh,0.163,"eGRID subregion SO2 output emission rate; default is the U.S. average. v4 field",,sections\HealthSection.jsx
+gridPm25EF,Field,Grid PM2.5 Rate,g/kWh,0.0338,"Regional EGU direct PM2.5 rate (AVERT 2023 avoided-emission rate used as the proxy); default is the national value. v4 field",,sections\HealthSection.jsx

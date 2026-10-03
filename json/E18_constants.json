@@ -1,0 +1,274 @@
+{
+  "VSL": 11600000,
+  "FUEL": {
+    "tier2": {
+      "rate": 0.27,
+      "ef": 2.68
+    },
+    "tier4": {
+      "rate": 0.27,
+      "ef": 2.68
+    },
+    "natgas": {
+      "rate": 0.185,
+      "ef": 2.04
+    }
+  },
+  "GEN_EF": {
+    "tier2": {
+      "nox": 6.4,
+      "pm25": 0.2,
+      "so2": 0.0078
+    },
+    "tier4": {
+      "nox": 0.71,
+      "pm25": 0.031,
+      "so2": 0.0078
+    },
+    "natgas": {
+      "nox": 0.48,
+      "pm25": 0.032,
+      "so2": 0.017
+    }
+  },
+  "NX_PRESETS": {
+    "balanced": {
+      "energy": 10,
+      "water": 10,
+      "food": 10,
+      "health": 10,
+      "land": 10,
+      "community": 10,
+      "ewaste": 10,
+      "heat": 10,
+      "grid": 10,
+      "supply": 10
+    },
+    "waterScarce": {
+      "energy": 10,
+      "water": 25,
+      "food": 8,
+      "health": 15,
+      "land": 8,
+      "community": 10,
+      "ewaste": 5,
+      "heat": 5,
+      "grid": 9,
+      "supply": 5
+    },
+    "agricultural": {
+      "energy": 10,
+      "water": 12,
+      "food": 22,
+      "health": 12,
+      "land": 12,
+      "community": 10,
+      "ewaste": 5,
+      "heat": 3,
+      "grid": 9,
+      "supply": 5
+    },
+    "envJustice": {
+      "energy": 8,
+      "water": 8,
+      "food": 5,
+      "health": 30,
+      "land": 8,
+      "community": 22,
+      "ewaste": 4,
+      "heat": 5,
+      "grid": 5,
+      "supply": 5
+    },
+    "gridConstrained": {
+      "energy": 15,
+      "water": 8,
+      "food": 5,
+      "health": 10,
+      "land": 5,
+      "community": 10,
+      "ewaste": 5,
+      "heat": 3,
+      "grid": 30,
+      "supply": 9
+    }
+  },
+  "NX_DIMS": [
+    {
+      "id": "energy",
+      "label": "Energy",
+      "min": 0,
+      "max": 1,
+      "unit": "composite"
+    },
+    {
+      "id": "water",
+      "label": "Water",
+      "min": 0,
+      "max": 1,
+      "unit": "composite"
+    },
+    {
+      "id": "food",
+      "label": "Food",
+      "min": 0,
+      "max": 5,
+      "unit": "% supply"
+    },
+    {
+      "id": "health",
+      "label": "Health",
+      "min": 0,
+      "max": 120,
+      "unit": "$/MWh"
+    },
+    {
+      "id": "land",
+      "label": "Land",
+      "min": 0,
+      "max": 100,
+      "unit": "BIS%"
+    },
+    {
+      "id": "community",
+      "label": "Community",
+      "min": 0.5,
+      "max": -1,
+      "unit": "$M/MW-yr net (ex-health)"
+    },
+    {
+      "id": "ewaste",
+      "label": "E-Waste",
+      "min": 0,
+      "max": 1800,
+      "unit": "tCO₂e/MW-yr"
+    },
+    {
+      "id": "heat",
+      "label": "Heat Island",
+      "min": 0,
+      "max": 2,
+      "unit": "°C"
+    },
+    {
+      "id": "grid",
+      "label": "Grid",
+      "min": 0,
+      "max": 30,
+      "unit": "% cap"
+    },
+    {
+      "id": "supply",
+      "label": "Supply Chain",
+      "min": 0.25,
+      "max": 1.25,
+      "unit": "risk"
+    }
+  ],
+  "HEALTH_PARAMS": {
+    "beta": 0.005826890812397583,
+    "baselineMortality": 0.0086,
+    "baselineAsthma": 0.08,
+    "asthmaIncidencePer10": 0.01,
+    "respHospPer10": 0.0207,
+    "asthmaERCost": 1900,
+    "respHospCost": 22000,
+    "defaultWind": 3.5,
+    "defaultStack": 10,
+    "gridEF": {
+      "nox": 0.205,
+      "so2": 0.163,
+      "pm25": 0.0338
+    },
+    "BPT": {
+      "pm25": 148800,
+      "so2": 74700,
+      "nox": 139300
+    },
+    "BPT_basis": "EPA BPT TSD (June 2024) Table 9, EGU, 2025, 3 %; 2019$ -> 2024$ by CPI-U; short ton -> tonne; NOx = PM2.5-related + ozone-related",
+    "BPT_ALT": {
+      "pmOnlyNox": {
+        "pm25": 148800,
+        "so2": 74700,
+        "nox": 10100
+      },
+      "disc7": {
+        "pm25": 133100,
+        "so2": 67200,
+        "nox": 124600
+      }
+    }
+  },
+  "HAP_EF": {
+    "tier2": 0.000336,
+    "tier4": 0.000336,
+    "natgas": 0.00339
+  },
+  "CAA_thresholds_tonnes": {
+    "titleV": 90.718474,
+    "titleVWarn": 45.359237,
+    "hapSingle": 9.071847400000001,
+    "hapSingleWarn": 4.535923700000001,
+    "hapCombined": 22.6796185,
+    "pteHours": 500
+  },
+  "healthEngine_v4": {
+    "plume": "long-term Gaussian, uniform wind rose, Briggs (1973) rural sigma_z, integrated over disjoint 0-1, 1-5, 5-10 km rings with populations pop1km, pop5km-pop1km, pop10km-pop5km; receptors from 100 m",
+    "CRF": "log-linear, beta = ln(1.06)/10 per ug/m3 (Pope 2002 / Krewski 2009), no increment threshold",
+    "regional": "facility kWh x (1 - renewProcuredPct/100) x subregion output rates (eGRID NOx/SO2, EGU PM2.5) x EPA benefit-per-ton (HEALTH_PARAMS.BPT)",
+    "gridDeaths": "gridHealthCost / VSL"
+  },
+  "heatEngine": {
+    "cp": 1005,
+    "rho": 1.2,
+    "ventRate_factor": 0.5,
+    "vegCooling_C_per_pct": 0.02,
+    "impervWarming_C_at_100pct": 0.8,
+    "albedoWarming_factor": 0.5,
+    "heatMortality_pct_per_C": 2,
+    "coolingDemand_pct_per_C": 4,
+    "recoveryCapacityFactor": 0.5,
+    "districtHeat_USD_per_MWh": 30
+  },
+  "landEngine": {
+    "embodiedCarbon_t_per_MW": 1125,
+    "buildingLifespan_yr": 30,
+    "imperviousFractionDefault": 0.7,
+    "rainfallDefault_mm": 1000,
+    "runoffPostDefault": 0.9,
+    "albedoPostDefault": 0.2,
+    "wasteHeatFracAirDefault": 0.8
+  },
+  "ewasteEngine": {
+    "embodiedPerServer_kg": 922,
+    "embodiedIT_t_per_MW": 1125,
+    "embodiedConst_t_per_MW": 500,
+    "serverMass_kg": 25,
+    "buildingLifespan_yr": 30
+  },
+  "energyEngine": {
+    "homes_MWh_per_yr": 10.5
+  },
+  "waterEngine": {
+    "evapRate_L_per_kWh_heat": 1.5,
+    "gal_per_L": 0.2642007926023778,
+    "gpcd_equiv": 100
+  },
+  "foodEngine": {
+    "defaultFarmEmployRate_per_acre": 0.02,
+    "m2_per_acre": 4047
+  },
+  "supplyEngine": {
+    "scaleFactor": "0.8 + clip(log10(max(totalMWh,5000)/25000)*0.5, 0, 0.8)",
+    "circularity": "1 - reuse/100*0.35",
+    "renewableShift": "1 + max(0,(renew-50)/100*0.3)"
+  },
+  "cumulativeEngine": {
+    "avgSiteAcres": 224,
+    "healthOverlap": "scale*(1+0.15*log2(scale))",
+    "heatCluster": 0.7,
+    "incentiveStack": 0.8,
+    "revenueStack": 0.9,
+    "ratepayerShared": 0.85
+  }
+}

@@ -1,0 +1,11 @@
+presetA,presetB,spearman_rho
+balanced,waterScarce,0.4857
+balanced,envJustice,0.6
+balanced,gridConstrained,0.9429
+agricultural,balanced,0.7714
+agricultural,waterScarce,0.6
+agricultural,envJustice,0.7143
+agricultural,gridConstrained,0.8286
+envJustice,waterScarce,0.9429
+envJustice,gridConstrained,0.7714
+gridConstrained,waterScarce,0.6

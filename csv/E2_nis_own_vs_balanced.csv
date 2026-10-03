@@ -1,0 +1,7 @@
+site,ownPreset,nis_own,nis_balanced
+nova,gridConstrained,0.218,0.2816
+tucson,waterScarce,0.2686,0.3247
+ohio,agricultural,0.239,0.2646
+memphis,envJustice,0.3041,0.3064
+nordic,balanced,0.1669,0.1669
+saline,gridConstrained,0.3842,0.3683

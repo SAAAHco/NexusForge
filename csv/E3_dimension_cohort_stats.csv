@@ -1,0 +1,11 @@
+dim,cohortMean,cohortSD,globallySaturated,nSites,min,max
+energy,0.2922,0.1393,false,6,0.0508,0.441
+water,0.2221,0.1204,false,6,0.0981,0.367
+food,0.0199,0.033,false,6,0,0.0831
+health,0.3144,0.1449,false,6,0.0909,0.485
+land,0.2417,0.1791,false,6,0.05,0.55
+community,0.2769,0.1399,false,6,0.0386,0.4575
+ewaste,0.7206,0.1355,false,6,0.5894,0.9598
+heat,0.2027,0.154,false,6,0.003,0.387
+grid,0.1267,0.1694,false,6,0.0089,0.3809
+supply,0.4371,0.1578,false,6,0.2357,0.6119

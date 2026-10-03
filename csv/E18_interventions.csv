@@ -1,0 +1,17 @@
+id,label,category,affects,description,apply
+liquidCooling,Switch to Liquid Cooling,cooling,water|energy|heat,Closed-loop liquid cooling eliminates evaporative water loss. WUE is capped at ~0.2 L/kWh (a site already below that is unchanged) and PUE increases ~10% for pumps/chillers unless the site is already liquid-cooled.,"(s) => { const w = num(s.wue); const evap = !(s.coolingType === ""liquid"" || s.coolingType === ""air"" || (w !== null && w <= 0.05));
+   if (!evap) return { ...s };
+   return { ...s, wue: String(Math.min(w !== null ? w : 0.2, 0.2)), coolingType: ""liquid"",
+     pue: num(s.pue) ? (num(s.pue) * 1.10).toFixed(2) : ""1.43"" }; }"
+airCooling,Switch to Air Cooling (Dry),cooling,water|energy|heat,Air-cooled systems use zero water for cooling (WUE ≈ 0) but increase energy consumption 15-30% unless the site is already air-cooled. Best for cold or moderate climates.,"(s) => { const w = num(s.wue); const evap = !(s.coolingType === ""air"" || (w !== null && w <= 0.05));
+   if (!evap) return { ...s };
+   return { ...s, wue: ""0"", coolingType: ""air"", heatRejectMethod: ""air"",
+     pue: num(s.pue) ? (num(s.pue) * 1.25).toFixed(2) : ""1.63"" }; }"
+recycledWater,100% Recycled / Reclaimed Water,water,water,Eliminates freshwater withdrawal for cooling. Reduces community water impact and aquifer stress to near zero. Requires treatment infrastructure.,"(s) => ({ ...s, recycledPct: ""100"", waterSource: ""recycled"" })"
+tierIVGenerators,Upgrade to Tier IV Diesel Generators,health,health,Tier IV generators reduce NOx by 93% and PM2.5 by 95% compared to Tier II. Significant health cost reduction for nearby communities.,"(s) => ({ ...s, genTier: ""tier4"" })"
+natgasGenerators,Switch to Natural Gas Generators,health,health|energy,Natural gas generators produce ~90% less NOx and ~92% less PM2.5 than Tier II diesel. Also reduces SO₂ by 99%. Lower carbon per kWh.,"(s) => ({ ...s, genTier: ""natgas"" })"
+renewable90,90% Renewable Energy,energy,energy|health,"Procure 90% of electricity from additional renewable sources beyond the grid mix (PPAs / RECs). Reduces Scope 2 carbon, CUE and the grid-attributable health burden proportionally (v4: applied through renewProcuredPct; the grid emission factor is left untouched).","(s) => ({ ...s, renewProcuredPct: ""90"" })"
+wasteHeatRecovery,Waste Heat Recovery (District Heating),heat,heat|community,Capture 60% of waste heat for district heating or industrial use. Converts environmental cost into revenue. Reduces local UHI effect.,"(s) => ({ ...s, heatRecoveryPct: ""60"", heatRejectMethod: ""liquid"" })"
+extendLifespan,Extend Server Lifespan to 6 Years,ewaste,ewaste,Extending server life from ~4 to 6 years reduces embodied carbon by ~33% and cuts e-waste generation proportionally. Trade-off: older hardware is less energy-efficient.,"(s) => ({ ...s, serverLifespan: ""6"", extendedLifespan: ""6"" })"
+highAlbedo,High-Albedo Roofing & Green Infrastructure,heat,heat|land,Cool roofs (albedo 0.6+) and vegetation buffers reduce surface temperature 5-15°C. Each 10% vegetation increase → ~0.5°C ambient cooling.,"(s) => ({ ...s, albedoPost: ""0.55"", vegPct: (num(s.vegPct) ? Math.min(60, num(s.vegPct) + 25).toString() : ""40"") })"
+reuseProgram,90% Hardware Reuse Program,ewaste,ewaste|supply,"Microsoft-class circular economy program: 83-90% hardware reuse, 10-17% recycle, <5% landfill. Reduces e-waste and critical mineral demand.","(s) => ({ ...s, reuseRate: ""90"", landfillRate: ""2"" })"

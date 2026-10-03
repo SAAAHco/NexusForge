@@ -1,0 +1,612 @@
+{
+  "hazards": [
+    {
+      "id": "flood",
+      "label": "Riverine Flooding",
+      "weight": 0.18,
+      "inputs": [
+        "floodZone",
+        "elevation"
+      ],
+      "source": "FEMA Flood Maps / XDI"
+    },
+    {
+      "id": "surfaceWater",
+      "label": "Surface Water Flooding",
+      "weight": 0.12,
+      "inputs": [
+        "annualRainfall",
+        "impervSurface"
+      ],
+      "source": "NOAA / local drainage"
+    },
+    {
+      "id": "extremeHeat",
+      "label": "Extreme Heat",
+      "weight": 0.2,
+      "inputs": [
+        "tempIncrease",
+        "coolingDegreeDays"
+      ],
+      "source": "IPCC AR6 / NOAA"
+    },
+    {
+      "id": "drought",
+      "label": "Drought & Water Scarcity",
+      "weight": 0.18,
+      "inputs": [
+        "droughtIncrease",
+        "wriScore"
+      ],
+      "source": "NOAA Drought Monitor / WRI"
+    },
+    {
+      "id": "wildfire",
+      "label": "Wildfire",
+      "weight": 0.1,
+      "inputs": [
+        "wildfireRisk"
+      ],
+      "source": "USFS / state fire agency"
+    },
+    {
+      "id": "cyclone",
+      "label": "Tropical Cyclone / Storm",
+      "weight": 0.08,
+      "inputs": [
+        "cycloneRisk"
+      ],
+      "source": "NOAA / NHC"
+    },
+    {
+      "id": "freezeThaw",
+      "label": "Freeze-Thaw Cycles",
+      "weight": 0.07,
+      "inputs": [
+        "freezeThawRisk"
+      ],
+      "source": "NOAA / regional climate"
+    },
+    {
+      "id": "seaLevel",
+      "label": "Coastal / Sea Level Rise",
+      "weight": 0.07,
+      "inputs": [
+        "coastalRisk"
+      ],
+      "source": "IPCC AR6 / NOAA"
+    }
+  ],
+  "rows": [
+    {
+      "site": "nova",
+      "compositeScore": 0.1955,
+      "compositeRating": "LOW RISK",
+      "scoredCount": 7,
+      "insuranceMultiplier2050": 1.586,
+      "disruptionDaysYr": 3,
+      "flood": 0.1,
+      "surfaceWater": null,
+      "extremeHeat": 0.35,
+      "drought": 0.15,
+      "wildfire": 0.2,
+      "cyclone": 0.2,
+      "freezeThaw": 0.3,
+      "seaLevel": 0
+    },
+    {
+      "site": "tucson",
+      "compositeScore": 0.4148,
+      "compositeRating": "MODERATE RISK",
+      "scoredCount": 7,
+      "insuranceMultiplier2050": 2.244,
+      "disruptionDaysYr": 6,
+      "flood": 0.1,
+      "surfaceWater": null,
+      "extremeHeat": 0.5,
+      "drought": 0.9,
+      "wildfire": 0.7,
+      "cyclone": 0.1,
+      "freezeThaw": 0.1,
+      "seaLevel": 0
+    },
+    {
+      "site": "ohio",
+      "compositeScore": 0.183,
+      "compositeRating": "LOW RISK",
+      "scoredCount": 7,
+      "insuranceMultiplier2050": 1.549,
+      "disruptionDaysYr": 3,
+      "flood": 0.1,
+      "surfaceWater": null,
+      "extremeHeat": 0.35,
+      "drought": 0.15,
+      "wildfire": 0.1,
+      "cyclone": 0.1,
+      "freezeThaw": 0.4,
+      "seaLevel": 0
+    },
+    {
+      "site": "memphis",
+      "compositeScore": 0.2966,
+      "compositeRating": "LOW RISK",
+      "scoredCount": 7,
+      "insuranceMultiplier2050": 1.89,
+      "disruptionDaysYr": 4,
+      "flood": 0.1,
+      "surfaceWater": null,
+      "extremeHeat": 0.6,
+      "drought": 0.15,
+      "wildfire": 0.3,
+      "cyclone": 0.3,
+      "freezeThaw": 0.5,
+      "seaLevel": 0.1
+    },
+    {
+      "site": "nordic",
+      "compositeScore": 0.1864,
+      "compositeRating": "LOW RISK",
+      "scoredCount": 7,
+      "insuranceMultiplier2050": 1.559,
+      "disruptionDaysYr": 3,
+      "flood": 0.1,
+      "surfaceWater": null,
+      "extremeHeat": 0.15,
+      "drought": 0.15,
+      "wildfire": 0.1,
+      "cyclone": 0.2,
+      "freezeThaw": 0.7,
+      "seaLevel": 0.2
+    },
+    {
+      "site": "saline",
+      "compositeScore": 0.1614,
+      "compositeRating": "LOW RISK",
+      "scoredCount": 7,
+      "insuranceMultiplier2050": 1.484,
+      "disruptionDaysYr": 2,
+      "flood": 0.1,
+      "surfaceWater": null,
+      "extremeHeat": 0.15,
+      "drought": 0.15,
+      "wildfire": 0.1,
+      "cyclone": 0.1,
+      "freezeThaw": 0.7,
+      "seaLevel": 0
+    }
+  ],
+  "detail": [
+    {
+      "site": "nova",
+      "hazard": "flood",
+      "label": "Riverine Flooding",
+      "weight": 0.18,
+      "score": 0.1,
+      "rating": "low",
+      "source": "FEMA Flood Maps / XDI"
+    },
+    {
+      "site": "nova",
+      "hazard": "surfaceWater",
+      "label": "Surface Water Flooding",
+      "weight": 0.12,
+      "score": null,
+      "rating": null,
+      "source": "NOAA / local drainage"
+    },
+    {
+      "site": "nova",
+      "hazard": "extremeHeat",
+      "label": "Extreme Heat",
+      "weight": 0.2,
+      "score": 0.35,
+      "rating": "low",
+      "source": "IPCC AR6 / NOAA"
+    },
+    {
+      "site": "nova",
+      "hazard": "drought",
+      "label": "Drought & Water Scarcity",
+      "weight": 0.18,
+      "score": 0.15,
+      "rating": "low",
+      "source": "NOAA Drought Monitor / WRI"
+    },
+    {
+      "site": "nova",
+      "hazard": "wildfire",
+      "label": "Wildfire",
+      "weight": 0.1,
+      "score": 0.2,
+      "rating": "low",
+      "source": "USFS / state fire agency"
+    },
+    {
+      "site": "nova",
+      "hazard": "cyclone",
+      "label": "Tropical Cyclone / Storm",
+      "weight": 0.08,
+      "score": 0.2,
+      "rating": "low",
+      "source": "NOAA / NHC"
+    },
+    {
+      "site": "nova",
+      "hazard": "freezeThaw",
+      "label": "Freeze-Thaw Cycles",
+      "weight": 0.07,
+      "score": 0.3,
+      "rating": "low",
+      "source": "NOAA / regional climate"
+    },
+    {
+      "site": "nova",
+      "hazard": "seaLevel",
+      "label": "Coastal / Sea Level Rise",
+      "weight": 0.07,
+      "score": 0,
+      "rating": "low",
+      "source": "IPCC AR6 / NOAA"
+    },
+    {
+      "site": "tucson",
+      "hazard": "flood",
+      "label": "Riverine Flooding",
+      "weight": 0.18,
+      "score": 0.1,
+      "rating": "low",
+      "source": "FEMA Flood Maps / XDI"
+    },
+    {
+      "site": "tucson",
+      "hazard": "surfaceWater",
+      "label": "Surface Water Flooding",
+      "weight": 0.12,
+      "score": null,
+      "rating": null,
+      "source": "NOAA / local drainage"
+    },
+    {
+      "site": "tucson",
+      "hazard": "extremeHeat",
+      "label": "Extreme Heat",
+      "weight": 0.2,
+      "score": 0.5,
+      "rating": "moderate",
+      "source": "IPCC AR6 / NOAA"
+    },
+    {
+      "site": "tucson",
+      "hazard": "drought",
+      "label": "Drought & Water Scarcity",
+      "weight": 0.18,
+      "score": 0.9,
+      "rating": "high",
+      "source": "NOAA Drought Monitor / WRI"
+    },
+    {
+      "site": "tucson",
+      "hazard": "wildfire",
+      "label": "Wildfire",
+      "weight": 0.1,
+      "score": 0.7,
+      "rating": "moderate",
+      "source": "USFS / state fire agency"
+    },
+    {
+      "site": "tucson",
+      "hazard": "cyclone",
+      "label": "Tropical Cyclone / Storm",
+      "weight": 0.08,
+      "score": 0.1,
+      "rating": "low",
+      "source": "NOAA / NHC"
+    },
+    {
+      "site": "tucson",
+      "hazard": "freezeThaw",
+      "label": "Freeze-Thaw Cycles",
+      "weight": 0.07,
+      "score": 0.1,
+      "rating": "low",
+      "source": "NOAA / regional climate"
+    },
+    {
+      "site": "tucson",
+      "hazard": "seaLevel",
+      "label": "Coastal / Sea Level Rise",
+      "weight": 0.07,
+      "score": 0,
+      "rating": "low",
+      "source": "IPCC AR6 / NOAA"
+    },
+    {
+      "site": "ohio",
+      "hazard": "flood",
+      "label": "Riverine Flooding",
+      "weight": 0.18,
+      "score": 0.1,
+      "rating": "low",
+      "source": "FEMA Flood Maps / XDI"
+    },
+    {
+      "site": "ohio",
+      "hazard": "surfaceWater",
+      "label": "Surface Water Flooding",
+      "weight": 0.12,
+      "score": null,
+      "rating": null,
+      "source": "NOAA / local drainage"
+    },
+    {
+      "site": "ohio",
+      "hazard": "extremeHeat",
+      "label": "Extreme Heat",
+      "weight": 0.2,
+      "score": 0.35,
+      "rating": "low",
+      "source": "IPCC AR6 / NOAA"
+    },
+    {
+      "site": "ohio",
+      "hazard": "drought",
+      "label": "Drought & Water Scarcity",
+      "weight": 0.18,
+      "score": 0.15,
+      "rating": "low",
+      "source": "NOAA Drought Monitor / WRI"
+    },
+    {
+      "site": "ohio",
+      "hazard": "wildfire",
+      "label": "Wildfire",
+      "weight": 0.1,
+      "score": 0.1,
+      "rating": "low",
+      "source": "USFS / state fire agency"
+    },
+    {
+      "site": "ohio",
+      "hazard": "cyclone",
+      "label": "Tropical Cyclone / Storm",
+      "weight": 0.08,
+      "score": 0.1,
+      "rating": "low",
+      "source": "NOAA / NHC"
+    },
+    {
+      "site": "ohio",
+      "hazard": "freezeThaw",
+      "label": "Freeze-Thaw Cycles",
+      "weight": 0.07,
+      "score": 0.4,
+      "rating": "low",
+      "source": "NOAA / regional climate"
+    },
+    {
+      "site": "ohio",
+      "hazard": "seaLevel",
+      "label": "Coastal / Sea Level Rise",
+      "weight": 0.07,
+      "score": 0,
+      "rating": "low",
+      "source": "IPCC AR6 / NOAA"
+    },
+    {
+      "site": "memphis",
+      "hazard": "flood",
+      "label": "Riverine Flooding",
+      "weight": 0.18,
+      "score": 0.1,
+      "rating": "low",
+      "source": "FEMA Flood Maps / XDI"
+    },
+    {
+      "site": "memphis",
+      "hazard": "surfaceWater",
+      "label": "Surface Water Flooding",
+      "weight": 0.12,
+      "score": null,
+      "rating": null,
+      "source": "NOAA / local drainage"
+    },
+    {
+      "site": "memphis",
+      "hazard": "extremeHeat",
+      "label": "Extreme Heat",
+      "weight": 0.2,
+      "score": 0.6,
+      "rating": "moderate",
+      "source": "IPCC AR6 / NOAA"
+    },
+    {
+      "site": "memphis",
+      "hazard": "drought",
+      "label": "Drought & Water Scarcity",
+      "weight": 0.18,
+      "score": 0.15,
+      "rating": "low",
+      "source": "NOAA Drought Monitor / WRI"
+    },
+    {
+      "site": "memphis",
+      "hazard": "wildfire",
+      "label": "Wildfire",
+      "weight": 0.1,
+      "score": 0.3,
+      "rating": "low",
+      "source": "USFS / state fire agency"
+    },
+    {
+      "site": "memphis",
+      "hazard": "cyclone",
+      "label": "Tropical Cyclone / Storm",
+      "weight": 0.08,
+      "score": 0.3,
+      "rating": "low",
+      "source": "NOAA / NHC"
+    },
+    {
+      "site": "memphis",
+      "hazard": "freezeThaw",
+      "label": "Freeze-Thaw Cycles",
+      "weight": 0.07,
+      "score": 0.5,
+      "rating": "moderate",
+      "source": "NOAA / regional climate"
+    },
+    {
+      "site": "memphis",
+      "hazard": "seaLevel",
+      "label": "Coastal / Sea Level Rise",
+      "weight": 0.07,
+      "score": 0.1,
+      "rating": "low",
+      "source": "IPCC AR6 / NOAA"
+    },
+    {
+      "site": "nordic",
+      "hazard": "flood",
+      "label": "Riverine Flooding",
+      "weight": 0.18,
+      "score": 0.1,
+      "rating": "low",
+      "source": "FEMA Flood Maps / XDI"
+    },
+    {
+      "site": "nordic",
+      "hazard": "surfaceWater",
+      "label": "Surface Water Flooding",
+      "weight": 0.12,
+      "score": null,
+      "rating": null,
+      "source": "NOAA / local drainage"
+    },
+    {
+      "site": "nordic",
+      "hazard": "extremeHeat",
+      "label": "Extreme Heat",
+      "weight": 0.2,
+      "score": 0.15,
+      "rating": "low",
+      "source": "IPCC AR6 / NOAA"
+    },
+    {
+      "site": "nordic",
+      "hazard": "drought",
+      "label": "Drought & Water Scarcity",
+      "weight": 0.18,
+      "score": 0.15,
+      "rating": "low",
+      "source": "NOAA Drought Monitor / WRI"
+    },
+    {
+      "site": "nordic",
+      "hazard": "wildfire",
+      "label": "Wildfire",
+      "weight": 0.1,
+      "score": 0.1,
+      "rating": "low",
+      "source": "USFS / state fire agency"
+    },
+    {
+      "site": "nordic",
+      "hazard": "cyclone",
+      "label": "Tropical Cyclone / Storm",
+      "weight": 0.08,
+      "score": 0.2,
+      "rating": "low",
+      "source": "NOAA / NHC"
+    },
+    {
+      "site": "nordic",
+      "hazard": "freezeThaw",
+      "label": "Freeze-Thaw Cycles",
+      "weight": 0.07,
+      "score": 0.7,
+      "rating": "moderate",
+      "source": "NOAA / regional climate"
+    },
+    {
+      "site": "nordic",
+      "hazard": "seaLevel",
+      "label": "Coastal / Sea Level Rise",
+      "weight": 0.07,
+      "score": 0.2,
+      "rating": "low",
+      "source": "IPCC AR6 / NOAA"
+    },
+    {
+      "site": "saline",
+      "hazard": "flood",
+      "label": "Riverine Flooding",
+      "weight": 0.18,
+      "score": 0.1,
+      "rating": "low",
+      "source": "FEMA Flood Maps / XDI"
+    },
+    {
+      "site": "saline",
+      "hazard": "surfaceWater",
+      "label": "Surface Water Flooding",
+      "weight": 0.12,
+      "score": null,
+      "rating": null,
+      "source": "NOAA / local drainage"
+    },
+    {
+      "site": "saline",
+      "hazard": "extremeHeat",
+      "label": "Extreme Heat",
+      "weight": 0.2,
+      "score": 0.15,
+      "rating": "low",
+      "source": "IPCC AR6 / NOAA"
+    },
+    {
+      "site": "saline",
+      "hazard": "drought",
+      "label": "Drought & Water Scarcity",
+      "weight": 0.18,
+      "score": 0.15,
+      "rating": "low",
+      "source": "NOAA Drought Monitor / WRI"
+    },
+    {
+      "site": "saline",
+      "hazard": "wildfire",
+      "label": "Wildfire",
+      "weight": 0.1,
+      "score": 0.1,
+      "rating": "low",
+      "source": "USFS / state fire agency"
+    },
+    {
+      "site": "saline",
+      "hazard": "cyclone",
+      "label": "Tropical Cyclone / Storm",
+      "weight": 0.08,
+      "score": 0.1,
+      "rating": "low",
+      "source": "NOAA / NHC"
+    },
+    {
+      "site": "saline",
+      "hazard": "freezeThaw",
+      "label": "Freeze-Thaw Cycles",
+      "weight": 0.07,
+      "score": 0.7,
+      "rating": "moderate",
+      "source": "NOAA / regional climate"
+    },
+    {
+      "site": "saline",
+      "hazard": "seaLevel",
+      "label": "Coastal / Sea Level Rise",
+      "weight": 0.07,
+      "score": 0,
+      "rating": "low",
+      "source": "IPCC AR6 / NOAA"
+    }
+  ]
+}

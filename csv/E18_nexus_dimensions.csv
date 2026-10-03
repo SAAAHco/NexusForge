@@ -1,0 +1,11 @@
+id,label,min,max,unit,rawMetric
+energy,Energy,0,1,composite,"mean of clip((PUE-1)/1), clip(gridPct/30), clip(CUE/0.8)"
+water,Water,0,1,composite,"mean of clip(WUE/3), clip(aquiferRisk/20) [groundwater sites], clip(DVS/0.5), clip(EWIF/2)"
+food,Food,0,5,% supply,foodSecImpact (% of regional supply)
+health,Health,0,120,$/MWh,"totalHealthCost / totalMWh (2024 $ per MWh of facility electricity; population-weighted local plume + grid-attributable burden at EPA benefit-per-ton; 0-120, the ceiling being the most damaging contiguous-US eGRID subregion)"
+land,Land,0,100,BIS%,BIS x 100
+community,Community,0.5,-1,$M/MW-yr net (ex-health),"netCommunityValueExHealthPerMW ($M per MW-yr, ledger ex-health; inverted: +0.5 → 0, -1.0 → 1)"
+ewaste,E-Waste,0,1800,tCO₂e/MW-yr,"embodiedIntensity = annualised embodied carbon / IT MW (tCO2e per MW-yr, 0-1800); the embodied default is IT-capacity based (5 tCO2e per kW IT, Schneider WP99), so it does not depend on the assumed servers per MW"
+heat,Heat Island,0,2,°C,"uhiEstimate (C): anthropogenic box-model deltaT + albedo and impervious warming, less the on-site vegetation offset (capped at the land-cover warming)"
+grid,Grid,0,30,% cap,gridPct (% of grid capacity)
+supply,Supply Chain,0.25,1.25,risk,avgRisk (scaled)

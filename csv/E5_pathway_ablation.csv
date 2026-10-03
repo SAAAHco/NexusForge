@@ -1,0 +1,109 @@
+mode,site,feed,from,to,what,NIS_own_withoutFeed,dNIS_own,NIS_bal_withoutFeed,dNIS_balanced,affectedDims
+removeFromCoupled,nova,W>F,water,food,W.directL → irrigation-competition volume (F.irrigDisplace),0.218,0,0.2816,0,
+removeFromCoupled,nova,R>L,energy,land,R.totalC → net carbon balance (L.netCarbon),0.218,0,0.2816,0,
+removeFromCoupled,nova,H>CM,health,community,"H.healthCost → monetized health damages in the cost-benefit ledger (CM.costs, CM.netCommunityValue)",0.218,0,0.2816,0,
+removeFromCoupled,nova,L>CM,land,community,L.esvLost → ecosystem-service loss in the cost-benefit ledger,0.2178,0.0002,0.2814,0.0002,community
+removeFromCoupled,nova,F>CM,food,community,F.lostRev → agricultural revenue loss in the cost-benefit ledger,0.2179,0.0001,0.2816,0.0001,community
+removeFromCoupled,nova,R>EW,energy,ewaste,"R.totalC → lifecycle carbon and embodied share (EW.lcCarbon, EW.embodiedPct)",0.218,0,0.2816,0,
+removeFromCoupled,nova,L>UHI,land,heat,L.impervFrac → impervious-surface warming term (UHI.uhiEstimate),0.218,0,0.2816,0,
+removeFromCoupled,nova,R>H,energy,health,"R.totalMWh, R.renewProcuredPct → regional grid-attributable NOx/SO2/PM2.5 burden = delivered kWh × subregion output rates × EPA benefit-per-ton (H.grid*, H.totalHealthCost)",0.1947,0.0233,0.2583,0.0233,health
+removeFromCoupled,nova,R>SC,energy,supply,R.totalMWh → facility-scale exposure factor (SC.scaleFactor); severed → falls back to serverCount,0.2065,0.0115,0.2688,0.0128,supply
+addToSiloed,nova,W>F,water,food,W.directL → irrigation-competition volume (F.irrigDisplace),0.1829,0,0.2452,0,
+addToSiloed,nova,R>L,energy,land,R.totalC → net carbon balance (L.netCarbon),0.1829,0,0.2452,0,
+addToSiloed,nova,H>CM,health,community,"H.healthCost → monetized health damages in the cost-benefit ledger (CM.costs, CM.netCommunityValue)",0.1829,0,0.2452,0,
+addToSiloed,nova,L>CM,land,community,L.esvLost → ecosystem-service loss in the cost-benefit ledger,0.1831,0.0002,0.2454,0.0002,
+addToSiloed,nova,F>CM,food,community,F.lostRev → agricultural revenue loss in the cost-benefit ledger,0.183,0.0001,0.2453,0.0001,
+addToSiloed,nova,R>EW,energy,ewaste,"R.totalC → lifecycle carbon and embodied share (EW.lcCarbon, EW.embodiedPct)",0.1829,0,0.2452,0,
+addToSiloed,nova,L>UHI,land,heat,L.impervFrac → impervious-surface warming term (UHI.uhiEstimate),0.1829,0,0.2452,0,
+addToSiloed,nova,R>H,energy,health,"R.totalMWh, R.renewProcuredPct → regional grid-attributable NOx/SO2/PM2.5 burden = delivered kWh × subregion output rates × EPA benefit-per-ton (H.grid*, H.totalHealthCost)",0.2062,0.0233,0.2685,0.0233,
+addToSiloed,nova,R>SC,energy,supply,R.totalMWh → facility-scale exposure factor (SC.scaleFactor); severed → falls back to serverCount,0.1944,0.0115,0.258,0.0128,
+removeFromCoupled,tucson,W>F,water,food,W.directL → irrigation-competition volume (F.irrigDisplace),0.2686,0,0.3247,0,
+removeFromCoupled,tucson,R>L,energy,land,R.totalC → net carbon balance (L.netCarbon),0.2686,0,0.3247,0,
+removeFromCoupled,tucson,H>CM,health,community,"H.healthCost → monetized health damages in the cost-benefit ledger (CM.costs, CM.netCommunityValue)",0.2686,0,0.3247,0,
+removeFromCoupled,tucson,L>CM,land,community,L.esvLost → ecosystem-service loss in the cost-benefit ledger,0.2685,0.0001,0.3246,0.0001,community
+removeFromCoupled,tucson,F>CM,food,community,F.lostRev → agricultural revenue loss in the cost-benefit ledger,0.2686,0,0.3247,0,
+removeFromCoupled,tucson,R>EW,energy,ewaste,"R.totalC → lifecycle carbon and embodied share (EW.lcCarbon, EW.embodiedPct)",0.2686,0,0.3247,0,
+removeFromCoupled,tucson,L>UHI,land,heat,L.impervFrac → impervious-surface warming term (UHI.uhiEstimate),0.2686,0,0.3247,0,
+removeFromCoupled,tucson,R>H,energy,health,"R.totalMWh, R.renewProcuredPct → regional grid-attributable NOx/SO2/PM2.5 burden = delivered kWh × subregion output rates × EPA benefit-per-ton (H.grid*, H.totalHealthCost)",0.2302,0.0384,0.2992,0.0256,health
+removeFromCoupled,tucson,R>SC,energy,supply,R.totalMWh → facility-scale exposure factor (SC.scaleFactor); severed → falls back to serverCount,0.2617,0.0069,0.311,0.0137,supply
+addToSiloed,tucson,W>F,water,food,W.directL → irrigation-competition volume (F.irrigDisplace),0.2232,0,0.2853,0,
+addToSiloed,tucson,R>L,energy,land,R.totalC → net carbon balance (L.netCarbon),0.2232,0,0.2853,0,
+addToSiloed,tucson,H>CM,health,community,"H.healthCost → monetized health damages in the cost-benefit ledger (CM.costs, CM.netCommunityValue)",0.2232,0,0.2853,0,
+addToSiloed,tucson,L>CM,land,community,L.esvLost → ecosystem-service loss in the cost-benefit ledger,0.2234,0.0001,0.2854,0.0001,
+addToSiloed,tucson,F>CM,food,community,F.lostRev → agricultural revenue loss in the cost-benefit ledger,0.2232,0,0.2853,0,
+addToSiloed,tucson,R>EW,energy,ewaste,"R.totalC → lifecycle carbon and embodied share (EW.lcCarbon, EW.embodiedPct)",0.2232,0,0.2853,0,
+addToSiloed,tucson,L>UHI,land,heat,L.impervFrac → impervious-surface warming term (UHI.uhiEstimate),0.2232,0,0.2853,0,
+addToSiloed,tucson,R>H,energy,health,"R.totalMWh, R.renewProcuredPct → regional grid-attributable NOx/SO2/PM2.5 burden = delivered kWh × subregion output rates × EPA benefit-per-ton (H.grid*, H.totalHealthCost)",0.2616,0.0384,0.3109,0.0256,
+addToSiloed,tucson,R>SC,energy,supply,R.totalMWh → facility-scale exposure factor (SC.scaleFactor); severed → falls back to serverCount,0.2301,0.0069,0.299,0.0137,
+removeFromCoupled,ohio,W>F,water,food,W.directL → irrigation-competition volume (F.irrigDisplace),0.239,0,0.2646,0,
+removeFromCoupled,ohio,R>L,energy,land,R.totalC → net carbon balance (L.netCarbon),0.239,0,0.2646,0,
+removeFromCoupled,ohio,H>CM,health,community,"H.healthCost → monetized health damages in the cost-benefit ledger (CM.costs, CM.netCommunityValue)",0.239,0,0.2646,0,
+removeFromCoupled,ohio,L>CM,land,community,L.esvLost → ecosystem-service loss in the cost-benefit ledger,0.2388,0.0002,0.2644,0.0002,community
+removeFromCoupled,ohio,F>CM,food,community,F.lostRev → agricultural revenue loss in the cost-benefit ledger,0.2389,0.0001,0.2645,0.0001,community
+removeFromCoupled,ohio,R>EW,energy,ewaste,"R.totalC → lifecycle carbon and embodied share (EW.lcCarbon, EW.embodiedPct)",0.239,0,0.2646,0,
+removeFromCoupled,ohio,L>UHI,land,heat,L.impervFrac → impervious-surface warming term (UHI.uhiEstimate),0.239,0,0.2646,0,
+removeFromCoupled,ohio,R>H,energy,health,"R.totalMWh, R.renewProcuredPct → regional grid-attributable NOx/SO2/PM2.5 burden = delivered kWh × subregion output rates × EPA benefit-per-ton (H.grid*, H.totalHealthCost)",0.1921,0.0469,0.2255,0.0391,health
+removeFromCoupled,ohio,R>SC,energy,supply,R.totalMWh → facility-scale exposure factor (SC.scaleFactor); severed → falls back to serverCount,0.2332,0.0057,0.2531,0.0115,supply
+addToSiloed,ohio,W>F,water,food,W.directL → irrigation-competition volume (F.irrigDisplace),0.1861,0,0.2138,0,
+addToSiloed,ohio,R>L,energy,land,R.totalC → net carbon balance (L.netCarbon),0.1861,0,0.2138,0,
+addToSiloed,ohio,H>CM,health,community,"H.healthCost → monetized health damages in the cost-benefit ledger (CM.costs, CM.netCommunityValue)",0.1861,0,0.2138,0,
+addToSiloed,ohio,L>CM,land,community,L.esvLost → ecosystem-service loss in the cost-benefit ledger,0.1862,0.0002,0.2139,0.0002,
+addToSiloed,ohio,F>CM,food,community,F.lostRev → agricultural revenue loss in the cost-benefit ledger,0.1862,0.0001,0.2139,0.0001,
+addToSiloed,ohio,R>EW,energy,ewaste,"R.totalC → lifecycle carbon and embodied share (EW.lcCarbon, EW.embodiedPct)",0.1861,0,0.2138,0,
+addToSiloed,ohio,L>UHI,land,heat,L.impervFrac → impervious-surface warming term (UHI.uhiEstimate),0.1861,0,0.2138,0,
+addToSiloed,ohio,R>H,energy,health,"R.totalMWh, R.renewProcuredPct → regional grid-attributable NOx/SO2/PM2.5 burden = delivered kWh × subregion output rates × EPA benefit-per-ton (H.grid*, H.totalHealthCost)",0.233,0.0469,0.2529,0.0391,
+addToSiloed,ohio,R>SC,energy,supply,R.totalMWh → facility-scale exposure factor (SC.scaleFactor); severed → falls back to serverCount,0.1918,0.0057,0.2253,0.0115,
+removeFromCoupled,memphis,W>F,water,food,W.directL → irrigation-competition volume (F.irrigDisplace),0.3041,0,0.3064,0,
+removeFromCoupled,memphis,R>L,energy,land,R.totalC → net carbon balance (L.netCarbon),0.3041,0,0.3064,0,
+removeFromCoupled,memphis,H>CM,health,community,"H.healthCost → monetized health damages in the cost-benefit ledger (CM.costs, CM.netCommunityValue)",0.3041,0,0.3064,0,
+removeFromCoupled,memphis,L>CM,land,community,L.esvLost → ecosystem-service loss in the cost-benefit ledger,0.3037,0.0005,0.3062,0.0002,community
+removeFromCoupled,memphis,F>CM,food,community,F.lostRev → agricultural revenue loss in the cost-benefit ledger,0.3041,0,0.3064,0,
+removeFromCoupled,memphis,R>EW,energy,ewaste,"R.totalC → lifecycle carbon and embodied share (EW.lcCarbon, EW.embodiedPct)",0.3041,0,0.3064,0,
+removeFromCoupled,memphis,L>UHI,land,heat,L.impervFrac → impervious-surface warming term (UHI.uhiEstimate),0.3041,0,0.3064,0,
+removeFromCoupled,memphis,R>H,energy,health,"R.totalMWh, R.renewProcuredPct → regional grid-attributable NOx/SO2/PM2.5 burden = delivered kWh × subregion output rates × EPA benefit-per-ton (H.grid*, H.totalHealthCost)",0.1786,0.1255,0.2646,0.0418,health
+removeFromCoupled,memphis,R>SC,energy,supply,R.totalMWh → facility-scale exposure factor (SC.scaleFactor); severed → falls back to serverCount,0.2889,0.0152,0.276,0.0304,supply
+addToSiloed,memphis,W>F,water,food,W.directL → irrigation-competition volume (F.irrigDisplace),0.163,0,0.234,0,
+addToSiloed,memphis,R>L,energy,land,R.totalC → net carbon balance (L.netCarbon),0.163,0,0.234,0,
+addToSiloed,memphis,H>CM,health,community,"H.healthCost → monetized health damages in the cost-benefit ledger (CM.costs, CM.netCommunityValue)",0.163,0,0.234,0,
+addToSiloed,memphis,L>CM,land,community,L.esvLost → ecosystem-service loss in the cost-benefit ledger,0.1634,0.0005,0.2342,0.0002,
+addToSiloed,memphis,F>CM,food,community,F.lostRev → agricultural revenue loss in the cost-benefit ledger,0.163,0,0.234,0,
+addToSiloed,memphis,R>EW,energy,ewaste,"R.totalC → lifecycle carbon and embodied share (EW.lcCarbon, EW.embodiedPct)",0.163,0,0.234,0,
+addToSiloed,memphis,L>UHI,land,heat,L.impervFrac → impervious-surface warming term (UHI.uhiEstimate),0.163,0,0.234,0,
+addToSiloed,memphis,R>H,energy,health,"R.totalMWh, R.renewProcuredPct → regional grid-attributable NOx/SO2/PM2.5 burden = delivered kWh × subregion output rates × EPA benefit-per-ton (H.grid*, H.totalHealthCost)",0.2885,0.1255,0.2758,0.0418,
+addToSiloed,memphis,R>SC,energy,supply,R.totalMWh → facility-scale exposure factor (SC.scaleFactor); severed → falls back to serverCount,0.1781,0.0152,0.2644,0.0304,
+removeFromCoupled,nordic,W>F,water,food,W.directL → irrigation-competition volume (F.irrigDisplace),0.1669,0,0.1669,0,
+removeFromCoupled,nordic,R>L,energy,land,R.totalC → net carbon balance (L.netCarbon),0.1669,0,0.1669,0,
+removeFromCoupled,nordic,H>CM,health,community,"H.healthCost → monetized health damages in the cost-benefit ledger (CM.costs, CM.netCommunityValue)",0.1669,0,0.1669,0,
+removeFromCoupled,nordic,L>CM,land,community,L.esvLost → ecosystem-service loss in the cost-benefit ledger,0.1664,0.0005,0.1664,0.0005,community
+removeFromCoupled,nordic,F>CM,food,community,F.lostRev → agricultural revenue loss in the cost-benefit ledger,0.1669,0,0.1669,0,
+removeFromCoupled,nordic,R>EW,energy,ewaste,"R.totalC → lifecycle carbon and embodied share (EW.lcCarbon, EW.embodiedPct)",0.1669,0,0.1669,0,
+removeFromCoupled,nordic,L>UHI,land,heat,L.impervFrac → impervious-surface warming term (UHI.uhiEstimate),0.1669,0,0.1669,0,
+removeFromCoupled,nordic,R>H,energy,health,"R.totalMWh, R.renewProcuredPct → regional grid-attributable NOx/SO2/PM2.5 burden = delivered kWh × subregion output rates × EPA benefit-per-ton (H.grid*, H.totalHealthCost)",0.1578,0.0091,0.1578,0.0091,health
+removeFromCoupled,nordic,R>SC,energy,supply,R.totalMWh → facility-scale exposure factor (SC.scaleFactor); severed → falls back to serverCount,0.1646,0.0023,0.1646,0.0023,supply
+addToSiloed,nordic,W>F,water,food,W.directL → irrigation-competition volume (F.irrigDisplace),0.155,0,0.155,0,
+addToSiloed,nordic,R>L,energy,land,R.totalC → net carbon balance (L.netCarbon),0.155,0,0.155,0,
+addToSiloed,nordic,H>CM,health,community,"H.healthCost → monetized health damages in the cost-benefit ledger (CM.costs, CM.netCommunityValue)",0.155,0,0.155,0,
+addToSiloed,nordic,L>CM,land,community,L.esvLost → ecosystem-service loss in the cost-benefit ledger,0.1555,0.0005,0.1555,0.0005,
+addToSiloed,nordic,F>CM,food,community,F.lostRev → agricultural revenue loss in the cost-benefit ledger,0.155,0,0.155,0,
+addToSiloed,nordic,R>EW,energy,ewaste,"R.totalC → lifecycle carbon and embodied share (EW.lcCarbon, EW.embodiedPct)",0.155,0,0.155,0,
+addToSiloed,nordic,L>UHI,land,heat,L.impervFrac → impervious-surface warming term (UHI.uhiEstimate),0.155,0,0.155,0,
+addToSiloed,nordic,R>H,energy,health,"R.totalMWh, R.renewProcuredPct → regional grid-attributable NOx/SO2/PM2.5 burden = delivered kWh × subregion output rates × EPA benefit-per-ton (H.grid*, H.totalHealthCost)",0.1641,0.0091,0.1641,0.0091,
+addToSiloed,nordic,R>SC,energy,supply,R.totalMWh → facility-scale exposure factor (SC.scaleFactor); severed → falls back to serverCount,0.1573,0.0023,0.1573,0.0023,
+removeFromCoupled,saline,W>F,water,food,W.directL → irrigation-competition volume (F.irrigDisplace),0.3842,0,0.3683,0,
+removeFromCoupled,saline,R>L,energy,land,R.totalC → net carbon balance (L.netCarbon),0.3842,0,0.3683,0,
+removeFromCoupled,saline,H>CM,health,community,"H.healthCost → monetized health damages in the cost-benefit ledger (CM.costs, CM.netCommunityValue)",0.3842,0,0.3683,0,
+removeFromCoupled,saline,L>CM,land,community,L.esvLost → ecosystem-service loss in the cost-benefit ledger,0.3842,0,0.3683,0,community
+removeFromCoupled,saline,F>CM,food,community,F.lostRev → agricultural revenue loss in the cost-benefit ledger,0.3842,0,0.3683,0,community
+removeFromCoupled,saline,R>EW,energy,ewaste,"R.totalC → lifecycle carbon and embodied share (EW.lcCarbon, EW.embodiedPct)",0.3842,0,0.3683,0,
+removeFromCoupled,saline,L>UHI,land,heat,L.impervFrac → impervious-surface warming term (UHI.uhiEstimate),0.3842,0,0.3683,0,
+removeFromCoupled,saline,R>H,energy,health,"R.totalMWh, R.renewProcuredPct → regional grid-attributable NOx/SO2/PM2.5 burden = delivered kWh × subregion output rates × EPA benefit-per-ton (H.grid*, H.totalHealthCost)",0.3357,0.0485,0.3198,0.0485,health
+removeFromCoupled,saline,R>SC,energy,supply,R.totalMWh → facility-scale exposure factor (SC.scaleFactor); severed → falls back to serverCount,0.3599,0.0243,0.3413,0.027,supply
+addToSiloed,saline,W>F,water,food,W.directL → irrigation-competition volume (F.irrigDisplace),0.3114,0,0.2927,0,
+addToSiloed,saline,R>L,energy,land,R.totalC → net carbon balance (L.netCarbon),0.3114,0,0.2927,0,
+addToSiloed,saline,H>CM,health,community,"H.healthCost → monetized health damages in the cost-benefit ledger (CM.costs, CM.netCommunityValue)",0.3114,0,0.2927,0,
+addToSiloed,saline,L>CM,land,community,L.esvLost → ecosystem-service loss in the cost-benefit ledger,0.3114,0,0.2928,0,
+addToSiloed,saline,F>CM,food,community,F.lostRev → agricultural revenue loss in the cost-benefit ledger,0.3114,0,0.2927,0,
+addToSiloed,saline,R>EW,energy,ewaste,"R.totalC → lifecycle carbon and embodied share (EW.lcCarbon, EW.embodiedPct)",0.3114,0,0.2927,0,
+addToSiloed,saline,L>UHI,land,heat,L.impervFrac → impervious-surface warming term (UHI.uhiEstimate),0.3114,0,0.2927,0,
+addToSiloed,saline,R>H,energy,health,"R.totalMWh, R.renewProcuredPct → regional grid-attributable NOx/SO2/PM2.5 burden = delivered kWh × subregion output rates × EPA benefit-per-ton (H.grid*, H.totalHealthCost)",0.3599,0.0485,0.3412,0.0485,
+addToSiloed,saline,R>SC,energy,supply,R.totalMWh → facility-scale exposure factor (SC.scaleFactor); severed → falls back to serverCount,0.3357,0.0243,0.3197,0.027,

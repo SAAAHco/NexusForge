@@ -1,0 +1,149 @@
+[
+  {
+    "claim": "US data centers consumed ~228 billion gallons of water in 2023, 211 billion off-site at power plants",
+    "type": "literature",
+    "computed": "not computable from platform",
+    "status": "VERIFY CITATION (LBNL 2024 US Data Center Energy Usage Report)",
+    "note": ""
+  },
+  {
+    "claim": "Since 2022 nearly two-thirds of new facilities sited in high water-stress areas",
+    "type": "literature",
+    "computed": "not computable",
+    "status": "VERIFY CITATION (Bloomberg 2025 analysis / WRI Aqueduct); platform cites Ceres 2025: 32% of existing US DCs in high stress",
+    "note": ""
+  },
+  {
+    "claim": "Ten interdependent dimensions",
+    "type": "architecture",
+    "computed": "10 NX_DIMS",
+    "status": "SUPPORTED",
+    "note": "energy, water, food, health, land, community, ewaste, heat, grid, supply"
+  },
+  {
+    "claim": "Fourteen bidirectional pathways",
+    "type": "architecture",
+    "computed": "14 pathways in the NexusMapSection registry; 13 computed cross-engine feeds (4 tier-0 identity feeds always kept + 9 severable); 8 severed in the manuscript definition",
+    "status": "SUPPORTED (registry) — state the count used: 14 pathways described, 13 computed feeds, 9 severable, 2 carrying >95 % of the gap (R>H, R>SC)",
+    "note": "Five severable feeds (W>F, R>L, H>CM, R>EW, L>UHI) have zero Shapley value at every site in v4."
+  },
+  {
+    "claim": "Composite Nexus Impact Score bounded 0–1 under five weighting presets",
+    "type": "architecture",
+    "computed": "5 presets: balanced, waterScarce, agricultural, envJustice, gridConstrained",
+    "status": "SUPPORTED",
+    "note": ""
+  },
+  {
+    "claim": "Six representative sites assessed",
+    "type": "architecture",
+    "computed": "6 presets",
+    "status": "SUPPORTED",
+    "note": ""
+  },
+  {
+    "claim": "Coupled assessment surfaced impacts 40% to 300% larger than single-sector review",
+    "type": "result",
+    "computed": "manuscript definition (tiers 1–2 severed, E5b): NIS own weights +6.1% to +70.7%, balanced +6.1% to +17.5%; tier 1 alone +0% to +0.3%; legacy all-nine (E5) +7.7% to +86.6%",
+    "status": "PARTIAL — the upper end reaches the claimed range at one or two sites only; restate as the computed range",
+    "note": "The gap is a scope-boundary effect carried by the energy→health feed (grid-attributable burden); information coupling between engines (tier 1) moves the score by ≤ 0.3 %."
+  },
+  {
+    "claim": "Each site produced a distinct signature",
+    "type": "result",
+    "computed": "dominant non-saturated dim (balanced): nova=ewaste, tucson=ewaste, ohio=ewaste, memphis=ewaste, nordic=ewaste, saline=ewaste; cohort-relative top: nova=water, tucson=grid, ohio=community, memphis=ewaste, nordic=land, saline=grid; globally saturated: none",
+    "status": "SUPPORTED (≥5 distinct cohort-relative dimensions over six sites)",
+    "note": "No dimension is globally saturated in v4; Saline health saturates its 0–500 $M range; the Nordic e-waste signature rests on the A-tagged 40,000-server fleet (E28 nordic_2kW_per_server)."
+  },
+  {
+    "claim": "Memphis: 35 on-site gas turbines",
+    "type": "input",
+    "computed": "corrected preset: genCount=15, tier=natgas, 16.5 MW each, 110 h/yr (permitted state); E28 memphis_2024_25_unpermitted: 35 × 12 MW at 8,000 h/yr",
+    "status": "HOLDS ONLY FOR THE 2024–25 REGIME (E28) — the preset models the 15 permitted turbines",
+    "note": ""
+  },
+  {
+    "claim": "Memphis NOx ≈ ten times the Clean Air Act Title V major-source threshold",
+    "type": "result",
+    "computed": "preset: NOx = 1.1 t/yr actual, 5 t/yr on the 500 h PTE basis vs 90.7 t → 0.05x; E28 2024–25 regime: 1612.8 t/yr → 17.8x",
+    "status": "HOLDS ONLY FOR THE 2024–25 REGIME, at ~18x (permitted state 0.1x on the PTE basis)",
+    "note": "Threshold is 100 short tons = 90.7 t (v4 compares tonnes with tonnes)."
+  },
+  {
+    "claim": "Memphis: excess mortality risk for ~12,000 residents within 5 km",
+    "type": "result",
+    "computed": "pop5km input = 1994; ring populations = [0,1994,46206]; population-weighted increment = 0.0012 µg/m³; premature deaths = 0/yr (E28 2024–25 regime: 0.15 µg/m³, 0.36 deaths/yr)",
+    "status": "NOT SUPPORTED AS WRITTEN — no 12,000 figure is produced and the population-weighted increment is small; restate using the ring exposure and the grid-attributable burden",
+    "note": ""
+  },
+  {
+    "claim": "Tucson spiked on water",
+    "type": "result",
+    "computed": "preset (air-cooled): water norm=0.125 (rank 5 of 6), dominant(balanced)=ewaste; E28 June-2025 evaporative design: water norm=0.3068 (rank 3), total water 4.99 M gal/day",
+    "status": "HOLDS ONLY FOR THE JUNE-2025 EVAPORATIVE DESIGN (E28) — the approved air-cooled campus does not spike on water",
+    "note": "Off-site thermoelectric water dominates Tucson's total in v4."
+  },
+  {
+    "claim": "Northern Virginia spiked on grid capacity",
+    "type": "result",
+    "computed": "dominant(balanced)=ewaste, dominant(own)=ewaste; grid norm=0.019; gridPct=0.58%",
+    "status": "NOT SUPPORTED — no defensible denominator gives a grid spike (utility capability 20,571 MW); cohort-relative signature is water",
+    "note": ""
+  },
+  {
+    "claim": "Saline Township spiked on grid capacity",
+    "type": "result",
+    "computed": "dominant(balanced)=ewaste, dominant(own)=ewaste; grid norm=0.381; gridPct=11.43%; cohort-relative top=grid",
+    "status": "SUPPORTED",
+    "note": ""
+  },
+  {
+    "claim": "Central Ohio spiked on food and land",
+    "type": "result",
+    "computed": "dominant(balanced)=ewaste, dominant(own)=ewaste; food norm=0.007; land norm=0.167; cohort-relative top=community",
+    "status": "NOT SUPPORTED — Ohio's signature is community",
+    "note": "Food is scored at five sites in v4 (regional crop production entered); Tucson remains unscored."
+  },
+  {
+    "claim": "Memphis spiked on health",
+    "type": "result",
+    "computed": "dominant(balanced)=ewaste, dominant(own)=ewaste; health norm=0.419 (total health cost $143M, 100% grid); E28 2024–25 regime: $147.1M total, 0.36 local deaths/yr",
+    "status": "NOT SUPPORTED under any configuration the platform models — the population-weighted local plume is small; the health burden is grid-attributable",
+    "note": ""
+  },
+  {
+    "claim": "Nordic reference site exceeded no critical threshold",
+    "type": "result",
+    "computed": "rating=conditional; regulatory fails=0; advisory fails=1 (who_noise_sustained)",
+    "status": "SUPPORTED for regulatory thresholds (the WHO noise guideline is an advisory rule; E26 noise_regulatory variant shows the v3 reading)",
+    "note": ""
+  },
+  {
+    "claim": "At fossil-supplied sites, grid-attributable PM/NOx exceeded on-site generator emissions by ~175x",
+    "type": "result",
+    "computed": "nova: PM2.5 14.7x, NOx 1.8x; tucson: PM2.5 15.7x, NOx 2.7x; ohio: PM2.5 16.8x, NOx 2.4x; saline: PM2.5 15354.6x, NOx 2647x; memphis: PM2.5 252.3x, NOx 454.9x",
+    "status": "NOT SUPPORTED AS A SINGLE FIGURE — the ratio is site-specific (generator tier, runtime, subregion rates)",
+    "note": ""
+  },
+  {
+    "claim": "Grid-attributable health damages dominate the monetised health burden",
+    "type": "result",
+    "computed": "grid share of total health cost: nova=96.8%, tucson=99.5%, ohio=99.2%, memphis=100%, nordic=99.9%, saline=100%",
+    "status": "SUPPORTED",
+    "note": "Grid term = delivered kWh × subregion output rates × EPA benefit-per-ton (NOx includes ozone-related benefits; PM-only and 7 % cases in E13)."
+  },
+  {
+    "claim": "Off-site (thermoelectric) water is a large share of each site's total water",
+    "type": "result",
+    "computed": "nova=46.3%, tucson=99.2%, ohio=57%, memphis=79%, nordic=88.7%, saline=99.8%",
+    "status": "SUPPORTED",
+    "note": "EWIF from the eGRID resource mix with Macknick et al. (2012) consumption factors; hydro reservoir evaporation not charged."
+  },
+  {
+    "claim": "Sequential review understates impact by a margin that varies by site",
+    "type": "result",
+    "computed": "spread of NIS understatement, manuscript definition (own weights): 6.1% to 70.7%",
+    "status": "SUPPORTED",
+    "note": ""
+  }
+]

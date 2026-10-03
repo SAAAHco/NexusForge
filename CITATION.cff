@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite the article and this data package."
+type: dataset
+title: "NEXUS FORGE publication data package: coupled nexus assessment of six proposed data centers (v5 engines)"
+version: "v5"
+date-released: 2026-10-03
+license: CC-BY-4.0
+repository-code: "https://github.com/SAAAHco/NexusForge"
+url: "https://nexusforgetool.com"
+keywords:
+  - data centers
+  - water-energy-food nexus
+  - permitting
+  - indirect water use
+  - grid emissions
+  - composite indicator
+  - decision support
+authors:
+  - family-names: Ashkanani
+    given-names: Zainab
+    affiliation: "Texas A&M Energy Institute and Biological and Agricultural Engineering Department, Texas A&M University"
+  - family-names: Sánchez
+    given-names: Raúl
+    affiliation: "Texas A&M Energy Institute, Texas A&M University; Departamento de Ingeniería Agroforestal, Universidad Politécnica de Madrid"
+  - family-names: Abdulrahman
+    given-names: Reem
+    affiliation: "Biological and Agricultural Engineering Department, Texas A&M University"
+  - family-names: Albatayneh
+    given-names: Rashed
+    affiliation: "Zachry Department of Civil and Environmental Engineering, Texas A&M University"
+  - family-names: Mohtar
+    given-names: Rabi
+    affiliation: "Texas A&M Energy Institute, Biological and Agricultural Engineering Department and Zachry Department of Civil and Environmental Engineering, Texas A&M University"
+preferred-citation:
+  type: article
+  title: "Sector-by-sector permitting omits the off-site electricity and water burdens that dominate data-center impacts"
+  journal: "Resources, Conservation and Recycling"
+  year: 2026
+  status: submitted
+  authors:
+    - family-names: Ashkanani
+      given-names: Zainab
+    - family-names: Sánchez
+      given-names: Raúl
+    - family-names: Abdulrahman
+      given-names: Reem
+    - family-names: Albatayneh
+      given-names: Rashed
+    - family-names: Mohtar
+      given-names: Rabi

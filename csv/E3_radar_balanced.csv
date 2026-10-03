@@ -1,0 +1,7 @@
+site,label,energy,water,food,health,land,community,ewaste,heat,grid,supply
+nova,Northern Virginia,0.2123,0.3631,0.0831,0.2408,0.1667,0.335,0.7283,0.2545,0.0194,0.4131
+tucson,"Tucson, Arizona",0.3553,0.1248,0,0.2572,0.35,0.301,0.7283,0.3021,0.3051,0.5235
+ohio,Central Ohio,0.3588,0.367,0.0066,0.3941,0.1667,0.4575,0.5894,0.0276,0.0089,0.2695
+memphis,"Memphis, Tennessee",0.3352,0.238,0,0.4186,0.05,0.2187,0.9598,0.2417,0.0336,0.5687
+nordic,Nordic / Scandinavia,0.0508,0.0981,0,0.0909,0.55,0.0386,0.5894,0.003,0.0126,0.2357
+saline,"Saline Township, Michigan",0.441,0.1415,0.0297,0.485,0.1667,0.3107,0.7283,0.387,0.3809,0.6119

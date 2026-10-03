@@ -1,0 +1,9 @@
+id,label,weight,inputs,source
+flood,Riverine Flooding,0.18,floodZone|elevation,FEMA Flood Maps / XDI
+surfaceWater,Surface Water Flooding,0.12,annualRainfall|impervSurface,NOAA / local drainage
+extremeHeat,Extreme Heat,0.2,tempIncrease|coolingDegreeDays,IPCC AR6 / NOAA
+drought,Drought & Water Scarcity,0.18,droughtIncrease|wriScore,NOAA Drought Monitor / WRI
+wildfire,Wildfire,0.1,wildfireRisk,USFS / state fire agency
+cyclone,Tropical Cyclone / Storm,0.08,cycloneRisk,NOAA / NHC
+freezeThaw,Freeze-Thaw Cycles,0.07,freezeThawRisk,NOAA / regional climate
+seaLevel,Coastal / Sea Level Rise,0.07,coastalRisk,IPCC AR6 / NOAA

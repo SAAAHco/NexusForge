@@ -1,0 +1,7 @@
+site,compositeScore,compositeRating,scoredCount,insuranceMultiplier2050,disruptionDaysYr,flood,surfaceWater,extremeHeat,drought,wildfire,cyclone,freezeThaw,seaLevel
+nova,0.1955,LOW RISK,7,1.586,3,0.1,,0.35,0.15,0.2,0.2,0.3,0
+tucson,0.4148,MODERATE RISK,7,2.244,6,0.1,,0.5,0.9,0.7,0.1,0.1,0
+ohio,0.183,LOW RISK,7,1.549,3,0.1,,0.35,0.15,0.1,0.1,0.4,0
+memphis,0.2966,LOW RISK,7,1.89,4,0.1,,0.6,0.15,0.3,0.3,0.5,0.1
+nordic,0.1864,LOW RISK,7,1.559,3,0.1,,0.15,0.15,0.1,0.2,0.7,0.2
+saline,0.1614,LOW RISK,7,1.484,2,0.1,,0.15,0.15,0.1,0.1,0.7,0

@@ -1,0 +1,13 @@
+site,variant,compliant,conditional,at-risk,non-compliant
+nova,shipped_v4,0,0,0,1
+nova,legacy_v3,0,0,0,1
+tucson,shipped_v4,0,0,0,1
+tucson,legacy_v3,0,0,0,1
+ohio,shipped_v4,0,0,0,1
+ohio,legacy_v3,0,0,0,1
+memphis,shipped_v4,0,0.0008,0.0041,0.9951
+memphis,legacy_v3,0,0,0,1
+nordic,shipped_v4,0.3195,0.6805,0,0
+nordic,legacy_v3,0,0,0,1
+saline,shipped_v4,0.0135,0.8382,0.1483,0
+saline,legacy_v3,0.0232,0.945,0.0318,0

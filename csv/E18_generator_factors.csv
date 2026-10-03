@@ -1,0 +1,4 @@
+tier,nox_g_kWh,pm25_g_kWh,so2_g_kWh,fuel_rate,fuel_ef_kgCO2_per_unit
+tier2,6.4,0.2,0.0078,0.27,2.68
+tier4,0.71,0.031,0.0078,0.27,2.68
+natgas,0.48,0.032,0.017,0.185,2.04

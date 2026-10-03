@@ -1,0 +1,22 @@
+rule,tier,category,title,nova,tucson,ohio,memphis,nordic,saline,source
+caa_title_v_nox,regulatory,air,Title V Major Source — NOx,fail,fail,fail,pass,pass,pass,"Clean Air Act Title V, 42 U.S.C. § 7661; 40 CFR 70.2 (major source, potential to emit)"
+caa_title_v_pm25,regulatory,air,Title V Major Source — PM2.5,pass,pass,pass,pass,pass,pass,"Clean Air Act Title V, 42 U.S.C. § 7661; 40 CFR 70.2"
+caa_hap,regulatory,air,Hazardous Air Pollutant (HAP) Major Source,pass,pass,pass,pass,pass,pass,"Clean Air Act Section 112(a)(1), 42 U.S.C. § 7412"
+epa_gen_runtime,regulatory,air,Generator Non-Emergency Runtime Limit,warn,warn,warn,fail,pass,pass,"40 CFR Part 63, Subpart ZZZZ (RICE NESHAP)"
+epa_ghg_reporting,regulatory,carbon,EPA GHG Reporting Program Threshold,pass,warn,pass,pass,pass,pass,40 CFR Part 98 — Mandatory GHG Reporting
+naaqs_pm25_annual,regulatory,air,NAAQS PM2.5 Annual Standard,pass,pass,pass,pass,pass,pass,40 CFR Part 50 — NAAQS for PM
+who_noise_sustained,advisory,noise,WHO Noise Guideline — Sustained Exposure,fail,fail,fail,fail,fail,pass,WHO Guidelines for Community Noise (1999); WHO Environmental Noise Guidelines for the European Region (2018)
+iso_pue,advisory,energy,PUE Benchmark (ISO 30134-2),pass,pass,pass,pass,pass,pass,ISO 30134-2:2016; The Green Grid
+tgg_wue,advisory,water,WUE Benchmark (The Green Grid),warn,pass,pass,pass,pass,pass,The Green Grid; ISO 30134
+wri_stress,advisory,water,WRI Aqueduct Water Stress,pass,fail,pass,pass,pass,pass,WRI Aqueduct Water Risk Atlas
+nerc_reserve,advisory,grid,Grid Reserve Margin (NERC/PJM),pass,pass,pass,pass,pass,warn,NERC Reliability Standards; PJM planning criteria
+transmission_util,advisory,grid,Transmission Utilization,warn,warn,warn,warn,pass,warn,PJM Reliability Standards; NERC TPL Standards
+ej_screen,advisory,health,Environmental Justice Screening,na,na,na,warn,na,na,EPA EJScreen; CDC Social Vulnerability Index
+health_cost_threshold,advisory,health,Monetized Health Damages,pass,pass,pass,pass,pass,pass,"EPA benefit-per-ton TSD (June 2024); EPA VSL ($11.6M, 2024)"
+net_fiscal,advisory,fiscal,Net Community Fiscal Impact,warn,pass,fail,pass,pass,pass,Brookings Institution CBA Framework (Jan 2026); NAACP DC CBA Template
+ratepayer_shift,advisory,fiscal,Ratepayer Cost Shift,pass,pass,pass,pass,warn,pass,Dominion Energy 2025 IRP; PJM Market Monitor
+food_security,advisory,land,Food Supply Displacement,pass,pass,pass,pass,pass,pass,Framework analysis; USDA food security methodology
+ewaste_reuse,advisory,waste,Hardware Reuse/Recycle Rate,pass,warn,pass,warn,pass,pass,UN Global E-Waste Monitor (2024); Microsoft Circular Economy Program
+aquifer_depletion,advisory,water,Aquifer Depletion Risk,na,pass,na,pass,na,pass,USGS Groundwater Depletion Studies; State water management frameworks
+basin_stress_contribution,advisory,water,Basin Water Stress Contribution,fail,pass,fail,warn,pass,pass,WRI Aqueduct methodology; EPA Water Quality Standards framework
+uhi_warming,advisory,heat,Local Temperature Impact,pass,pass,pass,pass,pass,pass,IPCC AR6; California EPA UHI methodology

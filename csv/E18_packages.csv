@@ -1,0 +1,6 @@
+id,label,interventions,primaryBenefit,description
+maxWaterSaving,Maximum Water Savings,liquidCooling+recycledWater,water,Eliminate all freshwater consumption: liquid cooling + 100% recycled water. Best for water-scarce regions (WRI > 3).
+healthPriority,Health & Air Quality Priority,tierIVGenerators+renewable90,health,"Maximize pollution reduction: Tier IV generators (-93% NOx, -95% PM2.5) + 90% renewables (less fossil grid). Best for EJ communities."
+carbonMinimum,Minimum Carbon Footprint,renewable90+extendLifespan+reuseProgram,energy,90% renewables + extended server life + 90% reuse program. Attacks both operational (Scope 2) and embodied (Scope 3) carbon.
+communityAcceptance,Community Acceptance Package,wasteHeatRecovery+tierIVGenerators+highAlbedo,community,"Waste heat recovery (revenue for community), Tier IV generators (less pollution), high-albedo green infrastructure (visual + thermal). Designed to address common objections."
+fullGreen,Full Green Transformation,liquidCooling+recycledWater+tierIVGenerators+renewable90+wasteHeatRecovery+extendLifespan+highAlbedo+reuseProgram,all,"Every available mitigation: liquid cooling, recycled water, Tier IV generators, 90% renewables, waste heat recovery, extended lifespan, high-albedo, 90% reuse. Shows maximum achievable improvement."

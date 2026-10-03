@@ -1,0 +1,6 @@
+id,label,low,high,note
+carbon,Carbon Storage,50,200,Social cost of carbon
+waterFilt,Water Filtration,100,500,Wetlands highest
+pollination,Pollination,50,300,Critical near cropland
+flood,Flood Regulation,200,1000,Wetlands/floodplains
+recreation,Recreation,50,500,Near population centers

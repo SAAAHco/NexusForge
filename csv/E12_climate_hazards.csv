@@ -1,0 +1,49 @@
+site,hazard,label,weight,score,rating,source
+nova,flood,Riverine Flooding,0.18,0.1,low,FEMA Flood Maps / XDI
+nova,surfaceWater,Surface Water Flooding,0.12,,,NOAA / local drainage
+nova,extremeHeat,Extreme Heat,0.2,0.35,low,IPCC AR6 / NOAA
+nova,drought,Drought & Water Scarcity,0.18,0.15,low,NOAA Drought Monitor / WRI
+nova,wildfire,Wildfire,0.1,0.2,low,USFS / state fire agency
+nova,cyclone,Tropical Cyclone / Storm,0.08,0.2,low,NOAA / NHC
+nova,freezeThaw,Freeze-Thaw Cycles,0.07,0.3,low,NOAA / regional climate
+nova,seaLevel,Coastal / Sea Level Rise,0.07,0,low,IPCC AR6 / NOAA
+tucson,flood,Riverine Flooding,0.18,0.1,low,FEMA Flood Maps / XDI
+tucson,surfaceWater,Surface Water Flooding,0.12,,,NOAA / local drainage
+tucson,extremeHeat,Extreme Heat,0.2,0.5,moderate,IPCC AR6 / NOAA
+tucson,drought,Drought & Water Scarcity,0.18,0.9,high,NOAA Drought Monitor / WRI
+tucson,wildfire,Wildfire,0.1,0.7,moderate,USFS / state fire agency
+tucson,cyclone,Tropical Cyclone / Storm,0.08,0.1,low,NOAA / NHC
+tucson,freezeThaw,Freeze-Thaw Cycles,0.07,0.1,low,NOAA / regional climate
+tucson,seaLevel,Coastal / Sea Level Rise,0.07,0,low,IPCC AR6 / NOAA
+ohio,flood,Riverine Flooding,0.18,0.1,low,FEMA Flood Maps / XDI
+ohio,surfaceWater,Surface Water Flooding,0.12,,,NOAA / local drainage
+ohio,extremeHeat,Extreme Heat,0.2,0.35,low,IPCC AR6 / NOAA
+ohio,drought,Drought & Water Scarcity,0.18,0.15,low,NOAA Drought Monitor / WRI
+ohio,wildfire,Wildfire,0.1,0.1,low,USFS / state fire agency
+ohio,cyclone,Tropical Cyclone / Storm,0.08,0.1,low,NOAA / NHC
+ohio,freezeThaw,Freeze-Thaw Cycles,0.07,0.4,low,NOAA / regional climate
+ohio,seaLevel,Coastal / Sea Level Rise,0.07,0,low,IPCC AR6 / NOAA
+memphis,flood,Riverine Flooding,0.18,0.1,low,FEMA Flood Maps / XDI
+memphis,surfaceWater,Surface Water Flooding,0.12,,,NOAA / local drainage
+memphis,extremeHeat,Extreme Heat,0.2,0.6,moderate,IPCC AR6 / NOAA
+memphis,drought,Drought & Water Scarcity,0.18,0.15,low,NOAA Drought Monitor / WRI
+memphis,wildfire,Wildfire,0.1,0.3,low,USFS / state fire agency
+memphis,cyclone,Tropical Cyclone / Storm,0.08,0.3,low,NOAA / NHC
+memphis,freezeThaw,Freeze-Thaw Cycles,0.07,0.5,moderate,NOAA / regional climate
+memphis,seaLevel,Coastal / Sea Level Rise,0.07,0.1,low,IPCC AR6 / NOAA
+nordic,flood,Riverine Flooding,0.18,0.1,low,FEMA Flood Maps / XDI
+nordic,surfaceWater,Surface Water Flooding,0.12,,,NOAA / local drainage
+nordic,extremeHeat,Extreme Heat,0.2,0.15,low,IPCC AR6 / NOAA
+nordic,drought,Drought & Water Scarcity,0.18,0.15,low,NOAA Drought Monitor / WRI
+nordic,wildfire,Wildfire,0.1,0.1,low,USFS / state fire agency
+nordic,cyclone,Tropical Cyclone / Storm,0.08,0.2,low,NOAA / NHC
+nordic,freezeThaw,Freeze-Thaw Cycles,0.07,0.7,moderate,NOAA / regional climate
+nordic,seaLevel,Coastal / Sea Level Rise,0.07,0.2,low,IPCC AR6 / NOAA
+saline,flood,Riverine Flooding,0.18,0.1,low,FEMA Flood Maps / XDI
+saline,surfaceWater,Surface Water Flooding,0.12,,,NOAA / local drainage
+saline,extremeHeat,Extreme Heat,0.2,0.15,low,IPCC AR6 / NOAA
+saline,drought,Drought & Water Scarcity,0.18,0.15,low,NOAA Drought Monitor / WRI
+saline,wildfire,Wildfire,0.1,0.1,low,USFS / state fire agency
+saline,cyclone,Tropical Cyclone / Storm,0.08,0.1,low,NOAA / NHC
+saline,freezeThaw,Freeze-Thaw Cycles,0.07,0.7,moderate,NOAA / regional climate
+saline,seaLevel,Coastal / Sea Level Rise,0.07,0,low,IPCC AR6 / NOAA

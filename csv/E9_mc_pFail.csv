@@ -1,0 +1,22 @@
+rule,tier,title,nova,tucson,ohio,memphis,nordic,saline
+caa_title_v_nox,regulatory,Title V Major Source — NOx,1,1,1,0,0,0
+caa_title_v_pm25,regulatory,Title V Major Source — PM2.5,0,0,0,0,0,0
+caa_hap,regulatory,Hazardous Air Pollutant (HAP) Major Source,0,0,0,0,0,0
+epa_gen_runtime,regulatory,Generator Non-Emergency Runtime Limit,0.4982,0,0.5001,0.9951,0,0
+epa_ghg_reporting,regulatory,EPA GHG Reporting Program Threshold,0,0,0,0,0,0
+naaqs_pm25_annual,regulatory,NAAQS PM2.5 Annual Standard,0,0,0,0,0,0
+who_noise_sustained,advisory,WHO Noise Guideline — Sustained Exposure,1,1,1,1,1,0
+iso_pue,advisory,PUE Benchmark (ISO 30134-2),0,0,0,0,0,0
+tgg_wue,advisory,WUE Benchmark (The Green Grid),0,0,0,0,0,0
+wri_stress,advisory,WRI Aqueduct Water Stress,0,0.7973,0,0,0,0
+nerc_reserve,advisory,Grid Reserve Margin (NERC/PJM),0,0,0,0,0,0
+transmission_util,advisory,Transmission Utilization,0.3696,0.108,0.1047,0.2017,0,0.1085
+ej_screen,advisory,Environmental Justice Screening,0,0,0,0.3978,0,0
+health_cost_threshold,advisory,Monetized Health Damages,0,0,0,0,0,0
+net_fiscal,advisory,Net Community Fiscal Impact,0.1502,0,1,0,0,0
+ratepayer_shift,advisory,Ratepayer Cost Shift,0,0,0,0,0.3195,0
+food_security,advisory,Food Supply Displacement,0,0,0,0,0,0
+ewaste_reuse,advisory,Hardware Reuse/Recycle Rate,0,0,0,0,0,0
+aquifer_depletion,advisory,Aquifer Depletion Risk,0,0,0,0,0,0
+basin_stress_contribution,advisory,Basin Water Stress Contribution,1,0,1,0,0,0
+uhi_warming,advisory,Local Temperature Impact,0,0,0,0,0,0

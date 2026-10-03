@@ -1,0 +1,7 @@
+site,perturbedInputs,NIS_own_base,NIS_own_mean,NIS_own_sd,NIS_own_p5,NIS_own_p95,NIS_bal_base,NIS_bal_mean,NIS_bal_sd,NIS_bal_p5,NIS_bal_p95,CV_own_pct,pNonCompliant,pNonCompliant_legacy_v3,pCompliant_legacy_v3,dominantDim_mode,pDominant_mode,dominantDim_mode_raw,saturatedExcluded
+nova,64,0.218,0.2181,0.0058,0.2087,0.2278,0.2816,0.2818,0.0055,0.2727,0.2912,2.64,1,1,0,ewaste,1,ewaste,
+tucson,66,0.2686,0.269,0.0076,0.2569,0.2819,0.3247,0.3252,0.0086,0.3115,0.3398,2.81,1,1,0,ewaste,1,ewaste,
+ohio,67,0.239,0.2394,0.0056,0.2302,0.2485,0.2646,0.2654,0.0059,0.2557,0.2751,2.32,1,1,0,ewaste,1,ewaste,
+memphis,66,0.3041,0.3041,0.0088,0.2896,0.3188,0.3064,0.3063,0.0065,0.2957,0.317,2.9,0.9951,1,0,ewaste,1,ewaste,
+nordic,65,0.1669,0.1675,0.0049,0.16,0.1756,0.1669,0.1675,0.0049,0.16,0.1756,2.91,0,1,0,ewaste,0.974,ewaste,
+saline,64,0.3842,0.3857,0.0203,0.3538,0.4209,0.3683,0.3689,0.0151,0.3444,0.3939,5.28,0,0,0.0232,ewaste,1,ewaste,

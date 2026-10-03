@@ -1,0 +1,85 @@
+site,pathway,from,to,couplingType,feed,mechanism,engines,displayActive,numericallyActive,live,value,unit
+nova,1,Energy,Water,computed feed (tier 0),R>W,Cooling architecture trade-off (PUE vs WUE); thermoelectric water intensity of the grid (EWIF),energyEngine→waterEngine,true,true,PUE 1.2 / WUE 1.9,1664400000,L/yr direct water
+nova,2,Energy,Health,computed feed (tier 2),R>H,Fossil grid + on-site generators → PM2.5/NOx/SO2 → mortality/morbidity (local plume: population-weighted increment × log-linear CRF × VSL; grid: subregion rates × EPA benefit-per-ton),energyEngine→healthEngine,true,true,$30.4M/yr total health damages,30373998.61898368,$/yr
+nova,3,Energy,Grid,computed feed (tier 0),R>GR,Facility MW as share of regional capacity; transmission utilisation; ratepayer bill pressure,energyEngine→gridEngine,true,true,0.6% of grid capacity,0.5833454863642993,% capacity
+nova,4,Energy,Land,computed feed (tier 1),R>L,Operational carbon enters the site carbon balance with sequestration loss and embodied carbon,energyEngine→landEngine,true,true,"298,724 tCO2e/yr net carbon",298723.8666666667,tCO2e/yr
+nova,5,Water,Food,computed feed (tier 1),W>F,Facility withdrawal competes with irrigation in the same basin,waterEngine→foodEngine,false,true,,,% irrigation
+nova,6,Water,Health,within-engine derivation,,Stormwater from impervious surface; well depletion affects community supply,landEngine (stormwater),true,true,"566,580 m3/yr added runoff",566580,m3/yr
+nova,7,Land,Food,within-engine derivation,,Permanent production loss + speculative land inflation,foodEngine,true,true,$105k/yr ag revenue lost,105000,$/yr
+nova,8,Land,Community,computed feed (tier 1),L>CM,"Rezoning shifts tax base, employment, character",communityEngine,true,true,$-11.0M net fiscal,-11000000,$/yr
+nova,9,Land,Heat Island,computed feed (tier 1),L>UHI,Impervious surface + albedo change + lost evapotranspiration,landEngine→heatEngine,true,false,+0.51 C local warming,0.5090664299339885,C
+nova,10,E-Waste,Health,qualitative (not modelled),,Toxic leachate from improper disposal (qualitative in v1),— (qualitative),false,false,,,
+nova,11,E-Waste,Supply Chain,within-engine derivation,,Critical-mineral demand; circularity reduces exposure,ewaste inputs→supplyEngine,true,true,4 high-risk materials; avgRisk 0.6631,0.6631,risk index
+nova,12,Grid,Community,within-engine derivation,,Infrastructure costs socialised to ratepayers,communityEngine,true,true,$13/household/yr,12.586278942148427,$/hh/yr
+nova,13,Heat Island,Health,within-engine derivation,,Warm-season mortality relative risk (+2%/C),heatEngine,true,true,+1.02% mortality RR,1.018132859867977,% RR
+nova,14,Climate,ALL,within-engine derivation,,Warming raises cooling demand; drought cuts supply; hazards disrupt operations,climateRiskEngine / scenarioEngine,true,true,climate risk 0.20 (LOW RISK),0.19545454545454546,0-1
+tucson,1,Energy,Water,computed feed (tier 0),R>W,Cooling architecture trade-off (PUE vs WUE); thermoelectric water intensity of the grid (EWIF),energyEngine→waterEngine,true,true,PUE 1.25 / WUE 0.01,20060400,L/yr direct water
+tucson,2,Energy,Health,computed feed (tier 2),R>H,Fossil grid + on-site generators → PM2.5/NOx/SO2 → mortality/morbidity (local plume: population-weighted increment × log-linear CRF × VSL; grid: subregion rates × EPA benefit-per-ton),energyEngine→healthEngine,true,true,$77.4M/yr total health damages,77393092.24874611,$/yr
+tucson,3,Energy,Grid,computed feed (tier 0),R>GR,Facility MW as share of regional capacity; transmission utilisation; ratepayer bill pressure,energyEngine→gridEngine,true,true,9.2% of grid capacity,9.154141349536296,% capacity
+tucson,4,Energy,Land,computed feed (tier 1),R>L,Operational carbon enters the site carbon balance with sequestration loss and embodied carbon,energyEngine→landEngine,true,true,"834,106 tCO2e/yr net carbon",834106.2666666667,tCO2e/yr
+tucson,5,Water,Food,computed feed (tier 1),W>F,Facility withdrawal competes with irrigation in the same basin,waterEngine→foodEngine,false,true,,,% irrigation
+tucson,6,Water,Health,within-engine derivation,,Stormwater from impervious surface; well depletion affects community supply,landEngine (stormwater),true,true,"880,223 m3/yr added runoff",880222.5,m3/yr
+tucson,7,Land,Food,within-engine derivation,,Permanent production loss + speculative land inflation,foodEngine,true,true,$0k/yr ag revenue lost,0,$/yr
+tucson,8,Land,Community,computed feed (tier 1),L>CM,"Rezoning shifts tax base, employment, character",communityEngine,true,true,$0.0M net fiscal,0,$/yr
+tucson,9,Land,Heat Island,computed feed (tier 1),L>UHI,Impervious surface + albedo change + lost evapotranspiration,landEngine→heatEngine,true,false,+0.60 C local warming,0.6042602049514654,C
+tucson,10,E-Waste,Health,qualitative (not modelled),,Toxic leachate from improper disposal (qualitative in v1),— (qualitative),false,false,,,
+tucson,11,E-Waste,Supply Chain,within-engine derivation,,Critical-mineral demand; circularity reduces exposure,ewaste inputs→supplyEngine,true,true,4 high-risk materials; avgRisk 0.7735,0.7735,risk index
+tucson,12,Grid,Community,within-engine derivation,,Infrastructure costs socialised to ratepayers,communityEngine,true,true,$12/household/yr,12.068054171081563,$/hh/yr
+tucson,13,Heat Island,Health,within-engine derivation,,Warm-season mortality relative risk (+2%/C),heatEngine,true,true,+1.21% mortality RR,1.2085204099029307,% RR
+tucson,14,Climate,ALL,within-engine derivation,,Warming raises cooling demand; drought cuts supply; hazards disrupt operations,climateRiskEngine / scenarioEngine,true,true,climate risk 0.41 (MODERATE RISK),0.4147727272727272,0-1
+ohio,1,Energy,Water,computed feed (tier 0),R>W,Cooling architecture trade-off (PUE vs WUE); thermoelectric water intensity of the grid (EWIF),energyEngine→waterEngine,true,true,PUE 1.35 / WUE 1.4,735840000,L/yr direct water
+ohio,2,Energy,Health,computed feed (tier 2),R>H,Fossil grid + on-site generators → PM2.5/NOx/SO2 → mortality/morbidity (local plume: population-weighted increment × log-linear CRF × VSL; grid: subregion rates × EPA benefit-per-ton),energyEngine→healthEngine,true,true,$33.6M/yr total health damages,33557150.53479857,$/yr
+ohio,3,Energy,Grid,computed feed (tier 0),R>GR,Facility MW as share of regional capacity; transmission utilisation; ratepayer bill pressure,energyEngine→gridEngine,true,true,0.3% of grid capacity,0.2656521596536683,% capacity
+ohio,4,Energy,Land,computed feed (tier 1),R>L,Operational carbon enters the site carbon balance with sequestration loss and embodied carbon,energyEngine→landEngine,true,true,"305,406 tCO2e/yr net carbon",305406.16000000003,tCO2e/yr
+ohio,5,Water,Food,computed feed (tier 1),W>F,Facility withdrawal competes with irrigation in the same basin,waterEngine→foodEngine,true,true,367.9% irrigation displaced,367.91999999999996,% irrigation
+ohio,6,Water,Health,within-engine derivation,,Stormwater from impervious surface; well depletion affects community supply,landEngine (stormwater),true,true,"277,624 m3/yr added runoff",277624.19999999995,m3/yr
+ohio,7,Land,Food,within-engine derivation,,Permanent production loss + speculative land inflation,foodEngine,true,true,$76k/yr ag revenue lost,76440,$/yr
+ohio,8,Land,Community,computed feed (tier 1),L>CM,"Rezoning shifts tax base, employment, character",communityEngine,true,true,$-14.4M net fiscal,-14450000,$/yr
+ohio,9,Land,Heat Island,computed feed (tier 1),L>UHI,Impervious surface + albedo change + lost evapotranspiration,landEngine→heatEngine,true,false,+0.06 C local warming,0.05529964490098305,C
+ohio,10,E-Waste,Health,qualitative (not modelled),,Toxic leachate from improper disposal (qualitative in v1),— (qualitative),false,false,,,
+ohio,11,E-Waste,Supply Chain,within-engine derivation,,Critical-mineral demand; circularity reduces exposure,ewaste inputs→supplyEngine,true,true,4 high-risk materials; avgRisk 0.5195,0.5195,risk index
+ohio,12,Grid,Community,within-engine derivation,,Infrastructure costs socialised to ratepayers,communityEngine,true,true,$4/household/yr,3.7334830708943634,$/hh/yr
+ohio,13,Heat Island,Health,within-engine derivation,,Warm-season mortality relative risk (+2%/C),heatEngine,true,true,+0.11% mortality RR,0.1105992898019661,% RR
+ohio,14,Climate,ALL,within-engine derivation,,Warming raises cooling demand; drought cuts supply; hazards disrupt operations,climateRiskEngine / scenarioEngine,true,true,climate risk 0.18 (LOW RISK),0.18295454545454545,0-1
+memphis,1,Energy,Water,computed feed (tier 0),R>W,Cooling architecture trade-off (PUE vs WUE); thermoelectric water intensity of the grid (EWIF),energyEngine→waterEngine,true,true,PUE 1.3 / WUE 0.51,1116900000,L/yr direct water
+memphis,2,Energy,Health,computed feed (tier 2),R>H,Fossil grid + on-site generators → PM2.5/NOx/SO2 → mortality/morbidity (local plume: population-weighted increment × log-linear CRF × VSL; grid: subregion rates × EPA benefit-per-ton),energyEngine→healthEngine,true,true,$143.0M/yr total health damages,143002601.13778484,$/yr
+memphis,3,Energy,Grid,computed feed (tier 0),R>GR,Facility MW as share of regional capacity; transmission utilisation; ratepayer bill pressure,energyEngine→gridEngine,true,true,1.0% of grid capacity,1.0071897855460519,% capacity
+memphis,4,Energy,Land,computed feed (tier 1),R>L,Operational carbon enters the site carbon balance with sequestration loss and embodied carbon,energyEngine→landEngine,true,true,"1,192,812 tCO2e/yr net carbon",1192812.481666667,tCO2e/yr
+memphis,5,Water,Food,computed feed (tier 1),W>F,Facility withdrawal competes with irrigation in the same basin,waterEngine→foodEngine,false,true,,,% irrigation
+memphis,6,Water,Health,within-engine derivation,,Stormwater from impervious surface; well depletion affects community supply,landEngine (stormwater),true,true,"845,014 m3/yr added runoff",845013.6000000001,m3/yr
+memphis,7,Land,Food,within-engine derivation,,Permanent production loss + speculative land inflation,foodEngine,true,true,$0k/yr ag revenue lost,0,$/yr
+memphis,8,Land,Community,computed feed (tier 1),L>CM,"Rezoning shifts tax base, employment, character",communityEngine,true,true,$11.8M net fiscal,11752756,$/yr
+memphis,9,Land,Heat Island,computed feed (tier 1),L>UHI,Impervious surface + albedo change + lost evapotranspiration,landEngine→heatEngine,true,false,+0.48 C local warming,0.4833740521746577,C
+memphis,10,E-Waste,Health,qualitative (not modelled),,Toxic leachate from improper disposal (qualitative in v1),— (qualitative),false,false,,,
+memphis,11,E-Waste,Supply Chain,within-engine derivation,,Critical-mineral demand; circularity reduces exposure,ewaste inputs→supplyEngine,true,true,4 high-risk materials; avgRisk 0.8187,0.8187,risk index
+memphis,12,Grid,Community,within-engine derivation,,Infrastructure costs socialised to ratepayers,communityEngine,true,true,$2/household/yr,1.998495868898671,$/hh/yr
+memphis,13,Heat Island,Health,within-engine derivation,,Warm-season mortality relative risk (+2%/C),heatEngine,true,true,+0.97% mortality RR,0.9667481043493154,% RR
+memphis,14,Climate,ALL,within-engine derivation,,Warming raises cooling demand; drought cuts supply; hazards disrupt operations,climateRiskEngine / scenarioEngine,true,true,climate risk 0.30 (LOW RISK),0.29659090909090907,0-1
+nordic,1,Energy,Water,computed feed (tier 0),R>W,Cooling architecture trade-off (PUE vs WUE); thermoelectric water intensity of the grid (EWIF),energyEngine→waterEngine,true,true,PUE 1.09 / WUE 0.1,24528000,L/yr direct water
+nordic,2,Energy,Health,computed feed (tier 2),R>H,Fossil grid + on-site generators → PM2.5/NOx/SO2 → mortality/morbidity (local plume: population-weighted increment × log-linear CRF × VSL; grid: subregion rates × EPA benefit-per-ton),energyEngine→healthEngine,true,true,$2.9M/yr total health damages,2917275.905771908,$/yr
+nordic,3,Energy,Grid,computed feed (tier 0),R>GR,Facility MW as share of regional capacity; transmission utilisation; ratepayer bill pressure,energyEngine→gridEngine,true,true,0.4% of grid capacity,0.3767901234567902,% capacity
+nordic,4,Energy,Land,computed feed (tier 1),R>L,Operational carbon enters the site carbon balance with sequestration loss and embodied carbon,energyEngine→landEngine,true,true,"11,949 tCO2e/yr net carbon",11948.658666666666,tCO2e/yr
+nordic,5,Water,Food,computed feed (tier 1),W>F,Facility withdrawal competes with irrigation in the same basin,waterEngine→foodEngine,false,true,,,% irrigation
+nordic,6,Water,Health,within-engine derivation,,Stormwater from impervious surface; well depletion affects community supply,landEngine (stormwater),true,true,"485,640 m3/yr added runoff",485640,m3/yr
+nordic,7,Land,Food,within-engine derivation,,Permanent production loss + speculative land inflation,foodEngine,true,true,$0k/yr ag revenue lost,0,$/yr
+nordic,8,Land,Community,computed feed (tier 1),L>CM,"Rezoning shifts tax base, employment, character",communityEngine,true,true,$2.0M net fiscal,2000000,$/yr
+nordic,9,Land,Heat Island,computed feed (tier 1),L>UHI,Impervious surface + albedo change + lost evapotranspiration,landEngine→heatEngine,true,false,+0.01 C local warming,0.0059448567187331824,C
+nordic,10,E-Waste,Health,qualitative (not modelled),,Toxic leachate from improper disposal (qualitative in v1),— (qualitative),false,false,,,
+nordic,11,E-Waste,Supply Chain,within-engine derivation,,Critical-mineral demand; circularity reduces exposure,ewaste inputs→supplyEngine,true,true,4 high-risk materials; avgRisk 0.4857,0.4857,risk index
+nordic,12,Grid,Community,within-engine derivation,,Infrastructure costs socialised to ratepayers,communityEngine,true,true,$189/household/yr,188.81283927307058,$/hh/yr
+nordic,13,Heat Island,Health,within-engine derivation,,Warm-season mortality relative risk (+2%/C),heatEngine,true,true,+0.01% mortality RR,0.011889713437466365,% RR
+nordic,14,Climate,ALL,within-engine derivation,,Warming raises cooling demand; drought cuts supply; hazards disrupt operations,climateRiskEngine / scenarioEngine,true,true,climate risk 0.19 (LOW RISK),0.18636363636363631,0-1
+saline,1,Energy,Water,computed feed (tier 0),R>W,Cooling architecture trade-off (PUE vs WUE); thermoelectric water intensity of the grid (EWIF),energyEngine→waterEngine,true,true,PUE 1.25 / WUE 0.003,29065680,L/yr direct water
+saline,2,Energy,Health,computed feed (tier 2),R>H,Fossil grid + on-site generators → PM2.5/NOx/SO2 → mortality/morbidity (local plume: population-weighted increment × log-linear CRF × VSL; grid: subregion rates × EPA benefit-per-ton),energyEngine→healthEngine,true,true,$704.8M/yr total health damages,704813842.6812004,$/yr
+saline,3,Energy,Grid,computed feed (tier 0),R>GR,Facility MW as share of regional capacity; transmission utilisation; ratepayer bill pressure,energyEngine→gridEngine,true,true,11.4% of grid capacity,11.426564178857756,% capacity
+saline,4,Energy,Land,computed feed (tier 1),R>L,Operational carbon enters the site carbon balance with sequestration loss and embodied carbon,energyEngine→landEngine,true,true,"5,432,741 tCO2e/yr net carbon",5432740.798133333,tCO2e/yr
+saline,5,Water,Food,computed feed (tier 1),W>F,Facility withdrawal competes with irrigation in the same basin,waterEngine→foodEngine,false,true,,,% irrigation
+saline,6,Water,Health,within-engine derivation,,Stormwater from impervious surface; well depletion affects community supply,landEngine (stormwater),true,true,"708,225 m3/yr added runoff",708225,m3/yr
+saline,7,Land,Food,within-engine derivation,,Permanent production loss + speculative land inflation,foodEngine,true,true,$131k/yr ag revenue lost,131250,$/yr
+saline,8,Land,Community,computed feed (tier 1),L>CM,"Rezoning shifts tax base, employment, character",communityEngine,true,true,$-2.0M net fiscal,-2000000,$/yr
+saline,9,Land,Heat Island,computed feed (tier 1),L>UHI,Impervious surface + albedo change + lost evapotranspiration,landEngine→heatEngine,true,false,+0.77 C local warming,0.7739945056794368,C
+saline,10,E-Waste,Health,qualitative (not modelled),,Toxic leachate from improper disposal (qualitative in v1),— (qualitative),false,false,,,
+saline,11,E-Waste,Supply Chain,within-engine derivation,,Critical-mineral demand; circularity reduces exposure,ewaste inputs→supplyEngine,true,true,4 high-risk materials; avgRisk 0.8619,0.8619,risk index
+saline,12,Grid,Community,within-engine derivation,,Infrastructure costs socialised to ratepayers,communityEngine,true,true,$1/household/yr,0.967221351991678,$/hh/yr
+saline,13,Heat Island,Health,within-engine derivation,,Warm-season mortality relative risk (+2%/C),heatEngine,true,true,+1.55% mortality RR,1.5479890113588737,% RR
+saline,14,Climate,ALL,within-engine derivation,,Warming raises cooling demand; drought cuts supply; hazards disrupt operations,climateRiskEngine / scenarioEngine,true,true,climate risk 0.16 (LOW RISK),0.16136363636363635,0-1

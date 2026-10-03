@@ -1,0 +1,6 @@
+id,label,yield,yieldUnit,tFactor,waterMm,revLow,revHigh,sensitivity
+corn,Corn,180,bu/acre,0.0254,600,700,1000,High water
+soybeans,Soybeans,50,bu/acre,0.0272,500,400,650,Moderate
+wheat,Wheat,47,bu/acre,0.0272,425,300,500,Drought-tolerant
+vegetables,Vegetables,,varies,,700,2000,10000,Very high value
+dairy,Dairy / Livestock,,N/A,,500,1000,3000,Water & land

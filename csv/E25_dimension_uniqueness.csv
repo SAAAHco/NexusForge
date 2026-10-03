@@ -1,0 +1,11 @@
+dim,n,mean,sd,range,globallySaturated,nearConstant
+energy,6,0.2922,0.1393,0.3902,false,false
+water,6,0.2221,0.1204,0.2689,false,false
+food,6,0.0199,0.033,0.0831,false,true
+health,6,0.3144,0.1449,0.3941,false,false
+land,6,0.2417,0.1791,0.5,false,false
+community,6,0.2769,0.1399,0.4189,false,false
+ewaste,6,0.7206,0.1355,0.3704,false,false
+heat,6,0.2027,0.154,0.384,false,false
+grid,6,0.1267,0.1694,0.372,false,false
+supply,6,0.4371,0.1578,0.3762,false,false

@@ -1,0 +1,7 @@
+site,rating,total,fail,warn,pass,na,regulatory_fail,regulatory_warn,advisory_fail,advisory_warn,failed_rules,warn_rules
+nova,non-compliant,21,3,4,12,2,1,1,2,3,caa_title_v_nox|who_noise_sustained|basin_stress_contribution,epa_gen_runtime|tgg_wue|transmission_util|net_fiscal
+tucson,non-compliant,21,3,4,13,1,1,2,2,2,caa_title_v_nox|who_noise_sustained|wri_stress,epa_gen_runtime|epa_ghg_reporting|transmission_util|ewaste_reuse
+ohio,non-compliant,21,4,2,13,2,1,1,3,1,caa_title_v_nox|who_noise_sustained|net_fiscal|basin_stress_contribution,epa_gen_runtime|transmission_util
+memphis,non-compliant,21,2,4,15,0,1,0,1,4,epa_gen_runtime|who_noise_sustained,transmission_util|ej_screen|ewaste_reuse|basin_stress_contribution
+nordic,conditional,21,1,1,17,2,0,0,1,1,who_noise_sustained,ratepayer_shift
+saline,conditional,21,0,2,18,1,0,0,0,2,,nerc_reserve|transmission_util

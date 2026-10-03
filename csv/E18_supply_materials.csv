@@ -1,0 +1,8 @@
+id,label,use,risk,recycle,default_criticality,default_concentration,default_growth
+gallium,Gallium,"Semiconductor chips, LEDs",China: 99% refined,Low,9,99,15
+cobalt,Cobalt,"Batteries (UPS), hard drives",DRC: 70% mining,Medium,7,70,10
+lithium,Lithium,UPS battery systems,Chile/Australia: 75%,Growing,8,75,20
+rareEarths,Rare Earths,"Magnets, optical components","China: 60% mine, 90% process",Very Low,8,90,12
+copper,Copper,"Cabling, bus bars, transformers",Chile/Peru: 40%,High,5,40,5
+steel,Steel,"Structural, racks, enclosures",Global; abundant,Very High,2,10,3
+water,Water,Cooling systems,Local; varies,Recyclable,6,50,8

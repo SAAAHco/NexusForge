@@ -1,0 +1,1692 @@
+{
+  "site": "tucson",
+  "label": "Tucson, Arizona",
+  "state": {
+    "itLoad": "229000",
+    "pue": "1.25",
+    "gridEF": "0.320",
+    "renewPct": "22.4",
+    "renewProcuredPct": "0",
+    "genCount": "120",
+    "genTier": "tier2",
+    "genCapacity": "2.5",
+    "genRuntime": "80",
+    "gridCapMW": "3127",
+    "energyCost": "0.077",
+    "reusedEnergy": "",
+    "priceChange": "0.002",
+    "regionalCons": "8933000",
+    "peakTiming": "",
+    "usePowerMix": false,
+    "mix": {
+      "coal": "11.1",
+      "gas": "48.7",
+      "gasCCS": "",
+      "nuclear": "18.0",
+      "wind": "7.7",
+      "windOff": "",
+      "solar": "8.2",
+      "hydro": "2.6",
+      "geo": "3.6",
+      "bio": "0.3"
+    },
+    "intDuration": "",
+    "intCustomers1": "",
+    "intEvents": "",
+    "intCustomers2": "",
+    "availCap": "",
+    "largestGen": "",
+    "peakLoad": "",
+    "atc": "",
+    "curtailable": "",
+    "s2pue": "",
+    "s2renewPct": "",
+    "s2gridEF": "",
+    "s2genTier": "tier4",
+    "s2genRuntime": "",
+    "s3pue": "",
+    "s3renewPct": "",
+    "s3gridEF": "",
+    "s3genTier": "natgas",
+    "s3genRuntime": "",
+    "coolingType": "air",
+    "wue": "0.01",
+    "wriScore": "4.4",
+    "waterSource": "groundwater",
+    "ewif": "",
+    "rechargeRate": "74000000",
+    "droughtProb": "0.59",
+    "cyclesConc": "",
+    "basinAvailable": "373000000",
+    "recycledPct": "0",
+    "useAutoEwif": true,
+    "useWaterMix": false,
+    "wmix": {
+      "municipal": "",
+      "recycled": "",
+      "groundwater": "",
+      "surface": "",
+      "rainwater": "",
+      "seawater": "",
+      "onsite": ""
+    },
+    "ws2wue": "",
+    "ws2coolingType": "liquid",
+    "ws2recycledPct": "",
+    "ws3wue": "",
+    "ws3coolingType": "air",
+    "ws3recycledPct": "",
+    "landAcres": "290",
+    "cropType": "vegetables",
+    "cropYield": "",
+    "cropValue": "",
+    "irrigWaterCompete": "",
+    "totalIrrigation": "",
+    "farmEmployRate": "",
+    "tenantCount": "",
+    "landValuePre": "72000",
+    "landValuePost": "150000",
+    "foodElasticity": "",
+    "regionalDemand": "58300",
+    "soilClass": "V-VIII",
+    "fs2acres": "",
+    "fs2crop": "soybeans",
+    "fs2value": "",
+    "fs3acres": "",
+    "fs3crop": "vegetables",
+    "fs3value": "",
+    "hNoxEF": "",
+    "hPm25EF": "",
+    "hSo2EF": "",
+    "pm25Background": "5.7",
+    "gridNoxEF": "0.163",
+    "gridSo2EF": "0.047",
+    "gridPm25EF": "0.0301",
+    "pop1km": "100",
+    "pop5km": "17800",
+    "pop10km": "56500",
+    "baselineAsthma": "",
+    "baselineMortality": "",
+    "noiseBoundary": "92",
+    "windSpeed": "",
+    "stackHeight": "",
+    "vulnPctElderly": "14.5",
+    "vulnPctChild": "24.3",
+    "vulnPctLowIncome": "6.3",
+    "ejPollutionBurden": "",
+    "ejVulnerability": "",
+    "hs2genTier": "tier4",
+    "hs2runtime": "",
+    "hs3genTier": "natgas",
+    "hs3runtime": "",
+    "priorLandUse": "grassland",
+    "imperviousAcres": "",
+    "runoffPost": "",
+    "annualRainfall": "",
+    "protectedDist": "",
+    "albedoPost": "",
+    "embodiedCarbonMW": "",
+    "speciesRichnessLoss": "",
+    "speciesBaseline": "",
+    "habitatLoss": "",
+    "habitatTotal": "",
+    "connectivityIndex": "",
+    "wasteHeatFracAir": "",
+    "ecoWeights": {
+      "carbon": true,
+      "waterFilt": true,
+      "pollination": true,
+      "flood": true,
+      "recreation": true
+    },
+    "constJobs": "3000",
+    "constWages": "200000000",
+    "permJobs": "180",
+    "permWages": "11520000",
+    "taxRevenue": "25000000",
+    "taxIncentives": "20000000",
+    "infraCosts": "5000000",
+    "ratepayerHH": "414317",
+    "localMultiplier": "",
+    "broadbandValue": "",
+    "infraImprove": "",
+    "propValuePre": "",
+    "propValuePost": "",
+    "schoolFunding": "",
+    "agTaxPerAcre": "0",
+    "serverCount": "115000",
+    "serverLifespan": "4",
+    "embodiedPerServer": "",
+    "equipMassTonnes": "",
+    "reuseRate": "50",
+    "landfillRate": "",
+    "constructionEmbodied": "",
+    "extendedLifespan": "",
+    "heatRejectMethod": "air",
+    "windSpeedUHI": "",
+    "windDirection": "",
+    "humidity": "",
+    "stabilityClass": "D",
+    "vegPct": "25",
+    "waterBodyPct": "",
+    "buildingDensity": "10",
+    "ventilationArea": "",
+    "mixingHeight": "",
+    "heatRecoveryPct": "",
+    "transUtil": "75",
+    "curtailFreq": "",
+    "gridInfraCost": "100000000",
+    "constDuration": "30",
+    "truckTripsDay": "150",
+    "permTraffic": "400",
+    "roadDamageESAL": "",
+    "roadInfraCost": "5000000",
+    "scMaterials": {
+      "gallium": {
+        "criticality": "9",
+        "concentration": "99",
+        "growth": "15"
+      },
+      "cobalt": {
+        "criticality": "7",
+        "concentration": "70",
+        "growth": "10"
+      },
+      "lithium": {
+        "criticality": "8",
+        "concentration": "75",
+        "growth": "20"
+      },
+      "rareEarths": {
+        "criticality": "8",
+        "concentration": "90",
+        "growth": "12"
+      },
+      "copper": {
+        "criticality": "5",
+        "concentration": "40",
+        "growth": "5"
+      },
+      "steel": {
+        "criticality": "2",
+        "concentration": "10",
+        "growth": "3"
+      },
+      "water": {
+        "criticality": "6",
+        "concentration": "50",
+        "growth": "8"
+      }
+    },
+    "nxPreset": "waterScarce",
+    "nxWeights": {
+      "energy": 10,
+      "water": 25,
+      "food": 8,
+      "health": 15,
+      "land": 8,
+      "community": 10,
+      "ewaste": 5,
+      "heat": 5,
+      "grid": 9,
+      "supply": 5
+    },
+    "scenarioSelect": "base",
+    "projectionYear": "2030",
+    "tempIncrease": "2.0",
+    "droughtIncrease": "20",
+    "seaLevelRise": "",
+    "extremeHeatMult": "",
+    "precipVariability": "",
+    "popGrowthPct": "",
+    "urbanizationPct": "",
+    "aiAdoptionPct": "",
+    "dataGenZB": "",
+    "elecDemandGrowth": "",
+    "existingDCs": "7",
+    "plannedDCs": "3",
+    "existingLoadMW": "29",
+    "existingWaterMGD": "0.15",
+    "existingGenerators": "25",
+    "floodZone": "X",
+    "elevation": "921",
+    "coolingDegreeDays": "3145",
+    "wildfireRisk": "7",
+    "cycloneRisk": "1",
+    "freezeThawRisk": "1",
+    "coastalRisk": "0",
+    "boundaryDistance": "50",
+    "setbackResidential": "2500",
+    "setbackSchool": "3000",
+    "setbackHospital": "9000",
+    "setbackPark": "200",
+    "setbackWater": "500",
+    "setbackRoad": "100",
+    "setbackHistoric": "12500",
+    "siteASnapshot": null,
+    "siteAName": "",
+    "activePresetId": "tucson"
+  },
+  "results": {
+    "R": {
+      "eit": 2006040000,
+      "totalMWh": 2507550,
+      "itMWh": 2006040,
+      "coolingMWh": 501510,
+      "dcMW": 286.25,
+      "scope1": 17366.4,
+      "scope2": 802416,
+      "totalC": 819782.4,
+      "cue": 0.4086570556918107,
+      "gridPct": 9.154141349536296,
+      "homes": 238814,
+      "ratepayer": 17866,
+      "ere": null,
+      "cost": 193081350,
+      "renewPct": 22.4,
+      "renewProcuredPct": 0
+    },
+    "G": {
+      "saidi": null,
+      "saifi": null,
+      "n1": null,
+      "transAdq": null
+    },
+    "W": {
+      "directL": 20060400,
+      "indirectL": 2477208645,
+      "ewif": 0.9879,
+      "totalL": 2497269045,
+      "totalGalDay": 1807617.7014531044,
+      "directGalDay": 14520.475561426685,
+      "peopleEquiv": 18076,
+      "freshwaterL": 20060400,
+      "waterSource": "groundwater",
+      "aquiferRisk": 0.027108648648648648,
+      "evapRateLhr": 0,
+      "dvs": 0.000376253507774799,
+      "stressContrib": 0.005378123324396783,
+      "waterCost": null,
+      "treatmentEnergy": null,
+      "communityImpact": null,
+      "sustainScore": null,
+      "potablePct": null
+    },
+    "F": {
+      "effectiveCropYield": 0,
+      "effectiveCropValue": 6000,
+      "autoIrrigFromWater": true,
+      "irrigWaterUsed": 20060.4,
+      "prodLoss": 0,
+      "lostRev": 0,
+      "foodSecImpact": 0,
+      "irrigDisplace": null,
+      "jobsLost": 0,
+      "landInflation": 108.33333333333333,
+      "priceImpact": null,
+      "cropWaterM3": 821541
+    },
+    "H": {
+      "totalGenKwh": 24000000,
+      "noxT": 153.6,
+      "pm25T": 4.8,
+      "so2T": 0.1872,
+      "popTotal": 56500,
+      "ringPopulations": [
+        100,
+        17700,
+        38700
+      ],
+      "ringConc": [
+        0.40287337608351315,
+        0.026058157561304026,
+        0.005801911442582881
+      ],
+      "pm25Conc": 0.012850454854360887,
+      "pm25ConcCenterline1km": 7.269748339416034,
+      "pm25Background": 5.7,
+      "pm25TotalConc": 5.712850454854361,
+      "pm25Delta": 0.012850454854360887,
+      "dispersion": {
+        "stabilityClass": "D",
+        "windSpeed": 3.5,
+        "stackHeight": 10,
+        "model": "long-term Gaussian, uniform wind rose, Briggs rural sigma_z, ring-integrated"
+      },
+      "prematureDeaths": 0.04,
+      "asthmaIncidents": 0,
+      "respHosp": 0,
+      "healthCost": 422139.864746107,
+      "gridNoxT": 408.73065,
+      "gridSo2T": 117.85485,
+      "gridPm25T": 75.477255,
+      "gridEFsUsed": {
+        "nox": 0.163,
+        "so2": 0.047,
+        "pm25": 0.0301,
+        "renewProcuredPct": 0
+      },
+      "gridPm25Cost": 11231015.544,
+      "gridNoxCost": 56936179.545,
+      "gridSo2Cost": 8803757.295,
+      "gridHealthCost": 76970952.384,
+      "gridPrematureDeaths": 6.64,
+      "gridPm25Conc": null,
+      "totalHealthCost": 77393092.24874611,
+      "noiseRadius": 0.1402608672624384,
+      "noiseZone": 0.0618049006302374,
+      "ejScore": null,
+      "ejPctile": null,
+      "vulnPct": 45.099999999999994
+    },
+    "L": {
+      "seqLoss": 362.5,
+      "seqRate": 1.25,
+      "opCarbon": 819782.4,
+      "embodiedC": 418841,
+      "netCarbon": 834106.2666666667,
+      "stormVolM3": 880222.5,
+      "olympicPools": 352.089,
+      "albedoChange": -0.04999999999999999,
+      "esvLost": 427750,
+      "esvPerAcre": 1475,
+      "activeServices": [
+        {
+          "id": "carbon",
+          "label": "Carbon Storage",
+          "low": 50,
+          "high": 200,
+          "note": "Social cost of carbon"
+        },
+        {
+          "id": "waterFilt",
+          "label": "Water Filtration",
+          "low": 100,
+          "high": 500,
+          "note": "Wetlands highest"
+        },
+        {
+          "id": "pollination",
+          "label": "Pollination",
+          "low": 50,
+          "high": 300,
+          "note": "Critical near cropland"
+        },
+        {
+          "id": "flood",
+          "label": "Flood Regulation",
+          "low": 200,
+          "high": 1000,
+          "note": "Wetlands/floodplains"
+        },
+        {
+          "id": "recreation",
+          "label": "Recreation",
+          "low": 50,
+          "high": 500,
+          "note": "Near population centers"
+        }
+      ],
+      "bis": 0.35000000000000003,
+      "bisSource": "estimated",
+      "wasteHeatMW": 45.79999999999999,
+      "impervFrac": 0.7
+    },
+    "CM": {
+      "netFiscal": 0,
+      "netCapture": 0,
+      "jobsMW": 0.7860262008733624,
+      "ratepayerShift": 12.068054171081563,
+      "constMultiplied": 300000000,
+      "permMultiplied": 17280000,
+      "dcTaxPerAcre": 86206.89655172414,
+      "agTaxRatio": null,
+      "propDelta": null,
+      "benefits": 36520000,
+      "costs": 25849889.86474611,
+      "netCommunityValue": 10670110.135253891,
+      "costsExHealth": 25427750,
+      "netCommunityValueExHealth": 11092250,
+      "netCommunityValueExHealthPerMW": 48437.77292576419,
+      "benefitItems": [
+        {
+          "name": "Tax Revenue",
+          "value": 25000000
+        },
+        {
+          "name": "Perm Wages",
+          "value": 11520000
+        },
+        {
+          "name": "Infrastructure",
+          "value": 0
+        },
+        {
+          "name": "Broadband",
+          "value": 0
+        },
+        {
+          "name": "School Funding",
+          "value": 0
+        }
+      ],
+      "costItems": [
+        {
+          "name": "Tax Incentives",
+          "value": 20000000
+        },
+        {
+          "name": "Public Infra",
+          "value": 5000000
+        },
+        {
+          "name": "Health Costs",
+          "value": 422139.864746107
+        },
+        {
+          "name": "Env. Damage",
+          "value": 427750
+        },
+        {
+          "name": "Ag Revenue Lost",
+          "value": 0
+        },
+        {
+          "name": "Property Loss",
+          "value": 0
+        }
+      ]
+    },
+    "EW": {
+      "embodiedPerServerUsed": 9956.521739130436,
+      "embodiedIT": 1145000.0000000002,
+      "embodiedConst": 418841,
+      "opCarbon": 819782.4,
+      "lcCarbon": 4842970.600000001,
+      "embodiedPct": 26.80473549064098,
+      "annualEmbodied": 300211.3666666667,
+      "embodiedIntensity": 1310.9666666666667,
+      "ewasteYr": 718.75,
+      "avoidedEwaste": 359.375,
+      "landfillTonnes": 359.375,
+      "ede": 50,
+      "lifespanSavings": null,
+      "lifespanPctSaved": null,
+      "scope2": 819782.4,
+      "scope3": 1563841.0000000002,
+      "scope3Pct": 32.29094556138747
+    },
+    "UHI": {
+      "wasteHeatTotal": 57.249999999999986,
+      "wasteHeatToAir": 54.38749999999998,
+      "wasteHeatRecovered": 0,
+      "crossSectionM2": 108334.20512469734,
+      "anthroFluxWm2": 46.341265986724935,
+      "deltaT": 0.13876020495146543,
+      "albedoChange": -0.04999999999999999,
+      "albedoWarming": 0.15549999999999997,
+      "vegCooling": 0.25,
+      "vegCoolingApplied": 0.25,
+      "surfaceWarming": 0.7154999999999999,
+      "uhiAnthropogenic": 0.13876020495146543,
+      "uhiEstimate": 0.6042602049514654,
+      "impervPct": 70,
+      "heatMortalityIncrease": 1.2085204099029307,
+      "heatMortalityUnits": "% relative risk increase, all-cause warm-season mortality",
+      "coolingDemandIncrease": 2.4170408198058615,
+      "recoveryPotential": 250754.99999999994,
+      "districtHeatingRev": 7522649.999999998
+    },
+    "GR": {
+      "gridCapImpact": 9.154141349536296,
+      "transUtil": 75,
+      "curtailFreq": null,
+      "gridInfraCost": 100000000,
+      "constDuration": 30,
+      "truckTripsDay": 150,
+      "permTraffic": 400,
+      "roadInfraCost": 5000000,
+      "totalInfraCost": 105000000,
+      "totalTruckTrips": 99000
+    },
+    "SC": {
+      "items": [
+        {
+          "id": "gallium",
+          "label": "Gallium",
+          "use": "Semiconductor chips, LEDs",
+          "risk": "China: 99% refined",
+          "recycle": "Low",
+          "color": "#DC2626",
+          "crit": 9,
+          "conc": 99,
+          "growth": 15,
+          "riskScore": 1.025
+        },
+        {
+          "id": "cobalt",
+          "label": "Cobalt",
+          "use": "Batteries (UPS), hard drives",
+          "risk": "DRC: 70% mining",
+          "recycle": "Medium",
+          "color": "#D97706",
+          "crit": 7,
+          "conc": 70,
+          "growth": 10,
+          "riskScore": 0.539
+        },
+        {
+          "id": "lithium",
+          "label": "Lithium",
+          "use": "UPS battery systems",
+          "risk": "Chile/Australia: 75%",
+          "recycle": "Growing",
+          "color": "#2563EB",
+          "crit": 8,
+          "conc": 75,
+          "growth": 20,
+          "riskScore": 0.72
+        },
+        {
+          "id": "rareEarths",
+          "label": "Rare Earths",
+          "use": "Magnets, optical components",
+          "risk": "China: 60% mine, 90% process",
+          "recycle": "Very Low",
+          "color": "#7C3AED",
+          "crit": 8,
+          "conc": 90,
+          "growth": 12,
+          "riskScore": 0.806
+        },
+        {
+          "id": "copper",
+          "label": "Copper",
+          "use": "Cabling, bus bars, transformers",
+          "risk": "Chile/Peru: 40%",
+          "recycle": "High",
+          "color": "#D97706",
+          "crit": 5,
+          "conc": 40,
+          "growth": 5,
+          "riskScore": 0.21
+        },
+        {
+          "id": "steel",
+          "label": "Steel",
+          "use": "Structural, racks, enclosures",
+          "risk": "Global; abundant",
+          "recycle": "Very High",
+          "color": "#64748B",
+          "crit": 2,
+          "conc": 10,
+          "growth": 3,
+          "riskScore": 0.021
+        },
+        {
+          "id": "water",
+          "label": "Water",
+          "use": "Cooling systems",
+          "risk": "Local; varies",
+          "recycle": "Recyclable",
+          "color": "#06B6D4",
+          "crit": 6,
+          "conc": 50,
+          "growth": 8,
+          "riskScore": 0.324
+        }
+      ],
+      "totalRiskIndex": 3.6449999999999996,
+      "baseAvgRisk": 0.5207142857142857,
+      "highRisk": 4,
+      "scaleFactor": 1.801,
+      "circularityFactor": 0.825,
+      "criticalMineralExposure": 1,
+      "renewableRiskShift": 1,
+      "avgRisk": 0.7735,
+      "hasData": true
+    },
+    "NX": {
+      "dims": [
+        {
+          "id": "energy",
+          "label": "Energy",
+          "color": "#2563EB",
+          "min": 0,
+          "max": 1,
+          "unit": "composite",
+          "raw": 0.3553197881997689,
+          "w": 0.1,
+          "normalized": 0.3553197881997689,
+          "weighted": 0.03553197881997689
+        },
+        {
+          "id": "water",
+          "label": "Water",
+          "color": "#06B6D4",
+          "min": 0,
+          "max": 1,
+          "unit": "composite",
+          "raw": 0.12484781819532884,
+          "w": 0.25,
+          "normalized": 0.12484781819532884,
+          "weighted": 0.03121195454883221
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "color": "#84CC16",
+          "min": 0,
+          "max": 5,
+          "unit": "% supply",
+          "raw": 0,
+          "w": 0.08,
+          "normalized": 0,
+          "weighted": 0
+        },
+        {
+          "id": "health",
+          "label": "Health",
+          "color": "#DC2626",
+          "min": 0,
+          "max": 120,
+          "unit": "$/MWh",
+          "raw": 30.864027536338703,
+          "w": 0.15,
+          "normalized": 0.25720022946948917,
+          "weighted": 0.038580034420423376
+        },
+        {
+          "id": "land",
+          "label": "Land",
+          "color": "#166534",
+          "min": 0,
+          "max": 100,
+          "unit": "BIS%",
+          "raw": 35,
+          "w": 0.08,
+          "normalized": 0.35,
+          "weighted": 0.027999999999999997
+        },
+        {
+          "id": "community",
+          "label": "Community",
+          "color": "#7C3AED",
+          "min": 0.5,
+          "max": -1,
+          "unit": "$M/MW-yr net (ex-health)",
+          "raw": 0.04843777292576419,
+          "w": 0.1,
+          "normalized": 0.3010414847161572,
+          "weighted": 0.030104148471615723
+        },
+        {
+          "id": "ewaste",
+          "label": "E-Waste",
+          "color": "#D97706",
+          "min": 0,
+          "max": 1800,
+          "unit": "tCO₂e/MW-yr",
+          "raw": 1310.9666666666667,
+          "w": 0.05,
+          "normalized": 0.7283148148148149,
+          "weighted": 0.03641574074074074
+        },
+        {
+          "id": "heat",
+          "label": "Heat Island",
+          "color": "#DC2626",
+          "min": 0,
+          "max": 2,
+          "unit": "°C",
+          "raw": 0.6042602049514654,
+          "w": 0.05,
+          "normalized": 0.3021301024757327,
+          "weighted": 0.015106505123786635
+        },
+        {
+          "id": "grid",
+          "label": "Grid",
+          "color": "#6366F1",
+          "min": 0,
+          "max": 30,
+          "unit": "% cap",
+          "raw": 9.154141349536296,
+          "w": 0.09,
+          "normalized": 0.3051380449845432,
+          "weighted": 0.02746242404860889
+        },
+        {
+          "id": "supply",
+          "label": "Supply Chain",
+          "color": "#78716C",
+          "min": 0.25,
+          "max": 1.25,
+          "unit": "risk",
+          "raw": 0.7735,
+          "w": 0.05,
+          "normalized": 0.5235,
+          "weighted": 0.026175
+        }
+      ],
+      "nis": 0.26858778617398443,
+      "nisUnrenormalised": 0.26858778617398443,
+      "coverage": 1,
+      "totalW": 100,
+      "scoredW": 1,
+      "scored": 10
+    },
+    "nxInputs": {
+      "pue": 1.25,
+      "wue": 0.01,
+      "aquiferRisk": 0.027108648648648648,
+      "dvs": 0.000376253507774799,
+      "ewif": 0.9879,
+      "foodSecImpact": 0,
+      "healthCost": 77393092.24874611,
+      "totalMWh": 2507550,
+      "bis": 0.35000000000000003,
+      "netCommunityValue": 10670110.135253891,
+      "netCommunityValueExHealthPerMW": 48437.77292576419,
+      "embodiedTotal": 1563841.0000000002,
+      "embodiedIntensity": 1310.9666666666667,
+      "uhiEstimate": 0.6042602049514654,
+      "gridPct": 9.154141349536296,
+      "avgRisk": 0.7735,
+      "cue": 0.4086570556918107
+    },
+    "effectiveEFs": {
+      "nox": 6.4,
+      "pm25": 0.2,
+      "so2": 0.0078
+    },
+    "effectiveGridEF": "0.320",
+    "effectiveRenewPct": "22.4",
+    "mixCalc": {
+      "ef": 0.338,
+      "water": 0.9879,
+      "lcoe": 61.9,
+      "totalPct": 100.2,
+      "renewPct": 22.1,
+      "entries": [
+        {
+          "id": "coal",
+          "label": "Coal",
+          "ef": 0.82,
+          "water": 2,
+          "lcoe": 71,
+          "color": "#374151",
+          "pct": 11.1
+        },
+        {
+          "id": "gas",
+          "label": "Natural Gas (CCGT)",
+          "ef": 0.49,
+          "water": 0.7,
+          "lcoe": 65,
+          "color": "#6B7280",
+          "pct": 48.7
+        },
+        {
+          "id": "gasCCS",
+          "label": "Gas with CCS",
+          "ef": 0.17,
+          "water": 0.8,
+          "lcoe": 49,
+          "color": "#9CA3AF",
+          "pct": 0
+        },
+        {
+          "id": "nuclear",
+          "label": "Nuclear",
+          "ef": 0.012,
+          "water": 2.1,
+          "lcoe": 81,
+          "color": "#7C3AED",
+          "pct": 18
+        },
+        {
+          "id": "wind",
+          "label": "Wind (Onshore)",
+          "ef": 0.011,
+          "water": 0.004,
+          "lcoe": 30,
+          "color": "#2563EB",
+          "pct": 7.7
+        },
+        {
+          "id": "windOff",
+          "label": "Wind (Offshore)",
+          "ef": 0.012,
+          "water": 0.005,
+          "lcoe": 88,
+          "color": "#3B82F6",
+          "pct": 0
+        },
+        {
+          "id": "solar",
+          "label": "Solar PV",
+          "ef": 0.041,
+          "water": 0.1,
+          "lcoe": 32,
+          "color": "#F59E0B",
+          "pct": 8.2
+        },
+        {
+          "id": "hydro",
+          "label": "Hydropower",
+          "ef": 0.024,
+          "water": 0,
+          "lcoe": 53,
+          "color": "#06B6D4",
+          "pct": 2.6
+        },
+        {
+          "id": "geo",
+          "label": "Geothermal",
+          "ef": 0.038,
+          "water": 1,
+          "lcoe": 38,
+          "color": "#EF4444",
+          "pct": 3.6
+        },
+        {
+          "id": "bio",
+          "label": "Biomass",
+          "ef": 0.23,
+          "water": 1.5,
+          "lcoe": 81,
+          "color": "#84CC16",
+          "pct": 0.3
+        }
+      ]
+    },
+    "waterMixCalc": {
+      "cost": null,
+      "energy": null,
+      "impact": null,
+      "sustain": null,
+      "totalPct": 0,
+      "potablePct": null,
+      "entries": [
+        {
+          "id": "municipal",
+          "label": "Municipal (Potable)",
+          "cost": 1.5,
+          "energy": 0.5,
+          "impact": 0.9,
+          "sustain": 0.3,
+          "color": "#2563EB",
+          "pct": 0
+        },
+        {
+          "id": "recycled",
+          "label": "Recycled Wastewater",
+          "cost": 0.7,
+          "energy": 1,
+          "impact": 0.1,
+          "sustain": 0.9,
+          "color": "#059669",
+          "pct": 0
+        },
+        {
+          "id": "groundwater",
+          "label": "Groundwater (Wells)",
+          "cost": 0.5,
+          "energy": 0.3,
+          "impact": 0.8,
+          "sustain": 0.3,
+          "color": "#7C3AED",
+          "pct": 0
+        },
+        {
+          "id": "surface",
+          "label": "Surface Water (River/Lake)",
+          "cost": 0.3,
+          "energy": 0.5,
+          "impact": 0.5,
+          "sustain": 0.5,
+          "color": "#06B6D4",
+          "pct": 0
+        },
+        {
+          "id": "rainwater",
+          "label": "Rainwater / Stormwater",
+          "cost": 0.4,
+          "energy": 0.2,
+          "impact": 0.05,
+          "sustain": 0.95,
+          "color": "#84CC16",
+          "pct": 0
+        },
+        {
+          "id": "seawater",
+          "label": "Seawater (Desal RO)",
+          "cost": 1.5,
+          "energy": 3,
+          "impact": 0.15,
+          "sustain": 0.6,
+          "color": "#334155",
+          "pct": 0
+        },
+        {
+          "id": "onsite",
+          "label": "On-site Recycled (Blowdown)",
+          "cost": 0.2,
+          "energy": 1,
+          "impact": 0,
+          "sustain": 1,
+          "color": "#F59E0B",
+          "pct": 0
+        }
+      ]
+    },
+    "SM": {
+      "baselineYear": 2026,
+      "projectedMWh": 4385720.622187499,
+      "coolingDemandIncrease": 15,
+      "waterAvailReduction": 20,
+      "freeHoursReduction": 400,
+      "gridCompetition": 13.6,
+      "aiGpuGrowth": 2.8561000000000005,
+      "dataMultiplier": 3.4285714285714284,
+      "scenario": {
+        "id": "base",
+        "label": "Base Case",
+        "twh2030": 945,
+        "aiShare": "35–50%",
+        "assumption": "Current trends + announced capacity",
+        "color": "#2563EB"
+      },
+      "yearsOut": 4
+    },
+    "CUM": {
+      "hasData": true,
+      "totalDCs": 11,
+      "existingDCs": 7,
+      "plannedDCs": 3,
+      "singleGridPct": 9.154141349536296,
+      "cumulativeLoadMW": 315.25,
+      "cumulativeGridPct": 10.081547809401984,
+      "gridRiskMultiplier": 1,
+      "singleGridRating": "low",
+      "cumulativeGridRating": "moderate",
+      "singleWaterMGD": 1.8076177014531043,
+      "cumulativeWaterMGD": 1.9576177014531042,
+      "singleAquiferPct": 0.670040267699688,
+      "cumulativeAquiferPct": 0.7256416484972752,
+      "cumulativeWriAdjusted": 4.4102170344108425,
+      "singleWaterRating": "critical",
+      "cumulativeWaterRating": "critical",
+      "singleGenerators": 120,
+      "cumulativeGenerators": 145,
+      "singleNoxT": 153.6,
+      "cumulativeNoxT": 185.6,
+      "singlePm25T": 4.8,
+      "cumulativePm25T": 5.8,
+      "singleHealthCost": 422139.864746107,
+      "cumulativeHealthCost": 530975.0931437671,
+      "healthMultiplier": 1.257817935444496,
+      "singleHealthRating": "low",
+      "cumulativeHealthRating": "low",
+      "singleAcres": 290,
+      "cumulativeAcres": 1858,
+      "cumulativeAcresSqMi": 2.903125,
+      "singleTruckTrips": 150,
+      "cumulativeTruckTrips": 600,
+      "concurrentConstruction": 4,
+      "cumulativeConstWorkers": 12000,
+      "singleWasteHeatMW": 54.38749999999998,
+      "cumulativeWasteHeatMW": 304.5699999999999,
+      "singleUHI": 0.6042602049514654,
+      "cumulativeUHI": 1.429940632897998,
+      "singleNetFiscal": 5000000,
+      "cumulativeIncentives": 176000000,
+      "cumulativeRevenue": 247500000,
+      "cumulativeNetFiscal": 71500000,
+      "singleRatepayerShift": 12.068054171081563,
+      "cumulativeRatepayerShift": 112.8363064996126,
+      "ratingShifts": [
+        {
+          "dim": "Grid",
+          "from": "low",
+          "to": "moderate"
+        }
+      ],
+      "shiftCount": 1,
+      "overallSeverity": "elevated",
+      "comparison": [
+        {
+          "dim": "Grid Load",
+          "unit": "MW",
+          "single": 286.25,
+          "cumulative": 315.25
+        },
+        {
+          "dim": "Grid Capacity Used",
+          "unit": "%",
+          "single": 9.154141349536296,
+          "cumulative": 10.081547809401984
+        },
+        {
+          "dim": "Water Withdrawal",
+          "unit": "MGD",
+          "single": 1.8076177014531043,
+          "cumulative": 1.9576177014531042
+        },
+        {
+          "dim": "Aquifer Impact",
+          "unit": "%",
+          "single": 0.670040267699688,
+          "cumulative": 0.7256416484972752
+        },
+        {
+          "dim": "Generators",
+          "unit": "units",
+          "single": 120,
+          "cumulative": 145
+        },
+        {
+          "dim": "NOx Emissions",
+          "unit": "t/yr",
+          "single": 153.6,
+          "cumulative": 185.6
+        },
+        {
+          "dim": "Health Cost",
+          "unit": "$M/yr",
+          "single": 0.42213986474610704,
+          "cumulative": 0.5309750931437671
+        },
+        {
+          "dim": "Land Converted",
+          "unit": "acres",
+          "single": 290,
+          "cumulative": 1858
+        },
+        {
+          "dim": "Waste Heat to Air",
+          "unit": "MW",
+          "single": 54.38749999999998,
+          "cumulative": 304.5699999999999
+        },
+        {
+          "dim": "Construction Trucks/Day",
+          "unit": "trips",
+          "single": 150,
+          "cumulative": 600
+        },
+        {
+          "dim": "Ratepayer Shift",
+          "unit": "$/hh/yr",
+          "single": 12.068054171081563,
+          "cumulative": 112.8363064996126
+        }
+      ]
+    },
+    "CR": {
+      "hazards": [
+        {
+          "id": "flood",
+          "label": "Riverine Flooding",
+          "weight": 0.18,
+          "inputs": [
+            "floodZone",
+            "elevation"
+          ],
+          "source": "FEMA Flood Maps / XDI",
+          "score": 0.1,
+          "rating": "low"
+        },
+        {
+          "id": "surfaceWater",
+          "label": "Surface Water Flooding",
+          "weight": 0.12,
+          "inputs": [
+            "annualRainfall",
+            "impervSurface"
+          ],
+          "source": "NOAA / local drainage",
+          "score": null,
+          "rating": null
+        },
+        {
+          "id": "extremeHeat",
+          "label": "Extreme Heat",
+          "weight": 0.2,
+          "inputs": [
+            "tempIncrease",
+            "coolingDegreeDays"
+          ],
+          "source": "IPCC AR6 / NOAA",
+          "score": 0.5,
+          "rating": "moderate"
+        },
+        {
+          "id": "drought",
+          "label": "Drought & Water Scarcity",
+          "weight": 0.18,
+          "inputs": [
+            "droughtIncrease",
+            "wriScore"
+          ],
+          "source": "NOAA Drought Monitor / WRI",
+          "score": 0.9,
+          "rating": "high"
+        },
+        {
+          "id": "wildfire",
+          "label": "Wildfire",
+          "weight": 0.1,
+          "inputs": [
+            "wildfireRisk"
+          ],
+          "source": "USFS / state fire agency",
+          "score": 0.7,
+          "rating": "moderate"
+        },
+        {
+          "id": "cyclone",
+          "label": "Tropical Cyclone / Storm",
+          "weight": 0.08,
+          "inputs": [
+            "cycloneRisk"
+          ],
+          "source": "NOAA / NHC",
+          "score": 0.1,
+          "rating": "low"
+        },
+        {
+          "id": "freezeThaw",
+          "label": "Freeze-Thaw Cycles",
+          "weight": 0.07,
+          "inputs": [
+            "freezeThawRisk"
+          ],
+          "source": "NOAA / regional climate",
+          "score": 0.1,
+          "rating": "low"
+        },
+        {
+          "id": "seaLevel",
+          "label": "Coastal / Sea Level Rise",
+          "weight": 0.07,
+          "inputs": [
+            "coastalRisk"
+          ],
+          "source": "IPCC AR6 / NOAA",
+          "score": 0,
+          "rating": "low"
+        }
+      ],
+      "compositeScore": 0.4147727272727272,
+      "compositeRating": "MODERATE RISK",
+      "scoredCount": 7,
+      "insuranceMultiplier2050": 2.2443181818181817,
+      "disruptionDaysYr": 6
+    },
+    "CP": {
+      "rating": "non-compliant",
+      "summary": {
+        "total": 21,
+        "fail": 3,
+        "warn": 4,
+        "pass": 13,
+        "na": 1
+      },
+      "checks": [
+        {
+          "id": "caa_title_v_nox",
+          "tier": "regulatory",
+          "category": "air",
+          "title": "Title V Major Source — NOx",
+          "status": "fail",
+          "value": 960,
+          "threshold": 90.718474,
+          "unit": "t/yr (PTE)",
+          "detail": "NOx potential to emit of 960.0 t/yr (actual 153.6 t/yr at 80 h; PTE basis 500 h) exceeds the 100 tpy (90.7 t) Title V major-source threshold. Facility requires a Title V Operating Permit."
+        },
+        {
+          "id": "caa_title_v_pm25",
+          "tier": "regulatory",
+          "category": "air",
+          "title": "Title V Major Source — PM2.5",
+          "status": "pass",
+          "value": 30,
+          "threshold": 90.718474,
+          "unit": "t/yr (PTE)",
+          "detail": "PM2.5 potential to emit of 30.0 t/yr is below the 100 tpy (90.7 t) threshold."
+        },
+        {
+          "id": "caa_hap",
+          "tier": "regulatory",
+          "category": "air",
+          "title": "Hazardous Air Pollutant (HAP) Major Source",
+          "status": "pass",
+          "value": 0.0504,
+          "threshold": 9.071847400000001,
+          "unit": "t/yr (single HAP, PTE)",
+          "detail": "Estimated formaldehyde potential to emit of 0.050 t/yr (0.000336 g/kWh × 500 h PTE basis) is below the 10 tpy (9.07 t) single-HAP threshold."
+        },
+        {
+          "id": "epa_gen_runtime",
+          "tier": "regulatory",
+          "category": "air",
+          "title": "Generator Non-Emergency Runtime Limit",
+          "status": "warn",
+          "value": 80,
+          "threshold": 100,
+          "unit": "hrs/yr",
+          "detail": "Generator runtime of 80 hrs/yr approaching the 100-hour federal limit."
+        },
+        {
+          "id": "epa_ghg_reporting",
+          "tier": "regulatory",
+          "category": "carbon",
+          "title": "EPA GHG Reporting Program Threshold",
+          "status": "warn",
+          "value": 17366.4,
+          "threshold": 25000,
+          "unit": "tCO2e/yr (Scope 1)",
+          "detail": "Scope 1 emissions of 17,366 tCO2e/yr below the 25,000 t/yr threshold."
+        },
+        {
+          "id": "naaqs_pm25_annual",
+          "tier": "regulatory",
+          "category": "air",
+          "title": "NAAQS PM2.5 Annual Standard",
+          "status": "pass",
+          "value": 5.712850454854361,
+          "threshold": 9,
+          "unit": "µg/m³",
+          "detail": "Estimated annual PM2.5 of 5.7 µg/m³ (background 5.7 + increment 0.01) meets both the current and prior NAAQS."
+        },
+        {
+          "id": "who_noise_sustained",
+          "tier": "advisory",
+          "category": "noise",
+          "title": "WHO Noise Guideline — Sustained Exposure",
+          "status": "fail",
+          "value": 92,
+          "threshold": 70,
+          "unit": "dBA",
+          "detail": "Boundary noise of 92 dBA exceeds the WHO 70 dBA threshold for hearing damage risk. Requires sound barriers, distance buffers, or operational restrictions."
+        },
+        {
+          "id": "iso_pue",
+          "tier": "advisory",
+          "category": "energy",
+          "title": "PUE Benchmark (ISO 30134-2)",
+          "status": "pass",
+          "value": 1.25,
+          "threshold": 1.6,
+          "unit": "ratio",
+          "detail": "PUE of 1.25 is within acceptable range."
+        },
+        {
+          "id": "tgg_wue",
+          "tier": "advisory",
+          "category": "water",
+          "title": "WUE Benchmark (The Green Grid)",
+          "status": "pass",
+          "value": 0.01,
+          "threshold": 1.8,
+          "unit": "L/kWh",
+          "detail": "WUE of 0.01 L/kWh is at or below industry average."
+        },
+        {
+          "id": "wri_stress",
+          "tier": "advisory",
+          "category": "water",
+          "title": "WRI Aqueduct Water Stress",
+          "status": "fail",
+          "value": 4.4,
+          "threshold": 3,
+          "unit": "(0-5 scale)",
+          "detail": "WRI score of 4.4 indicates Extremely High water stress. Site faces severe water supply risk and likely community opposition."
+        },
+        {
+          "id": "nerc_reserve",
+          "tier": "advisory",
+          "category": "grid",
+          "title": "Grid Reserve Margin (NERC/PJM)",
+          "status": "pass",
+          "value": 9.154141349536296,
+          "threshold": 25,
+          "unit": "% of grid capacity",
+          "detail": "Facility consumes 9.2% of grid capacity, within manageable range."
+        },
+        {
+          "id": "transmission_util",
+          "tier": "advisory",
+          "category": "grid",
+          "title": "Transmission Utilization",
+          "status": "warn",
+          "value": 75,
+          "threshold": 85,
+          "unit": "%",
+          "detail": "Transmission utilization at 75% is within acceptable range."
+        },
+        {
+          "id": "ej_screen",
+          "tier": "advisory",
+          "category": "health",
+          "title": "Environmental Justice Screening",
+          "status": "na"
+        },
+        {
+          "id": "health_cost_threshold",
+          "tier": "advisory",
+          "category": "health",
+          "title": "Monetized Health Damages",
+          "status": "pass",
+          "value": 422139.864746107,
+          "threshold": 10000000,
+          "unit": "$/yr",
+          "detail": "Estimated health damages of $0.42M/yr are within acceptable range."
+        },
+        {
+          "id": "net_fiscal",
+          "tier": "advisory",
+          "category": "fiscal",
+          "title": "Net Community Fiscal Impact",
+          "status": "pass",
+          "value": 10670110.135253891,
+          "threshold": 0,
+          "unit": "$/yr",
+          "detail": "Net community value is +$10.7M/yr. Benefits exceed costs."
+        },
+        {
+          "id": "ratepayer_shift",
+          "tier": "advisory",
+          "category": "fiscal",
+          "title": "Ratepayer Cost Shift",
+          "status": "pass",
+          "value": 12.068054171081563,
+          "threshold": 200,
+          "unit": "$/household/yr",
+          "detail": "Estimated ratepayer cost shift of $12/household/yr is modest."
+        },
+        {
+          "id": "food_security",
+          "tier": "advisory",
+          "category": "land",
+          "title": "Food Supply Displacement",
+          "status": "pass",
+          "value": 0,
+          "threshold": 2,
+          "unit": "% of local supply",
+          "detail": "Food supply displacement of 0.0% is within acceptable range."
+        },
+        {
+          "id": "ewaste_reuse",
+          "tier": "advisory",
+          "category": "waste",
+          "title": "Hardware Reuse/Recycle Rate",
+          "status": "warn",
+          "value": 50,
+          "threshold": 60,
+          "unit": "%",
+          "detail": "Reuse/recycle rate of 50% is below best practice. Circular economy program recommended."
+        },
+        {
+          "id": "aquifer_depletion",
+          "tier": "advisory",
+          "category": "water",
+          "title": "Aquifer Depletion Risk",
+          "status": "pass",
+          "value": 0.027108648648648648,
+          "threshold": 10,
+          "unit": "% of recharge",
+          "detail": "Aquifer depletion risk of 0.0% is within sustainable yield limits."
+        },
+        {
+          "id": "basin_stress_contribution",
+          "tier": "advisory",
+          "category": "water",
+          "title": "Basin Water Stress Contribution",
+          "status": "pass",
+          "value": 0.005378123324396783,
+          "threshold": 2,
+          "unit": "% of basin",
+          "detail": "Facility contributes 0.005% of basin water, within acceptable range."
+        },
+        {
+          "id": "uhi_warming",
+          "tier": "advisory",
+          "category": "heat",
+          "title": "Local Temperature Impact",
+          "status": "pass",
+          "value": 0.6042602049514654,
+          "threshold": 2,
+          "unit": "°C",
+          "detail": "Estimated local warming of +0.60°C is within acceptable range."
+        }
+      ]
+    },
+    "CBA": [
+      {
+        "id": 0,
+        "category": "water",
+        "title": "Daily Water Withdrawal Cap",
+        "severity": "critical",
+        "metric": "directGalDay",
+        "value": 14518.902840115074,
+        "threshold": 15000,
+        "unit": "gal/day"
+      },
+      {
+        "id": 1,
+        "category": "water",
+        "title": "Water Usage Effectiveness (WUE) Maximum",
+        "severity": "standard",
+        "metric": "wue",
+        "value": 0.01,
+        "threshold": 1.8,
+        "unit": "L/kWh"
+      },
+      {
+        "id": 2,
+        "category": "water",
+        "title": "Drought Contingency Protocol",
+        "severity": "critical"
+      },
+      {
+        "id": 3,
+        "category": "water",
+        "title": "Recycled/Reclaimed Water Requirement",
+        "severity": "standard",
+        "metric": "recycledPct",
+        "value": 0,
+        "threshold": 50,
+        "unit": "%"
+      },
+      {
+        "id": 4,
+        "category": "energy",
+        "title": "Power Usage Effectiveness (PUE) Target",
+        "severity": "standard",
+        "metric": "pue",
+        "value": 1.25,
+        "threshold": 1.4,
+        "unit": "ratio"
+      },
+      {
+        "id": 5,
+        "category": "energy",
+        "title": "Carbon Emission Cap",
+        "severity": "standard",
+        "metric": "totalC",
+        "value": 819782.4,
+        "threshold": 860772,
+        "unit": "tCO2e/yr"
+      },
+      {
+        "id": 6,
+        "category": "energy",
+        "title": "Renewable Energy Procurement",
+        "severity": "standard",
+        "metric": "renewPct",
+        "value": 22.4,
+        "threshold": 50,
+        "unit": "%"
+      },
+      {
+        "id": 7,
+        "category": "health",
+        "title": "Generator Emission Standards",
+        "severity": "critical",
+        "metric": "noxT",
+        "value": 153.6,
+        "threshold": 15.36,
+        "unit": "t NOx/yr"
+      },
+      {
+        "id": 8,
+        "category": "health",
+        "title": "Generator Runtime Limitation",
+        "severity": "standard",
+        "metric": "genRuntime",
+        "value": 80,
+        "threshold": 100,
+        "unit": "hrs/yr"
+      },
+      {
+        "id": 9,
+        "category": "health",
+        "title": "Community Health Mitigation Fund",
+        "severity": "standard",
+        "metric": "healthCost",
+        "value": 422139.864746107
+      },
+      {
+        "id": 10,
+        "category": "noise",
+        "title": "Noise Limit at Property Boundary",
+        "severity": "critical",
+        "metric": "noiseBoundary",
+        "value": 92,
+        "threshold": 65,
+        "unit": "dBA"
+      },
+      {
+        "id": 11,
+        "category": "jobs",
+        "title": "Minimum Permanent Employment",
+        "severity": "standard",
+        "metric": "permJobs",
+        "value": 180,
+        "unit": "jobs"
+      },
+      {
+        "id": 12,
+        "category": "jobs",
+        "title": "Local Hiring & Apprenticeship",
+        "severity": "standard",
+        "metric": "constJobs",
+        "value": 3000,
+        "unit": "workers"
+      },
+      {
+        "id": 13,
+        "category": "fiscal",
+        "title": "Tax Incentive Clawback",
+        "severity": "critical",
+        "metric": "taxIncentives",
+        "value": 20000000
+      },
+      {
+        "id": 14,
+        "category": "fiscal",
+        "title": "Community Benefit Fund",
+        "severity": "standard",
+        "metric": "taxRevenue",
+        "value": 25000000
+      },
+      {
+        "id": 15,
+        "category": "infrastructure",
+        "title": "Infrastructure Cost Responsibility",
+        "severity": "standard",
+        "metric": "totalInfraCost",
+        "value": 105000000,
+        "unit": "$"
+      },
+      {
+        "id": 16,
+        "category": "infrastructure",
+        "title": "Construction Impact Mitigation",
+        "severity": "standard",
+        "metric": "constDuration",
+        "value": 30,
+        "unit": "months"
+      },
+      {
+        "id": 17,
+        "category": "environment",
+        "title": "Stormwater Management",
+        "severity": "standard",
+        "metric": "stormVolM3",
+        "value": 880222.5,
+        "unit": "m3/yr"
+      },
+      {
+        "id": 18,
+        "category": "environment",
+        "title": "Carbon Sequestration Offset",
+        "severity": "standard",
+        "metric": "seqLoss",
+        "value": 362.5,
+        "unit": "tCO2e/yr"
+      },
+      {
+        "id": 19,
+        "category": "environment",
+        "title": "Waste Heat Management",
+        "severity": "standard",
+        "metric": "wasteHeatToAir",
+        "value": 54.38749999999998,
+        "unit": "MW"
+      },
+      {
+        "id": 20,
+        "category": "environment",
+        "title": "E-Waste & Circular Economy",
+        "severity": "standard",
+        "metric": "ewasteYr",
+        "value": 718.75,
+        "unit": "t/yr"
+      },
+      {
+        "id": 21,
+        "category": "monitoring",
+        "title": "Quarterly Impact Report",
+        "severity": "standard"
+      },
+      {
+        "id": 22,
+        "category": "monitoring",
+        "title": "Independent Annual Audit",
+        "severity": "standard"
+      },
+      {
+        "id": 23,
+        "category": "monitoring",
+        "title": "Public Disclosure — No NDAs on Impact Data",
+        "severity": "critical"
+      },
+      {
+        "id": 24,
+        "category": "enforcement",
+        "title": "Penalty for Material Non-Compliance",
+        "severity": "critical"
+      },
+      {
+        "id": 25,
+        "category": "enforcement",
+        "title": "Agreement Duration & Review",
+        "severity": "standard"
+      }
+    ]
+  }
+}

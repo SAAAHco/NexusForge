@@ -1,0 +1,127 @@
+site,rule,tier,category,title,status,value,threshold,unit,exceedance_ratio,detail
+nova,caa_title_v_nox,regulatory,air,Title V Major Source — NOx,fail,384,90.718474,t/yr (PTE),4.233,NOx potential to emit of 384.0 t/yr (actual 76.8 t/yr at 100 h; PTE basis 500 h) exceeds the 100 tpy (90.7 t) Title V major-source threshold. Facility requires a Title V Operating Permit.
+nova,caa_title_v_pm25,regulatory,air,Title V Major Source — PM2.5,pass,12,90.718474,t/yr (PTE),0.132,PM2.5 potential to emit of 12.0 t/yr is below the 100 tpy (90.7 t) threshold.
+nova,caa_hap,regulatory,air,Hazardous Air Pollutant (HAP) Major Source,pass,0.02016,9.071847400000001,"t/yr (single HAP, PTE)",0.002,Estimated formaldehyde potential to emit of 0.020 t/yr (0.000336 g/kWh × 500 h PTE basis) is below the 10 tpy (9.07 t) single-HAP threshold.
+nova,epa_gen_runtime,regulatory,air,Generator Non-Emergency Runtime Limit,warn,100,100,hrs/yr,1,Generator runtime of 100 hrs/yr approaching the 100-hour federal limit.
+nova,epa_ghg_reporting,regulatory,carbon,EPA GHG Reporting Program Threshold,pass,8683.2,25000,tCO2e/yr (Scope 1),0.347,"Scope 1 emissions of 8,683 tCO2e/yr below the 25,000 t/yr threshold."
+nova,naaqs_pm25_annual,regulatory,air,NAAQS PM2.5 Annual Standard,pass,7.312391294870044,9,µg/m³,0.812,Estimated annual PM2.5 of 7.3 µg/m³ (background 7.3 + increment 0.01) meets both the current and prior NAAQS.
+nova,who_noise_sustained,advisory,noise,WHO Noise Guideline — Sustained Exposure,fail,95,70,dBA,1.357,"Boundary noise of 95 dBA exceeds the WHO 70 dBA threshold for hearing damage risk. Requires sound barriers, distance buffers, or operational restrictions."
+nova,iso_pue,advisory,energy,PUE Benchmark (ISO 30134-2),pass,1.2,1.6,ratio,0.75,"PUE of 1.2 is rated 'Excellent' (<1.2), comparable to best-in-class hyperscalers."
+nova,tgg_wue,advisory,water,WUE Benchmark (The Green Grid),warn,1.9,1.8,L/kWh,1.056,WUE of 1.9 L/kWh is above industry average (1.8). Efficiency opportunities exist.
+nova,wri_stress,advisory,water,WRI Aqueduct Water Stress,pass,1.5,3,(0-5 scale),0.5,WRI score of 1.5 indicates acceptable water stress levels.
+nova,nerc_reserve,advisory,grid,Grid Reserve Margin (NERC/PJM),pass,0.5833454863642993,25,% of grid capacity,0.023,"Facility consumes 0.6% of grid capacity, within manageable range."
+nova,transmission_util,advisory,grid,Transmission Utilization,warn,82,85,%,0.965,Transmission utilization at 82% is within acceptable range.
+nova,ej_screen,advisory,health,Environmental Justice Screening,na,,,,,
+nova,health_cost_threshold,advisory,health,Monetized Health Damages,pass,972460.2189836785,10000000,$/yr,0.097,Estimated health damages of $0.97M/yr are within acceptable range.
+nova,net_fiscal,advisory,fiscal,Net Community Fiscal Impact,warn,-1222460.21898368,0,$/yr,,Net community value is -$1.2M/yr. Costs slightly exceed benefits. Improved incentive terms or mitigation needed.
+nova,ratepayer_shift,advisory,fiscal,Ratepayer Cost Shift,pass,12.586278942148427,200,$/household/yr,0.063,Estimated ratepayer cost shift of $13/household/yr is modest.
+nova,food_security,advisory,land,Food Supply Displacement,pass,0.4152671755725191,2,% of local supply,0.208,Food supply displacement of 0.4% is within acceptable range.
+nova,ewaste_reuse,advisory,waste,Hardware Reuse/Recycle Rate,pass,60,60,%,1,Reuse/recycle rate of 60% meets or approaches best practice standards.
+nova,aquifer_depletion,advisory,water,Aquifer Depletion Risk,na,,,,,
+nova,basin_stress_contribution,advisory,water,Basin Water Stress Contribution,fail,3.919782608695652,2,% of basin,1.96,"Facility contributes 3.92% of total basin water, exceeding the 2% material impact threshold. Regulatory scrutiny and community opposition likely."
+nova,uhi_warming,advisory,heat,Local Temperature Impact,pass,0.5090664299339885,2,°C,0.255,Estimated local warming of +0.51°C is within acceptable range.
+tucson,caa_title_v_nox,regulatory,air,Title V Major Source — NOx,fail,960,90.718474,t/yr (PTE),10.582,NOx potential to emit of 960.0 t/yr (actual 153.6 t/yr at 80 h; PTE basis 500 h) exceeds the 100 tpy (90.7 t) Title V major-source threshold. Facility requires a Title V Operating Permit.
+tucson,caa_title_v_pm25,regulatory,air,Title V Major Source — PM2.5,pass,30,90.718474,t/yr (PTE),0.331,PM2.5 potential to emit of 30.0 t/yr is below the 100 tpy (90.7 t) threshold.
+tucson,caa_hap,regulatory,air,Hazardous Air Pollutant (HAP) Major Source,pass,0.0504,9.071847400000001,"t/yr (single HAP, PTE)",0.006,Estimated formaldehyde potential to emit of 0.050 t/yr (0.000336 g/kWh × 500 h PTE basis) is below the 10 tpy (9.07 t) single-HAP threshold.
+tucson,epa_gen_runtime,regulatory,air,Generator Non-Emergency Runtime Limit,warn,80,100,hrs/yr,0.8,Generator runtime of 80 hrs/yr approaching the 100-hour federal limit.
+tucson,epa_ghg_reporting,regulatory,carbon,EPA GHG Reporting Program Threshold,warn,17366.4,25000,tCO2e/yr (Scope 1),0.695,"Scope 1 emissions of 17,366 tCO2e/yr below the 25,000 t/yr threshold."
+tucson,naaqs_pm25_annual,regulatory,air,NAAQS PM2.5 Annual Standard,pass,5.712850454854361,9,µg/m³,0.635,Estimated annual PM2.5 of 5.7 µg/m³ (background 5.7 + increment 0.01) meets both the current and prior NAAQS.
+tucson,who_noise_sustained,advisory,noise,WHO Noise Guideline — Sustained Exposure,fail,92,70,dBA,1.314,"Boundary noise of 92 dBA exceeds the WHO 70 dBA threshold for hearing damage risk. Requires sound barriers, distance buffers, or operational restrictions."
+tucson,iso_pue,advisory,energy,PUE Benchmark (ISO 30134-2),pass,1.25,1.6,ratio,0.781,PUE of 1.25 is within acceptable range.
+tucson,tgg_wue,advisory,water,WUE Benchmark (The Green Grid),pass,0.01,1.8,L/kWh,0.006,WUE of 0.01 L/kWh is at or below industry average.
+tucson,wri_stress,advisory,water,WRI Aqueduct Water Stress,fail,4.4,3,(0-5 scale),1.467,WRI score of 4.4 indicates Extremely High water stress. Site faces severe water supply risk and likely community opposition.
+tucson,nerc_reserve,advisory,grid,Grid Reserve Margin (NERC/PJM),pass,9.154141349536296,25,% of grid capacity,0.366,"Facility consumes 9.2% of grid capacity, within manageable range."
+tucson,transmission_util,advisory,grid,Transmission Utilization,warn,75,85,%,0.882,Transmission utilization at 75% is within acceptable range.
+tucson,ej_screen,advisory,health,Environmental Justice Screening,na,,,,,
+tucson,health_cost_threshold,advisory,health,Monetized Health Damages,pass,422139.864746107,10000000,$/yr,0.042,Estimated health damages of $0.42M/yr are within acceptable range.
+tucson,net_fiscal,advisory,fiscal,Net Community Fiscal Impact,pass,10670110.135253891,0,$/yr,,Net community value is +$10.7M/yr. Benefits exceed costs.
+tucson,ratepayer_shift,advisory,fiscal,Ratepayer Cost Shift,pass,12.068054171081563,200,$/household/yr,0.06,Estimated ratepayer cost shift of $12/household/yr is modest.
+tucson,food_security,advisory,land,Food Supply Displacement,pass,0,2,% of local supply,0,Food supply displacement of 0.0% is within acceptable range.
+tucson,ewaste_reuse,advisory,waste,Hardware Reuse/Recycle Rate,warn,50,60,%,0.833,Reuse/recycle rate of 50% is below best practice. Circular economy program recommended.
+tucson,aquifer_depletion,advisory,water,Aquifer Depletion Risk,pass,0.027108648648648648,10,% of recharge,0.003,Aquifer depletion risk of 0.0% is within sustainable yield limits.
+tucson,basin_stress_contribution,advisory,water,Basin Water Stress Contribution,pass,0.005378123324396783,2,% of basin,0.003,"Facility contributes 0.005% of basin water, within acceptable range."
+tucson,uhi_warming,advisory,heat,Local Temperature Impact,pass,0.6042602049514654,2,°C,0.302,Estimated local warming of +0.60°C is within acceptable range.
+ohio,caa_title_v_nox,regulatory,air,Title V Major Source — NOx,fail,288,90.718474,t/yr (PTE),3.175,NOx potential to emit of 288.0 t/yr (actual 57.6 t/yr at 100 h; PTE basis 500 h) exceeds the 100 tpy (90.7 t) Title V major-source threshold. Facility requires a Title V Operating Permit.
+ohio,caa_title_v_pm25,regulatory,air,Title V Major Source — PM2.5,pass,9,90.718474,t/yr (PTE),0.099,PM2.5 potential to emit of 9.0 t/yr is below the 100 tpy (90.7 t) threshold.
+ohio,caa_hap,regulatory,air,Hazardous Air Pollutant (HAP) Major Source,pass,0.01512,9.071847400000001,"t/yr (single HAP, PTE)",0.002,Estimated formaldehyde potential to emit of 0.015 t/yr (0.000336 g/kWh × 500 h PTE basis) is below the 10 tpy (9.07 t) single-HAP threshold.
+ohio,epa_gen_runtime,regulatory,air,Generator Non-Emergency Runtime Limit,warn,100,100,hrs/yr,1,Generator runtime of 100 hrs/yr approaching the 100-hour federal limit.
+ohio,epa_ghg_reporting,regulatory,carbon,EPA GHG Reporting Program Threshold,pass,6512.4,25000,tCO2e/yr (Scope 1),0.26,"Scope 1 emissions of 6,512 tCO2e/yr below the 25,000 t/yr threshold."
+ohio,naaqs_pm25_annual,regulatory,air,NAAQS PM2.5 Annual Standard,pass,7.2047529874666605,9,µg/m³,0.801,Estimated annual PM2.5 of 7.2 µg/m³ (background 7.2 + increment 0.00) meets both the current and prior NAAQS.
+ohio,who_noise_sustained,advisory,noise,WHO Noise Guideline — Sustained Exposure,fail,90,70,dBA,1.286,"Boundary noise of 90 dBA exceeds the WHO 70 dBA threshold for hearing damage risk. Requires sound barriers, distance buffers, or operational restrictions."
+ohio,iso_pue,advisory,energy,PUE Benchmark (ISO 30134-2),pass,1.35,1.6,ratio,0.844,PUE of 1.35 is within acceptable range.
+ohio,tgg_wue,advisory,water,WUE Benchmark (The Green Grid),pass,1.4,1.8,L/kWh,0.778,WUE of 1.4 L/kWh is at or below industry average.
+ohio,wri_stress,advisory,water,WRI Aqueduct Water Stress,pass,1.6,3,(0-5 scale),0.533,WRI score of 1.6 indicates acceptable water stress levels.
+ohio,nerc_reserve,advisory,grid,Grid Reserve Margin (NERC/PJM),pass,0.2656521596536683,25,% of grid capacity,0.011,"Facility consumes 0.3% of grid capacity, within manageable range."
+ohio,transmission_util,advisory,grid,Transmission Utilization,warn,75,85,%,0.882,Transmission utilization at 75% is within acceptable range.
+ohio,ej_screen,advisory,health,Environmental Justice Screening,na,,,,,
+ohio,health_cost_threshold,advisory,health,Monetized Health Damages,pass,268795.929998567,10000000,$/yr,0.027,Estimated health damages of $0.27M/yr are within acceptable range.
+ohio,net_fiscal,advisory,fiscal,Net Community Fiscal Impact,fail,-11439785.929998567,0,$/yr,,Net community value is -$11.4M/yr. Community costs significantly exceed benefits. Project may face strong opposition.
+ohio,ratepayer_shift,advisory,fiscal,Ratepayer Cost Shift,pass,3.7334830708943634,200,$/household/yr,0.019,Estimated ratepayer cost shift of $4/household/yr is modest.
+ohio,food_security,advisory,land,Food Supply Displacement,pass,0.03301461481297994,2,% of local supply,0.017,Food supply displacement of 0.0% is within acceptable range.
+ohio,ewaste_reuse,advisory,waste,Hardware Reuse/Recycle Rate,pass,99,60,%,1.65,Reuse/recycle rate of 99% meets or approaches best practice standards.
+ohio,aquifer_depletion,advisory,water,Aquifer Depletion Risk,na,,,,,
+ohio,basin_stress_contribution,advisory,water,Basin Water Stress Contribution,fail,7.3584,2,% of basin,3.679,"Facility contributes 7.36% of total basin water, exceeding the 2% material impact threshold. Regulatory scrutiny and community opposition likely."
+ohio,uhi_warming,advisory,heat,Local Temperature Impact,pass,0.05529964490098305,2,°C,0.028,Estimated local warming of +0.06°C is within acceptable range.
+memphis,caa_title_v_nox,regulatory,air,Title V Major Source — NOx,pass,4.95,90.718474,t/yr (PTE),0.055,NOx potential to emit of 5.0 t/yr is below the 100 tpy (90.7 t) major-source threshold.
+memphis,caa_title_v_pm25,regulatory,air,Title V Major Source — PM2.5,pass,3.9600000000000004,90.718474,t/yr (PTE),0.044,PM2.5 potential to emit of 4.0 t/yr is below the 100 tpy (90.7 t) threshold.
+memphis,caa_hap,regulatory,air,Hazardous Air Pollutant (HAP) Major Source,pass,0.4195125,9.071847400000001,"t/yr (single HAP, PTE)",0.046,Estimated formaldehyde potential to emit of 0.420 t/yr (0.00339 g/kWh × 500 h PTE basis) is below the 10 tpy (9.07 t) single-HAP threshold.
+memphis,epa_gen_runtime,regulatory,air,Generator Non-Emergency Runtime Limit,fail,110,100,hrs/yr,1.1,Generator runtime of 110 hrs/yr exceeds the 100-hour federal non-emergency limit. Requires air permit modification or operational restriction.
+memphis,epa_ghg_reporting,regulatory,carbon,EPA GHG Reporting Program Threshold,pass,10274.715,25000,tCO2e/yr (Scope 1),0.411,"Scope 1 emissions of 10,275 tCO2e/yr below the 25,000 t/yr threshold."
+memphis,naaqs_pm25_annual,regulatory,air,NAAQS PM2.5 Annual Standard,pass,7.601205141497141,9,µg/m³,0.845,Estimated annual PM2.5 of 7.6 µg/m³ (background 7.6 + increment 0.00) meets both the current and prior NAAQS.
+memphis,who_noise_sustained,advisory,noise,WHO Noise Guideline — Sustained Exposure,fail,85,70,dBA,1.214,"Boundary noise of 85 dBA exceeds the WHO 70 dBA threshold for hearing damage risk. Requires sound barriers, distance buffers, or operational restrictions."
+memphis,iso_pue,advisory,energy,PUE Benchmark (ISO 30134-2),pass,1.3,1.6,ratio,0.813,PUE of 1.3 is within acceptable range.
+memphis,tgg_wue,advisory,water,WUE Benchmark (The Green Grid),pass,0.51,1.8,L/kWh,0.283,WUE of 0.51 L/kWh is at or below industry average.
+memphis,wri_stress,advisory,water,WRI Aqueduct Water Stress,pass,1.4,3,(0-5 scale),0.467,WRI score of 1.4 indicates acceptable water stress levels.
+memphis,nerc_reserve,advisory,grid,Grid Reserve Margin (NERC/PJM),pass,1.0071897855460519,25,% of grid capacity,0.04,"Facility consumes 1.0% of grid capacity, within manageable range."
+memphis,transmission_util,advisory,grid,Transmission Utilization,warn,78,85,%,0.918,Transmission utilization at 78% is within acceptable range.
+memphis,ej_screen,advisory,health,Environmental Justice Screening,warn,78.2,80,percentile,0.978,EJ Score of 78 indicates moderate environmental justice concern. Enhanced community engagement recommended.
+memphis,health_cost_threshold,advisory,health,Monetized Health Damages,pass,33777.21778484976,10000000,$/yr,0.003,Estimated health damages of $0.03M/yr are within acceptable range.
+memphis,net_fiscal,advisory,fiscal,Net Community Fiscal Impact,pass,42949028.78221515,0,$/yr,,Net community value is +$42.9M/yr. Benefits exceed costs.
+memphis,ratepayer_shift,advisory,fiscal,Ratepayer Cost Shift,pass,1.998495868898671,200,$/household/yr,0.01,Estimated ratepayer cost shift of $2/household/yr is modest.
+memphis,food_security,advisory,land,Food Supply Displacement,pass,0,2,% of local supply,0,Food supply displacement of 0.0% is within acceptable range.
+memphis,ewaste_reuse,advisory,waste,Hardware Reuse/Recycle Rate,warn,40,60,%,0.667,Reuse/recycle rate of 40% is below best practice. Circular economy program recommended.
+memphis,aquifer_depletion,advisory,water,Aquifer Depletion Risk,pass,0.55845,10,% of recharge,0.056,Aquifer depletion risk of 0.6% is within sustainable yield limits.
+memphis,basin_stress_contribution,advisory,water,Basin Water Stress Contribution,warn,0.5395652173913044,2,% of basin,0.27,Facility contributes 0.54% of basin water. Moderate — cumulative impact with other users may be significant.
+memphis,uhi_warming,advisory,heat,Local Temperature Impact,pass,0.4833740521746577,2,°C,0.242,Estimated local warming of +0.48°C is within acceptable range.
+nordic,caa_title_v_nox,regulatory,air,Title V Major Source — NOx,pass,7.1000000000000005,90.718474,t/yr (PTE),0.078,NOx potential to emit of 7.1 t/yr is below the 100 tpy (90.7 t) major-source threshold.
+nordic,caa_title_v_pm25,regulatory,air,Title V Major Source — PM2.5,pass,0.31,90.718474,t/yr (PTE),0.003,PM2.5 potential to emit of 0.3 t/yr is below the 100 tpy (90.7 t) threshold.
+nordic,caa_hap,regulatory,air,Hazardous Air Pollutant (HAP) Major Source,pass,0.00336,9.071847400000001,"t/yr (single HAP, PTE)",0,Estimated formaldehyde potential to emit of 0.003 t/yr (0.000336 g/kWh × 500 h PTE basis) is below the 10 tpy (9.07 t) single-HAP threshold.
+nordic,epa_gen_runtime,regulatory,air,Generator Non-Emergency Runtime Limit,pass,30,100,hrs/yr,0.3,Generator runtime of 30 hrs/yr within the 100-hour federal limit.
+nordic,epa_ghg_reporting,regulatory,carbon,EPA GHG Reporting Program Threshold,pass,434.16,25000,tCO2e/yr (Scope 1),0.017,"Scope 1 emissions of 434 tCO2e/yr below the 25,000 t/yr threshold."
+nordic,naaqs_pm25_annual,regulatory,air,NAAQS PM2.5 Annual Standard,pass,3.900112285947195,9,µg/m³,0.433,Estimated annual PM2.5 of 3.9 µg/m³ (background 3.9 + increment 0.00) meets both the current and prior NAAQS.
+nordic,who_noise_sustained,advisory,noise,WHO Noise Guideline — Sustained Exposure,fail,85,70,dBA,1.214,"Boundary noise of 85 dBA exceeds the WHO 70 dBA threshold for hearing damage risk. Requires sound barriers, distance buffers, or operational restrictions."
+nordic,iso_pue,advisory,energy,PUE Benchmark (ISO 30134-2),pass,1.09,1.6,ratio,0.681,"PUE of 1.09 is rated 'Excellent' (<1.2), comparable to best-in-class hyperscalers."
+nordic,tgg_wue,advisory,water,WUE Benchmark (The Green Grid),pass,0.1,1.8,L/kWh,0.056,WUE of 0.1 L/kWh is at or below industry average.
+nordic,wri_stress,advisory,water,WRI Aqueduct Water Stress,pass,0.8,3,(0-5 scale),0.267,WRI score of 0.8 indicates acceptable water stress levels.
+nordic,nerc_reserve,advisory,grid,Grid Reserve Margin (NERC/PJM),pass,0.3767901234567902,25,% of grid capacity,0.015,"Facility consumes 0.4% of grid capacity, within manageable range."
+nordic,transmission_util,advisory,grid,Transmission Utilization,pass,55,85,%,0.647,Transmission utilization at 55% is within acceptable range.
+nordic,ej_screen,advisory,health,Environmental Justice Screening,na,,,,,
+nordic,health_cost_threshold,advisory,health,Monetized Health Damages,pass,3264.6388919076358,10000000,$/yr,0,Estimated health damages of $0.00M/yr are within acceptable range.
+nordic,net_fiscal,advisory,fiscal,Net Community Fiscal Impact,pass,12375485.361108093,0,$/yr,,Net community value is +$12.4M/yr. Benefits exceed costs.
+nordic,ratepayer_shift,advisory,fiscal,Ratepayer Cost Shift,warn,188.81283927307058,200,$/household/yr,0.944,Estimated ratepayer cost shift of $189/household/yr. Monitor utility rate proceedings.
+nordic,food_security,advisory,land,Food Supply Displacement,pass,0,2,% of local supply,0,Food supply displacement of 0.0% is within acceptable range.
+nordic,ewaste_reuse,advisory,waste,Hardware Reuse/Recycle Rate,pass,83,60,%,1.383,Reuse/recycle rate of 83% meets or approaches best practice standards.
+nordic,aquifer_depletion,advisory,water,Aquifer Depletion Risk,na,,,,,
+nordic,basin_stress_contribution,advisory,water,Basin Water Stress Contribution,pass,0.00015329999999999999,2,% of basin,0,"Facility contributes 0.000% of basin water, within acceptable range."
+nordic,uhi_warming,advisory,heat,Local Temperature Impact,pass,0.0059448567187331824,2,°C,0.003,Estimated local warming of +0.01°C is within acceptable range.
+saline,caa_title_v_nox,regulatory,air,Title V Major Source — NOx,pass,44.8,90.718474,t/yr (PTE),0.494,NOx potential to emit of 44.8 t/yr is below the 100 tpy (90.7 t) major-source threshold.
+saline,caa_title_v_pm25,regulatory,air,Title V Major Source — PM2.5,pass,1.4,90.718474,t/yr (PTE),0.015,PM2.5 potential to emit of 1.4 t/yr is below the 100 tpy (90.7 t) threshold.
+saline,caa_hap,regulatory,air,Hazardous Air Pollutant (HAP) Major Source,pass,0.002352,9.071847400000001,"t/yr (single HAP, PTE)",0,Estimated formaldehyde potential to emit of 0.002 t/yr (0.000336 g/kWh × 500 h PTE basis) is below the 10 tpy (9.07 t) single-HAP threshold.
+saline,epa_gen_runtime,regulatory,air,Generator Non-Emergency Runtime Limit,pass,12,100,hrs/yr,0.12,Generator runtime of 12 hrs/yr within the 100-hour federal limit.
+saline,epa_ghg_reporting,regulatory,carbon,EPA GHG Reporting Program Threshold,pass,121.5648,25000,tCO2e/yr (Scope 1),0.005,"Scope 1 emissions of 122 tCO2e/yr below the 25,000 t/yr threshold."
+saline,naaqs_pm25_annual,regulatory,air,NAAQS PM2.5 Annual Standard,pass,6.700056225312175,9,µg/m³,0.744,Estimated annual PM2.5 of 6.7 µg/m³ (background 6.7 + increment 0.00) meets both the current and prior NAAQS.
+saline,who_noise_sustained,advisory,noise,WHO Noise Guideline — Sustained Exposure,pass,55,70,dBA,0.786,Boundary noise of 55 dBA within WHO guidelines.
+saline,iso_pue,advisory,energy,PUE Benchmark (ISO 30134-2),pass,1.25,1.6,ratio,0.781,PUE of 1.25 is within acceptable range.
+saline,tgg_wue,advisory,water,WUE Benchmark (The Green Grid),pass,0.003,1.8,L/kWh,0.002,WUE of 0.003 L/kWh is at or below industry average.
+saline,wri_stress,advisory,water,WRI Aqueduct Water Stress,pass,1.1,3,(0-5 scale),0.367,WRI score of 1.1 indicates acceptable water stress levels.
+saline,nerc_reserve,advisory,grid,Grid Reserve Margin (NERC/PJM),warn,11.426564178857756,25,% of grid capacity,0.457,Facility consumes 11.4% of grid capacity. Significant — will affect regional reserve margins.
+saline,transmission_util,advisory,grid,Transmission Utilization,warn,75,85,%,0.882,Transmission utilization at 75% is within acceptable range.
+saline,ej_screen,advisory,health,Environmental Justice Screening,na,,,,,
+saline,health_cost_threshold,advisory,health,Monetized Health Damages,pass,410.57520028425023,10000000,$/yr,0,Estimated health damages of $0.00M/yr are within acceptable range.
+saline,net_fiscal,advisory,fiscal,Net Community Fiscal Impact,pass,37499589.42479971,0,$/yr,,Net community value is +$37.5M/yr. Benefits exceed costs.
+saline,ratepayer_shift,advisory,fiscal,Ratepayer Cost Shift,pass,0.967221351991678,200,$/household/yr,0.005,Estimated ratepayer cost shift of $1/household/yr is modest.
+saline,food_security,advisory,land,Food Supply Displacement,pass,0.1486013986013986,2,% of local supply,0.074,Food supply displacement of 0.1% is within acceptable range.
+saline,ewaste_reuse,advisory,waste,Hardware Reuse/Recycle Rate,pass,65,60,%,1.083,Reuse/recycle rate of 65% meets or approaches best practice standards.
+saline,aquifer_depletion,advisory,water,Aquifer Depletion Risk,pass,0.0968856,10,% of recharge,0.01,Aquifer depletion risk of 0.1% is within sustainable yield limits.
+saline,basin_stress_contribution,advisory,water,Basin Water Stress Contribution,pass,0.0484428,2,% of basin,0.024,"Facility contributes 0.048% of basin water, within acceptable range."
+saline,uhi_warming,advisory,heat,Local Temperature Impact,pass,0.7739945056794368,2,°C,0.387,Estimated local warming of +0.77°C is within acceptable range.

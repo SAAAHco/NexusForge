@@ -1,0 +1,67 @@
+site,dim,unit,single,cumulative,multiplier
+nova,Grid Load,MW,120,5450,45.42
+nova,Grid Capacity Used,%,0.5833454863642993,26.493607505711925,45.42
+nova,Water Withdrawal,MGD,2.2415556142668427,4.741555614266843,2.12
+nova,Aquifer Impact,%,11.229064748395382,23.752805713069293,2.12
+nova,Generators,units,48,4748,98.92
+nova,NOx Emissions,t/yr,76.8,7596.8,98.92
+nova,Health Cost,$M/yr,0.9724602189836785,191.8291748653917,197.26
+nova,Land Converted,acres,200,56200,281
+nova,Waste Heat to Air,MW,11.999999999999998,2108.3999999999996,175.7
+nova,Construction Trucks/Day,trips,150,750,5
+nova,Ratepayer Shift,$/hh/yr,12.586278942148427,3936.9880531040276,312.8
+tucson,Grid Load,MW,286.25,315.25,1.1
+tucson,Grid Capacity Used,%,9.154141349536296,10.081547809401984,1.1
+tucson,Water Withdrawal,MGD,1.8076177014531043,1.9576177014531042,1.08
+tucson,Aquifer Impact,%,0.670040267699688,0.7256416484972752,1.08
+tucson,Generators,units,120,145,1.21
+tucson,NOx Emissions,t/yr,153.6,185.6,1.21
+tucson,Health Cost,$M/yr,0.42213986474610704,0.5309750931437671,1.26
+tucson,Land Converted,acres,290,1858,6.41
+tucson,Waste Heat to Air,MW,54.38749999999998,304.5699999999999,5.6
+tucson,Construction Trucks/Day,trips,150,600,4
+tucson,Ratepayer Shift,$/hh/yr,12.068054171081563,112.8363064996126,9.35
+ohio,Grid Load,MW,81,681,8.41
+ohio,Grid Capacity Used,%,0.2656521596536683,2.233445934866026,8.41
+ohio,Water Withdrawal,MGD,1.2395052047556143,5.039505204755614,4.07
+ohio,Aquifer Impact,%,17.137659288031752,69.67725738303176,4.07
+ohio,Generators,units,36,436,12.11
+ohio,NOx Emissions,t/yr,57.6,697.6,12.11
+ohio,Health Cost,$M/yr,0.268795929998567,5.012492762258753,18.65
+ohio,Land Converted,acres,98,25634,261.57
+ohio,Waste Heat to Air,MW,12.600000000000001,1014.3000000000001,80.5
+ohio,Construction Trucks/Day,trips,100,500,5
+ohio,Ratepayer Shift,$/hh/yr,3.7334830708943634,504.58023703137314,135.15
+memphis,Grid Load,MW,325,870,2.68
+memphis,Grid Capacity Used,%,1.0071897855460519,2.696169579769431,2.68
+memphis,Water Withdrawal,MGD,3.844787318361955,4.344787318361956,1.13
+memphis,Aquifer Impact,%,2.568059756769513,2.902026182494151,1.13
+memphis,Generators,units,15,235,15.67
+memphis,NOx Emissions,t/yr,1.089,17.061,15.67
+memphis,Health Cost,$M/yr,0.03377721778484976,0.8442713063473746,25
+memphis,Land Converted,acres,522,3882,7.44
+memphis,Waste Heat to Air,MW,45.000000000000014,504.0000000000001,11.2
+memphis,Construction Trucks/Day,trips,180,540,3
+memphis,Ratepayer Shift,$/hh/yr,1.998495868898671,30.576986794149665,15.3
+nordic,Grid Load,MW,30.520000000000003,61.52,2.02
+nordic,Grid Capacity Used,%,0.3767901234567902,0.7595061728395063,2.02
+nordic,Water Withdrawal,MGD,0.15678035191545575,0.17478035191545574,1.11
+nordic,Aquifer Impact,%,0.001354798795860314,0.0015103436586415637,1.11
+nordic,Generators,units,10,30,3
+nordic,NOx Emissions,t/yr,0.426,1.278,3
+nordic,Health Cost,$M/yr,0.0032646388919076357,0.01212236527565417,3.71
+nordic,Land Converted,acres,150,1046,6.97
+nordic,Waste Heat to Air,MW,1.6758000000000013,5.865300000000005,3.5
+nordic,Construction Trucks/Day,trips,80,320,4
+nordic,Ratepayer Shift,$/hh/yr,188.81283927307058,1283.92730705688,6.8
+saline,Grid Load,MW,1382.5,1883.5,1.36
+saline,Grid Capacity Used,%,11.426564178857756,15.56740226464997,1.36
+saline,Water Withdrawal,MGD,9.823383883751653,10.823383883751653,1.1
+saline,Aquifer Impact,%,22.63669478882509,24.941063126325087,1.1
+saline,Generators,units,14,364,26
+saline,NOx Emissions,t/yr,1.0752,27.955199999999998,26
+saline,Health Cost,$M/yr,0.0004105752002842502,0.018201502724319817,44.33
+saline,Land Converted,acres,250,15930,63.72
+saline,Waste Heat to Air,MW,262.67499999999995,13054.947499999997,49.7
+saline,Construction Trucks/Day,trips,200,1000,5
+saline,Ratepayer Shift,$/hh/yr,0.967221351991678,72.34815712897752,74.8

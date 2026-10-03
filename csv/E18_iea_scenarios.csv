@@ -1,0 +1,5 @@
+id,label,twh2030,aiShare,assumption,growthRate
+base,Base Case,945,35–50%,Current trends + announced capacity,0.15
+efficiency,High Efficiency,970,"Similar, efficient",15%+ energy savings from hardware/software,0.1
+headwinds,Headwinds,790,Lower,"Slower AI adoption, supply chain delays",0.08
+accelerated,Accelerated AI,1100,> 50%,"Faster adoption, compute-intensive models",0.2

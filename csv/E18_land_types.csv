@@ -1,0 +1,6 @@
+id,label,seqLow,seqHigh,albedo,runoffPre
+grassland,Grassland / Prairie,0.5,2,0.25,0.15
+forest,Forest / Woodland,1,5,0.15,0.1
+wetland,Wetland / Marsh,2,8,0.12,0.05
+cropland,Cropland / Agricultural,0.2,1,0.22,0.2
+brownfield,Brownfield / Disturbed,0,0.1,0.18,0.5

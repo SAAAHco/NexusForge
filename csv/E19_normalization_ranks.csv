@@ -1,0 +1,8 @@
+scheme,nova,tucson,ohio,memphis,nordic,saline
+platform,4,2,5,3,6,1
+ewaste_gpu_class,4,2,5,3,6,1
+supply_0_1p5,4,2,5,3,6,1
+community_pm2,4,2,5,3,6,1
+health_75,4,2,5,3,6,1
+health_200,4,2,5,3,6,1
+cohort_minmax,2,3,5,4,6,1

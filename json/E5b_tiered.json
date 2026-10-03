@@ -1,0 +1,2996 @@
+{
+  "definitions": {
+    "legacy_all9": {
+      "desc": "all nine severable feeds (tiers 1–3) severed",
+      "feeds": [
+        "W>F",
+        "R>L",
+        "H>CM",
+        "L>CM",
+        "F>CM",
+        "R>EW",
+        "L>UHI",
+        "R>H",
+        "R>SC"
+      ]
+    },
+    "tier1_only": {
+      "desc": "information coupling only (seven tier-1 feeds) severed",
+      "feeds": [
+        "W>F",
+        "R>L",
+        "H>CM",
+        "L>CM",
+        "F>CM",
+        "R>EW",
+        "L>UHI"
+      ]
+    },
+    "tier1_2": {
+      "desc": "information coupling + scope-boundary (tiers 1–2, eight feeds) severed",
+      "feeds": [
+        "W>F",
+        "R>L",
+        "H>CM",
+        "L>CM",
+        "F>CM",
+        "R>EW",
+        "L>UHI",
+        "R>H"
+      ]
+    },
+    "tier2_only": {
+      "desc": "scope-boundary feed R>H only",
+      "feeds": [
+        "R>H"
+      ]
+    },
+    "tier3_only": {
+      "desc": "scale-proxy feed R>SC only (fallback artefact)",
+      "feeds": [
+        "R>SC"
+      ]
+    }
+  },
+  "summary": {
+    "legacy_all9": {
+      "desc": "all nine severable feeds (tiers 1–3) severed",
+      "pctLarger_own_range": [
+        7.7,
+        86.6
+      ],
+      "pctLarger_bal_range": [
+        7.7,
+        31
+      ]
+    },
+    "tier1_only": {
+      "desc": "information coupling only (seven tier-1 feeds) severed",
+      "pctLarger_own_range": [
+        0,
+        0.3
+      ],
+      "pctLarger_bal_range": [
+        0,
+        0.3
+      ]
+    },
+    "tier1_2": {
+      "desc": "information coupling + scope-boundary (tiers 1–2, eight feeds) severed",
+      "pctLarger_own_range": [
+        6.1,
+        70.7
+      ],
+      "pctLarger_bal_range": [
+        6.1,
+        17.5
+      ]
+    },
+    "tier2_only": {
+      "desc": "scope-boundary feed R>H only",
+      "pctLarger_own_range": [
+        5.8,
+        70.3
+      ],
+      "pctLarger_bal_range": [
+        5.8,
+        17.3
+      ]
+    },
+    "tier3_only": {
+      "desc": "scale-proxy feed R>SC only (fallback artefact)",
+      "pctLarger_own_range": [
+        1.4,
+        6.8
+      ],
+      "pctLarger_bal_range": [
+        1.4,
+        11
+      ]
+    }
+  },
+  "rows": [
+    {
+      "site": "nova",
+      "definition": "legacy_all9",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI|R>H|R>SC",
+      "n_feeds": 9,
+      "NIS_coupled_own": 0.218,
+      "NIS_siloed_own": 0.1829,
+      "pctLarger_own": 19.2,
+      "NIS_coupled_bal": 0.2816,
+      "NIS_siloed_bal": 0.2452,
+      "pctLarger_bal": 14.8,
+      "totalHealthCost_coupled": 30373998.61898368,
+      "totalHealthCost_siloed": 972460.2189836785,
+      "communityCosts_coupled": 41372460.21898368,
+      "communityCosts_siloed": 40000000
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_only",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI",
+      "n_feeds": 7,
+      "NIS_coupled_own": 0.218,
+      "NIS_siloed_own": 0.2177,
+      "pctLarger_own": 0.1,
+      "NIS_coupled_bal": 0.2816,
+      "NIS_siloed_bal": 0.2814,
+      "pctLarger_bal": 0.1,
+      "totalHealthCost_coupled": 30373998.61898368,
+      "totalHealthCost_siloed": 30373998.61898368,
+      "communityCosts_coupled": 41372460.21898368,
+      "communityCosts_siloed": 40000000
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_2",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI|R>H",
+      "n_feeds": 8,
+      "NIS_coupled_own": 0.218,
+      "NIS_siloed_own": 0.1944,
+      "pctLarger_own": 12.1,
+      "NIS_coupled_bal": 0.2816,
+      "NIS_siloed_bal": 0.258,
+      "pctLarger_bal": 9.1,
+      "totalHealthCost_coupled": 30373998.61898368,
+      "totalHealthCost_siloed": 972460.2189836785,
+      "communityCosts_coupled": 41372460.21898368,
+      "communityCosts_siloed": 40000000
+    },
+    {
+      "site": "nova",
+      "definition": "tier2_only",
+      "feeds_severed": "R>H",
+      "n_feeds": 1,
+      "NIS_coupled_own": 0.218,
+      "NIS_siloed_own": 0.1947,
+      "pctLarger_own": 12,
+      "NIS_coupled_bal": 0.2816,
+      "NIS_siloed_bal": 0.2583,
+      "pctLarger_bal": 9,
+      "totalHealthCost_coupled": 30373998.61898368,
+      "totalHealthCost_siloed": 972460.2189836785,
+      "communityCosts_coupled": 41372460.21898368,
+      "communityCosts_siloed": 41372460.21898368
+    },
+    {
+      "site": "nova",
+      "definition": "tier3_only",
+      "feeds_severed": "R>SC",
+      "n_feeds": 1,
+      "NIS_coupled_own": 0.218,
+      "NIS_siloed_own": 0.2065,
+      "pctLarger_own": 5.6,
+      "NIS_coupled_bal": 0.2816,
+      "NIS_siloed_bal": 0.2688,
+      "pctLarger_bal": 4.8,
+      "totalHealthCost_coupled": 30373998.61898368,
+      "totalHealthCost_siloed": 30373998.61898368,
+      "communityCosts_coupled": 41372460.21898368,
+      "communityCosts_siloed": 41372460.21898368
+    },
+    {
+      "site": "tucson",
+      "definition": "legacy_all9",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI|R>H|R>SC",
+      "n_feeds": 9,
+      "NIS_coupled_own": 0.2686,
+      "NIS_siloed_own": 0.2232,
+      "pctLarger_own": 20.3,
+      "NIS_coupled_bal": 0.3247,
+      "NIS_siloed_bal": 0.2853,
+      "pctLarger_bal": 13.8,
+      "totalHealthCost_coupled": 77393092.24874611,
+      "totalHealthCost_siloed": 422139.864746107,
+      "communityCosts_coupled": 25849889.86474611,
+      "communityCosts_siloed": 25000000
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_only",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI",
+      "n_feeds": 7,
+      "NIS_coupled_own": 0.2686,
+      "NIS_siloed_own": 0.2685,
+      "pctLarger_own": 0,
+      "NIS_coupled_bal": 0.3247,
+      "NIS_siloed_bal": 0.3246,
+      "pctLarger_bal": 0,
+      "totalHealthCost_coupled": 77393092.24874611,
+      "totalHealthCost_siloed": 77393092.24874611,
+      "communityCosts_coupled": 25849889.86474611,
+      "communityCosts_siloed": 25000000
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_2",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI|R>H",
+      "n_feeds": 8,
+      "NIS_coupled_own": 0.2686,
+      "NIS_siloed_own": 0.2301,
+      "pctLarger_own": 16.7,
+      "NIS_coupled_bal": 0.3247,
+      "NIS_siloed_bal": 0.299,
+      "pctLarger_bal": 8.6,
+      "totalHealthCost_coupled": 77393092.24874611,
+      "totalHealthCost_siloed": 422139.864746107,
+      "communityCosts_coupled": 25849889.86474611,
+      "communityCosts_siloed": 25000000
+    },
+    {
+      "site": "tucson",
+      "definition": "tier2_only",
+      "feeds_severed": "R>H",
+      "n_feeds": 1,
+      "NIS_coupled_own": 0.2686,
+      "NIS_siloed_own": 0.2302,
+      "pctLarger_own": 16.7,
+      "NIS_coupled_bal": 0.3247,
+      "NIS_siloed_bal": 0.2992,
+      "pctLarger_bal": 8.6,
+      "totalHealthCost_coupled": 77393092.24874611,
+      "totalHealthCost_siloed": 422139.864746107,
+      "communityCosts_coupled": 25849889.86474611,
+      "communityCosts_siloed": 25849889.86474611
+    },
+    {
+      "site": "tucson",
+      "definition": "tier3_only",
+      "feeds_severed": "R>SC",
+      "n_feeds": 1,
+      "NIS_coupled_own": 0.2686,
+      "NIS_siloed_own": 0.2617,
+      "pctLarger_own": 2.6,
+      "NIS_coupled_bal": 0.3247,
+      "NIS_siloed_bal": 0.311,
+      "pctLarger_bal": 4.4,
+      "totalHealthCost_coupled": 77393092.24874611,
+      "totalHealthCost_siloed": 77393092.24874611,
+      "communityCosts_coupled": 25849889.86474611,
+      "communityCosts_siloed": 25849889.86474611
+    },
+    {
+      "site": "ohio",
+      "definition": "legacy_all9",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI|R>H|R>SC",
+      "n_feeds": 9,
+      "NIS_coupled_own": 0.239,
+      "NIS_siloed_own": 0.1861,
+      "pctLarger_own": 28.4,
+      "NIS_coupled_bal": 0.2646,
+      "NIS_siloed_bal": 0.2138,
+      "pctLarger_bal": 23.8,
+      "totalHealthCost_coupled": 33557150.53479857,
+      "totalHealthCost_siloed": 268795.929998567,
+      "communityCosts_coupled": 15489785.929998567,
+      "communityCosts_siloed": 15000000
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_only",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI",
+      "n_feeds": 7,
+      "NIS_coupled_own": 0.239,
+      "NIS_siloed_own": 0.2387,
+      "pctLarger_own": 0.1,
+      "NIS_coupled_bal": 0.2646,
+      "NIS_siloed_bal": 0.2644,
+      "pctLarger_bal": 0.1,
+      "totalHealthCost_coupled": 33557150.53479857,
+      "totalHealthCost_siloed": 33557150.53479857,
+      "communityCosts_coupled": 15489785.929998567,
+      "communityCosts_siloed": 15000000
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_2",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI|R>H",
+      "n_feeds": 8,
+      "NIS_coupled_own": 0.239,
+      "NIS_siloed_own": 0.1918,
+      "pctLarger_own": 24.6,
+      "NIS_coupled_bal": 0.2646,
+      "NIS_siloed_bal": 0.2253,
+      "pctLarger_bal": 17.5,
+      "totalHealthCost_coupled": 33557150.53479857,
+      "totalHealthCost_siloed": 268795.929998567,
+      "communityCosts_coupled": 15489785.929998567,
+      "communityCosts_siloed": 15000000
+    },
+    {
+      "site": "ohio",
+      "definition": "tier2_only",
+      "feeds_severed": "R>H",
+      "n_feeds": 1,
+      "NIS_coupled_own": 0.239,
+      "NIS_siloed_own": 0.1921,
+      "pctLarger_own": 24.4,
+      "NIS_coupled_bal": 0.2646,
+      "NIS_siloed_bal": 0.2255,
+      "pctLarger_bal": 17.3,
+      "totalHealthCost_coupled": 33557150.53479857,
+      "totalHealthCost_siloed": 268795.929998567,
+      "communityCosts_coupled": 15489785.929998567,
+      "communityCosts_siloed": 15489785.929998567
+    },
+    {
+      "site": "ohio",
+      "definition": "tier3_only",
+      "feeds_severed": "R>SC",
+      "n_feeds": 1,
+      "NIS_coupled_own": 0.239,
+      "NIS_siloed_own": 0.2332,
+      "pctLarger_own": 2.5,
+      "NIS_coupled_bal": 0.2646,
+      "NIS_siloed_bal": 0.2531,
+      "pctLarger_bal": 4.5,
+      "totalHealthCost_coupled": 33557150.53479857,
+      "totalHealthCost_siloed": 33557150.53479857,
+      "communityCosts_coupled": 15489785.929998567,
+      "communityCosts_siloed": 15489785.929998567
+    },
+    {
+      "site": "memphis",
+      "definition": "legacy_all9",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI|R>H|R>SC",
+      "n_feeds": 9,
+      "NIS_coupled_own": 0.3041,
+      "NIS_siloed_own": 0.163,
+      "pctLarger_own": 86.6,
+      "NIS_coupled_bal": 0.3064,
+      "NIS_siloed_bal": 0.234,
+      "pctLarger_bal": 31,
+      "totalHealthCost_coupled": 143002601.13778484,
+      "totalHealthCost_siloed": 33777.21778484976,
+      "communityCosts_coupled": 1563727.21778485,
+      "communityCosts_siloed": 760000
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_only",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI",
+      "n_feeds": 7,
+      "NIS_coupled_own": 0.3041,
+      "NIS_siloed_own": 0.3037,
+      "pctLarger_own": 0.1,
+      "NIS_coupled_bal": 0.3064,
+      "NIS_siloed_bal": 0.3062,
+      "pctLarger_bal": 0.1,
+      "totalHealthCost_coupled": 143002601.13778484,
+      "totalHealthCost_siloed": 143002601.13778484,
+      "communityCosts_coupled": 1563727.21778485,
+      "communityCosts_siloed": 760000
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_2",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI|R>H",
+      "n_feeds": 8,
+      "NIS_coupled_own": 0.3041,
+      "NIS_siloed_own": 0.1781,
+      "pctLarger_own": 70.7,
+      "NIS_coupled_bal": 0.3064,
+      "NIS_siloed_bal": 0.2644,
+      "pctLarger_bal": 15.9,
+      "totalHealthCost_coupled": 143002601.13778484,
+      "totalHealthCost_siloed": 33777.21778484976,
+      "communityCosts_coupled": 1563727.21778485,
+      "communityCosts_siloed": 760000
+    },
+    {
+      "site": "memphis",
+      "definition": "tier2_only",
+      "feeds_severed": "R>H",
+      "n_feeds": 1,
+      "NIS_coupled_own": 0.3041,
+      "NIS_siloed_own": 0.1786,
+      "pctLarger_own": 70.3,
+      "NIS_coupled_bal": 0.3064,
+      "NIS_siloed_bal": 0.2646,
+      "pctLarger_bal": 15.8,
+      "totalHealthCost_coupled": 143002601.13778484,
+      "totalHealthCost_siloed": 33777.21778484976,
+      "communityCosts_coupled": 1563727.21778485,
+      "communityCosts_siloed": 1563727.21778485
+    },
+    {
+      "site": "memphis",
+      "definition": "tier3_only",
+      "feeds_severed": "R>SC",
+      "n_feeds": 1,
+      "NIS_coupled_own": 0.3041,
+      "NIS_siloed_own": 0.2889,
+      "pctLarger_own": 5.3,
+      "NIS_coupled_bal": 0.3064,
+      "NIS_siloed_bal": 0.276,
+      "pctLarger_bal": 11,
+      "totalHealthCost_coupled": 143002601.13778484,
+      "totalHealthCost_siloed": 143002601.13778484,
+      "communityCosts_coupled": 1563727.21778485,
+      "communityCosts_siloed": 1563727.21778485
+    },
+    {
+      "site": "nordic",
+      "definition": "legacy_all9",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI|R>H|R>SC",
+      "n_feeds": 9,
+      "NIS_coupled_own": 0.1669,
+      "NIS_siloed_own": 0.155,
+      "pctLarger_own": 7.7,
+      "NIS_coupled_bal": 0.1669,
+      "NIS_siloed_bal": 0.155,
+      "pctLarger_bal": 7.7,
+      "totalHealthCost_coupled": 2917275.905771908,
+      "totalHealthCost_siloed": 3264.6388919076358,
+      "communityCosts_coupled": 8224514.638891907,
+      "communityCosts_siloed": 8000000
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_only",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI",
+      "n_feeds": 7,
+      "NIS_coupled_own": 0.1669,
+      "NIS_siloed_own": 0.1664,
+      "pctLarger_own": 0.3,
+      "NIS_coupled_bal": 0.1669,
+      "NIS_siloed_bal": 0.1664,
+      "pctLarger_bal": 0.3,
+      "totalHealthCost_coupled": 2917275.905771908,
+      "totalHealthCost_siloed": 2917275.905771908,
+      "communityCosts_coupled": 8224514.638891907,
+      "communityCosts_siloed": 8000000
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_2",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI|R>H",
+      "n_feeds": 8,
+      "NIS_coupled_own": 0.1669,
+      "NIS_siloed_own": 0.1573,
+      "pctLarger_own": 6.1,
+      "NIS_coupled_bal": 0.1669,
+      "NIS_siloed_bal": 0.1573,
+      "pctLarger_bal": 6.1,
+      "totalHealthCost_coupled": 2917275.905771908,
+      "totalHealthCost_siloed": 3264.6388919076358,
+      "communityCosts_coupled": 8224514.638891907,
+      "communityCosts_siloed": 8000000
+    },
+    {
+      "site": "nordic",
+      "definition": "tier2_only",
+      "feeds_severed": "R>H",
+      "n_feeds": 1,
+      "NIS_coupled_own": 0.1669,
+      "NIS_siloed_own": 0.1578,
+      "pctLarger_own": 5.8,
+      "NIS_coupled_bal": 0.1669,
+      "NIS_siloed_bal": 0.1578,
+      "pctLarger_bal": 5.8,
+      "totalHealthCost_coupled": 2917275.905771908,
+      "totalHealthCost_siloed": 3264.6388919076358,
+      "communityCosts_coupled": 8224514.638891907,
+      "communityCosts_siloed": 8224514.638891907
+    },
+    {
+      "site": "nordic",
+      "definition": "tier3_only",
+      "feeds_severed": "R>SC",
+      "n_feeds": 1,
+      "NIS_coupled_own": 0.1669,
+      "NIS_siloed_own": 0.1646,
+      "pctLarger_own": 1.4,
+      "NIS_coupled_bal": 0.1669,
+      "NIS_siloed_bal": 0.1646,
+      "pctLarger_bal": 1.4,
+      "totalHealthCost_coupled": 2917275.905771908,
+      "totalHealthCost_siloed": 2917275.905771908,
+      "communityCosts_coupled": 8224514.638891907,
+      "communityCosts_siloed": 8224514.638891907
+    },
+    {
+      "site": "saline",
+      "definition": "legacy_all9",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI|R>H|R>SC",
+      "n_feeds": 9,
+      "NIS_coupled_own": 0.3842,
+      "NIS_siloed_own": 0.3114,
+      "pctLarger_own": 23.4,
+      "NIS_coupled_bal": 0.3683,
+      "NIS_siloed_bal": 0.2927,
+      "pctLarger_bal": 25.8,
+      "totalHealthCost_coupled": 704813842.6812004,
+      "totalHealthCost_siloed": 410.57520028425023,
+      "communityCosts_coupled": 18900410.575200286,
+      "communityCosts_siloed": 18400000
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_only",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI",
+      "n_feeds": 7,
+      "NIS_coupled_own": 0.3842,
+      "NIS_siloed_own": 0.3842,
+      "pctLarger_own": 0,
+      "NIS_coupled_bal": 0.3683,
+      "NIS_siloed_bal": 0.3682,
+      "pctLarger_bal": 0,
+      "totalHealthCost_coupled": 704813842.6812004,
+      "totalHealthCost_siloed": 704813842.6812004,
+      "communityCosts_coupled": 18900410.575200286,
+      "communityCosts_siloed": 18400000
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_2",
+      "feeds_severed": "W>F|R>L|H>CM|L>CM|F>CM|R>EW|L>UHI|R>H",
+      "n_feeds": 8,
+      "NIS_coupled_own": 0.3842,
+      "NIS_siloed_own": 0.3357,
+      "pctLarger_own": 14.5,
+      "NIS_coupled_bal": 0.3683,
+      "NIS_siloed_bal": 0.3197,
+      "pctLarger_bal": 15.2,
+      "totalHealthCost_coupled": 704813842.6812004,
+      "totalHealthCost_siloed": 410.57520028425023,
+      "communityCosts_coupled": 18900410.575200286,
+      "communityCosts_siloed": 18400000
+    },
+    {
+      "site": "saline",
+      "definition": "tier2_only",
+      "feeds_severed": "R>H",
+      "n_feeds": 1,
+      "NIS_coupled_own": 0.3842,
+      "NIS_siloed_own": 0.3357,
+      "pctLarger_own": 14.4,
+      "NIS_coupled_bal": 0.3683,
+      "NIS_siloed_bal": 0.3198,
+      "pctLarger_bal": 15.2,
+      "totalHealthCost_coupled": 704813842.6812004,
+      "totalHealthCost_siloed": 410.57520028425023,
+      "communityCosts_coupled": 18900410.575200286,
+      "communityCosts_siloed": 18900410.575200286
+    },
+    {
+      "site": "saline",
+      "definition": "tier3_only",
+      "feeds_severed": "R>SC",
+      "n_feeds": 1,
+      "NIS_coupled_own": 0.3842,
+      "NIS_siloed_own": 0.3599,
+      "pctLarger_own": 6.8,
+      "NIS_coupled_bal": 0.3683,
+      "NIS_siloed_bal": 0.3413,
+      "pctLarger_bal": 7.9,
+      "totalHealthCost_coupled": 704813842.6812004,
+      "totalHealthCost_siloed": 704813842.6812004,
+      "communityCosts_coupled": 18900410.575200286,
+      "communityCosts_siloed": 18900410.575200286
+    }
+  ],
+  "dims": [
+    {
+      "site": "nova",
+      "definition": "legacy_all9",
+      "dim": "energy",
+      "coupled_norm": 0.21227842016812692,
+      "siloed_norm": 0.21227842016812692,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "legacy_all9",
+      "dim": "water",
+      "coupled_norm": 0.3630544257246377,
+      "siloed_norm": 0.3630544257246377,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "legacy_all9",
+      "dim": "food",
+      "coupled_norm": 0.08305343511450382,
+      "siloed_norm": 0.08305343511450382,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "legacy_all9",
+      "dim": "health",
+      "coupled_norm": 0.24078829448078132,
+      "siloed_norm": 0.00770912781411465,
+      "delta": 0.2331
+    },
+    {
+      "site": "nova",
+      "definition": "legacy_all9",
+      "dim": "land",
+      "coupled_norm": 0.16666666666666663,
+      "siloed_norm": 0.16666666666666663,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "legacy_all9",
+      "dim": "community",
+      "coupled_norm": 0.33499999999999996,
+      "siloed_norm": 0.3323333333333333,
+      "delta": 0.0027
+    },
+    {
+      "site": "nova",
+      "definition": "legacy_all9",
+      "dim": "ewaste",
+      "coupled_norm": 0.7283148148148147,
+      "siloed_norm": 0.7283148148148147,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "legacy_all9",
+      "dim": "heat",
+      "coupled_norm": 0.25453321496699427,
+      "siloed_norm": 0.25453321496699427,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "legacy_all9",
+      "dim": "grid",
+      "coupled_norm": 0.019444849545476643,
+      "siloed_norm": 0.019444849545476643,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "legacy_all9",
+      "dim": "supply",
+      "coupled_norm": 0.4131,
+      "siloed_norm": 0.28480000000000005,
+      "delta": 0.1283
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_only",
+      "dim": "energy",
+      "coupled_norm": 0.21227842016812692,
+      "siloed_norm": 0.21227842016812692,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_only",
+      "dim": "water",
+      "coupled_norm": 0.3630544257246377,
+      "siloed_norm": 0.3630544257246377,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_only",
+      "dim": "food",
+      "coupled_norm": 0.08305343511450382,
+      "siloed_norm": 0.08305343511450382,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_only",
+      "dim": "health",
+      "coupled_norm": 0.24078829448078132,
+      "siloed_norm": 0.24078829448078132,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_only",
+      "dim": "land",
+      "coupled_norm": 0.16666666666666663,
+      "siloed_norm": 0.16666666666666663,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_only",
+      "dim": "community",
+      "coupled_norm": 0.33499999999999996,
+      "siloed_norm": 0.3323333333333333,
+      "delta": 0.0027
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.7283148148148147,
+      "siloed_norm": 0.7283148148148147,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_only",
+      "dim": "heat",
+      "coupled_norm": 0.25453321496699427,
+      "siloed_norm": 0.25453321496699427,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_only",
+      "dim": "grid",
+      "coupled_norm": 0.019444849545476643,
+      "siloed_norm": 0.019444849545476643,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_only",
+      "dim": "supply",
+      "coupled_norm": 0.4131,
+      "siloed_norm": 0.4131,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_2",
+      "dim": "energy",
+      "coupled_norm": 0.21227842016812692,
+      "siloed_norm": 0.21227842016812692,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_2",
+      "dim": "water",
+      "coupled_norm": 0.3630544257246377,
+      "siloed_norm": 0.3630544257246377,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_2",
+      "dim": "food",
+      "coupled_norm": 0.08305343511450382,
+      "siloed_norm": 0.08305343511450382,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_2",
+      "dim": "health",
+      "coupled_norm": 0.24078829448078132,
+      "siloed_norm": 0.00770912781411465,
+      "delta": 0.2331
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_2",
+      "dim": "land",
+      "coupled_norm": 0.16666666666666663,
+      "siloed_norm": 0.16666666666666663,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_2",
+      "dim": "community",
+      "coupled_norm": 0.33499999999999996,
+      "siloed_norm": 0.3323333333333333,
+      "delta": 0.0027
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_2",
+      "dim": "ewaste",
+      "coupled_norm": 0.7283148148148147,
+      "siloed_norm": 0.7283148148148147,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_2",
+      "dim": "heat",
+      "coupled_norm": 0.25453321496699427,
+      "siloed_norm": 0.25453321496699427,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_2",
+      "dim": "grid",
+      "coupled_norm": 0.019444849545476643,
+      "siloed_norm": 0.019444849545476643,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier1_2",
+      "dim": "supply",
+      "coupled_norm": 0.4131,
+      "siloed_norm": 0.4131,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier2_only",
+      "dim": "energy",
+      "coupled_norm": 0.21227842016812692,
+      "siloed_norm": 0.21227842016812692,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier2_only",
+      "dim": "water",
+      "coupled_norm": 0.3630544257246377,
+      "siloed_norm": 0.3630544257246377,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier2_only",
+      "dim": "food",
+      "coupled_norm": 0.08305343511450382,
+      "siloed_norm": 0.08305343511450382,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier2_only",
+      "dim": "health",
+      "coupled_norm": 0.24078829448078132,
+      "siloed_norm": 0.00770912781411465,
+      "delta": 0.2331
+    },
+    {
+      "site": "nova",
+      "definition": "tier2_only",
+      "dim": "land",
+      "coupled_norm": 0.16666666666666663,
+      "siloed_norm": 0.16666666666666663,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier2_only",
+      "dim": "community",
+      "coupled_norm": 0.33499999999999996,
+      "siloed_norm": 0.33499999999999996,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier2_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.7283148148148147,
+      "siloed_norm": 0.7283148148148147,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier2_only",
+      "dim": "heat",
+      "coupled_norm": 0.25453321496699427,
+      "siloed_norm": 0.25453321496699427,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier2_only",
+      "dim": "grid",
+      "coupled_norm": 0.019444849545476643,
+      "siloed_norm": 0.019444849545476643,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier2_only",
+      "dim": "supply",
+      "coupled_norm": 0.4131,
+      "siloed_norm": 0.4131,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier3_only",
+      "dim": "energy",
+      "coupled_norm": 0.21227842016812692,
+      "siloed_norm": 0.21227842016812692,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier3_only",
+      "dim": "water",
+      "coupled_norm": 0.3630544257246377,
+      "siloed_norm": 0.3630544257246377,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier3_only",
+      "dim": "food",
+      "coupled_norm": 0.08305343511450382,
+      "siloed_norm": 0.08305343511450382,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier3_only",
+      "dim": "health",
+      "coupled_norm": 0.24078829448078132,
+      "siloed_norm": 0.24078829448078132,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier3_only",
+      "dim": "land",
+      "coupled_norm": 0.16666666666666663,
+      "siloed_norm": 0.16666666666666663,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier3_only",
+      "dim": "community",
+      "coupled_norm": 0.33499999999999996,
+      "siloed_norm": 0.33499999999999996,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier3_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.7283148148148147,
+      "siloed_norm": 0.7283148148148147,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier3_only",
+      "dim": "heat",
+      "coupled_norm": 0.25453321496699427,
+      "siloed_norm": 0.25453321496699427,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier3_only",
+      "dim": "grid",
+      "coupled_norm": 0.019444849545476643,
+      "siloed_norm": 0.019444849545476643,
+      "delta": 0
+    },
+    {
+      "site": "nova",
+      "definition": "tier3_only",
+      "dim": "supply",
+      "coupled_norm": 0.4131,
+      "siloed_norm": 0.28480000000000005,
+      "delta": 0.1283
+    },
+    {
+      "site": "tucson",
+      "definition": "legacy_all9",
+      "dim": "energy",
+      "coupled_norm": 0.3553197881997689,
+      "siloed_norm": 0.3553197881997689,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "legacy_all9",
+      "dim": "water",
+      "coupled_norm": 0.12484781819532884,
+      "siloed_norm": 0.12484781819532884,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "legacy_all9",
+      "dim": "food",
+      "coupled_norm": 0,
+      "siloed_norm": 0,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "legacy_all9",
+      "dim": "health",
+      "coupled_norm": 0.25720022946948917,
+      "siloed_norm": 0.0014028961361558327,
+      "delta": 0.2558
+    },
+    {
+      "site": "tucson",
+      "definition": "legacy_all9",
+      "dim": "land",
+      "coupled_norm": 0.35,
+      "siloed_norm": 0.35,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "legacy_all9",
+      "dim": "community",
+      "coupled_norm": 0.3010414847161572,
+      "siloed_norm": 0.2997962154294032,
+      "delta": 0.0012
+    },
+    {
+      "site": "tucson",
+      "definition": "legacy_all9",
+      "dim": "ewaste",
+      "coupled_norm": 0.7283148148148149,
+      "siloed_norm": 0.7283148148148149,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "legacy_all9",
+      "dim": "heat",
+      "coupled_norm": 0.3021301024757327,
+      "siloed_norm": 0.3021301024757327,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "legacy_all9",
+      "dim": "grid",
+      "coupled_norm": 0.3051380449845432,
+      "siloed_norm": 0.3051380449845432,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "legacy_all9",
+      "dim": "supply",
+      "coupled_norm": 0.5235,
+      "siloed_norm": 0.3862,
+      "delta": 0.1373
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_only",
+      "dim": "energy",
+      "coupled_norm": 0.3553197881997689,
+      "siloed_norm": 0.3553197881997689,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_only",
+      "dim": "water",
+      "coupled_norm": 0.12484781819532884,
+      "siloed_norm": 0.12484781819532884,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_only",
+      "dim": "food",
+      "coupled_norm": 0,
+      "siloed_norm": 0,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_only",
+      "dim": "health",
+      "coupled_norm": 0.25720022946948917,
+      "siloed_norm": 0.25720022946948917,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_only",
+      "dim": "land",
+      "coupled_norm": 0.35,
+      "siloed_norm": 0.35,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_only",
+      "dim": "community",
+      "coupled_norm": 0.3010414847161572,
+      "siloed_norm": 0.2997962154294032,
+      "delta": 0.0012
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.7283148148148149,
+      "siloed_norm": 0.7283148148148149,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_only",
+      "dim": "heat",
+      "coupled_norm": 0.3021301024757327,
+      "siloed_norm": 0.3021301024757327,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_only",
+      "dim": "grid",
+      "coupled_norm": 0.3051380449845432,
+      "siloed_norm": 0.3051380449845432,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_only",
+      "dim": "supply",
+      "coupled_norm": 0.5235,
+      "siloed_norm": 0.5235,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_2",
+      "dim": "energy",
+      "coupled_norm": 0.3553197881997689,
+      "siloed_norm": 0.3553197881997689,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_2",
+      "dim": "water",
+      "coupled_norm": 0.12484781819532884,
+      "siloed_norm": 0.12484781819532884,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_2",
+      "dim": "food",
+      "coupled_norm": 0,
+      "siloed_norm": 0,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_2",
+      "dim": "health",
+      "coupled_norm": 0.25720022946948917,
+      "siloed_norm": 0.0014028961361558327,
+      "delta": 0.2558
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_2",
+      "dim": "land",
+      "coupled_norm": 0.35,
+      "siloed_norm": 0.35,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_2",
+      "dim": "community",
+      "coupled_norm": 0.3010414847161572,
+      "siloed_norm": 0.2997962154294032,
+      "delta": 0.0012
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_2",
+      "dim": "ewaste",
+      "coupled_norm": 0.7283148148148149,
+      "siloed_norm": 0.7283148148148149,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_2",
+      "dim": "heat",
+      "coupled_norm": 0.3021301024757327,
+      "siloed_norm": 0.3021301024757327,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_2",
+      "dim": "grid",
+      "coupled_norm": 0.3051380449845432,
+      "siloed_norm": 0.3051380449845432,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier1_2",
+      "dim": "supply",
+      "coupled_norm": 0.5235,
+      "siloed_norm": 0.5235,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier2_only",
+      "dim": "energy",
+      "coupled_norm": 0.3553197881997689,
+      "siloed_norm": 0.3553197881997689,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier2_only",
+      "dim": "water",
+      "coupled_norm": 0.12484781819532884,
+      "siloed_norm": 0.12484781819532884,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier2_only",
+      "dim": "food",
+      "coupled_norm": 0,
+      "siloed_norm": 0,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier2_only",
+      "dim": "health",
+      "coupled_norm": 0.25720022946948917,
+      "siloed_norm": 0.0014028961361558327,
+      "delta": 0.2558
+    },
+    {
+      "site": "tucson",
+      "definition": "tier2_only",
+      "dim": "land",
+      "coupled_norm": 0.35,
+      "siloed_norm": 0.35,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier2_only",
+      "dim": "community",
+      "coupled_norm": 0.3010414847161572,
+      "siloed_norm": 0.3010414847161572,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier2_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.7283148148148149,
+      "siloed_norm": 0.7283148148148149,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier2_only",
+      "dim": "heat",
+      "coupled_norm": 0.3021301024757327,
+      "siloed_norm": 0.3021301024757327,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier2_only",
+      "dim": "grid",
+      "coupled_norm": 0.3051380449845432,
+      "siloed_norm": 0.3051380449845432,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier2_only",
+      "dim": "supply",
+      "coupled_norm": 0.5235,
+      "siloed_norm": 0.5235,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier3_only",
+      "dim": "energy",
+      "coupled_norm": 0.3553197881997689,
+      "siloed_norm": 0.3553197881997689,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier3_only",
+      "dim": "water",
+      "coupled_norm": 0.12484781819532884,
+      "siloed_norm": 0.12484781819532884,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier3_only",
+      "dim": "food",
+      "coupled_norm": 0,
+      "siloed_norm": 0,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier3_only",
+      "dim": "health",
+      "coupled_norm": 0.25720022946948917,
+      "siloed_norm": 0.25720022946948917,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier3_only",
+      "dim": "land",
+      "coupled_norm": 0.35,
+      "siloed_norm": 0.35,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier3_only",
+      "dim": "community",
+      "coupled_norm": 0.3010414847161572,
+      "siloed_norm": 0.3010414847161572,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier3_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.7283148148148149,
+      "siloed_norm": 0.7283148148148149,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier3_only",
+      "dim": "heat",
+      "coupled_norm": 0.3021301024757327,
+      "siloed_norm": 0.3021301024757327,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier3_only",
+      "dim": "grid",
+      "coupled_norm": 0.3051380449845432,
+      "siloed_norm": 0.3051380449845432,
+      "delta": 0
+    },
+    {
+      "site": "tucson",
+      "definition": "tier3_only",
+      "dim": "supply",
+      "coupled_norm": 0.5235,
+      "siloed_norm": 0.3862,
+      "delta": 0.1373
+    },
+    {
+      "site": "ohio",
+      "definition": "legacy_all9",
+      "dim": "energy",
+      "coupled_norm": 0.358781028562362,
+      "siloed_norm": 0.358781028562362,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "legacy_all9",
+      "dim": "water",
+      "coupled_norm": 0.3669975426666667,
+      "siloed_norm": 0.3669975426666667,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "legacy_all9",
+      "dim": "food",
+      "coupled_norm": 0.006602922962595988,
+      "siloed_norm": 0.006602922962595988,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "legacy_all9",
+      "dim": "health",
+      "coupled_norm": 0.39410750482456935,
+      "siloed_norm": 0.003156838157902632,
+      "delta": 0.391
+    },
+    {
+      "site": "ohio",
+      "definition": "legacy_all9",
+      "dim": "land",
+      "coupled_norm": 0.16666666666666663,
+      "siloed_norm": 0.16666666666666663,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "legacy_all9",
+      "dim": "community",
+      "coupled_norm": 0.45745544444444447,
+      "siloed_norm": 0.455,
+      "delta": 0.0025
+    },
+    {
+      "site": "ohio",
+      "definition": "legacy_all9",
+      "dim": "ewaste",
+      "coupled_norm": 0.5894259259259259,
+      "siloed_norm": 0.5894259259259259,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "legacy_all9",
+      "dim": "heat",
+      "coupled_norm": 0.027649822450491524,
+      "siloed_norm": 0.027649822450491524,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "legacy_all9",
+      "dim": "grid",
+      "coupled_norm": 0.00885507198845561,
+      "siloed_norm": 0.00885507198845561,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "legacy_all9",
+      "dim": "supply",
+      "coupled_norm": 0.26949999999999996,
+      "siloed_norm": 0.15460000000000002,
+      "delta": 0.1149
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_only",
+      "dim": "energy",
+      "coupled_norm": 0.358781028562362,
+      "siloed_norm": 0.358781028562362,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_only",
+      "dim": "water",
+      "coupled_norm": 0.3669975426666667,
+      "siloed_norm": 0.3669975426666667,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_only",
+      "dim": "food",
+      "coupled_norm": 0.006602922962595988,
+      "siloed_norm": 0.006602922962595988,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_only",
+      "dim": "health",
+      "coupled_norm": 0.39410750482456935,
+      "siloed_norm": 0.39410750482456935,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_only",
+      "dim": "land",
+      "coupled_norm": 0.16666666666666663,
+      "siloed_norm": 0.16666666666666663,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_only",
+      "dim": "community",
+      "coupled_norm": 0.45745544444444447,
+      "siloed_norm": 0.455,
+      "delta": 0.0025
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.5894259259259259,
+      "siloed_norm": 0.5894259259259259,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_only",
+      "dim": "heat",
+      "coupled_norm": 0.027649822450491524,
+      "siloed_norm": 0.027649822450491524,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_only",
+      "dim": "grid",
+      "coupled_norm": 0.00885507198845561,
+      "siloed_norm": 0.00885507198845561,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_only",
+      "dim": "supply",
+      "coupled_norm": 0.26949999999999996,
+      "siloed_norm": 0.26949999999999996,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_2",
+      "dim": "energy",
+      "coupled_norm": 0.358781028562362,
+      "siloed_norm": 0.358781028562362,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_2",
+      "dim": "water",
+      "coupled_norm": 0.3669975426666667,
+      "siloed_norm": 0.3669975426666667,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_2",
+      "dim": "food",
+      "coupled_norm": 0.006602922962595988,
+      "siloed_norm": 0.006602922962595988,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_2",
+      "dim": "health",
+      "coupled_norm": 0.39410750482456935,
+      "siloed_norm": 0.003156838157902632,
+      "delta": 0.391
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_2",
+      "dim": "land",
+      "coupled_norm": 0.16666666666666663,
+      "siloed_norm": 0.16666666666666663,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_2",
+      "dim": "community",
+      "coupled_norm": 0.45745544444444447,
+      "siloed_norm": 0.455,
+      "delta": 0.0025
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_2",
+      "dim": "ewaste",
+      "coupled_norm": 0.5894259259259259,
+      "siloed_norm": 0.5894259259259259,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_2",
+      "dim": "heat",
+      "coupled_norm": 0.027649822450491524,
+      "siloed_norm": 0.027649822450491524,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_2",
+      "dim": "grid",
+      "coupled_norm": 0.00885507198845561,
+      "siloed_norm": 0.00885507198845561,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier1_2",
+      "dim": "supply",
+      "coupled_norm": 0.26949999999999996,
+      "siloed_norm": 0.26949999999999996,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier2_only",
+      "dim": "energy",
+      "coupled_norm": 0.358781028562362,
+      "siloed_norm": 0.358781028562362,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier2_only",
+      "dim": "water",
+      "coupled_norm": 0.3669975426666667,
+      "siloed_norm": 0.3669975426666667,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier2_only",
+      "dim": "food",
+      "coupled_norm": 0.006602922962595988,
+      "siloed_norm": 0.006602922962595988,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier2_only",
+      "dim": "health",
+      "coupled_norm": 0.39410750482456935,
+      "siloed_norm": 0.003156838157902632,
+      "delta": 0.391
+    },
+    {
+      "site": "ohio",
+      "definition": "tier2_only",
+      "dim": "land",
+      "coupled_norm": 0.16666666666666663,
+      "siloed_norm": 0.16666666666666663,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier2_only",
+      "dim": "community",
+      "coupled_norm": 0.45745544444444447,
+      "siloed_norm": 0.45745544444444447,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier2_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.5894259259259259,
+      "siloed_norm": 0.5894259259259259,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier2_only",
+      "dim": "heat",
+      "coupled_norm": 0.027649822450491524,
+      "siloed_norm": 0.027649822450491524,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier2_only",
+      "dim": "grid",
+      "coupled_norm": 0.00885507198845561,
+      "siloed_norm": 0.00885507198845561,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier2_only",
+      "dim": "supply",
+      "coupled_norm": 0.26949999999999996,
+      "siloed_norm": 0.26949999999999996,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier3_only",
+      "dim": "energy",
+      "coupled_norm": 0.358781028562362,
+      "siloed_norm": 0.358781028562362,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier3_only",
+      "dim": "water",
+      "coupled_norm": 0.3669975426666667,
+      "siloed_norm": 0.3669975426666667,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier3_only",
+      "dim": "food",
+      "coupled_norm": 0.006602922962595988,
+      "siloed_norm": 0.006602922962595988,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier3_only",
+      "dim": "health",
+      "coupled_norm": 0.39410750482456935,
+      "siloed_norm": 0.39410750482456935,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier3_only",
+      "dim": "land",
+      "coupled_norm": 0.16666666666666663,
+      "siloed_norm": 0.16666666666666663,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier3_only",
+      "dim": "community",
+      "coupled_norm": 0.45745544444444447,
+      "siloed_norm": 0.45745544444444447,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier3_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.5894259259259259,
+      "siloed_norm": 0.5894259259259259,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier3_only",
+      "dim": "heat",
+      "coupled_norm": 0.027649822450491524,
+      "siloed_norm": 0.027649822450491524,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier3_only",
+      "dim": "grid",
+      "coupled_norm": 0.00885507198845561,
+      "siloed_norm": 0.00885507198845561,
+      "delta": 0
+    },
+    {
+      "site": "ohio",
+      "definition": "tier3_only",
+      "dim": "supply",
+      "coupled_norm": 0.26949999999999996,
+      "siloed_norm": 0.15460000000000002,
+      "delta": 0.1149
+    },
+    {
+      "site": "memphis",
+      "definition": "legacy_all9",
+      "dim": "energy",
+      "coupled_norm": 0.33522918540256647,
+      "siloed_norm": 0.33522918540256647,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "legacy_all9",
+      "dim": "water",
+      "coupled_norm": 0.2380368945652174,
+      "siloed_norm": 0.2380368945652174,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "legacy_all9",
+      "dim": "food",
+      "coupled_norm": 0,
+      "siloed_norm": 0,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "legacy_all9",
+      "dim": "health",
+      "coupled_norm": 0.4185768678661306,
+      "siloed_norm": 0.00009886786613057534,
+      "delta": 0.4185
+    },
+    {
+      "site": "memphis",
+      "definition": "legacy_all9",
+      "dim": "land",
+      "coupled_norm": 0.05000000000000001,
+      "siloed_norm": 0.05000000000000001,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "legacy_all9",
+      "dim": "community",
+      "coupled_norm": 0.21871251733333333,
+      "siloed_norm": 0.21665931733333332,
+      "delta": 0.0021
+    },
+    {
+      "site": "memphis",
+      "definition": "legacy_all9",
+      "dim": "ewaste",
+      "coupled_norm": 0.9597962962962964,
+      "siloed_norm": 0.9597962962962964,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "legacy_all9",
+      "dim": "heat",
+      "coupled_norm": 0.24168702608732884,
+      "siloed_norm": 0.24168702608732884,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "legacy_all9",
+      "dim": "grid",
+      "coupled_norm": 0.03357299285153506,
+      "siloed_norm": 0.03357299285153506,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "legacy_all9",
+      "dim": "supply",
+      "coupled_norm": 0.5687,
+      "siloed_norm": 0.26480000000000004,
+      "delta": 0.3039
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_only",
+      "dim": "energy",
+      "coupled_norm": 0.33522918540256647,
+      "siloed_norm": 0.33522918540256647,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_only",
+      "dim": "water",
+      "coupled_norm": 0.2380368945652174,
+      "siloed_norm": 0.2380368945652174,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_only",
+      "dim": "food",
+      "coupled_norm": 0,
+      "siloed_norm": 0,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_only",
+      "dim": "health",
+      "coupled_norm": 0.4185768678661306,
+      "siloed_norm": 0.4185768678661306,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_only",
+      "dim": "land",
+      "coupled_norm": 0.05000000000000001,
+      "siloed_norm": 0.05000000000000001,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_only",
+      "dim": "community",
+      "coupled_norm": 0.21871251733333333,
+      "siloed_norm": 0.21665931733333332,
+      "delta": 0.0021
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.9597962962962964,
+      "siloed_norm": 0.9597962962962964,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_only",
+      "dim": "heat",
+      "coupled_norm": 0.24168702608732884,
+      "siloed_norm": 0.24168702608732884,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_only",
+      "dim": "grid",
+      "coupled_norm": 0.03357299285153506,
+      "siloed_norm": 0.03357299285153506,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_only",
+      "dim": "supply",
+      "coupled_norm": 0.5687,
+      "siloed_norm": 0.5687,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_2",
+      "dim": "energy",
+      "coupled_norm": 0.33522918540256647,
+      "siloed_norm": 0.33522918540256647,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_2",
+      "dim": "water",
+      "coupled_norm": 0.2380368945652174,
+      "siloed_norm": 0.2380368945652174,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_2",
+      "dim": "food",
+      "coupled_norm": 0,
+      "siloed_norm": 0,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_2",
+      "dim": "health",
+      "coupled_norm": 0.4185768678661306,
+      "siloed_norm": 0.00009886786613057534,
+      "delta": 0.4185
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_2",
+      "dim": "land",
+      "coupled_norm": 0.05000000000000001,
+      "siloed_norm": 0.05000000000000001,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_2",
+      "dim": "community",
+      "coupled_norm": 0.21871251733333333,
+      "siloed_norm": 0.21665931733333332,
+      "delta": 0.0021
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_2",
+      "dim": "ewaste",
+      "coupled_norm": 0.9597962962962964,
+      "siloed_norm": 0.9597962962962964,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_2",
+      "dim": "heat",
+      "coupled_norm": 0.24168702608732884,
+      "siloed_norm": 0.24168702608732884,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_2",
+      "dim": "grid",
+      "coupled_norm": 0.03357299285153506,
+      "siloed_norm": 0.03357299285153506,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier1_2",
+      "dim": "supply",
+      "coupled_norm": 0.5687,
+      "siloed_norm": 0.5687,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier2_only",
+      "dim": "energy",
+      "coupled_norm": 0.33522918540256647,
+      "siloed_norm": 0.33522918540256647,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier2_only",
+      "dim": "water",
+      "coupled_norm": 0.2380368945652174,
+      "siloed_norm": 0.2380368945652174,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier2_only",
+      "dim": "food",
+      "coupled_norm": 0,
+      "siloed_norm": 0,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier2_only",
+      "dim": "health",
+      "coupled_norm": 0.4185768678661306,
+      "siloed_norm": 0.00009886786613057534,
+      "delta": 0.4185
+    },
+    {
+      "site": "memphis",
+      "definition": "tier2_only",
+      "dim": "land",
+      "coupled_norm": 0.05000000000000001,
+      "siloed_norm": 0.05000000000000001,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier2_only",
+      "dim": "community",
+      "coupled_norm": 0.21871251733333333,
+      "siloed_norm": 0.21871251733333333,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier2_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.9597962962962964,
+      "siloed_norm": 0.9597962962962964,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier2_only",
+      "dim": "heat",
+      "coupled_norm": 0.24168702608732884,
+      "siloed_norm": 0.24168702608732884,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier2_only",
+      "dim": "grid",
+      "coupled_norm": 0.03357299285153506,
+      "siloed_norm": 0.03357299285153506,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier2_only",
+      "dim": "supply",
+      "coupled_norm": 0.5687,
+      "siloed_norm": 0.5687,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier3_only",
+      "dim": "energy",
+      "coupled_norm": 0.33522918540256647,
+      "siloed_norm": 0.33522918540256647,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier3_only",
+      "dim": "water",
+      "coupled_norm": 0.2380368945652174,
+      "siloed_norm": 0.2380368945652174,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier3_only",
+      "dim": "food",
+      "coupled_norm": 0,
+      "siloed_norm": 0,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier3_only",
+      "dim": "health",
+      "coupled_norm": 0.4185768678661306,
+      "siloed_norm": 0.4185768678661306,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier3_only",
+      "dim": "land",
+      "coupled_norm": 0.05000000000000001,
+      "siloed_norm": 0.05000000000000001,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier3_only",
+      "dim": "community",
+      "coupled_norm": 0.21871251733333333,
+      "siloed_norm": 0.21871251733333333,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier3_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.9597962962962964,
+      "siloed_norm": 0.9597962962962964,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier3_only",
+      "dim": "heat",
+      "coupled_norm": 0.24168702608732884,
+      "siloed_norm": 0.24168702608732884,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier3_only",
+      "dim": "grid",
+      "coupled_norm": 0.03357299285153506,
+      "siloed_norm": 0.03357299285153506,
+      "delta": 0
+    },
+    {
+      "site": "memphis",
+      "definition": "tier3_only",
+      "dim": "supply",
+      "coupled_norm": 0.5687,
+      "siloed_norm": 0.26480000000000004,
+      "delta": 0.3039
+    },
+    {
+      "site": "nordic",
+      "definition": "legacy_all9",
+      "dim": "energy",
+      "coupled_norm": 0.050819914722470556,
+      "siloed_norm": 0.050819914722470556,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "legacy_all9",
+      "dim": "water",
+      "coupled_norm": 0.09813397719333333,
+      "siloed_norm": 0.09813397719333333,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "legacy_all9",
+      "dim": "food",
+      "coupled_norm": 0,
+      "siloed_norm": 0,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "legacy_all9",
+      "dim": "health",
+      "coupled_norm": 0.09093009056154222,
+      "siloed_norm": 0.00010175722820887829,
+      "delta": 0.0908
+    },
+    {
+      "site": "nordic",
+      "definition": "legacy_all9",
+      "dim": "land",
+      "coupled_norm": 0.5499999999999999,
+      "siloed_norm": 0.5499999999999999,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "legacy_all9",
+      "dim": "community",
+      "coupled_norm": 0.03860119047619048,
+      "siloed_norm": 0.033333333333333326,
+      "delta": 0.0053
+    },
+    {
+      "site": "nordic",
+      "definition": "legacy_all9",
+      "dim": "ewaste",
+      "coupled_norm": 0.5894259259259259,
+      "siloed_norm": 0.5894259259259259,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "legacy_all9",
+      "dim": "heat",
+      "coupled_norm": 0.0029724283593665912,
+      "siloed_norm": 0.0029724283593665912,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "legacy_all9",
+      "dim": "grid",
+      "coupled_norm": 0.012559670781893007,
+      "siloed_norm": 0.012559670781893007,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "legacy_all9",
+      "dim": "supply",
+      "coupled_norm": 0.23570000000000002,
+      "siloed_norm": 0.21239999999999998,
+      "delta": 0.0233
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_only",
+      "dim": "energy",
+      "coupled_norm": 0.050819914722470556,
+      "siloed_norm": 0.050819914722470556,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_only",
+      "dim": "water",
+      "coupled_norm": 0.09813397719333333,
+      "siloed_norm": 0.09813397719333333,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_only",
+      "dim": "food",
+      "coupled_norm": 0,
+      "siloed_norm": 0,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_only",
+      "dim": "health",
+      "coupled_norm": 0.09093009056154222,
+      "siloed_norm": 0.09093009056154222,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_only",
+      "dim": "land",
+      "coupled_norm": 0.5499999999999999,
+      "siloed_norm": 0.5499999999999999,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_only",
+      "dim": "community",
+      "coupled_norm": 0.03860119047619048,
+      "siloed_norm": 0.033333333333333326,
+      "delta": 0.0053
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.5894259259259259,
+      "siloed_norm": 0.5894259259259259,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_only",
+      "dim": "heat",
+      "coupled_norm": 0.0029724283593665912,
+      "siloed_norm": 0.0029724283593665912,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_only",
+      "dim": "grid",
+      "coupled_norm": 0.012559670781893007,
+      "siloed_norm": 0.012559670781893007,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_only",
+      "dim": "supply",
+      "coupled_norm": 0.23570000000000002,
+      "siloed_norm": 0.23570000000000002,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_2",
+      "dim": "energy",
+      "coupled_norm": 0.050819914722470556,
+      "siloed_norm": 0.050819914722470556,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_2",
+      "dim": "water",
+      "coupled_norm": 0.09813397719333333,
+      "siloed_norm": 0.09813397719333333,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_2",
+      "dim": "food",
+      "coupled_norm": 0,
+      "siloed_norm": 0,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_2",
+      "dim": "health",
+      "coupled_norm": 0.09093009056154222,
+      "siloed_norm": 0.00010175722820887829,
+      "delta": 0.0908
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_2",
+      "dim": "land",
+      "coupled_norm": 0.5499999999999999,
+      "siloed_norm": 0.5499999999999999,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_2",
+      "dim": "community",
+      "coupled_norm": 0.03860119047619048,
+      "siloed_norm": 0.033333333333333326,
+      "delta": 0.0053
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_2",
+      "dim": "ewaste",
+      "coupled_norm": 0.5894259259259259,
+      "siloed_norm": 0.5894259259259259,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_2",
+      "dim": "heat",
+      "coupled_norm": 0.0029724283593665912,
+      "siloed_norm": 0.0029724283593665912,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_2",
+      "dim": "grid",
+      "coupled_norm": 0.012559670781893007,
+      "siloed_norm": 0.012559670781893007,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier1_2",
+      "dim": "supply",
+      "coupled_norm": 0.23570000000000002,
+      "siloed_norm": 0.23570000000000002,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier2_only",
+      "dim": "energy",
+      "coupled_norm": 0.050819914722470556,
+      "siloed_norm": 0.050819914722470556,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier2_only",
+      "dim": "water",
+      "coupled_norm": 0.09813397719333333,
+      "siloed_norm": 0.09813397719333333,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier2_only",
+      "dim": "food",
+      "coupled_norm": 0,
+      "siloed_norm": 0,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier2_only",
+      "dim": "health",
+      "coupled_norm": 0.09093009056154222,
+      "siloed_norm": 0.00010175722820887829,
+      "delta": 0.0908
+    },
+    {
+      "site": "nordic",
+      "definition": "tier2_only",
+      "dim": "land",
+      "coupled_norm": 0.5499999999999999,
+      "siloed_norm": 0.5499999999999999,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier2_only",
+      "dim": "community",
+      "coupled_norm": 0.03860119047619048,
+      "siloed_norm": 0.03860119047619048,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier2_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.5894259259259259,
+      "siloed_norm": 0.5894259259259259,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier2_only",
+      "dim": "heat",
+      "coupled_norm": 0.0029724283593665912,
+      "siloed_norm": 0.0029724283593665912,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier2_only",
+      "dim": "grid",
+      "coupled_norm": 0.012559670781893007,
+      "siloed_norm": 0.012559670781893007,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier2_only",
+      "dim": "supply",
+      "coupled_norm": 0.23570000000000002,
+      "siloed_norm": 0.23570000000000002,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier3_only",
+      "dim": "energy",
+      "coupled_norm": 0.050819914722470556,
+      "siloed_norm": 0.050819914722470556,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier3_only",
+      "dim": "water",
+      "coupled_norm": 0.09813397719333333,
+      "siloed_norm": 0.09813397719333333,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier3_only",
+      "dim": "food",
+      "coupled_norm": 0,
+      "siloed_norm": 0,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier3_only",
+      "dim": "health",
+      "coupled_norm": 0.09093009056154222,
+      "siloed_norm": 0.09093009056154222,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier3_only",
+      "dim": "land",
+      "coupled_norm": 0.5499999999999999,
+      "siloed_norm": 0.5499999999999999,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier3_only",
+      "dim": "community",
+      "coupled_norm": 0.03860119047619048,
+      "siloed_norm": 0.03860119047619048,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier3_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.5894259259259259,
+      "siloed_norm": 0.5894259259259259,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier3_only",
+      "dim": "heat",
+      "coupled_norm": 0.0029724283593665912,
+      "siloed_norm": 0.0029724283593665912,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier3_only",
+      "dim": "grid",
+      "coupled_norm": 0.012559670781893007,
+      "siloed_norm": 0.012559670781893007,
+      "delta": 0
+    },
+    {
+      "site": "nordic",
+      "definition": "tier3_only",
+      "dim": "supply",
+      "coupled_norm": 0.23570000000000002,
+      "siloed_norm": 0.21239999999999998,
+      "delta": 0.0233
+    },
+    {
+      "site": "saline",
+      "definition": "legacy_all9",
+      "dim": "energy",
+      "coupled_norm": 0.4410295522310322,
+      "siloed_norm": 0.4410295522310322,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "legacy_all9",
+      "dim": "water",
+      "coupled_norm": 0.141526484586,
+      "siloed_norm": 0.141526484586,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "legacy_all9",
+      "dim": "food",
+      "coupled_norm": 0.02972027972027972,
+      "siloed_norm": 0.02972027972027972,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "legacy_all9",
+      "dim": "health",
+      "coupled_norm": 0.48498011584879513,
+      "siloed_norm": 2.8251546172960704e-7,
+      "delta": 0.485
+    },
+    {
+      "site": "saline",
+      "definition": "legacy_all9",
+      "dim": "land",
+      "coupled_norm": 0.16666666666666663,
+      "siloed_norm": 0.16666666666666663,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "legacy_all9",
+      "dim": "community",
+      "coupled_norm": 0.3107293550331525,
+      "siloed_norm": 0.31042796865581673,
+      "delta": 0.0003
+    },
+    {
+      "site": "saline",
+      "definition": "legacy_all9",
+      "dim": "ewaste",
+      "coupled_norm": 0.7283148148148149,
+      "siloed_norm": 0.7283148148148149,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "legacy_all9",
+      "dim": "heat",
+      "coupled_norm": 0.3869972528397184,
+      "siloed_norm": 0.3869972528397184,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "legacy_all9",
+      "dim": "grid",
+      "coupled_norm": 0.38088547262859185,
+      "siloed_norm": 0.38088547262859185,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "legacy_all9",
+      "dim": "supply",
+      "coupled_norm": 0.6119,
+      "siloed_norm": 0.3418,
+      "delta": 0.2701
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_only",
+      "dim": "energy",
+      "coupled_norm": 0.4410295522310322,
+      "siloed_norm": 0.4410295522310322,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_only",
+      "dim": "water",
+      "coupled_norm": 0.141526484586,
+      "siloed_norm": 0.141526484586,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_only",
+      "dim": "food",
+      "coupled_norm": 0.02972027972027972,
+      "siloed_norm": 0.02972027972027972,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_only",
+      "dim": "health",
+      "coupled_norm": 0.48498011584879513,
+      "siloed_norm": 0.48498011584879513,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_only",
+      "dim": "land",
+      "coupled_norm": 0.16666666666666663,
+      "siloed_norm": 0.16666666666666663,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_only",
+      "dim": "community",
+      "coupled_norm": 0.3107293550331525,
+      "siloed_norm": 0.31042796865581673,
+      "delta": 0.0003
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.7283148148148149,
+      "siloed_norm": 0.7283148148148149,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_only",
+      "dim": "heat",
+      "coupled_norm": 0.3869972528397184,
+      "siloed_norm": 0.3869972528397184,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_only",
+      "dim": "grid",
+      "coupled_norm": 0.38088547262859185,
+      "siloed_norm": 0.38088547262859185,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_only",
+      "dim": "supply",
+      "coupled_norm": 0.6119,
+      "siloed_norm": 0.6119,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_2",
+      "dim": "energy",
+      "coupled_norm": 0.4410295522310322,
+      "siloed_norm": 0.4410295522310322,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_2",
+      "dim": "water",
+      "coupled_norm": 0.141526484586,
+      "siloed_norm": 0.141526484586,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_2",
+      "dim": "food",
+      "coupled_norm": 0.02972027972027972,
+      "siloed_norm": 0.02972027972027972,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_2",
+      "dim": "health",
+      "coupled_norm": 0.48498011584879513,
+      "siloed_norm": 2.8251546172960704e-7,
+      "delta": 0.485
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_2",
+      "dim": "land",
+      "coupled_norm": 0.16666666666666663,
+      "siloed_norm": 0.16666666666666663,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_2",
+      "dim": "community",
+      "coupled_norm": 0.3107293550331525,
+      "siloed_norm": 0.31042796865581673,
+      "delta": 0.0003
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_2",
+      "dim": "ewaste",
+      "coupled_norm": 0.7283148148148149,
+      "siloed_norm": 0.7283148148148149,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_2",
+      "dim": "heat",
+      "coupled_norm": 0.3869972528397184,
+      "siloed_norm": 0.3869972528397184,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_2",
+      "dim": "grid",
+      "coupled_norm": 0.38088547262859185,
+      "siloed_norm": 0.38088547262859185,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier1_2",
+      "dim": "supply",
+      "coupled_norm": 0.6119,
+      "siloed_norm": 0.6119,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier2_only",
+      "dim": "energy",
+      "coupled_norm": 0.4410295522310322,
+      "siloed_norm": 0.4410295522310322,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier2_only",
+      "dim": "water",
+      "coupled_norm": 0.141526484586,
+      "siloed_norm": 0.141526484586,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier2_only",
+      "dim": "food",
+      "coupled_norm": 0.02972027972027972,
+      "siloed_norm": 0.02972027972027972,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier2_only",
+      "dim": "health",
+      "coupled_norm": 0.48498011584879513,
+      "siloed_norm": 2.8251546172960704e-7,
+      "delta": 0.485
+    },
+    {
+      "site": "saline",
+      "definition": "tier2_only",
+      "dim": "land",
+      "coupled_norm": 0.16666666666666663,
+      "siloed_norm": 0.16666666666666663,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier2_only",
+      "dim": "community",
+      "coupled_norm": 0.3107293550331525,
+      "siloed_norm": 0.3107293550331525,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier2_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.7283148148148149,
+      "siloed_norm": 0.7283148148148149,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier2_only",
+      "dim": "heat",
+      "coupled_norm": 0.3869972528397184,
+      "siloed_norm": 0.3869972528397184,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier2_only",
+      "dim": "grid",
+      "coupled_norm": 0.38088547262859185,
+      "siloed_norm": 0.38088547262859185,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier2_only",
+      "dim": "supply",
+      "coupled_norm": 0.6119,
+      "siloed_norm": 0.6119,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier3_only",
+      "dim": "energy",
+      "coupled_norm": 0.4410295522310322,
+      "siloed_norm": 0.4410295522310322,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier3_only",
+      "dim": "water",
+      "coupled_norm": 0.141526484586,
+      "siloed_norm": 0.141526484586,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier3_only",
+      "dim": "food",
+      "coupled_norm": 0.02972027972027972,
+      "siloed_norm": 0.02972027972027972,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier3_only",
+      "dim": "health",
+      "coupled_norm": 0.48498011584879513,
+      "siloed_norm": 0.48498011584879513,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier3_only",
+      "dim": "land",
+      "coupled_norm": 0.16666666666666663,
+      "siloed_norm": 0.16666666666666663,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier3_only",
+      "dim": "community",
+      "coupled_norm": 0.3107293550331525,
+      "siloed_norm": 0.3107293550331525,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier3_only",
+      "dim": "ewaste",
+      "coupled_norm": 0.7283148148148149,
+      "siloed_norm": 0.7283148148148149,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier3_only",
+      "dim": "heat",
+      "coupled_norm": 0.3869972528397184,
+      "siloed_norm": 0.3869972528397184,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier3_only",
+      "dim": "grid",
+      "coupled_norm": 0.38088547262859185,
+      "siloed_norm": 0.38088547262859185,
+      "delta": 0
+    },
+    {
+      "site": "saline",
+      "definition": "tier3_only",
+      "dim": "supply",
+      "coupled_norm": 0.6119,
+      "siloed_norm": 0.3418,
+      "delta": 0.2701
+    }
+  ]
+}

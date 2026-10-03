@@ -1,0 +1,6 @@
+id,label,unit,good,poor,desc,invert
+saidi,SAIDI,min/yr,120,300,System Average Interruption Duration Index,
+saifi,SAIFI,events/yr,1.5,4,System Average Interruption Frequency Index,
+reserve,Reserve Margin,%,15,5,Spare grid capacity beyond peak demand,true
+transUtil,Transmission Utilization,%,70,85,Actual flow / Rated capacity,
+curtail,Curtailment Frequency,events/yr,0,5,Times DC must reduce load,
